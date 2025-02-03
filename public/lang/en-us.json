@@ -749,6 +749,18 @@
 			"name": "Company Soul",
 			"description": "BASIC: 2 points\tW.I.P.\nACE: 4 points\tYou and your crew's stamina is increased by 50%.\nNote: Crew perks do not stack."
 		},
+		"kilmer": {
+			"name": "Kilmer",
+			"description": "BASIC: 3 points\tYou reload your Sniper and Assault Rifles 25% faster.\nACE: 6 points\tAny killing headshot will increase your reload speed by 40% for 6 seconds. Can only be triggered by SMGs, Assault Rifles and Sniper Rifles fired in single shot fire mode."
+		},
+		"bullseye2": {
+			"name": "Bullseye",
+			"description": "BASIC: 4 points\tLethal headshots with your Sniper Rifles are now explosive, dealing up to 50% of the damage in a 3m radius around the bullet impact.\nACE: 8 points\tYou regenerate 50 armor for each succesful headshot with a Sniper Rifle. This cannot occur more than once every 3 seconds."
+		},
+		"hostage_situation": {
+			"name": "Hostage Situation",
+			"description":  "BASIC: 2 points\tYou and your crew gain 2 damage absorption for each hostage you have.\nACE: 4 points\tEach hostage you have will extend the downtime between police assaults by 4 additional seconds.\nNote: These effects stack up to a maximum of 4 hostages."
+		},
         "bandages": {
             "name": "Bandages",
             "description": "BASIC: 1 point\tCrew members you revive take 10% less damage for 5 seconds.\nACE: 3 points\tReviving a crew member gives them 30% more health."
@@ -775,7 +787,7 @@
         },
         "forced_friendship": {
             "name": "Forced Friendship",
-            "description": "BASIC: 1 point\tIncrease your supply of cable ties by 4. You can cable tie hostages 75% faster.\nACE: 3 points\tYou and your crew gain 0.5 damage absorptions for each hostage you have. This effect stacks with up to a maximum of 8 hostages.\nNote: This skill does not stack with other players Forced Friendship skill."
+            "description": "BASIC: 1 point\tIncrease your supply of cable ties by 4.\nACE: 3 points\tYou can now move hostages. You can only have upwards of 2 hostages following you at once.\nYou can cable tie hostages 75% faster."
         },
         "confident": {
             "name": "Confident",
@@ -787,28 +799,28 @@
         },
         "stockholm_syndrome": {
             "name": "Stockholm Syndrome",
-            "description": "BASIC: 3 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer.\nACE: 6 points\tYour hostages will not flee when they have been rescued by law enforcers. Whenever you get into custody, your hostages will trade themselves for your safe return. This effect can occur during assaults, but only 1 time during a heist."
+            "description": "BASIC: 3 points\tThe power and range of your intimidation is increased by 50%\nACE: 6 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer.\nNearby untied civilians have a chance of reviving you if you interact with them."
         },
         "partners_in_crime": {
             "name": "Partners in Crime",
-            "description": "BASIC: 3 points\tHaving a converted enemy increases your movement speed by 10%.\nYour converted enemy takes 45% less damage.\nACE: 6 points\tHaving a converted enemy increases your health by 30%.\nYour converted enemy takes an additional 54% less damage."
+            "description": "BASIC: 3 points\tYour converted enemy takes 90% less damage.\nACE: 6 points\tYour converted enemy takes an additional 9% less damage."
         },
         "hostage_taker": {
             "name": "Hostage Taker",
-            "description": "BASIC: 4 points\tHaving at least one of your own hostage or converted law enforcer makes you regenerate 1.5% health every 5 seconds.\nACE: 8 points\tHaving at least one of your own hostage or converted law enforcer makes you regenerate 4.5% health every 5 seconds."
+            "description": "BASIC: 4 points\tHaving at least 1 hostage or dominated enemy makes you regenerate 10 health every 5 seconds.\nACE: 8 points\tThe amount of healing you receive is increased to 12. Your converted enemies will now count towards hostage related boosts.\nNote: Doesn't apply to Stockholm Syndrome and Hostage Situation skills."
         },
         "stable_shot": {
             "name": "Stable Shot",
-            "description": "BASIC: 1 point\tYou gain 8 weapon stability.\nACE: 3 points\tYou gain 16 weapon accuracy while standing still."
+            "description": "BASIC: 1 point\tYour Sniper and Assault Rifles gain 4 accuracy.\nACE: 3 points\tYou and your crew's weapon accuracy is increased by 4 points."
         },
         "rifleman": {
             "name": "Rifleman",
-            "description": "BASIC: 2 points\tYour snap to zoom is 100% faster with all weapons.\nYour movement speed is unhindered while using steel sight.\nACE: 4 points\tYour weapon zoom level is increased by 25% with all weapons. Your weapon accuracy while moving with SMGs, Assault Rifles and Sniper Rifles is increased by 16.",
+            "description": "BASIC: 2 points\tYou snap to zoom 25% faster.\nYou swap your weapons 33% faster.",
             "vr_description": "Addition in VR:\tBASIC: Every kill while aiming down sight will regenerate 2% stamina.\tEvery 25 points of stamina consumed by dashing will refill 5% of their ammo pool to single shot weapons.\tACE: The improved accuracy lasts from 1 up to a maximum of 5 seconds after dashing."
         },
         "marksman": {
             "name": "Marksman",
-            "description": "BASIC: 2 points\tYou gain 8 weapon accuracy with all SMGs, Assault Rifles and Sniper Rifles fired in single shot fire mode.\nACE: 4 points\tYou gain a 20% accuracy bonus while aiming down sights with all SMGs, Assault Rifles and Sniper Rifles fired in single shot fire mode."
+            "description": "BASIC: 2 points\tYour weapons are 20% more stable when you are aiming down sights.\nACE: 4 points\tYou gain 12 weapon accuracy while standing still."
         },
         "ammo_efficiency": {
             "name": "Ammo Efficiency",

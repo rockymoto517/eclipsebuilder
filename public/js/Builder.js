@@ -39,7 +39,7 @@ export default class Builder {
         this.exp = {
             skills: new SkillMap(),
             subtrees: {
-                medic: { tier: 1, points: 0 },
+                support: { tier: 1, points: 0 },
                 controller: { tier: 1, points: 0 },
                 sharpshooter: { tier: 1, points: 0 },
                 shotgunner: { tier: 1, points: 0 },
@@ -47,10 +47,10 @@ export default class Builder {
                 ammo_specialist: { tier: 1, points: 0 },
                 engineer: { tier: 1, points: 0 },
                 breacher: { tier: 1, points: 0 },
-                oppressor: { tier: 1, points: 0 },
+                heavy: { tier: 1, points: 0 },
                 shinobi: { tier: 1, points: 0 },
                 artful_dodger: { tier: 1, points: 0 },
-                silent_killer: { tier: 1, points: 0 },
+                specialized_killing: { tier: 1, points: 0 },
                 gunslinger: { tier: 1, points: 0 },
                 revenant: { tier: 1, points: 0 },
                 brawler: { tier: 1, points: 0 }

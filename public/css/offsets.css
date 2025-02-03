@@ -34,6 +34,9 @@
 #joker {
   background-position: calc((480% / (960 - 80)) * 100) calc((640% / (1040  - 80)) * 100); 
 }
+#hostage_situation {
+  background-position: calc((480% / (960 - 80)) * 100) calc((560% / (1040  - 80)) * 100); 
+}
 #stockholm_syndrome {
   background-position: calc((240% / (960 - 80)) * 100) calc((640% / (1040  - 80)) * 100); 
 }
@@ -62,6 +65,12 @@
 }
 #graze {
   background-position: calc((880% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
+}
+#kilmer{
+  background-position: calc((80% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
+}
+#bullseye2{
+  background-position: calc((480% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
 }
 
 
