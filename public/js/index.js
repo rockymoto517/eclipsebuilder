@@ -111,7 +111,7 @@ window.onload = async () => {
     }
 
     // in which we add an event listener to the disable infamy checkbox to make it Do A Thing
-    document.getElementById("chk_disable_infamy").addEventListener("change", ev => {
+    /* document.getElementById("chk_disable_infamy").addEventListener("change", ev => {
         
         // first things first, we update this infamyDisabled value.
         builder.exp.infamyDisabled = ev.target.checked;
@@ -127,7 +127,7 @@ window.onload = async () => {
                 builder.io.GetEncodedBuild()
             );
         }
-    });
+    }); */
 
     // Tab page navigation //
     document.querySelectorAll("#tab_page_buttons button").forEach(e => {      

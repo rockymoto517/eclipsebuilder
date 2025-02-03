@@ -232,7 +232,7 @@ export default class IO {
                 this.loadDeployable(decompressed); // Passed as string, because it's two different numbers beside each other. Sliced inside the function
                 break;
             case "n":
-                this.loadInfamyDisabled(parseInt(decompressed));
+                // this.loadInfamyDisabled(parseInt(decompressed));
                 break;
             }
         }
@@ -367,14 +367,14 @@ export default class IO {
      * @param {Number} infamyDisabledNum true if infamy is supposed to be disabled (otherwise false)
      * @returns {void}
      */
-    loadInfamyDisabled(infamyDisabledNum){
+    /* loadInfamyDisabled(infamyDisabledNum){
         
         const infDisabledBool = (infamyDisabledNum !== 0);
         const infCheckbox = document.getElementById("chk_disable_infamy");
         if (infCheckbox.checked != infDisabledBool){
             infCheckbox.click();
         }
-    }
+    } */
 
     /**
      * Compresses data in a run-length encoding way (its length compression not data compression)

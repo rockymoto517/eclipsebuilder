@@ -1,20 +1,20 @@
 {
-    "combat_medic": {
-        "name": "Combat Medic",
-        "description": "BASIC: 1 point\tYou gain a 30% damage reduction for 5 seconds both after and during reviving another player.\nACE: 3 points\tReviving a crew member gives them 30% more health.",
+    "bandages": {
+        "name": "Bandages",
+        "description": "BASIC: 1 point\tCrew members you revive take 10% less damage for 5 seconds.\nACE: 3 points\tReviving a crew member gives them 30% more health.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
-        "subtree": "medic",
+        "subtree": "support",
         "tree": "mastermind"
     },
-    "quick_fix": {
-        "name": "Quick Fix",
-        "description": "BASIC: 2 points\tDecreases your First Aid Kit and Doctor Bag deploy time by 50%.\nACE: 4 points\tCrew Members that use your First Aid Kits or Doctor Bags take 10% less damage for 120 seconds.",
+    "company_soul": {
+        "name": "Company Soul",
+        "description": "BASIC: 2 points\tW.I.P.\nACE: 4 points\tYou and your crew's stamina is increased by 50%.\nNote: Crew perks do not stack.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
-        "subtree": "medic",
+        "subtree": "support",
         "tree": "mastermind"
     },
     "painkillers": {
@@ -23,25 +23,25 @@
         "basic": 2,
         "ace": 4,
         "tier": 2,
-        "subtree": "medic",
+        "subtree": "support",
         "tree": "mastermind"
     },
-    "uppers": {
-        "name": "Uppers",
-        "description": "BASIC: 3 points\tAdds 7 more First Aid Kits to your inventory.\nACE: 6 points\tAdds 3 First Aid Kits to your inventory. Your deployed First Aid Kits will be automatically used if a player is downed within a 5 meter radius of the First Aid Kit. This cannot occur more than once every 20 seconds.",
-        "basic": 3,
-        "ace": 6,
-        "tier": 3,
-        "subtree": "medic",
-        "tree": "mastermind"
-    },
+	"keepers": {
+		"name": "Keepers",
+		"description": "BASIC: 3 points\tYou can now deploy 2 Doctor Bags instead of just one.\nACE: 6 points\tYour doctor bags have 2 more charges.",
+		"basic": 3,
+		"ace": 6,
+		"tier": 3,
+		"subtree": "support",
+		"tree": "mastermind"
+	},
     "combat_doctor": {
         "name": "Combat Doctor",
         "description": "BASIC: 3 points\tYou can now deploy 2 Doctor Bags instead of just one.\nACE: 6 points\tYour doctor bags have 2 more charges.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
-        "subtree": "medic",
+        "subtree": "support",
         "tree": "mastermind"
     },
     "inspire": {
@@ -50,7 +50,7 @@
         "basic": 4,
         "ace": 8,
         "tier": 4,
-        "subtree": "medic",
+        "subtree": "support",
         "tree": "mastermind"
     },
     "forced_friendship": {

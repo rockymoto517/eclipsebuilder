@@ -741,9 +741,17 @@
         }
     },
     "skills": {
-        "combat_medic": {
-            "name": "Combat Medic",
-            "description": "BASIC: 1 point\tYou gain a 30% damage reduction for 5 seconds both after and during reviving another player.\nACE: 3 points\tReviving a crew member gives them 30% more health."
+		"keepers": {
+			"name": "Keepers",
+			"description": "BASIC: 3 points\tYou can now deploy 2 Doctor Bags instead of just one.\nACE: 6 points\tYour doctor bags have 2 more charges."
+		},
+		"company_soul": {
+			"name": "Company Soul",
+			"description": "BASIC: 2 points\tW.I.P.\nACE: 4 points\tYou and your crew's stamina is increased by 50%.\nNote: Crew perks do not stack."
+		},
+        "bandages": {
+            "name": "Bandages",
+            "description": "BASIC: 1 point\tCrew members you revive take 10% less damage for 5 seconds.\nACE: 3 points\tReviving a crew member gives them 30% more health."
         },
         "quick_fix": {
             "name": "Quick Fix",
@@ -751,7 +759,7 @@
         },
         "painkillers": {
             "name": "Painkillers",
-            "description": "BASIC: 2 points\tCrew members you revive take 30% less damage for 5 seconds.\nACE: 4 points\tThe damage reduction is increased by an additional 50%."
+            "description": "BASIC: 2 points\tCrew members you revive take an additional 40% less damage for 5 seconds.\nACE: 4 points\tYou take 50% less damage for 5 seconds after being revived."
         },
         "uppers": {
             "name": "Uppers",
@@ -759,11 +767,11 @@
         },
         "combat_doctor": {
             "name": "Combat Doctor",
-            "description": "BASIC: 3 points\tYou can now deploy 2 Doctor Bags instead of just one.\nACE: 6 points\tYour doctor bags have 2 more charges."
+            "description": "BASIC: 3 points\tYou gain a 40% damage reduction for 5 seconds both after and during revivng a teammate.\nACE: 6 points\tUpon reviving a crew member you gain a 25% damage bonus for 10 seconds.\nYou revive crew members 33% faster."
         },
         "inspire": {
             "name": "Inspire",
-            "description": "BASIC: 4 points\tYou revive crew members 100% faster. Shouting at your teammates will increase their movement and reload speed by 20% for 10 seconds.\nACE: 8 points\tThere is a 100% chance that you can revive crew members at a distance of up to 9 meters by shouting at them. This cannot occur more than every 20 seconds."
+            "description": "BASIC: 4 points\tShouting at your teammates within a 7m range will increase their movement and reload speed by 30% for 7 seconds.\nACE: 8 points\tYou can now revive your teammates within a 7m range by shouting at them. This cannot occur more than once every 120 seconds."
         },
         "forced_friendship": {
             "name": "Forced Friendship",
@@ -1134,7 +1142,7 @@
             "mastermind": {
                 "title": "MASTERMIND",
                 "subtrees": {
-                    "medic": "MEDIC",
+                    "support": "SUPPORT",
                     "controller": "CONTROLLER",
                     "sharpshooter": "SHARPSHOOTER"
                 }
@@ -1152,7 +1160,7 @@
                 "subtrees": {
                     "engineer": "ENGINEER",
                     "breacher": "BREACHER",
-                    "oppressor": "OPPRESSOR"
+                    "heavy": "HEAVY"
                 }
             },
             "ghost": {
@@ -1160,7 +1168,7 @@
                 "subtrees": {
                     "shinobi": "SHINOBI",
                     "artful_dodger": "ARTFUL DODGER",
-                    "silent_killer": "SILENT KILLER"
+                    "specialized_killing": "SPECIALIZED KILLING"
                 }
             },
             "fugitive": {

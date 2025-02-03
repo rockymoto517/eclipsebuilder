@@ -383,7 +383,7 @@ class SkillMap extends Map {
     constructor(...args) {
         super(...args);
         /** @type {Number} */
-        this.points = 120;
+        this.points = 100;
         /** 
          * Holds the named subtrees for all the skills we have
          * @type {Map<String, SkillSubtree>}
@@ -894,14 +894,14 @@ class System {
  * (0 for t1, 1 for t2, 3 for t3, 16 for t4)
  * @type {Array<Number>}
  */
-System.TIER_UTIL = Object.freeze([0, 1, 3, 16]);
+System.TIER_UTIL = Object.freeze([0, 1, 4, 16]);
 
 /**
  * Array which keeps the necessary NON-INFAMY points for each tier
  * (0 for t1, 1 for t2, 3 for t3, 18 for t4)
  * @type {Array<Number>}
  */
-System.TIER_UTIL_NON_INFAMY = Object.freeze([0, 1, 3, 18]);
+System.TIER_UTIL_NON_INFAMY = Object.freeze([0, 1, 4, 18]);
 
 /**
  * Object that holds the aced/non-aced cost of skills in each tier.

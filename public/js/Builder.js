@@ -283,9 +283,9 @@ export default class Builder {
      */
     getSkillTierCosts() {
         if (this.exp.infamyDisabled){
-            return [0, 1, 2, 15]; // 18 total points for T4 if no infamy
+            return [0, 1, 3, 15]; // 18 total points for T4 if no infamy
         } else {
-            return [0, 1, 2, 13]; // 16 total points for T4 if infamy
+            return [0, 1, 3, 13]; // 16 total points for T4 if infamy
         }
     }
 
