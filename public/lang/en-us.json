@@ -809,6 +809,38 @@
 			"name": "Sleight of Hand",
 			"description":  "BASIC: 3 points\tYou reload your SMGs and LMGs 20% faster.\nACE: 6 points\tKilling 2 enemies with SMGs, LMGs or Special Weapons set on automatic fire mode will increase your next reload speed by up to 100%. This bonus is reduced by 1% for each bullet above 20 in the total magazine size, down to a 40% reload speed increase."
 		},
+		"winston_wolfe": {
+			"name": "Winston Wolfe",
+			"description":  "BASIC: 2 points\tYou gain 1 additional body bag in your inventory. Also increases the body bag inventory space to 3.\nACE: 4 points\tYou lockpick 50% faster.\nYou can now silently crack safes by hand."
+		},
+		"ecm_feedback": {
+			"name": "ECM Feedback",
+			"description":  "BASIC: 2 points\tYou can now interact with ECM jammers to cause a feedback loop that stuns enemies.\nFeedback loop has a 25m radius.\tObstructed line of sight halves the radius.\nACE: 4 points\tECM feedback now recharges every 2 minutes."
+		},
+		"blackout": {
+			"name": "Blackout",
+			"description": "BASIC: 4 points\tYou gain the ability to disable 1 camera from detecting you and your crew. Effects last for 25 seconds.\nACE: 8 points\tYour ECM jammer can now also be used to open certain electronic doors. Pagers are delayed by the ECM jammers."
+		},
+		"athlete": {
+			"name": "Athlete",
+			"description": "BASIC: 1 point\tThe time before stamina regeneration starts is reduced by 25% and the regeneration rate of stamina is increased by 25%.\nACE: 3 points\tYour speed while walking is increased by 25%. Your total movement speed is increased by 10%."
+		},
+		"sprinter": {
+			"name": "Sprinter",
+			"description": "BASIC: 2 points\tYou can now sprint while strafing. You also sprint 15% faster.\nACE: 4 points\tYou gain a 10% chance to dodge enemy fire while sprinting and zip-lining."
+		},
+		"resilient_assault": {
+			"name": "Resilient Assault",
+			"description": "BASIC: 1 point\tYou gain 5% critical hit chance.\tCritical hits deal 200% damage.\nACE: 3 points\tWhen your armor breaks, the first shot on every enemy will cause that enemy to stagger.\nThe effect persists for 3 seconds after your armor has recovered."
+		},
+		"eagle_eye": {
+			"name": "Eagle Eye",
+			"description": "BASIC: 2 points\tYou deal 10% more damage against special enemies.\nACE: 4 points\tYou can now mark specials by aiming down at them with any weapon.\nThe range at which you can manually mark enemies is 4 times longer."
+		},
+		"silent_killer": {
+			"name": "Silent Killer",
+			"description": "BASIC: 3 points\tYour silenced weapons gain a 15% rate of fire increase.\nACE: 6 points\tYou deal 15% more damage and have a 50% chance to pierce enemy armor with all silenced weapons."
+		},
 		"hostage_situation": {
 			"name": "Hostage Situation",
 			"description":  "BASIC: 2 points\tYou and your crew gain 2 damage absorption for each hostage you have.\nACE: 4 points\tEach hostage you have will extend the downtime between police assaults by 4 additional seconds.\nNote: These effects stack up to a maximum of 4 hostages."
@@ -1029,7 +1061,7 @@
         },
         "chameleon": {
             "name": "Chamaleon",
-            "description": "BASIC: 1 point\tIncreases the time before you start getting detected by 25% while in casing mode. You can also mark enemies while in casing mode.\nACE: 3 points\tYou can pick up items while in casing mode. You can also gain 30% more value to items and cash that you pick up."
+            "description": "BASIC: 3 points\tIncreases the time before you start getting detected by 35% in casing mode.\nYou are 35% less likely to be targeted when you are close to your crew members in loud.\nACE: 6 points\tYour concealment is increased by 5."
         },
         "cleaner": {
             "name": "Cleaner",
@@ -1049,12 +1081,11 @@
         },
         "ecm_specialist": {
             "name": "ECM Specialist",
-            "description": "BASIC: 4 points\tYou can now place 2 ECM jammers instead of just one.\nACE: 8 points\tThe ECM jammer duration is increased by an additional 25% and the ECM feedback duration lasts 25% longer. Pagers are delayed by the ECM jammers."
+            "description": "BASIC: 3 points\tYou can now place 2 ECM jammers instead of just one.\nACE: 6 points\tYour ECM jammer and feedback now last 30 seconds."
         },
         "duck_and_cover": {
             "name": "Duck and Cover",
-            "description": "BASIC: 1 point\tYour stamina starts regenerating 25% earlier and 25% faster. You also sprint 25% faster.\nACE: 3 points\tYou have a 10% increased chance to dodge while sprinting you gain 15% chance to dodge while ziplining.",
-            "vr_description": "Addition in VR:\tACE: The increased dodge chance lasts from 1 up to a maximum of 5 seconds after dashing."
+            "description": "BASIC: 2 points\tYour speed while crouching is increased by 15%.\nACE: 4 points\tYou gain a 10% chance to dodge enemy fire while crouching."
         },
         "parkour": {
             "name": "Parkour",
@@ -1063,7 +1094,7 @@
         },
         "inner_pockets": {
             "name": "Inner Pockets",
-            "description": "BASIC: 2 points\tIncreases the concealment of melee weapons by 2.\nACE: 4 points\tIncreases the concealment of all ballistic vests by 4."
+            "description": "BASIC: 1 point\tIncreases the concealment of melee weapons by 1.\nACE: 3 points\tIncreases the concealment of all ballistic vests by 3."
         },
         "dire_need": {
             "name": "Dire Need",
@@ -1071,15 +1102,15 @@
         },
         "shockproof": {
             "name": "Shockproof",
-            "description": "BASIC: 3 points\tWhen tased, the shock effect has a 30% chance to backfire on the Taser, knocking them back.\nACE: 6 points\tWhen tased, you are able to free yourself from the taser by interacting with it within 2 seconds of getting tased."
+            "description": "BASIC: 3 points\tWhen tased, the shock effect will be 33% weaker.\nYou no longer randomly pull the trigger while being tased.\nACE: 6 points\tWhen tased, you are able to free yourself from the taser by interacting with it within 2 seconds of getting tased."
         },
         "sneaky_bastard": {
             "name": "Sneaky Bastard",
-            "description": "BASIC: 4 points\tYou gain a 1% chance for every 3 points of detection rate under 35 up to 10%.\nACE: 8 points\tYou gain a 1% dodge chance for every 1 point of detection rate under 35 up to 10%."
+            "description": "BASIC: 4 points\tYou gain a 1% dodge chance for every 2 points of detection rate under 35 up to 10%.\nACE: 8 points\tYou gain a 1.5% dodge chance for every 1 point of detection rate under 35 up to 15%."
         },
         "second_wind": {
             "name": "Second Wind",
-            "description": "BASIC: 1 point\tWhen your armor breaks your movement speed is increased by 30% for 5 seconds.\nACE: 3 points\tThis effect also applies to your crew when triggered."
+            "description": "BASIC: 3 points\tWhen your armor breaks, your movement speed is increased by 25% for 5 seconds.\nACE: 6 points\tWhen your armor breaks, you have a 75% chance to cause nearby enemies to panic. Panic will make enemies go into short bursts of uncontrollable fear.\nThis cannot occur more than once every 12 seconds."
         },
         "optical_illusions": {
             "name": "Optical Illusions",
@@ -1087,16 +1118,15 @@
         },
         "the_professional": {
             "name": "The Professional",
-            "description": "BASIC: 2 points\tYou gain 8 weapon stability and 100% snap to zoom speed increase with silenced weapons.\nACE: 4 points\tYou gain 12 weapon accuracy with silenced weapons.",
-            "vr_description": "Addition in VR:\tBASIC: Every kill while aiming down sight will regenerate 2% stamina."
+            "description": "BASIC: 2 points\tYou snap to zoom 25% faster with silenced weapons.\nACE: 4 points\tYou gain 1 concealment for each silenced weapon equipped. Reduce the concealment penalty of silencers by 2."
         },
         "low_blow": {
             "name": "Low Blow",
-            "description": "BASIC: 3 points\tYou gain a 3% critical hit for every 3 points of detection rate under 35 up to 30%.\nACE: 6 points\tYou gain 3% critical hit chance for every 1 point of detection rate under 35 up to 30%.\nNote: Does not apply to grenade launchers."
+            "description": "BASIC: 4 points\tYou gain a 3% critical hit chance for every 2 points of detection rate under 35 up to 30%.\nACE: 8 points\tYou now gain a 3% critical hit chance for every 1 point of detection rate instead.\nCritical hits now deal an additional 100% damage.\nNote: Critical hits don't apply to grenade/rocket launchers."
         },
         "high_value_target": {
             "name": "High Value Target",
-            "description": "BASIC: 3 points\tEnemies you mark take 15% more damage.\nACE: 6 points\tEnemies you mark take an additional 50% damage when further away than 10 meters. Increase the duration of marked enemies by 100% and you can now mark specials by aiming down at them with any weapon."
+            "description": "BASIC: 3 points\tEnemies you mark take 20% more damage when farther away than 10 meters.\nACE: 6 points\tEnemies you mark take an additional 30% damage from all sources at all ranges.\nThe marked state duration is increased by 100%."
         },
         "unseen_strike": {
             "name": "Unseen Strike",

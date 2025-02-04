@@ -248,6 +248,15 @@
 /* GHOST */
 
 /* Shinobi */
+#winston_wolfe {
+  background-position: calc((400% / (960 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
+}
+#ecm_feedback {
+  background-position: calc((480% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
+}
+#blackout {
+  background-position: calc((480% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
+}
 #chameleon {
   background-position: calc((400% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
 }
@@ -268,8 +277,17 @@
 }
 
 /* Artful Dodger */
+#athlete {
+  background-position: calc((80% / (960 - 80)) * 100) calc((640% / (1040 - 80)) * 100); 
+}
 #duck_and_cover {
-  background-position: calc((800% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
+  background-position: 0% calc((880% / (1040 - 80)) * 100); 
+}
+#second_wind {
+  background-position: calc((800% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
+}
+#sprinter {
+  background-position: calc((560% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
 }
 #parkour {
   background-position: calc((800% / (960 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
@@ -287,9 +305,15 @@
   background-position: calc((80% / (960 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
 }
 
-/* Silent Killer */
-#second_wind {
-  background-position: calc((800% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
+/* Specialized Killing */
+#resilient_assault {
+  background-position: calc((800% / (960 - 80)) * 100) calc((640% / (1040 - 80)) * 100); 
+}
+#eagle_eye {
+  background-position: calc((240% / (960 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
+}
+#silent_killer {
+  background-position: calc((400% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
 }
 #optical_illusions {
   background-position: calc((800% / (960 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
