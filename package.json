@@ -1,7 +1,7 @@
 {
-  "name": "pd2builder",
+  "name": "eclipsebuilder",
   "version": "1.0.0",
-  "description": "Up-to-date web app for sharing Payday 2 builds and skill sets. ",
+  "description": "Up-to-date web app for sharing Payday 2 builds and skill sets for the Eclipse overhaul. ",
   "main": "pd2builder.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,19 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/r-paydaybuilds/pd2builder.git"
+    "url": "git+https://github.com/rockymoto517/eclipsebuilder.git"
   },
   "keywords": [
     "pd2",
     "payday",
     "2",
     "express",
-    "website"
+    "website",
+	"eclipse",
+	"overhaul"
   ],
   "author": "r-paydaybuilds",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/r-paydaybuilds/pd2builder/issues"
+    "url": "https://github.com/rockymoto517/eclipsebuilder/issues"
   },
   "homepage": "https://github.com/r-paydaybuilds/pd2builder#readme",
   "dependencies": {
