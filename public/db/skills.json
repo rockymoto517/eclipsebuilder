@@ -153,7 +153,7 @@
         "subtree": "sharpshooter",
         "tree": "mastermind"
     },
-    "bullseye2": {
+    "bullseye": {
         "name": "Bullseye",
         "description": "BASIC: 4 points\tLethal headshots with your Sniper Rifles are now explosive, dealing up to 50% of the damage in a 3m radius around the bullet impact.\nACE: 8 points\tYou regenerate 50 armor for each succesful headshot with a Sniper Rifle. This cannot occur more than once every 3 seconds.",
         "basic": 4,
@@ -162,56 +162,54 @@
         "subtree": "sharpshooter",
         "tree": "mastermind"
     },
-    "underdog": {
-        "name": "Underdog",
-        "description": "BASIC: 1 point\tWhen three or more enemies within 10 meters are targeting you, you receive a 15% damage bonus that lasts for 7 seconds.\nACE: 3 points\tWhen three or more enemies within 18 meters are targeting you, you also receive a 10% damage reduction that lasts for 7 seconds.\nNote: Does not apply to melee damage, throwables, grenade launchers or rocket launchers.",
+    "hard_boiled": {
+        "name": "Hard Boiled",
+        "description": "BASIC: 1 point\tYou deal 5% more damage with Shotguns.\nACE: 3 points\tThe time it takes to draw and holster Shotguns is decreased by 20%.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
         "subtree": "shotgunner",
         "tree": "enforcer"
     },
+    "fast_hands": {
+        "name": "Fast Hands",
+        "description": "BASIC: 2 points\tYou reload Tube-fed Shotguns 25% faster.\nACE: 4 points\tYou reload Tube-fed Shotguns an additional 25% faster.\tYou gain a 125% increased steel sight zoom speed when using Shotguns.",
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
+        "subtree": "shotgunner",
+        "tree": "enforcer"
+    },
+    "point_blank": {
+        "name": "Point Blank",
+        "description": "BASIC: 2 points\tYour shotguns gain 4 accuracy and stability.\nACE: 4 points\tShells for your Shotguns contain 2 extra pellets.\nNote: Does not apply to AP or HE Slugs.",
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
+        "subtree": "shotgunner",
+        "tree": "enforcer"
+    },
     "shotgun_cqb": {
         "name": "Shotgun CQB",
-        "description": "BASIC: 2 points\tYou reload Shotguns 15% faster.\nACE: 4 points\tYou reload Shotguns 35% faster. You gain a 125% increased steel sight zoom speed when using Shotguns.",
-        "vr_description": "Addition in VR:\tACE: Every kill while aiming down sight will regenerate 2% stamina.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
-        "subtree": "shotgunner",
-        "tree": "enforcer"
-    },
-    "shotgun_impact": {
-        "name": "Shotgun Impact",
-        "description": "BASIC: 2 points\tYour weapon stability with all shotguns is increased by 8. You deal 5% more damage with Shotguns.\nACE: 4 points\tYou deal an additional 10% more damage with shotguns.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
-        "subtree": "shotgunner",
-        "tree": "enforcer"
-    },
-    "far_away": {
-        "name": "Far Away",
-        "description": "BASIC: 3 points\tYour accuracy bonus while aiming down sights with Shotguns is increased by 40%.\nACE: 6 points\tYou gain a 50% increased effective range with Shotguns when aiming down sights.",
+        "description": "BASIC: 3 points\tYour rate of fire is increased by 15% while firing from the hip with single-shot Shotguns.\nACE: 6 points\tFor every hit with a Shotgun you gain an 8% movement speed boost that lasts for 12 seconds.\tStacks up to 5 times.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
         "subtree": "shotgunner",
         "tree": "enforcer"
     },
-    "close_by": {
-        "name": "Close By",
-        "description": "BASIC: 3 points\tYou can now hip-fire with your Shotguns while sprinting.\nACE: 6 points\tYour rate of fire is increased by 35% while firing from the hip with single shot Shotguns. Sotguns with magazines have their magazine sizes increased by 15 shells",
-        "vr_description": "Addition in VR:\tBASIC: After dashing the player kills have a 100% chance to fear enemies within 8 meters of the player for 1 up to a maximum of 3 seconds depending on the amount of stamina consumed by the jump.",
+    "mag_fed_specialist": {
+        "name": "Mag-fed Specialist",
+        "description": "BASIC: 3 points\tYou reload Mag-fed & Double Barrel Shotguns 25% faster.\nACE: 6 points\tYour Mag-fed Shotguns have their magazine size increased by 5 shells.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
         "subtree": "shotgunner",
         "tree": "enforcer"
     },
-    "overkill": {
-        "name": "Overkill",
-        "description": "BASIC: 4 points\tWhen you kill an enemy with a Shotgun or the OVE9000 portable saw, you receive 75% damage increase for 20 seconds.\nACE: 8 points\tThe damage bonus now applies to all weapons. Skill must still be activated using a Shotgun or the OVE9000 portable saw. Your weapon swap speed is increased by 80%.\nNote: Does not apply to melee damage, throwables, grenade launchers or rocket launchers.",
+    "shotgun_hell": {
+        "name": "Shotgun Hell",
+        "description": "BASIC: 4 points\tFiring a Shotgun has a 12.5% chance to not consume any ammo.\nACE: 8 points\tWhen killing an enemy with a Shotgun, you have a 75% chance to cause nearby enemies to panic.\tPanic will make enemies go into short bursts of uncontrollable fear.\nThis cannot occur more than once every 5 seconds.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
@@ -220,16 +218,16 @@
     },
     "resilience": {
         "name": "Resilience",
-        "description": "BASIC: 1 point\tIncreases your armor recovery rate by 15%.\nACE: 3 points\tReduces the visual effect duration of Flashbangs by 75%.",
+        "description": "BASIC: 1 point\tIncreases your armor recovery rate by 5%.\nACE: 3 points\tReduces the visual effect duration of Flashbangs by 50%.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
         "subtree": "tank",
         "tree": "enforcer"
     },
-    "die_hard": {
-        "name": "Die Hard",
-        "description": "BASIC: 2 points\tYou take 50% less damage while interacting with objects.\nACE: 4 points\tIncreases the armor of all Ballistic vests by 20.",
+    "thick_skin": {
+        "name": "Thick Skin",
+        "description": "BASIC: 2 points\tYour steadiness is increased by 15.\tHigher steadiness reduces aimpunch.\nACE: 4 points\tIncreases the armor of all ballistic vests by 20.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -247,27 +245,27 @@
             ]
         }
     },
-    "transporter": {
-        "name": "Transporter",
-        "description": "BASIC: 2 points\tYou can throw bags 50% further.\nACE: 4 points\tFor each 10 armor points the bag movement penalty is reduced by 1%.",
+    "underdog": {
+        "name": "Underdog",
+        "description": "BASIC: 2 points\tWhen three or more enemies within 10 meters are targeting you, you receive a 15% damage bonus that lasts for 7 seconds.\nACE: 4 points\tWhen three or more enemies within 18 meters are targeting you, you also receive a 10% damage reduction that lasts for 7 seconds.\nNote: Does not apply to melee damage, throwables, grenade launchers or rocket launchers.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
         "subtree": "tank",
         "tree": "enforcer"
     },
-    "shock_and_awe": {
-        "name": "Shock and Awe",
-        "description": "BASIC: 3 points\tIncreases the armor recovery rate for you and your crew by 25%.\nACE: 6 points\tEnables your weapons to have a chance to knock back Shield enemies when attacking them. Ranged weapons' knockback chance is increased the higher the total damage of the weapon is. Melee weapons' knockback chance is 100%.",
+    "combat_courier": {
+        "name": "Combat Courier",
+        "description": "BASIC: 3 points\tYou move 50% faster when carrying bags.\nYou can now sprint with all bags.\nACE: 6 points\tMovement speed penalty from getting hit is reduced by 50%.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
         "subtree": "tank",
         "tree": "enforcer"
     },
-    "bullseye": {
-        "name": "Bullseye",
-        "description": "BASIC: 3 points\tYou regenerate 5 armor for each succesful headshot. This can not occur more than once every 2 seconds.\nACE: 6 points\tYou regenerate an additional 20 armor for each succesful headshot.",
+    "nerves_of_steel": {
+        "name": "Nerves of Steel",
+        "description": "BASIC: 3 points\tYou gain 10% extra health.\nACE: 6 points\tYou gain an additional 20% extra health.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -276,7 +274,7 @@
     },
     "iron_man": {
         "name": "Iron Man",
-        "description": "BASIC: 4 points\tYour total armor value is increased by 30%.\nACE: 8 points\tUnlocks the ability to wear the Improved Combined Tactical Vest.",
+        "description": "BASIC: 4 points\tWhen you melee shield enemies, they get knocked back by the sheer force.\nYour ranged weapons have a chance of knocking down shields as well. Knock back chance scales with the total damage of the used weapon.\nACE: 8 points\tUnlocks the Improved Combined Tactical Vest for you to wear.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
@@ -284,21 +282,11 @@
         "tree": "enforcer",
         "unlocks": [
             { "type": "armor", "name": "ictv", "whenState": 2 }
-        ],
-        "stats": {
-            "basic": [
-                {
-                    "id": 2,
-                    "type": "armor",
-                    "part": "armBonus",
-                    "value": 0.30
-                }
-            ]
-        }
+        ]
     },
     "scavenger": {
         "name": "Scavenger",
-        "description": "BASIC: 1 point\tYour ammo pick up range is increased by 50%.\nACE: 3 points\tEvery 6th enemy you kill will drop an extra ammo box.",
+        "description": "BASIC: 1 point\tYour ammo pick up range is increased by 30%.\nNote: Doesn't stack with the Gambler perk deck.\nACE: 3 points\tEvery 6th enemy you kill will drop an extra ammo box.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
@@ -307,7 +295,7 @@
     },
     "bulletstorm": {
         "name": "Bulletstorm",
-        "description": "BASIC: 2 points\tAmmo bags placed by you grant players the ability to shoot without depleting their ammunition for up to 5 seconds after interacting with it. The more ammo players replenish, the longer the duration of the effect.\nACE: 4 points\tIncreases the base duration of the effect by up to 15 seconds.",
+        "description": "BASIC: 4 points\tAmmo bags placed by you grant players the ability to shoot without depleting their ammunition for up to 12 seconds after interacting with it. The more ammo players replenish, the longer the duration of the effect.\nACE: 8 points\tIncreases the base duration of the effect by up to 30 seconds.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -332,9 +320,9 @@
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
-    "saw_massacre": {
-        "name": "Saw Massacre",
-        "description": "BASIC: 3 points\tReducing the wear down of the blades on enemies by 50%.\nACE: 6 points\tYou can now saw through shield enemies with your OVE9000 portable saw. When killing an enemy with the saw, you have a 50% chance to cause nearby enemies in a 10m radius to panic. Panic will make enemies go into short bursts of uncontrollable fear.",
+    "mag_plus": {
+        "name": "Mag Plus",
+        "description": "BASIC: 3 points\tYour SMGs, LMGs, and Assault Rifles gain 5 more bullets in their magazine.\nACE: 6 points\tYour SMGs, LMGs, and Assault Rifles gain 10 more bullets in their magazine.\nNote: Does not affect the Aced \"Sleight of Hand\" Skill.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -343,51 +331,39 @@
     },
     "fully_loaded": {
         "name": "Fully Loaded",
-        "description": "BASIC: 4 points\tYour total ammo capacity is increased by 25%.\nACE: 8 points\tIncreases the amount of ammo you gain from ammo boxes by 75%. You also gain a 5% base chance to get a throwable from an ammo box. The base chance is increased by 1% for each ammo box you pick up that does not contain a throwable. When a throwable has been found, the chance is reset to it's base value\nNote: Does not stack with the perk deck skill \"Walk-in Closet\".",
+        "description": "BASIC: 2 points\tThe heavier your armor, the more total ammo you get.\nThe total capacity scales up to 12% with the Improved Combined Tactical Vest.\nACE: 4 points\tYour total ammo capacity is increased by 25%.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
-    "third_law": {
-        "name": "Third Law",
-        "description": "BASIC: 1 point\tThe cost of deploying a sentry gun is reduced by 5%.\nACE: 3 points\tYour sentry guns gain a protective shield.",
+    "transporter": {
+        "name": "Transporter",
+        "description": "BASIC: 1 point\tYou can pack and interact with loot bags 50% faster.\nACE: 3 points\tYou can throw bags 50% further.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
         "subtree": "engineer",
         "tree": "technician"
     },
-    "sentry_targeting_package": {
-        "name": "Sentry Targeting Package",
-        "description": "BASIC: 2 points\tYour sentry guns gain a 100% increase in accuracy.\nACE: 4 points\tYour sentry guns rotation speed is increased by 150%. Your sentry guns also have 50% more ammunition.",
+    "daredevil": {
+        "name": "daredevil",
+        "description": "BASIC: 2 points\tYou interact with objects 10% faster.\nACE: 4 points\tYou take 35% less damage while interacting with objects.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
         "subtree": "engineer",
         "tree": "technician"
     },
-    "eco_sentry": {
-        "name": "Eco Sentry",
-        "description": "BASIC: 2 points\tThe cost of deploying a sentry gun is reduced by 5%.\nACE: 4 points\tYour sentry guns gain 150% increased health.",
+    "defense_package": {
+        "name": "Defense Package",
+        "description": "BASIC: 2 points\tYour sentry guns gain 150% increased health.\nACE: 4 points\tYour sentry guns gain a protective shield.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
         "subtree": "engineer",
         "tree": "technician"
-    },
-    "engineering": {
-        "name": "Engineering",
-        "description": "BASIC: 3 points\tYou can now select a less noisy version of the sentry guns, making them much less likely to be targeted by enemies.\nACE: 6 points\tYou can now toggle AP rounds on your sentry guns, lowering the rate of fire by 75%, but increasing damage by 250% and allowing it to pierce through enemies and shields.",
-        "basic": 3,
-        "ace": 6,
-        "tier": 3,
-        "subtree": "engineer",
-        "tree": "technician",
-        "unlocks": [
-            { "type": "deployable", "name": "suppressed_sentry_gun", "whenState": 1 }
-        ]
     },
     "jack_of_all_trades": {
         "name": "Jack of All Trades",
@@ -401,9 +377,21 @@
             { "type": "deployableSecondary", "whenState": 2 }
         ]
     },
-    "tower_defense": {
-        "name": "Tower Defense",
-        "description": "BASIC: 4 points\tYou can now carry 1 extra sentry gun.\nACE: 8 points\tYou can now carry an additional 2 extra sentry guns.",
+    "sentry_nest": {
+        "name": "Sentry Nest",
+        "description": "BASIC: 3 points\tYou can now carry 1 extra sentry gun.\nACE: 6 points\tThe cost of deploying a sentry gun is reduced by 25%. Your sentry guns also have 50% more ammunition.",
+        "basic": 3,
+        "ace": 6,
+        "tier": 3,
+        "subtree": "engineer",
+        "tree": "technician",
+        "unlocks": [
+            { "type": "deployableSecondary", "whenState": 2 }
+        ]
+    },
+    "phd_in_engineering": {
+        "name": "PHD in Engineering",
+        "description": "BASIC: 4 points\tYour sentry guns now have an upgraded motion sensor, allowing them to mark all enemies in a 10m radius and giving them a 100% increase in accuracy.\nACE: 8 points\tYou can now toggle AP rounds on your sentry guns, lowering the rate of fire by 75%, but increasing damage by 250% and allowing it to pierce through enemies and shields.",
         "basic": 4,
         "ace": 8,
         "tier": 4,

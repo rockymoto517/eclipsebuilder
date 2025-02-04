@@ -66,10 +66,10 @@
 #graze {
   background-position: calc((880% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
 }
-#kilmer{
+#kilmer {
   background-position: calc((80% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
 }
-#bullseye2{
+#bullseye2 {
   background-position: calc((480% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
 }
 
@@ -77,11 +77,26 @@
 /* ENFORCER */
 
 /* Shotgunner */
+#hard_boiled {
+  background-position: calc((400% / (960 - 80)) * 100) 0%; 
+}
 #underdog {
   background-position: calc((160% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
 }
-#shotgun_cqb {
+#point_blank {
+  background-position: calc((320% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+}
+#fast_hands {
+  background-position: calc((400% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+}
+#mag_fed_specialist {
   background-position: calc((640% / (960 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
+}
+#shotgun_hell {
+  background-position: calc((240% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
+}
+#shotgun_cqb {
+  background-position: calc((640% / (960 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
 }
 #shotgun_impact {
   background-position: calc((320% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
@@ -97,8 +112,17 @@
 }
 
 /* Tank */
-#resilience {
+#thick_skin {
   background-position: calc((160% / (960 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
+}
+#combat_courier {
+  background-position: calc((480% / (960 - 80)) * 100) 0%; 
+}
+#nerves_of_steel {
+  background-position: calc((80% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+}
+#resilience {
+  background-position: calc((480% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
 }
 #die_hard {
   background-position: calc((640% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
@@ -117,6 +141,9 @@
 }
 
 /* Ammo Specialist */
+#mag_plus {
+  background-position: calc((160% / (960 - 80)) * 100) 0%; 
+}
 #scavenger {
   background-position: calc((640% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
 }
@@ -140,6 +167,18 @@
 /* TECHNICIAN */
 
 /* Engineer */
+#daredevil {
+  background-position: calc((80% / (960 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
+}
+#defense_package {
+  background-position: calc((560% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
+}
+#sentry_nest {
+  background-position: calc((560% / (960 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
+}
+#phd_in_engineering {
+  background-position: calc((560% / (960 - 80)) * 100) calc((640% / (1040 - 80)) * 100); 
+}
 #third_law {
   background-position: calc((720% / (960 - 80)) * 100) 0%; 
 }
