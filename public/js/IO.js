@@ -220,7 +220,6 @@ export default class IO {
                 this.loadPerkDeck(parseInt(this.DecodeByte(decompressed)));
                 break;
             case "c":
-                this.loadCopycatBoosts(decompressed);
                 break;
             case "a":
                 this.loadArmor(parseInt(decompressed));

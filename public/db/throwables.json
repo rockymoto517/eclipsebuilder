@@ -114,9 +114,5 @@
         "name": "Adhesive Grenade",
         "description": "The Adhesive Grenades will let you throw a grenade at a wall or on a roof and have it stick, exposing enemies to the deadly blast. For comedic effect, stick an enemy directly and watch him inadvertently walk a deadly explosive into his own ranks.",
         "dlc": "McShay Mod Pack"
-    },
-    "snowball": {
-        "name": "Snowball",
-        "description": "Dunk them in water, toss them in the freezer, and then you get a deadly throwing weapon.\nSimple."
     }
 }

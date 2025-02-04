@@ -5,10 +5,10 @@
             "health": 230,
             "armor": 20,
             "concealment": 30,
-            "speed": 36.8,
-            "dodge": 5,
-            "steadiness": 11,
-            "stamina": 51.2
+            "speed": 29.8,
+            "dodge": 10,
+            "steadiness": 22,
+            "stamina": 42.5
         }
     },
     "light_ballistic": {
@@ -17,10 +17,10 @@
             "health": 230,
             "armor": 50,
             "concealment": 26,
-            "speed": 35.9,
-            "dodge": -5,
-            "steadiness": 11.5,
-            "stamina": 50
+            "speed": 28.0,
+            "dodge": 5,
+            "steadiness": 22.9,
+            "stamina": 41.3
         }
     },
     "ballistic": {
@@ -29,10 +29,10 @@
             "health": 230,
             "armor": 60,
             "concealment": 23,
-            "speed": 35,
-            "dodge": -10,
-            "steadiness": 12,
-            "stamina": 47.5
+            "speed": 28,
+            "dodge": 0,
+            "steadiness": 23.9,
+            "stamina": 40
         }
     },
     "heavy_ballistic": {
@@ -41,10 +41,10 @@
             "health": 230,
             "armor": 70,
             "concealment": 21,
-            "speed": 33.3,
-            "dodge": -15,
-            "steadiness": 12.9,
-            "stamina": 45
+            "speed": 26.3,
+            "dodge": -5,
+            "steadiness": 25,
+            "stamina": 37.5
         }
     },
     "flak": {
@@ -53,10 +53,10 @@
             "health": 230,
             "armor": 90,
             "concealment": 18,
-            "speed": 26.3,
+            "speed": 24.5,
             "dodge": -20,
-            "steadiness": 13.8,
-            "stamina": 42.5
+            "steadiness": 27.5,
+            "stamina": 35
         }
     },
     "ctv": {
@@ -65,22 +65,22 @@
             "health": 230,
             "armor": 110,
             "concealment": 12,
-            "speed": 22.8,
+            "speed": 21,
             "dodge": -25,
-            "steadiness": 15.7,
-            "stamina": 40
+            "steadiness": 27.5,
+            "stamina": 30
         }
     },
     "ictv": {
         "name": "Improved Combined Tactical Vest",
         "stats": {
             "health": 230,
-            "armor": 170,
+            "armor": 200,
             "concealment": 1,
-            "speed": 20.1,
+            "speed": 17.5,
             "dodge": -55,
-            "steadiness": 22,
-            "stamina": 35
+            "steadiness": 27.5,
+            "stamina": 25
         },
         "requires": [
             { "type": "skill", "name": "iron_man", "state": 2 }

@@ -27,13 +27,6 @@
         "name": "Sentry Gun",
         "description": "To use the Sentry Gun, you need to place it by holding [G]. Upon deployment it will use up 30% of your weapons' total ammo. It can be destroyed by firing at it, but as long as it is not completely destroyed, picking it up will automatically repair it and return the remaining Sentry Gun ammo. As it runs out of ammo it will stop firing but it can be reloaded by re-deploying it after pick up.\nThe Sentry Gun automatically aims and fires at targets that are detected by its sensors. It's commonly used as a distraction, drawing attention from you and your team."
     },
-    "suppressed_sentry_gun": {
-        "name": "Suppressed Sentry Gun",
-        "description": "To use the Suppressed Sentry Gun, you need to place it by holding [G]. Upon deployment it will use up 30% of your weapons' total ammo. It can be destroyed by firing at it, but as long as it is not completely destroyed, picking it up will automatically repair it and return the remaining Sentry Gun ammo. As it runs out of ammo it will stop firing but it can be reloaded by re-deploying it after pick up.\nThe Suppressed Sentry Gun is the counterpart to the regular, louder Sentry Gun as it's more used to take out enemies than a classic distraction.",
-        "requires": [
-            { "type": "skill", "name": "engineering", "state": 1 }
-        ]
-    },
     "trip_mines_and_shaped_charges": {
         "name": "Trip Mines and Shaped Charges",
         "description": "To use the Trip Mine, you need to place it by holding [G]. The trigger laser can be toggled between explosive mode and sensor by pressing [F].\nTo use Shaped Charges, you need to place it by holding [G]. Once placed it will detonate within a few seconds. Trip Mines are basically traps that will hurt or kill enemies crossing the beam. Shaped Charges are commonly used to open safes and doors. Both are a good addition to all combat situations."
