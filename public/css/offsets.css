@@ -355,6 +355,12 @@
 }
 
 /* Revenant */
+#tough_guy {
+  background-position: calc((80% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
+}
+#uppers {
+  background-position: calc((160% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
+}
 #nine_lives {
   background-position: calc((400% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
 }
