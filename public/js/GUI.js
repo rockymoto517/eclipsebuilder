@@ -888,4 +888,4 @@ export default class GUI {
  * Regular expression that globally matches the data of the JSONs that should have color
  * @type {RegExp}
  */
-GUI.COLOR_PATTERN = /(\+ ?|- ?|\b(?!OVE9000))[0-9]+([,.][0-9]+)?( point(s)?|%|cm)?/g;
+GUI.COLOR_PATTERN = /(\+ ?|- ?|\b(?!OVE9000))[0-9]+([,.][0-9]+)?( point(s)?|%|cm|m)?/g;

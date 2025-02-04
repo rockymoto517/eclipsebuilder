@@ -1169,7 +1169,7 @@
         "selected": "SELECTED",
         "primary": "PRIMARY",
         "secondary": "SECONDARY",
-        "colors": "(\\+ ?|- ?|\\b(?!OVE9000))[0-9]+([,.][0-9]+)?( point(s)?|%|cm)?",
+        "colors": "(?<=: )([0-9]+( point(s)?))|(\\+ ?|- ?|\\b(?!OVE9000))([0-9]+([,.][0-9]+)?(%|cm|m|th|nd|rst| additional)?)|(Improved Combined Tactical Vest)|(Mag-fed)|(Tube-fed)|(\\& Double Barrel)|(halves)",
         "skills": {
             "title": "Skills",
             "remaining": "Remaining skill points: ",

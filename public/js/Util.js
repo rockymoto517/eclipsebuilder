@@ -687,32 +687,6 @@ class System {
                 }
             }
 
-            // handles unselecting suppressed sentries if we lost engineering
-            if (allInvalidSkills.has("engineering")){
-                if (exp.deployableSecondary === "suppressed_sentry_gun"){
-                    // if our secondary is suppressed, we discard it.
-                    exp.deployableSecondary = null;
-                    this.builder.gui.DeployableSecondary_Unselect();
-                } else if (exp.deployable === "suppressed_sentry_gun"){
-                    // if our primary is suppressed
-                    if (exp.deployableSecondary !== null){
-                        // we first see if we have a secondary deployable.
-                        // if so, we promote our secondary deployable to our primary deployable
-                        const secondaryDep = document.querySelector(".dp_secondary");
-                        this.builder.gui.DeployableSecondary_Unselect();
-                        exp.deployable = exp.deployableSecondary;
-                        exp.deployableSecondary = null;
-                        this.builder.gui.Deployable_Select(secondaryDep);
-                    } else {
-                        // otherwise, we just unselect our one deployable.
-                        exp.deployable = null;
-                        this.builder.gui.Deployable_Unselect(
-                            document.querySelector(".dp_primary, .dp_selected")
-                        );
-                    }
-                }
-            }
-
             // if we're removing jack of all trades, it'll handle the thing
             if (allInvalidSkills.has("jack_of_all_trades")){
                 // do the thing
