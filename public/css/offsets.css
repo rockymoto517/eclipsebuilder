@@ -218,9 +218,15 @@
   background-position: calc((720% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
 }
 
-/* Oppressor */
+/* Heavy */
+#oppressor {
+  background-position: calc((560% / (960 - 80)) * 100) 0%; 
+}
+#sleight_of_hand {
+  background-position: calc((240% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
+}
 #steady_grip {
-  background-position: calc((720% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
+  background-position: calc((560% / (960 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
 }
 #heavy_impact {
   background-position: calc((800% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
@@ -229,7 +235,7 @@
   background-position: calc((720% / (960 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
 }
 #lock_n_load {
-  background-position: calc((800% / (960 - 80)) * 100) 0%; 
+  background-position: calc((560% / (960 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
 }
 #surefire {
   background-position: calc((800% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 

@@ -797,6 +797,18 @@
 			"name": "PHD in Engineering",
 			"description":  "BASIC: 4 points\tYour sentry guns now have an upgraded motion sensor, allowing them to mark all enemies in a 10m radius and giving them a 100% increase in accuracy.\nACE: 8 points\tYou can now toggle AP rounds on your sentry guns, lowering the rate of fire by 75%, but increasing damage by 250% and allowing it to pierce through enemies and shields."
 		},
+		"shotgun_hell": {
+			"name": "Shotgun Hell",
+			"description": "BASIC: 4 points\tFiring a Shotgun has a 12.5% chance to not consume any ammo.\nACE: 8 points\tWhen killing an enemy with a Shotgun, you have a 75% chance to cause nearby enemies to panic.\tPanic will make enemies go into short bursts of uncontrollable fear.\nThis cannot occur more than once every 5 seconds."
+		},
+		"oppressor": {
+			"name": "Oppressor",
+			"description":  "BASIC: 2 points\tYour weapons are 15% more effective at threatening enemies.\nACE: 4 points\tYour weapons are additionally 30% more effective at threatening enemies."
+		},
+		"sleight_of_hand": {
+			"name": "Sleight of Hand",
+			"description":  "BASIC: 3 points\tYou reload your SMGs and LMGs 20% faster.\nACE: 6 points\tKilling 2 enemies with SMGs, LMGs or Special Weapons set on automatic fire mode will increase your next reload speed by up to 100%. This bonus is reduced by 1% for each bullet above 20 in the total magazine size, down to a 40% reload speed increase."
+		},
 		"hostage_situation": {
 			"name": "Hostage Situation",
 			"description":  "BASIC: 2 points\tYou and your crew gain 2 damage absorption for each hostage you have.\nACE: 4 points\tEach hostage you have will extend the downtime between police assaults by 4 additional seconds.\nNote: These effects stack up to a maximum of 4 hostages."
@@ -881,10 +893,6 @@
 		"mag_fed_specialist": {
 			"name": "Mag-fed Specialist",
 			"description": "BASIC: 3 points\tYou reload Mag-fed & Double Barrel Shotguns 25% faster.\nACE: 6 points\tYour Mag-fed Shotguns have their magazine size increased by 5 shells."
-		},
-		"shotgun_hell": {
-			"name": "Shotgun Hell",
-			"description": "BASIC: 4 points\tFiring a Shotgun has a 12.5% chance to not consume any ammo.\nACE: 8 points\tWhen killing an enemy with a Shotgun, you have a 75% chance to cause nearby enemies to panic.\tPanic will make enemies go into short bursts of uncontrollable fear.\nThis cannot occur more than once every 5 seconds."
 		},
         "shotgun_impact": {
             "name": "Shotgun Impact",
@@ -973,11 +981,11 @@
         },
         "hardware_expert": {
             "name": "Hardware Expert",
-            "description": "BASIC: 1 point\tYou fix drills and saws 25% faster. Drills and saws are also silent. Civilians and guards must see the drill or saw in order to become alerted.\nACE: 3 points\tGives your drills and saws a 10% chance to automatically restart after breaking.\nNote: Skill does not affect the OVE9000 saw."
+            "description": "BASIC: 1 point\tYou fix drills and saws 25% faster. Decreases trip mine deploy time by 20%. Drills and saws are also silent. Civilians and guards must see the drill or saw in order to become alerted.\nACE: 3 points\tGives your drills and saws a 20% chance to automatically restart after breaking.\nNote: Skill does not affect the OVE9000 saw."
         },
         "combat_engineering": {
             "name": "Combat Engineering",
-            "description": "BASIC: 2 points\tThe radius of your trip mine explosion is increased by 30%.\nACE: 4 points\tYour trip mine damage is increased by 50%."
+            "description": "BASIC: 2 points\tThe radius of your trip mine explosion is increased by 50%.\nACE: 4 points\tYour trip mine damage is increased by 50%."
         },
         "drill_sawgeant": {
             "name": "Drill Sawgeant",
@@ -985,19 +993,19 @@
         },
         "more_firepower": {
             "name": "More Firepower",
-            "description": "BASIC: 3 points\tYou gain 1 more shaped charge and 4 more trip mines.\nACE: 6 points\tYou gain 2 more shaped charges and 7 more trip mines."
+            "description": "BASIC: 3 points\tYou gain 2 more shaped charges and 5 more trip mines.\nACE: 6 points\tYou gain 3 more shaped charges and 10 more trip mines."
         },
         "kickstarter": {
             "name": "Kickstarter",
-            "description": "BASIC: 3 points\tYour drills and saws gain an additional 20% chance to automatically restart after breaking.\nACE: 6 points\tEnables the ability to reset a broken drill or saw with a melee attack. The ability has a 50% chance to fix the drill or saw. The ability can only be used once per time the drill or saw is broken.\nNote: Skill does not affect the OVE9000 saw."
+            "description": "BASIC: 3 points\tYour drills and saws gain an additional 30% chance to automatically restart after breaking.\nACE: 6 points\tEnables the ability to reset a broken drill or saw with a melee attack. The ability has a 50% chance to fix the drill or saw. The ability can only be used once per time the drill or saw is broken.\nNote: Skill does not affect the OVE9000 saw."
         },
         "fire_trap": {
             "name": "Fire Trap",
-            "description": "BASIC: 4 points\tYour trip mines now spread fire around the area of detonation for 10 seconds in a 4 meter diameter.\nACE: 8 points\tIncreases the fire effect duration by 10 seconds and increases the fire effect radius by 50%."
+            "description": "BASIC: 4 points\tYour trip mines now spread fire around the area of detonation for 20 seconds in a 4 meter diameter.\nACE: 8 points\tIncreases the fire effect duration by 20 seconds and increases the fire effect radius by 50%."
         },
         "steady_grip": {
             "name": "Steady Grip",
-            "description": "BASIC: 1 point\tYou gain 8 weapon accuracy.\nACE: 3 points\tYou gain 16 weapon stability."
+            "description": "BASIC: 1 point\tYour SMGs, LMGs and Miniguns gain 4 stability.\nACE: 3 points\tYou and your crew's weapon stability is increased by 4 points."
         },
         "heavy_impact": {
             "name": "Heavy Impact",
@@ -1005,13 +1013,11 @@
         },
         "fire_control": {
             "name": "Fire Control",
-            "description": "BASIC: 2 points\tYou gain 12 weapon accuracy while firing from the hip.\nACE: 4 points\tYour accuracy penalty is decreased by 20% when shooting while moving.",
-            "vr_description": "Addition in VR:\tACE: The decreased accuracy penalty lasts from 1 up to a maximum of 5 seconds after dashing."
+            "description": "BASIC: 2 points\tYour hipfire spread penalty is decreased by 20%.\nACE: 4 points\tThe longer you hipfire without releasing the trigger, the more stable your LMGs, SMGs and Miniguns become.\nStacks up to a 50% recoil reduction."
         },
         "lock_n_load": {
             "name": "Lock N' Load",
-            "description": "BASIC: 3 points\tYou can how hip-fire with your weapons while sprinting.\nACE: 6 points\tKilling 2 enemies with SMGs, LMGs, Assault Rifles or Special Weapons set on automatic fire mode will increase your next reload speed by up to 100%. This bonus is reduced by 1% for each bullet above 20 in the total magazine size, down to a maximum of 40% reload speed increase.",
-            "vr_description": "Addition in VR:\tBASIC: Every 40 points of stamina consumed by dashin will refill 5% of their ammo pool to automatic weapons."
+            "description": "BASIC: 3 points\tYou can now hip-fire your weapons while sprinting.\nACE: 6 points\tYou no longer have a movement speed penalty when wielding Heavy Weaponry."
         },
         "surefire": {
             "name": "Surefire",
@@ -1019,7 +1025,7 @@
         },
         "body_expertise": {
             "name": "Body Expertise",
-            "description": "BASIC: 4 points\t30% from the bonus headshot damage is permanently applied to hitting enemies on the body. This skill is only activated by SMGs, LMGs, Assault Rifles or Special Weapons fired in automatic fire mode.\nACE: 8 points\t90% from the bonus headshot damage is permanently applied to hitting enemies on the body. This skill is only activated by SMGs, LMGs, Assault Rifles or Special Weapons fired in automatic fire mode."
+            "description": "BASIC: 4 points\tAll of your ranged weapons can now pierce through enemy body armor.\nDoes not apply to throwable weapons.\nACE: 8 points\t80% of the bonus from headshot damage is permanently applied to hitting enemies on the body.\nThis skill is only activated by SMGs fired in automatic mode, LMGs or Miniguns."
         },
         "chameleon": {
             "name": "Chamaleon",
