@@ -1153,7 +1153,7 @@
         }
     },
     "system": {
-        "name": "PD2 Builder",
+        "name": "Eclipse Builder",
         "home": "Home",
         "bigoil": "Big Oil Engine Calc",
         "requires": {

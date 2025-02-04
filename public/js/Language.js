@@ -31,6 +31,7 @@ export default class Language {
 
     /**
      * Starts handling select element
+	 * English only currently
      * @param {loadCallback} callback Callback ran each time a new language is chosen
      * @param {Object=} thisArg Binds the callback to this object
      * @returns {Promise<Object>}
@@ -39,57 +40,57 @@ export default class Language {
         let fetchLang, curLang;
         const params = new URLSearchParams(window.location.search);
         // Fill the select node
-        for(const [langKey, langName] of langs) {
-            const option = new Option(langName, langKey);
-            this.select.appendChild(option);
-        }
+        // for(const [langKey, langName] of langs) {
+        //     const option = new Option(langName, langKey);
+        //     this.select.appendChild(option);
+        // }
+        //
+        // const langKeys = [...langs.keys()];
+        // // If a param with lang has been included, force that one
+        // if(params.has("lang") && langs.has(params.get("lang"))) {
+        //     const lang = params.get("lang");
+        //     curLang = lang;
+        //     localStorage.setItem("lang", lang);
+        // // If user already configured a lang use that one
+        // } else if(localStorage.getItem("lang")) {
+        //     curLang = localStorage.getItem("lang");
+        // } else {
+        //     // Check if we have the lang currently being used in the PC
+        //     if(langs.has(navigator.language.toLowerCase())) {
+        //         defaultLang = navigator.language;
+        //     // Check if we have a variant of such 
+        //     } else if(langKeys.some(langKey => langKey.startsWith(navigator.language.split("-")[0]) )) {
+        //         defaultLang = langKeys.find(langKey => 
+        //             langKey.startsWith(navigator.language.split("-")[0])
+        //         );
+        //     } else if(navigator.languages) {
+        //         // Check if we even have any of the languages the PC has
+        //         defaultLang = navigator.languages.find(e => langs.has(e.toLowerCase())) 
+        //             // Then check if we have any other variants of the languages that the PC has
+        //             || langKeys.find(langKey => navigator.languages.some(navLang => langKey.startsWith(navLang.split("-")[0]) ))
+        //             // and then if nothing worked, just go for the already default language
+        //             || defaultLang;
+        //     }
+        //
+        //     defaultLang = defaultLang.toLowerCase(),
+        //     curLang = defaultLang;
+        // }
+        // // Fetch it and put it as default on select
+        // fetchLang = fetch(`./lang/${curLang}.json`).then(res => res.json());
+        // this.select.value = curLang;
+        // this.used = curLang;
+        //
+        // // Listen event for when select is changed
+        // if(thisArg !== undefined) callback = callback.bind(thisArg);
+        // this.select.addEventListener("change", async (e) => {
+        //     const choosenLang = e.target.value;
+        //     localStorage.setItem("lang", choosenLang);
+        //     this.used = choosenLang;
+        //     this.loadDictionary(await fetch(`./lang/${choosenLang}.json`).then(res => res.json()));
+        //     callback(choosenLang);
+        // });
 
-        const langKeys = [...langs.keys()];
-        // If a param with lang has been included, force that one
-        if(params.has("lang") && langs.has(params.get("lang"))) {
-            const lang = params.get("lang");
-            curLang = lang;
-            localStorage.setItem("lang", lang);
-        // If user already configured a lang use that one
-        } else if(localStorage.getItem("lang")) {
-            curLang = localStorage.getItem("lang");
-        } else {
-            // Check if we have the lang currently being used in the PC
-            if(langs.has(navigator.language.toLowerCase())) {
-                defaultLang = navigator.language;
-            // Check if we have a variant of such 
-            } else if(langKeys.some(langKey => langKey.startsWith(navigator.language.split("-")[0]) )) {
-                defaultLang = langKeys.find(langKey => 
-                    langKey.startsWith(navigator.language.split("-")[0])
-                );
-            } else if(navigator.languages) {
-                // Check if we even have any of the languages the PC has
-                defaultLang = navigator.languages.find(e => langs.has(e.toLowerCase())) 
-                    // Then check if we have any other variants of the languages that the PC has
-                    || langKeys.find(langKey => navigator.languages.some(navLang => langKey.startsWith(navLang.split("-")[0]) ))
-                    // and then if nothing worked, just go for the already default language
-                    || defaultLang;
-            }
-
-            defaultLang = defaultLang.toLowerCase(),
-            curLang = defaultLang;
-        }
-        // Fetch it and put it as default on select
-        fetchLang = fetch(`./lang/${curLang}.json`).then(res => res.json());
-        this.select.value = curLang;
-        this.used = curLang;
-
-        // Listen event for when select is changed
-        if(thisArg !== undefined) callback = callback.bind(thisArg);
-        this.select.addEventListener("change", async (e) => {
-            const choosenLang = e.target.value;
-            localStorage.setItem("lang", choosenLang);
-            this.used = choosenLang;
-            this.loadDictionary(await fetch(`./lang/${choosenLang}.json`).then(res => res.json()));
-            callback(choosenLang);
-        });
-
-        return fetchLang;
+        return fetch("./lang/en-us.json").then(res => res.json());
     }
 
     /**
