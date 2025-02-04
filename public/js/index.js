@@ -3,18 +3,20 @@ import Util, { UIEventHandler } from "./Util.js";
 import Language from "./Language.js";
 
 // Change from desktop or mobile version if screen is too big or too small
-window.addEventListener("resize", () => {
-    const url = new URL(window.location.href);
-    if(!url.pathname.endsWith("mobile.html") && window.innerWidth < 1003) {
-        url.pathname += "mobile.html";
-        window.location.replace(url);
-    } else if(url.pathname.endsWith("mobile.html") && window.innerWidth >= 1003) {
-        url.pathname = url.pathname.replace("mobile.html", "");
-        window.location.replace(url);
-    }
-});
+// No mobile version currently
+// window.addEventListener("resize", () => {
+//     const url = new URL(window.location.href);
+//     if(!url.pathname.endsWith("mobile.html") && window.innerWidth < 1003) {
+//         url.pathname += "mobile.html";
+//         window.location.replace(url);
+//     } else if(url.pathname.endsWith("mobile.html") && window.innerWidth >= 1003) {
+//         url.pathname = url.pathname.replace("mobile.html", "");
+//         window.location.replace(url);
+//     }
+// });
 
-const builder = new Builder(window.innerWidth < 1003);
+// const builder = new Builder(window.innerWidth < 1003);
+const builder = new Builder(false);
 
 
 window.onload = async () => {
