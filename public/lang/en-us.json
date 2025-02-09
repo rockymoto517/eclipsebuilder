@@ -790,7 +790,7 @@
 		},
 		"headshot_fury": {
 			"name": "Headshot Fury",
-			"description": "BASIC: 4 points\tFor every consecutive headshot with your Sniper Rifle, your next shot's damage is increased by 25%.\tStacks up to 4 consecutive headshots.\nMissing a headshot resets your stacks.\nACE: 8 points\tWhile aiming down the sights with your Sniper Rifle, a charge meter builds up over a period of 5 seconds. When fully charged, your next headshot becomes explosive, dealing up to 100% of the bullet's damage in a 5m radius around the bullet impact.\nLeaving the ADS stance or firing the weapon during the charging process resets the meter."
+			"description": "BASIC: 4 points\tFor every consecutive headshot with your Sniper Rifle, your next shot's damage is increased by 25%.\tStacks up to 4 consecutive headshots.\nMissing a headshot resets your stacks.\nACE: 8 points\tWhile aiming down the sights with your Sniper Rifle, a charge meter builds up over a period of 5 seconds. When fully charged, your next headshot becomes explosive, dealing up to 100% of the bullet's damage in a 5m radius around the bullet impact and discharging the meter.\nLeaving the ADS stance or firing the weapon during the charging process resets the meter."
 		},
 		"hostage_situation": {
 			"name": "Hostage Situation",
