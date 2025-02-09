@@ -788,6 +788,10 @@
 			"name": "Tough Guy",
 			"description": "BASIC: 1 point\tYou can now use your steelsight while in bleedout.\nACE: 3 points\tYou can now swap your weapons while in bleedout."
 		},
+		"headshot_fury": {
+			"name": "Headshot Fury",
+			"description": "BASIC: 4 points\tFor every consecutive headshot with your Sniper Rifle, your next shot's damage is increased by 25%.\tStacks up to 4 consecutive headshots.\nMissing a headshot resets your stacks.\nACE: 8 points\tWhile aiming down the sights with your Sniper Rifle, a charge meter builds up over a period of 5 seconds. When fully charged, your next headshot becomes explosive, dealing up to 100% of the bullet's damage in a 5m radius around the bullet impact.\nLeaving the ADS stance or firing the weapon during the charging process resets the meter."
+		},
 		"hostage_situation": {
 			"name": "Hostage Situation",
 			"description":  "BASIC: 2 points\tYou and your crew gain 2 damage absorption for each hostage you have.\nACE: 4 points\tEach hostage you have will extend the downtime between police assaults by 4 additional seconds.\nNote: These effects stack up to a maximum of 4 hostages."

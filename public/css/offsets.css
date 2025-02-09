@@ -69,9 +69,6 @@
 #kilmer {
   background-position: calc((80% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
 }
-#bullseye2 {
-  background-position: calc((480% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
-}
 
 
 /* ENFORCER */
@@ -134,6 +131,9 @@
   background-position: calc((640% / (960 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
 }
 #bullseye {
+  background-position: calc((480% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
+}
+#headshot_fury {
   background-position: calc((480% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
 }
 #iron_man {
