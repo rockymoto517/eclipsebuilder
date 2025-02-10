@@ -875,7 +875,7 @@ System.TIER_UTIL = Object.freeze([0, 1, 4, 16]);
  * (0 for t1, 1 for t2, 3 for t3, 18 for t4)
  * @type {Array<Number>}
  */
-System.TIER_UTIL_NON_INFAMY = Object.freeze([0, 1, 4, 18]);
+System.TIER_UTIL_NON_INFAMY = Object.freeze([0, 1, 4, 16]);
 
 /**
  * Object that holds the aced/non-aced cost of skills in each tier.
