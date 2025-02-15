@@ -1141,7 +1141,7 @@
         },
         "pumping_iron": {
             "name": "Pumping Iron",
-            "description": "BASIC: 2 points\tYour melee attacks against non-special enemies do 200% more damage.\nACE: 4 points\tYour melee attacks against special enemies do 100% more damage"
+            "description": "BASIC: 2 points\tYour melee reswing speed is 100% faster.\nACE: 4 points\tYour melee attacks deal 50% more damage."
         },
         "counterstrike": {
             "name": "Counterstrike",
