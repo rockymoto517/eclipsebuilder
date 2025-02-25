@@ -702,7 +702,7 @@
 		},
 		"fast_hands": {
 			"name": "Fast Hands",
-			"description": "BASIC: 2 points\tYou reload Tube-fed Shotguns 25% faster.\nACE: 4 points\tYou reload Tube-fed Shotguns an additional 25% faster.\tYou gain a 125% increased steel sight zoom speed when using Shotguns."
+			"description": "BASIC: 2 points\tYou reload Individually-Loaded Shotguns 25% faster.\nACE: 4 points\tYour rate of fire is increased by 25% while firing from the hip with single-shot Shotguns."
 		},
 		"point_blank": {
 			"name": "Point Blank",
@@ -722,7 +722,7 @@
 		},
 		"thick_skin": {
 			"name": "Thick Skin",
-			"description": "BASIC: 2 points\tYour steadiness is increased by 15.\tHigher steadiness reduces aimpunch.\nACE: 4 points\tIncreases the armor of all ballistic vests by 20."
+			"description": "BASIC: 3 points\tYou gain 10% extra health.\nACE: 6 points\tYou gain an additional 20% extra health."
 		},
 		"daredevil": {
 			"name": "Daredevil",
@@ -743,6 +743,30 @@
 		"shotgun_hell": {
 			"name": "Shotgun Hell",
 			"description": "BASIC: 4 points\tFiring a Shotgun has a 12.5% chance to not consume any ammo.\nACE: 8 points\tWhen killing an enemy with a Shotgun, you have a 75% chance to cause nearby enemies to panic.\tPanic will make enemies go into short bursts of uncontrollable fear.\nThis cannot occur more than once every 5 seconds."
+		},
+		"shotgun_rampage": {
+			"name": "Shotgun Rampage",
+			"description": "BASIC: 4 points\tFor every kill with a Shotgun, you gain a 6% movement speed boost that lasts for 5 seconds.\tStacks up to 5 times.\nACE: 8 points\tWhen killing an enemy with a shotgun, you have a 75% chance to cause nearby enemies to panic.\tPanic will make enemies go into short bursts of uncontrollable fear.\nThis cannot occur more than once every 5 seconds."
+		},
+		"plates_of_steel": {
+			"name": "Plates of Steel",
+			"description": "BASIC: 2 points\tYour steadiness is increased by 15.\tHigher steadiness reduces aimpunch.\nACE: 4 points\tIncreases the armor of all ballistic vests by 20."
+		},
+		"combat_courier": {
+			"name": "Combat Courier",
+			"description": "BASIC: 2 points\tYou can now sprint with all bags.\nACE: 4 points\tYou can now carry 2 bags at the same time."
+		},
+		"wip3": {
+			"name": "Work in Progress",
+			"description": "BASIC: 3 points\tWork in progress.\nACE: 6 points\tWork in progress."
+		},
+		"wip2": {
+			"name": "Work in Progress",
+			"description": "BASIC: 2 points\tWork in progress.\nACE: 4 points\tWork in progress."
+		},
+		"saw_massacre": {
+			"name": "Saw Massacre",
+			"description": "BASIC: 2 points\tThe weardown of the saw blades on enemies is reduced by 90%.\nACE: 4 points\tYou can now saw through shield enemies with your OVE9000 portable saw. When killing an enemy with the saw, you have a 50% chance to cause nearby enemies in a 10m radius to panic.\tPanic will make enemies go into short bursts of uncontrollable fear."
 		},
 		"oppressor": {
 			"name": "Oppressor",
@@ -896,7 +920,7 @@
         },
         "resilience": {
             "name": "Resilience",
-            "description": "BASIC: 1 point\tIncreases your armor recovery rate by 5%.\nACE: 3 points\tReduces the visual effect duration of Flashbangs by 50%."
+            "description": "BASIC: 1 point\tIncreases your armor recovery rate by 10%.\nACE: 3 points\tReduces the visual effect duration of Flashbangs by 50%."
         },
         "transporter": {
             "name": "Transporter",
@@ -912,7 +936,7 @@
         },
         "iron_man": {
             "name": "Iron Man",
-            "description": "BASIC: 4 points\tWhen you melee shield enemies, they get knocked back by the sheer force.\nYour ranged weapons have a chance of knocking down shields as well. Knock back chance scales with the total damage of the used weapon.\nACE: 8 points\tUnlocks the Improved Combined Tactical Vest for you to wear."
+            "description": "BASIC: 4 points\tYour total armor value is increased by 30%.\nMovement speed penalties no longer apply.\nACE: 8 points\tUnlocks the Improved Combined Tactical Vest for you to wear."
         },
         "scavenger": {
             "name": "Scavenger",
@@ -924,7 +948,7 @@
         },
         "portable_saw": {
             "name": "Portable Saw",
-            "description": "BASIC: 2 points\tUnlocks the OVE9000 portable saw for you to use as a secondary weapon.\nACE: 4 points\tYou gain 1 extra saw blade for the OVE9000 portable saw. You replace your saw blades with carbon blades, increasing your saw efficiency by 40%."
+            "description": "BASIC: 2 points\tUnlocks the OVE9000 portable saw for you to use as a secondary weapon.\nACE: 4 points\tYou gain 1 extra saw blade for the OVE9000 portable saw. You replace your saw blades with carbon blades, increasing your saw efficiency by 60%."
         },
         "extra_lead": {
             "name": "Extra Lead",
@@ -1173,7 +1197,7 @@
         "selected": "SELECTED",
         "primary": "PRIMARY",
         "secondary": "SECONDARY",
-        "colors": "(?<=: )([0-9]+( point(s)?))|(\\+ ?|- ?|\\b(?!OVE9000))([0-9]+([,.][0-9]+)?(%|cm|m|th|nd|rst| additional)?)|(Improved Combined Tactical Vest)|(Mag-fed)|(Tube-fed)|(\\& Double Barrel)|(halves)",
+        "colors": "(?<=: )([0-9]+( point(s)?))|(\\+ ?|- ?|\\b(?!OVE9000))([0-9]+([,.][0-9]+)?(%|cm|m|th|nd|rst| additional)?)|(Improved Combined Tactical Vest)|(Mag-fed)|(Individually-Loaded)|(single-shot)|(\\& Double Barrel)|(halves)",
         "skills": {
             "title": "Skills",
             "remaining": "Remaining skill points: ",

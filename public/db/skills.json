@@ -162,36 +162,9 @@
         "subtree": "sharpshooter",
         "tree": "mastermind"
     },
-    "hard_boiled": {
-        "name": "Hard Boiled",
-        "description": "BASIC: 1 point\tYou deal 5% more damage with Shotguns.\nACE: 3 points\tThe time it takes to draw and holster Shotguns is decreased by 20%.",
-        "basic": 1,
-        "ace": 3,
-        "tier": 1,
-        "subtree": "shotgunner",
-        "tree": "enforcer"
-    },
     "fast_hands": {
         "name": "Fast Hands",
-        "description": "BASIC: 2 points\tYou reload Tube-fed Shotguns 25% faster.\nACE: 4 points\tYou reload Tube-fed Shotguns an additional 25% faster.\tYou gain a 125% increased steel sight zoom speed when using Shotguns.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
-        "subtree": "shotgunner",
-        "tree": "enforcer"
-    },
-    "point_blank": {
-        "name": "Point Blank",
-        "description": "BASIC: 2 points\tYour shotguns gain 4 accuracy and stability.\nACE: 4 points\tShells for your Shotguns contain 2 extra pellets.\nNote: Does not apply to AP or HE Slugs.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
-        "subtree": "shotgunner",
-        "tree": "enforcer"
-    },
-    "shotgun_cqb": {
-        "name": "Shotgun CQB",
-        "description": "BASIC: 3 points\tYour rate of fire is increased by 15% while firing from the hip with single-shot Shotguns.\nACE: 6 points\tFor every hit with a Shotgun you gain an 8% movement speed boost that lasts for 12 seconds.\tStacks up to 5 times.",
+        "description": "BASIC: 2 points\tYou reload Individually-Loaded Shotguns 25% faster.\nACE: 4 points\tYour rate of fire is increased by 25% while firing from the hip with single-shot Shotguns.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -207,9 +180,9 @@
         "subtree": "shotgunner",
         "tree": "enforcer"
     },
-    "shotgun_hell": {
-        "name": "Shotgun Hell",
-        "description": "BASIC: 4 points\tFiring a Shotgun has a 12.5% chance to not consume any ammo.\nACE: 8 points\tWhen killing an enemy with a Shotgun, you have a 75% chance to cause nearby enemies to panic.\tPanic will make enemies go into short bursts of uncontrollable fear.\nThis cannot occur more than once every 5 seconds.",
+    "shotgun_rampage": {
+        "name": "Shotgun Rampage",
+        "description": "BASIC: 4 points\tFor every kill with a Shotgun, you gain a 6% movement speed boost that lasts for 5 seconds.\tStacks up to 5 times.\nACE: 8 points\tWhen killing an enemy with a shotgun, you have a 75% chance to cause nearby enemies to panic.\tPanic will make enemies go into short bursts of uncontrollable fear.\nThis cannot occur more than once every 5 seconds.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
@@ -218,7 +191,7 @@
     },
     "resilience": {
         "name": "Resilience",
-        "description": "BASIC: 1 point\tIncreases your armor recovery rate by 5%.\nACE: 3 points\tReduces the visual effect duration of Flashbangs by 50%.",
+        "description": "BASIC: 1 point\tIncreases your armor recovery rate by 10%.\nACE: 3 points\tReduces the visual effect duration of Flashbangs by 50%.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
@@ -227,6 +200,33 @@
     },
     "thick_skin": {
         "name": "Thick Skin",
+        "description": "BASIC: 3 points\tYou gain 10% extra health.\nACE: 6 points\tYou gain an additional 20% extra health.",
+        "basic": 3,
+        "ace": 6,
+        "tier": 3,
+        "subtree": "tank",
+        "tree": "enforcer",
+		"stats": {
+			"basic": [
+				{
+					"id": 100,
+					"type": "health",
+					"part": "healthBonus",
+					"value": 0.1
+				}
+			],
+			"ace": [
+				{
+					"id": 101,
+					"type": "health",
+					"part": "healthBonus",
+					"value": 0.2
+				}
+			]
+		}
+    },
+    "plates_of_steel": {
+        "name": "Plates of Steel",
         "description": "BASIC: 2 points\tYour steadiness is increased by 15.\tHigher steadiness reduces aimpunch.\nACE: 4 points\tIncreases the armor of all ballistic vests by 20.",
         "basic": 2,
         "ace": 4,
@@ -247,25 +247,25 @@
     },
     "underdog": {
         "name": "Underdog",
-        "description": "BASIC: 2 points\tWhen three or more enemies within 10 meters are targeting you, you receive a 15% damage bonus that lasts for 7 seconds.\nACE: 4 points\tWhen three or more enemies within 18 meters are targeting you, you also receive a 10% damage reduction that lasts for 7 seconds.\nNote: Does not apply to melee damage, throwables, grenade launchers or rocket launchers.",
+        "description": "BASIC: 1 points\tWhen three or more enemies within 18 meters are targeting you, you receive a 15% damage bonus that lasts for 7 seconds.\nACE: 3 points\tWhen three or more enemies within 18 meters are targeting you, you also receive a 10% damage reduction that lasts for 7 seconds.\nNote: Does not apply to melee damage, throwables, grenade launchers or rocket launchers.",
+        "basic": 1,
+        "ace": 3,
+        "tier": 1,
+        "subtree": "tank",
+        "tree": "shotgunner"
+    },
+    "combat_courier": {
+        "name": "Combat Courier",
+        "description": "BASIC: 2 points\tYou can now sprint with all bags.\nACE: 4 points\tYou can now carry 2 bags at the same time.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
         "subtree": "tank",
         "tree": "enforcer"
     },
-    "combat_courier": {
-        "name": "Combat Courier",
-        "description": "BASIC: 3 points\tYou move 50% faster when carrying bags.\nYou can now sprint with all bags.\nACE: 6 points\tMovement speed penalty from getting hit is reduced by 50%.",
-        "basic": 3,
-        "ace": 6,
-        "tier": 3,
-        "subtree": "tank",
-        "tree": "enforcer"
-    },
-    "nerves_of_steel": {
-        "name": "Nerves of Steel",
-        "description": "BASIC: 3 points\tYou gain 10% extra health.\nACE: 6 points\tYou gain an additional 20% extra health.",
+    "wip3": {
+        "name": "Work in Progress",
+        "description": "BASIC: 3 points\tWork in progress.\nACE: 6 points\tWork in progress.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -274,12 +274,22 @@
     },
     "iron_man": {
         "name": "Iron Man",
-        "description": "BASIC: 4 points\tWhen you melee shield enemies, they get knocked back by the sheer force.\nYour ranged weapons have a chance of knocking down shields as well. Knock back chance scales with the total damage of the used weapon.\nACE: 8 points\tUnlocks the Improved Combined Tactical Vest for you to wear.",
+        "description": "BASIC: 4 points\tYour total armor value is increased by 30%.\nMovement speed penalties no longer apply.\nACE: 8 points\tUnlocks the Improved Combined Tactical Vest for you to wear.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
         "subtree": "tank",
         "tree": "enforcer",
+        "stats": {
+            "basic": [
+                {
+                    "id": 104,
+                    "type": "armor",
+                    "part": "armBonus",
+                    "value": 0.3
+                }    
+            ]
+        },
         "unlocks": [
             { "type": "armor", "name": "ictv", "whenState": 2 }
         ]
@@ -296,19 +306,28 @@
     "bulletstorm": {
         "name": "Bulletstorm",
         "description": "BASIC: 4 points\tAmmo bags placed by you grant players the ability to shoot without depleting their ammunition for up to 12 seconds after interacting with it. The more ammo players replenish, the longer the duration of the effect.\nACE: 8 points\tIncreases the base duration of the effect by up to 30 seconds.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
+        "basic": 4,
+        "ace": 8,
+        "tier": 4,
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
     "portable_saw": {
         "name": "Portable Saw",
-        "description": "BASIC: 2 points\tUnlocks the OVE9000 portable saw for you to use as a secondary weapon.\nACE: 4 points\tYou gain 1 extra saw blade for the OVE9000 portable saw. You replace your saw blades with carbon blades, increasing your saw efficiency by 40%.",
+        "description": "BASIC: 2 points\tUnlocks the OVE9000 portable saw for you to use as a secondary weapon.\nACE: 4 points\tYou gain 1 extra saw blade for the OVE9000 portable saw. You replace your saw blades with carbon blades, increasing your saw efficiency by 60%.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
-        "subtree": "ammo_specialist",
+        "subtree": "shotgunner",
+        "tree": "enforcer"
+    },
+    "saw_massacre": {
+        "name": "Saw Massacre",
+        "description": "BASIC: 2 points\tThe weardown of the saw blades on enemies is reduced by 90%.\nACE: 4 points\tYou can now saw through shield enemies with your OVE9000 portable saw. When killing an enemy with the saw, you have a 50% chance to cause nearby enemies in a 10m radius to panic.\tPanic will make enemies go into short bursts of uncontrollable fear.",
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
+        "subtree": "shotgunner",
         "tree": "enforcer"
     },
     "extra_lead": {
@@ -332,6 +351,15 @@
     "fully_loaded": {
         "name": "Fully Loaded",
         "description": "BASIC: 2 points\tThe heavier your armor, the more total ammo you get.\nThe total capacity scales up to 12% with the Improved Combined Tactical Vest.\nACE: 4 points\tYour total ammo capacity is increased by 25%.",
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
+        "subtree": "ammo_specialist",
+        "tree": "enforcer"
+    },
+    "wip2": {
+        "name": "Work in Progress",
+        "description": "BASIC: 2 points\tWork in progress.\nACE: 4 points\tWork in progress.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
