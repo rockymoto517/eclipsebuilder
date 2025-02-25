@@ -332,9 +332,9 @@
     "fully_loaded": {
         "name": "Fully Loaded",
         "description": "BASIC: 2 points\tThe heavier your armor, the more total ammo you get.\nThe total capacity scales up to 12% with the Improved Combined Tactical Vest.\nACE: 4 points\tYour total ammo capacity is increased by 25%.",
-        "basic": 4,
-        "ace": 8,
-        "tier": 4,
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
