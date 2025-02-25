@@ -12,7 +12,7 @@ jobs:
           webhook: ${{ secrets.WEBHOOK_URL }}
           status: ${{ job.status }}
           nodetail: true
-          title: "Update EclipseBuilder"
+          title: "${{ job.status }}: Update EclipseBuilder"
           description: |
             [Eclipse builder](https://rockymoto517.github.io/eclipsebuilder/) has been updated.
           color: 0x00ff00
