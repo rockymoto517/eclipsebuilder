@@ -296,7 +296,7 @@
     },
     "scavenger": {
         "name": "Scavenger",
-        "description": "BASIC: 1 point\tYour ammo pick up range is increased by 30%.\nNote: Doesn't stack with the Gambler perk deck.\nACE: 3 points\tEvery 6th enemy you kill will drop an extra ammo box.",
+        "description": "BASIC: 1 point\tYour ammo pickup rate is increased by 5%.\nACE: 3 points\tYour ammo pick up range is increased by 20%.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
@@ -341,28 +341,28 @@
     },
     "mag_plus": {
         "name": "Mag Plus",
-        "description": "BASIC: 3 points\tYour SMGs, LMGs, and Assault Rifles gain 5 more bullets in their magazine.\nACE: 6 points\tYour SMGs, LMGs, and Assault Rifles gain 10 more bullets in their magazine.\nNote: Does not affect the Aced \"Sleight of Hand\" Skill.",
-        "basic": 3,
-        "ace": 6,
-        "tier": 3,
+        "description": "BASIC: 2 points\tFiring a weapon has a 5% chance to not consume any ammo.\nACE: 4 points\tYour weapons gain 20% more rounds in their magazine.\nNote: Does not affect the Aced \"Sleight of Hand\" Skill.",
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
     "fully_loaded": {
         "name": "Fully Loaded",
-        "description": "BASIC: 2 points\tThe heavier your armor, the more total ammo you get.\nThe total capacity scales up to 12% with the Improved Combined Tactical Vest.\nACE: 4 points\tYour total ammo capacity is increased by 25%.",
+        "description": "BASIC: 2 points\tYou now carry 33% more throwables.\nACE: 4 points\tYour total ammo capacity is increased by 25%.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
-    "wip2": {
-        "name": "Work in Progress",
-        "description": "BASIC: 2 points\tWork in progress.\nACE: 4 points\tWork in progress.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
+    "big_game_hunters": {
+        "name": "Big Game Hunters",
+        "description": "BASIC: 3 points\tEvery 6th enemy you kill will drop an extra ammo box.\nACE: 6 points\tYour ammo pickup rate is increased by an additional 25%.",
+        "basic": 3,
+        "ace": 6,
+        "tier": 3,
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
