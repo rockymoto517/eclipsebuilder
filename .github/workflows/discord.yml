@@ -1,5 +1,5 @@
 on:
-  [workflow_dispatch, page_build]
+  [workflow_dispatch, page_build, deployment]
 
 jobs:
   message:
