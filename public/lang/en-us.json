@@ -848,8 +848,8 @@
             "name": "Joker",
             "description": "BASIC: 2 points\tYou can convert a non-special enemy to fight on your side.\tThis can not be done during stealth and the enemy must have surrendered in order for you to convert them.\nYou can only convert one non-special enemy at a time.\nACE: 4 points\tYour converted enemy deals 35% more damage. The time to convert an enemy is reduced by 65%."
         },
-        "stockholm_syndrome": {
-            "name": "Stockholm Syndrome",
+        "control_freak": {
+            "name": "Control Freak",
             "description": "BASIC: 3 points\tThe power and range of your intimidation is increased by 50%\nACE: 6 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer.\nNearby untied civilians have a chance of reviving you if you interact with them."
         },
         "partners_in_crime": {
