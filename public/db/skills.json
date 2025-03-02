@@ -254,8 +254,8 @@
         "subtree": "tank",
         "tree": "shotgunner"
     },
-    "combat_courier": {
-        "name": "Combat Courier",
+    "pack_mule": {
+        "name": "Pack Mule",
         "description": "BASIC: 2 points\tYou can now sprint with all bags.\nACE: 4 points\tYou can now carry 2 bags at the same time.",
         "basic": 2,
         "ace": 4,

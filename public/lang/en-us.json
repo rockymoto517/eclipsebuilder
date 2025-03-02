@@ -708,10 +708,6 @@
 			"name": "Point Blank",
 			"description": "BASIC: 2 points\tYour shotguns gain 4 accuracy and stability.\nACE: 4 points\tShells for your Shotguns contain 2 extra pellets.\nNote: Does not apply to AP or HE Slugs."
 		},
-		"combat_courier": {
-			"name": "Combat Courier",
-			"description": "BASIC: 3 points\tYou move 50% faster when carrying bags.\nYou can now sprint with all bags.\nACE: 6 points\tMovement speed penalty from getting hit is reduced by 50%."
-		},
 		"nerves_of_steel": {
 			"name": "Nerves of Steel",
 			"description": "BASIC: 3 points\tYou gain 10% extra health.\nACE: 6 points\tYou gain an additional 20% extra health."
@@ -752,8 +748,8 @@
 			"name": "Plates of Steel",
 			"description": "BASIC: 2 points\tYour steadiness is increased by 15.\tHigher steadiness reduces aimpunch.\nACE: 4 points\tIncreases the armor of all ballistic vests by 20."
 		},
-		"combat_courier": {
-			"name": "Combat Courier",
+		"pack_mule": {
+			"name": "Pack Mule",
 			"description": "BASIC: 2 points\tYou can now sprint with all bags.\nACE: 4 points\tYou can now carry 2 bags at the same time."
 		},
 		"wip3": {

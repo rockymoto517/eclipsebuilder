@@ -118,7 +118,7 @@
 #plates_of_steel {
   background-position: calc((160% / (960 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
 }
-#combat_courier {
+#pack_mule {
   background-position: calc((480% / (960 - 80)) * 100) 0%; 
 }
 #nerves_of_steel {
