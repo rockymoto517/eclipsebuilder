@@ -8,6 +8,9 @@
 #bandages {
   background-position: calc((400% / (960 - 80)) * 100) calc((560% / (1040 - 80)) * 100);  
 }
+#company_soul {
+  background-position: calc((400% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100);  
+}
 #quick_fix {
   background-position: calc((80% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100);
 }
@@ -118,7 +121,7 @@
 #plates_of_steel {
   background-position: calc((160% / (960 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
 }
-#combat_courier {
+#pack_mule {
   background-position: calc((480% / (960 - 80)) * 100) 0%; 
 }
 #nerves_of_steel {
