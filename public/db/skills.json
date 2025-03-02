@@ -1,19 +1,19 @@
 {
     "bandages": {
         "name": "Bandages",
-        "description": "BASIC: 1 point\tCrew members you revive take 10% less damage for 5 seconds.\nACE: 3 points\tReviving a crew member gives them 30% more health.",
-        "basic": 1,
-        "ace": 3,
-        "tier": 1,
+        "description": "BASIC: 2 points\tCrew members you revive get an additional 15% health.\nACE: 4 points\tYou get an additional 20% health after being revived.",
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
         "subtree": "support",
         "tree": "mastermind"
     },
     "company_soul": {
         "name": "Company Soul",
-        "description": "BASIC: 2 points\tW.I.P.\nACE: 4 points\tYou and your crew's stamina is increased by 50%.\nNote: Crew perks do not stack.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
+        "description": "BASIC: 1 point\tCrew members you revive take 10% less damage for 5 seconds and get an additional 5% health.\nACE: 3 points\tYou and your crew's stamina is increased by 50%.",
+        "basic": 1,
+        "ace": 3,
+        "tier": 1,
         "subtree": "support",
         "tree": "mastermind"
     },
