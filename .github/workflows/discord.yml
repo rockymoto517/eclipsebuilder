@@ -4,6 +4,8 @@ on:
       branches: [ gh-pages ]
   deployment:
       branches: [ gh-pages ]
+  push:
+      branches: [ gh-pages ]
 
 jobs:
   message:
