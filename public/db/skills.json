@@ -109,7 +109,7 @@
     },
     "stable_shot": {
         "name": "Stable Shot",
-        "description": "BASIC: 1 point\tYour Sniper and Assault Rifles gain 4 accuracy.\nACE: 3 points\tYou and your crew's weapon accuracy is increased by 4 points.",
+        "description": "BASIC: 1 point\tYour weapons gain 4 accuracy.\nACE: 3 points\tThe time it takes for your aim to recenter after your last shot is reduced by 50%.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
