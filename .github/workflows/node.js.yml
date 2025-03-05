@@ -49,6 +49,8 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3.7.3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        # include .github directory
+        exclude_assets: ''
         # Set a target branch for deployment.
         #publish_branch: # optional, default is gh-pages
         # Set an input directory for deployment.
@@ -69,6 +71,4 @@ jobs:
         #tag_message: # optional
         # Set custom domain
         # cname: pd2build.ar
-        # Set files or directories to exclude from a publish directory.
-        #exclude_assets: # optional, default is .github
 
