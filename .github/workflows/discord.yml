@@ -1,11 +1,5 @@
 on:
-  workflow_dispatch:
-  page_build:
-      branches: [ gh-pages ]
-  deployment:
-      branches: [ gh-pages ]
-  push:
-      branches: [ gh-pages ]
+  [workflow_dispatch]
 
 jobs:
   message:

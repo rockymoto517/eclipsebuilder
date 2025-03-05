@@ -482,7 +482,7 @@
     },
     "steady_grip": {
         "name": "Steady Grip",
-        "description": "BASIC: 1 point\tYour SMGs, LMGs and Miniguns gain 4 stability.\nACE: 3 points\tYou and your crew's weapon stability is increased by 4 points.",
+        "description": "BASIC: 1 point\tYour weapons gain 4 stability.\nACE: 3 points\tYour moving stability penalty is decreased by 20%.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
