@@ -1,9 +1,5 @@
 on:
-  page_build:
-      branches: [ gh-pages ]
   deployment:
-      branches: [ gh-pages ]
-  push:
       branches: [ gh-pages ]
 
 jobs:
