@@ -8,6 +8,8 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  workflow_dispatch:
+    branches: [ master ]
 
 jobs:
   build:
@@ -49,8 +51,8 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3.7.3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        # include .github directory
-        exclude_assets: ''
+        # Set which folders to exclude
+        # exclude_assets: ''
         # Set a target branch for deployment.
         #publish_branch: # optional, default is gh-pages
         # Set an input directory for deployment.
@@ -71,4 +73,16 @@ jobs:
         #tag_message: # optional
         # Set custom domain
         # cname: pd2build.ar
-
+    - name: Discord Webhook
+      uses: sarisia/actions-status-discord@v1
+      if: always()
+      with:
+        webhook: ${{ secrets.WEBHOOK_URL }}
+        status: ${{ job.status }}
+        nodetail: true
+        title: "${{ job.status }}: Update EclipseBuilder to ${{ github.sha }}"
+        description: |
+          [Eclipse builder](https://rockymoto517.github.io/eclipsebuilder/) has been updated.
+        color: 0x00ff00
+        username: "Eclipse Builder"
+        avatar_url: ${{ secrets.AVATAR_URL }}
