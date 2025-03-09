@@ -155,7 +155,7 @@
     },
     "headshot_fury": {
         "name": "Headshot Fury",
-        "description": "BASIC: 4 points\tFor every consecutive headshot with your Sniper Rifle, your next shot's damage is increased by 25%.\tStacks up to 4 consecutive headshots.\nMissing a headshot resets your stacks.\nACE: 8 points\tWhile aiming down the sights with your Sniper Rifle, a charge meter builds up over a period of 5 seconds. When fully charged, your next headshot becomes explosive, dealing up to 100% of the bullet's damage in a 5m radius around the bullet impact and discharging the meter.\nLeaving the ADS stance or firing the weapon during the charging process resets the meter.",
+        "description": "BASIC: 4 points\tFor every consecutive headshot with your Sniper Rifle, your next shot's damage is increased by 20%.\tStacks up to 5 consecutive headshots.\nMissing a headshot resets your stacks.\nACE: 8 points\tWhile aiming down the sights with your Sniper Rifle, a charge meter builds up over a period of 3 seconds. When fully charged, your next headshot becomes explosive, dealing up to 100% of the bullet's damage in a 5m radius around the bullet impact and discharging the meter.\nLeaving the ADS stance or firing the weapon during the charging process resets the meter.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
@@ -590,7 +590,7 @@
     },
     "athlete": {
         "name": "Athlete",
-        "description": "BASIC: 1 point\tThe time before stamina regeneration starts is reduced by 25% and the regeneration rate of stamina is increased by 25%.\nACE: 3 points\tYour speed while walking is increased by 25%. Your total movement speed is increased by 10%.",
+        "description": "BASIC: 1 point\tThe time before stamina regeneration starts is reduced by 25% and the regeneration rate of stamina is increased by 25%.\nACE: 3 points\tYour total movement speed is increased by 10%.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
@@ -599,7 +599,7 @@
     },
     "duck_and_cover": {
         "name": "Duck and Cover",
-        "description": "BASIC: 2 points\tYour speed while crouching is increased by 15%.\nACE: 4 points\tYou gain a 10% chance to dodge enemy fire while crouching.",
+        "description": "BASIC: 2 points\tThe regeneration rate of your stamina is increased by 33% while crouching.\nACE: 4 points\tYou gain a 10% chance to dodge enemy fire while crouching.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -618,7 +618,7 @@
     },
     "sprinter": {
         "name": "Sprinter",
-        "description": "BASIC: 2 points\tYou can now sprint while strafing. You also sprint 15% faster.\nACE: 4 points\tYou gain a 10% chance to dodge enemy fire while sprinting and zip-lining.",
+        "description": "BASIC: 2 points\tYou can now sprint while strafing and swapping weapons.\nACE: 4 points\tYou gain a 10% chance to dodge enemy fire while sprinting and zip-lining.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
