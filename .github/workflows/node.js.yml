@@ -90,7 +90,7 @@ jobs:
         nodetail: true
         title: "${{ env.CAP_STATUS_VAR }}: Update EclipseBuilder"
         description: |
-          Eclipse builder has been updated to [${{ github.sha }}](https://github.com/rockymoto517/git-test/commit/${{ github.sha }}).
+          Eclipse builder has been updated to [${{ github.sha }}](https://github.com/rockymoto517/eclipsebuilder/commit/${{ github.sha }}).
 
           https://rockymoto517.github.io/eclipsebuilder/
           
