@@ -73,6 +73,14 @@ jobs:
         #tag_message: # optional
         # Set custom domain
         # cname: pd2build.ar
+
+    - name: Capitlize status
+      run: |
+        STATUS_VAR=${{ job.status }}
+        CAP_STATUS_VAR=$(echo "$STATUS_VAR" | sed 's/^\(.\)/\U\1/')
+        echo "CAP_STATUS_VAR=$CAP_STATUS_VAR" >> $GITHUB_ENV
+        echo "${{ github.event.head_commit.message }}"
+
     - name: Discord Webhook
       uses: sarisia/actions-status-discord@v1
       if: always()
@@ -80,9 +88,9 @@ jobs:
         webhook: ${{ secrets.WEBHOOK_URL }}
         status: ${{ job.status }}
         nodetail: true
-        title: "${{ job.status }}: Update EclipseBuilder to ${{ github.sha }}"
+        title: "${{ env.CAP_STATUS_VAR }}: Update EclipseBuilder"
         description: |
-          [Eclipse builder](https://rockymoto517.github.io/eclipsebuilder/) has been updated.
+          Eclipse builder has been updated to [${{ github.sha }}](https://github.com/rockymoto517/git-test/commit/${{ github.sha }}).
           ${{ github.event.head_commit.message }}
         color: 0x00ff00
         username: "Eclipse Builder"
