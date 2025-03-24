@@ -28,7 +28,7 @@
     },
 	"keepers": {
 		"name": "Keepers",
-		"description": "BASIC: 3 points\tYou can now deploy 2 Doctor Bags instead of just one.\nACE: 6 points\tYour doctor bags have 2 more charges.",
+		"description": "BASIC: 3 points\tYou can now deploy 2 Doctor Bags instead of just one.\nACE: 6 points\tYour doctor bags have 1 more charge.",
 		"basic": 3,
 		"ace": 6,
 		"tier": 3,
@@ -55,7 +55,7 @@
     },
     "forced_friendship": {
         "name": "Forced Friendship",
-        "description": "BASIC: 1 point\tIncrease your supply of cable ties by 4.\nACE: 3 points\tYou can now move hostages. You can only have upwards of 2 hostages following you at once.\nYou can cable tie hostages 75% faster.",
+        "description": "BASIC: 1 point\tIncrease your supply of cable ties by 4.\nYou can now cable tie hostages 25% faster.\nACE: 3 points\tYou can now have an additional hostage following you at the same time.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
@@ -64,7 +64,7 @@
     },
     "hostage_situation": {
         "name": "Hostage Situation",
-        "description": "BASIC: 2 points\tYou and your crew gain 2 damage absorption for each hostage you have.\nACE: 4 points\tEach hostage you have will extend the downtime between police assaults by 4 additional seconds.\nNote: These effects stack up to a maximum of 4 hostages.",
+        "description": "BASIC: 3 points\tTrading a hostage for resources will now restore the equivalent of 4 ammo box pickups into the reserves of every player in your team.\nYou can now trade for resources regardless of whether your team is missing any downs.\nACE: 6 points\tTrading a hostage for resources will now delay the incoming assault by 10 seconds. This effect is doubled for solo players.\nYou can now trade hostages for resources before the first assault.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -73,7 +73,7 @@
     },
     "joker": {
         "name": "Joker",
-        "description": "BASIC: 2 points\tYou can convert a non-special enemy to fight on your side.\tThis can not be done during stealth and the enemy must have surrendered in order for you to convert them.\nYou can only convert one non-special enemy at a time.\nACE: 4 points\tYour converted enemy deals 35% more damage. The time to convert an enemy is reduced by 65%.",
+        "description": "BASIC: 2 points\tYou can now convert a non-special enemy to fight on your side.\nYour converted enemy deals 35% more damage and takes 50% less damage.\nACE: 4 points\tYour converted enemy now takes an additional 25% less damage.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -82,7 +82,7 @@
     },
     "control_freak": {
         "name": "Control Freak",
-        "description": "BASIC: 3 points\tThe power and range of your intimidation is increased by 50%\nACE: 6 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer.\nNearby untied civilians have a chance of reviving you if you interact with them.",
+        "description": "BASIC: 2 points\tThe power and range of your intimidation is increased by 50%\nACE: 4 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer.\nNearby untied civilians have a chance of reviving you if you interact with them.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -91,7 +91,7 @@
     },
     "partners_in_crime": {
         "name": "Partners in Crime",
-        "description": "BASIC: 3 points\tYour converted enemy takes 90% less damage.\nACE: 6 points\tYour converted enemy takes an additional 9% less damage.",
+        "description": "BASIC: 3 points\tWhenever your converted enemy gets a kill, the dropped ammo box gets instantly picked up and given to you.\nACE: 6 points\tYou can now call your converted enemy to revive you. This cannot occur more than once during a heist.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
