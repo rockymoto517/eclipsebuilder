@@ -251,8 +251,8 @@
         "basic": 1,
         "ace": 3,
         "tier": 1,
-        "subtree": "tank",
-        "tree": "shotgunner"
+        "subtree": "shotgunner",
+        "tree": "enforcer"
     },
     "pack_mule": {
         "name": "Pack Mule",
