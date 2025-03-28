@@ -100,7 +100,7 @@
     },
     "hostage_taker": {
         "name": "Hostage Taker",
-        "description": "BASIC: 4 points\tHaving at least 1 hostage or dominated enemy makes you regenerate 10 health every 5 seconds.\nACE: 8 points\tThe amount of healing you receive is increased to 12. Your converted enemies will now count towards hostage related boosts.\nNote: Doesn't apply to Control Freak and Hostage Situation skills.",
+        "description": "BASIC: 4 points\tYou regenerate up to 8 health every 5 seconds for having at least 1 hostage.\nHealth regenerated is divided by the amount of hostages equivalent to the team's size.\nACE: 8 points\tThe amount of health you regenerate is increased by 50% when you are within 7m of a hostage.",
         "basic": 4,
         "ace": 8,
         "tier": 4,

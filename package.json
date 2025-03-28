@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx eslint . || npx eslint --fix .",
     "json": "node minjson",
-    "predeploy": "chmod +x ./predeploy.sh && ./predeploy.sh"
+    "predeploy": "chmod +x ./predeploy.sh && ./predeploy.sh",
+	"preview": "node preview.js"
   },
   "repository": {
     "type": "git",
