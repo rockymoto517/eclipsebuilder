@@ -887,7 +887,7 @@
         },
         "underdog": {
             "name": "Underdog",
-            "description": "BASIC: 2 points\tWhen three or more enemies within 10 meters are targeting you, you receive a 15% damage bonus that lasts for 7 seconds.\nACE: 4 points\tWhen three or more enemies within 18 meters are targeting you, you also receive a 10% damage reduction that lasts for 7 seconds.\nNote: Does not apply to melee damage, throwables, grenade launchers or rocket launchers."
+            "description": "BASIC: 1 points\tWhen three or more enemies within 18 meters are targeting you, you receive a 15% damage bonus that lasts for 7 seconds.\nACE: 3 points\tWhen three or more enemies within 18 meters are targeting you, you also receive a 10% damage reduction that lasts for 7 seconds.\nNote: Does not apply to melee damage, throwables, grenade launchers or rocket launchers."
         },
         "shotgun_cqb": {
             "name": "Shotgun CQB",
@@ -1035,7 +1035,7 @@
             "description": "BASIC: 4 points\tAll of your ranged weapons can now pierce through enemy body armor.\nDoes not apply to throwable weapons.\nACE: 8 points\t80% of the bonus from headshot damage is permanently applied to hitting enemies on the body.\nThis skill is only activated by SMGs fired in automatic mode, LMGs or Miniguns."
         },
         "chameleon": {
-            "name": "Chamaleon",
+            "name": "Chameleon",
             "description": "BASIC: 3 points\tIncreases the time before you start getting detected by 35% in casing mode.\nYou are 35% less likely to be targeted when you are close to your crew members in loud.\nACE: 6 points\tYour concealment is increased by 5."
         },
         "cleaner": {

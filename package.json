@@ -4,7 +4,7 @@
   "description": "Up-to-date web app for sharing Payday 2 builds and skill sets for the Eclipse overhaul. ",
   "main": "pd2builder.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "lint": "npx eslint . || npx eslint --fix .",
     "json": "node minjson",
     "predeploy": "chmod +x ./predeploy.sh && ./predeploy.sh",
@@ -30,7 +30,6 @@
   },
   "homepage": "https://github.com/r-paydaybuilds/pd2builder#readme",
   "dependencies": {
-    "better-assert": "^1.0.2",
     "body-parser": "^1.20.1",
     "express": "^4.18.2",
     "express-rate-limit": "^3.3.2",
