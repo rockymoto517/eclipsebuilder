@@ -8,7 +8,7 @@
     "lint": "npx eslint . || npx eslint --fix .",
     "json": "node minjson",
     "predeploy": "chmod +x ./predeploy.sh && ./predeploy.sh",
-	"preview": "node preview.js"
+    "preview": "node preview.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,8 @@
     "2",
     "express",
     "website",
-	"eclipse",
-	"overhaul"
+    "eclipse",
+    "overhaul"
   ],
   "author": "r-paydaybuilds",
   "license": "MIT",
@@ -30,10 +30,13 @@
   },
   "homepage": "https://github.com/r-paydaybuilds/pd2builder#readme",
   "dependencies": {
+    "better-assert": "^1.0.2",
     "body-parser": "^1.20.1",
     "express": "^4.18.2",
     "express-rate-limit": "^3.3.2",
-    "helmet": "^3.21.1"
+    "helmet": "^3.21.1",
+    "jsdom": "^26.0.0",
+    "mocha": "^11.1.0"
   },
   "devDependencies": {
     "cssnano": "^5.0.15",
