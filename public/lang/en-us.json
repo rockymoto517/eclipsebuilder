@@ -866,12 +866,12 @@
         },
         "rifleman": {
             "name": "Rifleman",
-            "description": "BASIC: 2 points\tYou snap to zoom 25% faster.\nYou swap your weapons 33% faster.",
+            "description": "BASIC: 2 points\tYou snap to zoom 25% faster.\nACE: 4 points\tYou swap your weapons 33% faster.",
             "vr_description": "Addition in VR:\tBASIC: Every kill while aiming down sight will regenerate 2% stamina.\tEvery 25 points of stamina consumed by dashing will refill 5% of their ammo pool to single shot weapons.\tACE: The improved accuracy lasts from 1 up to a maximum of 5 seconds after dashing."
         },
         "marksman": {
             "name": "Marksman",
-            "description": "BASIC: 2 points\tYour weapons are 20% more stable when you are aiming down sights.\nACE: 4 points\tYou gain 12 weapon accuracy while standing still."
+            "description": "BASIC: 2 points\tYour weapon recoil is reduced by 20% when you are aiming down sights.\nACE: 4 points\tYou gain 12 weapon accuracy while standing still."
         },
         "ammo_efficiency": {
             "name": "Ammo Efficiency",
@@ -932,7 +932,7 @@
         },
         "iron_man": {
             "name": "Iron Man",
-            "description": "BASIC: 4 points\tYour total armor value is increased by 30%.\nMovement speed penalties no longer apply.\nACE: 8 points\tUnlocks the Improved Combined Tactical Vest for you to wear."
+            "description": "BASIC: 4 points\tWhen you melee shield enemies, they get knocked back by the sheer force.\tYour ranged weapons have a chance of knocking down shields as well.\nACE: 8 points\tUnlocks the Improved Combined Tactical Vest for you to wear."
         },
         "scavenger": {
             "name": "Scavenger",
@@ -1012,7 +1012,7 @@
         },
         "steady_grip": {
             "name": "Steady Grip",
-            "description": "BASIC: 1 point\tYour weapons gain 4 stability.\nACE: 3 points\tYour moving stability penalty is decreased by 20%."
+            "description": "BASIC: 1 point\tYour weapons gain 4 stability.\nACE: 3 points\tYour moving recoil penalty is decreased by 20%."
         },
         "heavy_impact": {
             "name": "Heavy Impact",
