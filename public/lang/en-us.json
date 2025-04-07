@@ -1101,7 +1101,7 @@
         },
         "high_value_target": {
             "name": "High Value Target",
-            "description": "BASIC: 3 points\tEnemies you mark take 20% more damage when farther away than 10 meters.\nACE: 6 points\tEnemies you mark take an additional 30% damage from all sources at all ranges.\nThe marked state duration is increased by 100%."
+            "description": "BASIC: 3 points\tEnemies you mark take 20% more damage when farther away than 10 meters.\nACE: 6 points\tEnemies you mark take 30% more damage at all ranges.\tThe marked state duration is increased by 100%.\nNote: This effect is applied separately from the Basic version."
         },
         "unseen_strike": {
             "name": "Unseen Strike",
