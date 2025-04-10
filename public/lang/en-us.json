@@ -854,7 +854,7 @@
         },
         "partners_in_crime": {
             "name": "Partners in Crime",
-            "description": "BASIC: 3 points\tWhenever your converted enemy gets a kill, the dropped ammo box gets instantly picked up and given to you.\nACE: 6 points\tYou can now call your converted enemy to revive you. This cannot occur more than once during a heist."
+            "description": "BASIC: 3 points\tYour converted enemy is 15% more likely to be targeted when close to you or your crew.\nACE: 6 points\tYour converted enemy counts towards hostage related bonuses."
         },
         "hostage_taker": {
             "name": "Hostage Taker",
