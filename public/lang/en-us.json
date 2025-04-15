@@ -1085,7 +1085,7 @@
         },
         "second_wind": {
             "name": "Second Wind",
-            "description": "BASIC: 3 points\tWhen your armor breaks, your movement speed is increased by 25% for 5 seconds.\nACE: 6 points\tWhen your armor breaks, you have a 75% chance to cause nearby enemies to panic. Panic will make enemies go into short bursts of uncontrollable fear.\nThis cannot occur more than once every 12 seconds."
+            "description": "BASIC: 3 points\tWhen your armor breaks, your movement speed is increased by 20% for 5 seconds.\nACE: 6 points\tYou gain a 10% chance to dodge enemy fire when your armor is broken.\nThis cannot occur again for another 10 seconds after your armor regenerates."
         },
         "optical_illusions": {
             "name": "Optical Illusions",
