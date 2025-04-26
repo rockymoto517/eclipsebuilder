@@ -53,7 +53,7 @@
     "perk_cards": {
 		"frenzied" : {
 			"name": "Frenzied",
-			"description": "When your health gets below 50%, you will be immune to health damage for 2 seconds. This cannot occur more than once every 60 seconds."
+			"description": "When your health gets below 25% you will be immune to health damage for 2 seconds.\nThis cannot occur more than once every 60 seconds."
 		},
 		"refund": {
 			"name": "Refund",
@@ -120,7 +120,7 @@
         },
         "800-pound_gorilla": {
             "name": "800-pound Gorilla",
-            "description": "You gain an additional 40% more health.\nYou regenerate 8 health every 5 seconds."
+            "description": "You gain an additional 40% more health."
         },
         "type_1_armor": {
             "name": "Type I Armor",
@@ -396,19 +396,19 @@
         },
         "straight_edge": {
             "name": "Straight Edge",
-            "description": "50% of your health is converted into 10% armor."
+            "description": "75% of your health is converted into armor. Heavier armor receives a better conversion rate."
         },
         "death_or_glory": {
             "name": "Death or Glory",
-            "description": "50% of your health is converted into 15% armor."
+            "description": "Scoring a headshot grants you armor. Heavier armor regenerates more armor, but with longer intervals."
         },
         "rise_above": {
             "name": "Rise Above",
-            "description": "50% of your health is converted into 20% armor.\nYour chance to dodge is increased by 5%."
+            "description": "Your health loss during conversion is reduced to 50%. Armor increase is unaffected."
         },
         "lust_for_life": {
             "name": "Lust for Life",
-            "description": "Dealing damage will grant you 10 armor - this can only occur once every 1.5 seconds.\nYour armor is increased by 30%."
+            "description": "Dealing damage grants you armor. Heavier armor regenerates more armor, but with longer intervals."
         },
         "prospect": {
             "name": "Prospect",
@@ -587,7 +587,27 @@
         "fleet-footed": {
             "name": "Fleet-Footed", 
             "description": "Your crouched and carry movement speed is increased by 10%."
-        }
+        },
+		"cold_table_warm_gun": {
+			"name": "Cold Table, Warm Gun",
+			"description": "Your experience gained during the heist is increased by 10%."
+		},
+		"price_of_a_seat": {
+			"name": "Price of a seat",
+			"description": "Your money gained during the heist is increased by 10%."
+		},
+		"high_stakes": {
+			"name": "High Stakes",
+			"description": "Your experience gained during the heist is increased by an additional 15%."
+		},
+		"hardest_hand_at_the_table": {
+			"name": "Hardest Hand at the Table",
+			"description": "Your money gained during the heist is increased by an additional 15%."
+		},
+		"all_in": {
+			"name": "All-in",
+			"description": "Your money and experience gained during the heist is increased by an additional 20%."
+		}
     },
     "perk_decks": {
         "crew_chief": {
@@ -681,7 +701,11 @@
         "copycat": {
             "name": "Copycat",
             "description": "With an eidetic memory and photographic reflexes, the Copycat is a physical phenomenon. Anticipating movement has made you quick on your feet, to the point that you can dodge and even deflect bullets with ease. You've studied the other perk decks closely, and you can now mimic their base abilities to enhance your own. Mix and match techniques to create a style both echoic and unique. If others accuse you of stealing, remind them that imitation is the sincerest form of flattery."
-        }
+        },
+		"wildcard": {
+			"name": "Wildcard",
+			"description": "Wildcard is the one who walks in with nothing up his sleeve&ndash;and still walks out with the pot. No tells. No bluff. Just steel nerves and perfect reads. While others hide behind stacked decks, wildcard plays every hand straight, trusting in timing, instinct, and the sharp edge of experience.\nEvery heist is a gamble, but he doesn't chase luck&ndash;he makes it. No wild cards in his hand, because he is the wild card. High risk. High stakes. And when the job's done, he doesn't just walk away&ndash;he cashes out."
+		}
     },
     "skills": {
 		"keepers": {

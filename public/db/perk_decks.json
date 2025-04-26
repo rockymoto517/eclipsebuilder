@@ -536,5 +536,20 @@
                 "value": 0.8
             }
         ]
-    }
+    },
+	"wildcard": {
+		"name": "Wildcard",
+		"description": "Wildcard is the one who walks in with nothing up his sleeve&ndash;and still walks out with the pot. No tells. No bluff. Just steel nerves and perfect reads. While others hide behind stacked decks, wildcard plays every hand straight, trusting in timing, instinct, and the sharp edge of experience.\nEvery heist is a gamble, but he doesn't chase luck&ndash;he makes it. No wild cards in his hand, because he is the wild card. High risk. High stakes. And when the job's done, he doesn't just walk away&ndash;he cashes out.",
+		"perks": [
+			"cold_table_warm_gun",
+			"refund",
+			"price_of_a_seat",
+			"blending_in",
+			"high_stakes",
+			"walk-in_closet",
+			"hardest_hand_at_the_table",
+			"fast_and_furious",
+			"all_in"
+		]
+	}
 }

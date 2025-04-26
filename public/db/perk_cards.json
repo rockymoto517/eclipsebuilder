@@ -150,11 +150,11 @@
     },
 	"frenzied" : {
 		"name": "Frenzied",
-		"description": "When your health gets below 50%, you will be immune to health damage for 2 seconds. This cannot occur more than once every 60 seconds."
+		"description": "When your health gets below 25% you will be immune to health damage for 2 seconds.\nThis cannot occur more than once every 60 seconds."
 	},
     "800-pound_gorilla": {
         "name": "800-pound Gorilla",
-        "description": "You gain an additional 40% more health.\nYou regenerate 8 health every 5 seconds.",
+        "description": "You gain an additional 40% more health.",
         "deck_completion_bonus": true,
         "stats": [
             {
@@ -739,74 +739,20 @@
     },
     "straight_edge": {
         "name": "Straight Edge",
-        "description": "50% of your health is converted into 10% armor.",
-        "stats": [
-            {
-                "type": "armor",
-                "arguments": ["hp"],
-                "value": "(0.5*hp)*1.1"
-            },
-            {
-                "type": "hp",
-                "value": 0.5,
-                "multiply": true
-            }
-        ]
+        "description": "75% of your health is converted into armor. Heavier armor receives a better conversion rate."
     },
     "death_or_glory": {
         "name": "Death or Glory",
-        "description": "50% of your health is converted into 15% armor.",
-        "stats": [
-            {
-                "type": "armor",
-                "arguments": ["hp"],
-                "value": "(0.5*hp)*1.15"
-            },
-            {
-                "type": "hp",
-                "value": 0.5,
-                "multiply": true
-            }
-        ],
-        "overrides": "straight_edge"
+        "description": "Scoring a headshot grants you armor. Heavier armor regenerates more armor, but with longer intervals."
     },
     "rise_above": {
         "name": "Rise Above",
-        "description": "50% of your health is converted into 20% armor.\nYour chance to dodge is increased by 5%.",
-        "stats": [
-            {
-                "id": 58,
-                "type": "armor",
-                "part": "armorFromHealthRatio",
-                "value": 0.2
-            },
-            {
-                "id": 59,
-                "type": "health",
-                "part": "healthToArmor",
-                "value": -0.5
-            },
-			{
-				"id": 400,
-                "type": "dodge",
-                "part": "dodgeMod",
-                "value": 5
-			}
-        ],
-        "overrides": "death_or_glory"
+        "description": "Your health loss during conversion is reduced to 50%. Armor increase is unaffected."
     },
     "lust_for_life": {
         "name": "Lust for Life",
-        "description": "Dealing damage will grant you 10 armor - this can only occur once every 1.5 seconds.\nYour armor is increased by 30%.",
-        "deck_completion_bonus": true,
-		"stats": [
-			{
-				"id": 401,
-                "type": "armor",
-                "part": "armBonus",
-                "value": 0.3
-			}
-		]
+        "description": "Dealing damage grants you armor. Heavier armor regenerates more armor, but with longer intervals.",
+        "deck_completion_bonus": true
     },
     "prospect": {
         "name": "Prospect",
