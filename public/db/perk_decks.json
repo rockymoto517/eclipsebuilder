@@ -101,15 +101,15 @@
         "name": "Hitman", 
         "description": "The Hitman is a professional killer from the criminal underworld who excels at close and ranged combat.\nCriminal syndicates will hire a hitman as a last resort to enforce criminal authority, deliver retribution or eliminate competition.",
         "perks": [
-            "gunslinger",
+            "death_in_motion",
             "refund",
-            "fastest_hands_in_the_west",
+            "controlled_chaos",
             "blending_in",
-            "unseen_strike",
+            "dead_mans_dance",
             "walk-in_closet",
-            "sharpshooter",
+            "blood_debt",
             "fast_and_furious",
-            "tooth_and_claw"
+            "baba_yaga"
         ]
     },
     "crook": {

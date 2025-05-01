@@ -1,7 +1,7 @@
 {
 	"refund": {
 		"name": "Refund",
-		"description": "You gain a 2% base chance to get a throwable from an ammo box.\nThe base chance is increased by 0.1% for each ammo box you pick up that does not contain a throwable.\nWhen a throwable has been found, the chance is reset to its base value."
+		"description": "You will now find a throwable once every 50 ammo pickups."
 	},
     "helmet_popping": {
         "name": "Helmet Popping",
@@ -294,21 +294,26 @@
             }
         ]
     },
-	"gunslinger": {
-		"name": "Gunslinger",
-		"description": "You now automatically reload your secondary after scoring 5 kills with your primary, and vice versa."
+	"death_in_motion": {
+		"name": "Death in Motion",
+		"description": "Getting 3 headshot kills in less than 5 seconds increases your chance to dodge by 10% for 5 seconds."
 	},
-	"fastest_hands_in_the_west": {
-		"name": "Fastest Hand in the West",
-		"description": "You now swap your weapons 80% faster."
+	"controlled_chaos": {
+		"name": "Controlled Chaos",
+		"description": "When you are surrounded by three enemies or more, your chance to dodge is increased by 10%."
 	},
-	"unseen_strike": {
-		"name": "Unseen Strike",
-		"description": "You gain 20% critical hit chance for 5 seconds after not getting hit for 4 seconds.\nCritical hits deal double damage and don't apply to grenade/rocket launchers. Taking any damage cancels the no-hit timer."
+	"dead_mans_dance": {
+		"name": "Dead Man's Dance",
+		"description": "Getting 3 headshot kills in less than 5 seconds increases your chance to dodge by an additional 10% for 5 seconds."
 	},
-	"sharpshooter": {
-		"name": "Sharpshooter",
-		"description": "Scoring a headshot will refund 1 bullet to your used weapon.\nThis cannot occur more than once every 3 seconds."
+	"blood_debt": {
+		"name": "Blood Debt",
+		"description": "When you get downed, you have a 20% chance to instantly get revived."
+	},
+	"baba_yaga": {
+		"name": "Baba Yaga",
+		"description": "Getting 3 headshot kills in less than 5 seconds increases the chance of Blood Debt occuring by 3%.\nStacks an indefinite amount of times.\tStacks are reset upon a successful occurance of Blood Debt.",
+		"deck_completion_bouns": true
 	},
     "basic_recovery": {
         "name": "Basic Recovery",
@@ -372,11 +377,6 @@
                 "multiply": true
             }
         ]
-    },
-    "tooth_and_claw": {
-        "name": "Tooth and Claw",
-        "description": "Killing an enemy regenerates 30 armor.\nThis cannot occur more than once every 1 second.",
-        "deck_completion_bonus": true
     },
     "subtle-2": {
         "name": "Subtle",
