@@ -908,7 +908,8 @@
 #wildcard .pk_deck_cards > div:nth-of-type(7)::after {
   background-image: none;
 }
-#wildcard .pk_deck_cards > div:nth-of-type(9)::after {
+#wildcard .pk_deck_cards > div:nth-of-type(9)::after,
+#wildcard .pk_preview_card > div > div::after {
   background-image: none;
 }
 
