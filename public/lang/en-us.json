@@ -148,19 +148,19 @@
         },
         "elusive": {
             "name": "Elusive",
-            "description": "You are 15% less likely to be targeted when you are close to your crew members."
+            "description": "If you do not lose any armor or health for 4 seconds, you gain 10% dodge chance for 6 seconds."
         },
         "evasive": {
             "name": "Evasive",
-            "description": "Your chance to dodge is increased by an additional 10%."
+            "description": "Your chance to dodge is increased by an additional 5%."
         },
         "shadow_warrior": {
             "name": "Shadow Warrior",
-            "description": "Your chance to dodge is increased by an additional 10%."
+            "description": "Your chance to dodge is increased by an additional 5%."
         },
         "killer_instinct": {
             "name": "Killer Instinct",
-            "description": "All your weapons have a 25% chance to pierce enemy armor.\nIncreases weapon swapping speed by 80%."
+            "description": "If you do not lose any armor or health for 4 seconds, you gain 20% critical hit chance for 6 seconds.\tCritical hits deal 200% damage.\nNote: Critical hit damage can be increased by the Aced Low Blow skill."
         },
 		"gunslinger": {
 			"name": "Gunslinger",
@@ -1241,7 +1241,7 @@
         "selected": "SELECTED",
         "primary": "PRIMARY",
         "secondary": "SECONDARY",
-        "colors": "(?<=: )([0-9]+( point(s)?))|(\\+ ?|- ?|\\b(?!OVE9000))([0-9]+([,.][0-9]+)?(%|cm|m|th|nd|rst| additional)?)|(Improved Combined Tactical Vest)|(Mag-fed)|(Individually-Loaded)|(single-shot)|(\\& Double Barrel)|(halves)",
+        "colors": "(?<=: )([0-9]+( point(s)?))|(\\+ ?|- ?|\\b(?!OVE9000))([0-9]+([,.][0-9]+)?(%|cm|m|th|nd|rst| additional)?)|(Improved Combined Tactical Vest)|(Mag-fed)|(Individually-Loaded)|(single-shot)|(\\& Double Barrel)|(halves)|(Low Blow)",
         "skills": {
             "title": "Skills",
             "remaining": "Remaining skill points: ",

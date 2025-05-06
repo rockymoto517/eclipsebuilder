@@ -98,13 +98,13 @@
     },
     "hostage_situation": {
         "name": "Hostage Situation",
-        "description": "You and your crew will gain 6% max health and 12% stamina for each hostage up to 4 times.\nYou and your crew will gain 8% damage reduction for having one or more hostages.\nNote: Crew perks do not stack.",
+        "description": "You and your crew will gain 4% max health and 12% stamina for each hostage up to 4 times.\nNote: Crew perks do not stack.",
         "vr_description": "The dash effect is now from 0 up to a maximum of 15.",
         "deck_completion_bonus": true
     },
     "brute_strength-2": {
         "name": "Brute Strength",
-        "description": "You gain 10% more health",
+        "description": "You gain 10% more health.",
         "vr_description": "After dashing the player will heal from 0 up to a maximum of 3 health depending on the amount of stamina consumed. Can only heal a maximum of 50 health every 5 seconds.",
         "stats": [
             {
@@ -253,46 +253,38 @@
     },
     "elusive": {
         "name": "Elusive",
-        "description": "You are 15% less likely to be targeted when you are close to your crew members.",
+        "description": "If you do not lose any armor or health for 4 seconds, you gain 10% dodge chance for 6 seconds.",
         "copycat_mimicry_available": true,
         "mimics": "rogue"
     },
     "evasive": {
         "name": "Evasive",
-        "description": "Your chance to dodge is increased by an additional 10%.",
+        "description": "Your chance to dodge is increased by an additional 5%.",
         "stats": [
             {
                 "id": 27,
                 "type": "dodge",
                 "part": "dodgeMod",
-                "value": 10
+                "value": 5
             }
         ]
     },
     "shadow_warrior": {
         "name": "Shadow Warrior",
-        "description": "Your chance to dodge is increased by an additional 10%.",
+        "description": "Your chance to dodge is increased by an additional 5%.",
         "stats": [
             {
                 "id": 28,
                 "type": "dodge",
                 "part": "dodgeMod",
-                "value": 10
+                "value": 5
             }
         ]
     },
     "killer_instinct": {
         "name": "Killer Instinct",
-        "description": "All your weapons have a 25% chance to pierce enemy armor.\nIncreases weapon swapping speed by 80%",
-        "deck_completion_bonus": true,
-        "stats": [
-            {
-                "id": 29,
-                "type": "swapSpeed",
-                "value": 1.80,
-                "multiply": true
-            }
-        ]
+        "description": "If you do not lose any armor or health for 4 seconds, you gain 20% critical hit chance for 6 seconds.\tCritical hits deal 200% damage.\nNote: Critical hit damage can be increased by the Aced Low Blow skill.",
+        "deck_completion_bonus": true
     },
 	"death_in_motion": {
 		"name": "Death in Motion",
@@ -454,7 +446,7 @@
     },
     "master_recovery": {
         "name": "Master Recovery",
-        "description": "Your armor recovery rate is increased by 10%",
+        "description": "Your armor recovery rate is increased by 10%.",
         "vr_description": "The dash effect is now from 10 up to a maximum of 22.",
         "deck_completion_bonus": true,
         "stats": [
@@ -621,7 +613,7 @@
         "description": "Increase health gained from ammo packs by additional 8."
     },
     "more_healing_2": {
-        "name": "More Healing 1",
+        "name": "More Healing 2",
 		"description": "Increase health gained from ammo packs by additional 8.\nYour ammo pick up range is increased by 125%.",
         "deck_completion_bonus": true
     },
@@ -935,7 +927,7 @@
     },
     "code_glitch": {
         "name": "Code Glitch",
-        "description": "Unlocks and equips the Pocket ECM Device.\nChanging to another perk deck will make the Pocket ECM Device unavailable again. The Pocket ECM Device replaces your current throwable, it can be switched out if desired.\tWhile in game you can use the throwable key to activate the Pocket ECM Device.\nActivating the Pocket ECM Device before the alarm is raised will trigger the jamming effect, disabling all electronics and pagers for a 6 second duration.\nActivating the Pocket ECM Device after the alarm is raised will trigger the feedback effect, granting a chance to stun enemies on the map every second for a 6 second duration.\nThe Pocket ECM Device has 2 charges with a 100 second cooldown timer, but each kill you perform will shorten the cooldown time by 6 seconds.",
+        "description": "Unlocks and equips the Pocket ECM Device.\nChanging to another perk deck will make the Pocket ECM Device unavailable again. The Pocket ECM Device replaces your current throwable, it can be switched out if desired.\nWhile in game you can use the throwable key to activate the Pocket ECM Device.\nActivating the Pocket ECM Device before the alarm is raised will trigger the jamming effect, disabling all electronics and pagers for a 6 second duration.\nActivating the Pocket ECM Device after the alarm is raised will trigger the feedback effect, granting a chance to stun enemies on the map every second for a 6 second duration.\nThe Pocket ECM Device has 2 charges with a 100 second cooldown timer, but each kill you perform will shorten the cooldown time by 6 seconds.",
         "copycat_mimicry_available": true,
         "mimics": "hacker"
     },
