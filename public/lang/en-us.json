@@ -846,7 +846,7 @@
 		},
 		"silent_killer": {
 			"name": "Silent Killer",
-			"description": "BASIC: 3 points\tYour silenced weapons gain a 15% rate of fire increase.\nACE: 6 points\tYou deal 15% more damage and have a 50% chance to pierce enemy armor with all silenced weapons."
+			"description": "BASIC: 3 points\tYour silenced weapons gain 4 stability and accuracy, as well as a 30% chance to pierce enemy armor.\nACE: 6 points\tYour silenced weapons gain a 15% damage increase."
 		},
 		"tough_guy": {
 			"name": "Tough Guy",
@@ -1125,7 +1125,7 @@
         },
         "sneaky_bastard": {
             "name": "Sneaky Bastard",
-            "description": "BASIC: 4 points\tYou gain a 1% dodge chance for every 2 points of detection rate under 35 up to 10%.\nACE: 8 points\tYou gain a 1.5% dodge chance for every 1 point of detection rate under 35 up to 15%."
+            "description": "BASIC: 4 points\tYou gain a 1% chance to dodge for every 2 points of detection rate under 35 up to 10%.\nACE: 8 points\tWhile your armor is broken, dodging will fully regenerate it.\nThis cannot occur more than once every 10 seconds."
         },
         "second_wind": {
             "name": "Second Wind",
@@ -1141,7 +1141,7 @@
         },
         "low_blow": {
             "name": "Low Blow",
-            "description": "BASIC: 4 points\tYou gain a 3% critical hit chance for every 2 points of detection rate under 35 up to 30%.\nACE: 8 points\tYou now gain a 3% critical hit chance for every 1 point of detection rate instead.\nCritical hits now deal an additional 100% damage.\nNote: Critical hits don't apply to grenade/rocket launchers."
+            "description": "BASIC: 4 points\tYou gain a 1% critical hit chance for every 2 points of detection rate under 35 up to 10%.\nACE: 8 points\tYou gain an additional 20% critical hit chance.\nCritical hits now deal an additional 100% damage."
         },
         "high_value_target": {
             "name": "High Value Target",
