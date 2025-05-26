@@ -829,13 +829,13 @@
     },
     "subtle-3": {
         "name": "Subtle",
-		"description": "Your chance to dodge is increased by 5%.",
+		"description": "Your chance to dodge is increased by 15%.",
         "stats": [
             {
                 "id": 64,
                 "type": "dodge",
                 "part": "dodgeMod",
-                "value": 5
+                "value": 15
             }
         ]
     },
@@ -848,6 +848,19 @@
         "description": "All of your perk deck effects are increased by 100% while you are standing in the smoke screen. While any of your allies are standing in the smoke screen, they gain 10% dodge chance.",
         "deck_completion_bonus": true
     },
+	"breathe_deep": {
+		"name": "Breathe Deep",
+		"description": "While inside your smoke screen, you and your crew's armor regenerates 30% faster and cannot be suppressed."
+	},
+	"smog_layer": {
+		"name": "Smog Layer",
+		"description": "While inside your smoke screen, you and your crew gain 25% dodge chance."
+	},
+	"lingering_shadows": {
+		"name": "Lingering Shadows",
+		"description": "While the smoke screen is active, you and your crew will retain its effect for 3 seconds after exiting it.",
+		"deck_completion_bonus": true
+	},
     "virtue": {
         "name": "Virtue",
         "description": "Unlocks and equips the Stoic Hip Flask.\nDamage taken is now reduced by 75%. The remaining damage will be applied directly.\nThe 75% reduced damage will be applied over-time (12 seconds) instead.\nYou can use the throwable key to activate the Stoic Hip Flask and immediately negate any pending damage. The flask has a 16 second cooldown but time remaining will be lessened by 1 second per enemy killed.",

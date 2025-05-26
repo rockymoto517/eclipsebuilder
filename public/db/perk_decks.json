@@ -399,13 +399,13 @@
         "perks": [
             "smoker",
             "refund",
-            "twitch",
+            "breathe_deep",
             "blending_in",
             "subtle-3",
             "walk-in_closet",
-            "agility_shield",
+            "smog_layer",
             "fast_and_furious",
-            "unseen_shadow"
+            "lingering_shadows"
         ],
         "unlocks": [
             { "type": "throwable", "name": "smoke_bomb" }
