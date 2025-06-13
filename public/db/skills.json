@@ -118,7 +118,7 @@
     },
     "rifleman": {
         "name": "Rifleman",
-        "description": "BASIC: 2 points\tYou snap to zoom 25% faster.\nACE: 4 points\tYou swap your weapons 33% faster.",
+        "description": "BASIC: 2 points\tYou snap to zoom 25% faster.\nACE: 4 points\tYour weapons are 20% more accurate while standing still.",
         "vr_description": "Addition in VR:\tBASIC: Every kill while aiming down sight will regenerate 2% stamina.\tEvery 25 points of stamina consumed by dashing will refill 5% of their ammo pool to single shot weapons.\tACE: The improved accuracy lasts from 1 up to a maximum of 5 seconds after dashing.",
         "basic": 2,
         "ace": 4,
@@ -128,7 +128,7 @@
     },
     "marksman": {
         "name": "Marksman",
-        "description": "BASIC: 2 points\tYour weapon recoil is reduced by 20% when you are aiming down sights.\nACE: 4 points\tYou gain 12 weapon accuracy while standing still.",
+        "description": "BASIC: 2 points\tYour aimpunch is reduced by 20% when aiming down sights.\nACE: 4 points\tYour weapon recoil is reduced by 20% while aiming down sights.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
