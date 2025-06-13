@@ -750,7 +750,7 @@
 		},
 		"kilmer": {
 			"name": "Kilmer",
-			"description": "BASIC: 3 points\tYou reload your Sniper and Assault Rifles 25% faster.\nACE: 6 points\tAny killing headshot will increase your reload speed by 40% for 6 seconds. Can only be triggered by SMGs, Assault Rifles and Sniper Rifles fired in single shot fire mode."
+			"description": "BASIC: 3 points\tYou reload your Sniper, Marksman and Assault Rifles 25% faster.\nACE: 6 points\tAny killing headshot with either Assault, Marksman or Sniper Rifles set to single fire mode will increase your reload speed by 40% for 6 seconds."
 		},
 		"hard_boiled": {
 			"name": "Hard Boiled",
@@ -931,7 +931,7 @@
         },
         "ammo_efficiency": {
             "name": "Ammo Efficiency",
-            "description": "BASIC: 3 points\tGetting 3 headshots in less than 6 seconds will refund 1 bullet to your used weapon. Can only be triggered by SMGs, Assault Rifles and Sniper Rifles fired in single shot fire mode.\nACE: 6 points\tThe amount of headshots required is reduced to 2."
+            "description": "BASIC: 3 points\tScoring 3 headshots in less than 6 seconds with either Assault, Marksman, or Sniper Rifles set to single fire mode will refund 1 bullet.\nACE: 6 points\tThe amount of headshots required is reduced to 2."
         },
         "aggressive_reload": {
             "name": "Aggressive Reload",
