@@ -931,7 +931,7 @@
         },
         "ammo_efficiency": {
             "name": "Ammo Efficiency",
-            "description": "BASIC: 3 points\tScoring 3 headshots in less than 6 seconds with either Assault, Marksman or Sniper Rifles set to single fire mode will refund 1 bullet.\nACE: 6 points\tThe amount of headshots required is reduced to 2."
+            "description": "BASIC: 3 points\tScoring 3 headshots in less than 6 seconds with either Assault, Marksman or Sniper Rifles set to single fire mode will refund 1 bullet into your reserves.\nACE: 6 points\tThe amount of headshots required is reduced to 2."
         },
         "aggressive_reload": {
             "name": "Aggressive Reload",
