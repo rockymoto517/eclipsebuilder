@@ -743,18 +743,18 @@
         "subtree": "gunslinger",
         "tree": "fugitive"
     },
-    "desperado": {
-        "name": "Desperado",
-        "description": "BASIC: 3 points\tEach successful pistol hit gives you a 10% accuracy bonus for 10 seconds and you can stack it 4 times.\nACE: 6 points\tYou reload all pistols 50% faster.",
+    "deadeye": {
+        "name": "Deadeye",
+        "description": "BASIC: 3 points\twip\nACE: 6 points\twip",
         "basic": 3,
         "ace": 6,
         "tier": 3,
         "subtree": "gunslinger",
         "tree": "fugitive"
     },
-    "trigger_happy": {
-        "name": "Trigger Happy",
-        "description": "BASIC: 4 points\tFor every hit with a pistol you gain a 15% damage boost that lasts for 3 seconds.\tStacks up to 5 times.\nACE: 8 points\tYou now gain a 37.5% damage boost for every hit and the damage boost lasts 6 seconds.\tStacks up to 2 times.",
+    "peacemakers_lament": {
+        "name": "Peacemaker's Lament",
+        "description": "BASIC: 4 points\twip\nACE: 8 points\twip",
         "basic": 4,
         "ace": 8,
         "tier": 4,

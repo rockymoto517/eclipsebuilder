@@ -348,31 +348,22 @@
 
 /* Gunslinger */
 #equilibrium {
-  background-position: calc((240% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
-}
-#gun_nut {
-  background-position: calc((880% / (960 - 80)) * 100) 0%; 
-}
-#akimbo {
-  background-position: calc((240% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
-}
-#one_handed_talent {
-  background-position: calc((560% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
-}
-#desperado {
-  background-position: calc((880% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
-}
-#trigger_happy {
-  background-position: calc((880% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
+  background-position: calc((700% / (1040 - 80)) * 100) 0; 
 }
 #field_operator {
-  background-position: calc((880% / (960 - 80)) * 100) 0%; 
+  background-position: calc((700% / (1040 - 80)) * 100) 0; 
 }
 #sidearm_savvy {
-  background-position: calc((240% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
+  background-position: calc((700% / (1040 - 80)) * 100) 0; 
 }
 #trigger_overdrive {
-  background-position: calc((560% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
+  background-position: calc((700% / (1040 - 80)) * 100) 0; 
+}
+#deadeye {
+  background-position: 0 0;
+}
+#peacemakers_lament {
+  background-position: 0 0;
 }
 
 /* Revenant */
