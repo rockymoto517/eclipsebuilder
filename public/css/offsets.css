@@ -365,6 +365,15 @@
 #trigger_happy {
   background-position: calc((880% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
 }
+#field_operator {
+  background-position: calc((880% / (960 - 80)) * 100) 0%; 
+}
+#sidearm_savvy {
+  background-position: calc((240% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
+}
+#trigger_overdrive {
+  background-position: calc((560% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
+}
 
 /* Revenant */
 #tough_guy {

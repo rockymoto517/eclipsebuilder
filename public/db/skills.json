@@ -709,34 +709,34 @@
 	},
     "equilibrium": {
         "name": "Equilibrium",
-        "description": "BASIC: 1 point\tDecreases the time it takes to draw end holster pistols by 10%.\nACE: 3 points\tYou gain 8 weapon accuracy with all pistols.",
+        "description": "BASIC: 1 point\tYour movement speed penalty while aiming down sights is reduced by 20%.\nACE: 3 points\tYou snap your weapons to zoom 30% faster.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
         "subtree": "gunslinger",
         "tree": "fugitive"
     },
-    "gun_nut": {
-        "name": "Gun Nut",
-        "description": "BASIC: 2 points\tYour pistol magazine sizes are increased by 5 bullets.\nACE: 4 points\tYou gain a 50% increased rate of fire with pistols.",
+    "field_operator": {
+        "name": "Field Operator",
+        "description": "BASIC: 2 points\tYou are able to fire your weapons after sprinting 25% faster.\nACE: 4 points\tYou swap your weapons 25% faster.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
         "subtree": "gunslinger",
         "tree": "fugitive"
     },
-    "akimbo": {
-        "name": "Akimbo",
-        "description": "BASIC: 2 points\tYour Akimbo weapons' stability penalty is reduced by 8.\nACE: 4 points\tYour Akimbo weapons' stability penalty is reduced by an additional 8 and they also have 50% increased ammo capacity.",
+    "sidearm_savvy": {
+        "name": "Sidearm Savvy",
+        "description": "BASIC: 2 points\tYou move 15% faster while a Pistol or a Revolver is equipped.\nACE: 4 points\tScoring a kill with the last bullet in a Pistol or a Revolver will automatically reload your primary weapon.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
         "subtree": "gunslinger",
         "tree": "fugitive"
     },
-    "one_handed_talent": {
-        "name": "One Handed Talent",
-        "description": "BASIC: 3 points\tThe base damage of all pistols is increased by 5.\nACE: 6 points\tThe base damage of all pistols is increased by an additional 10 damage.",
+    "trigger_overdrive": {
+        "name": "Trigger Overdrive",
+        "description": "BASIC: 3 points\tEach successful Pistol hit grants you a 7.5% reload speed boost that lasts 3 seconds.\nStacks up to 6 times.\nACE: 6 points\tEach successful Pistol hit grants you a 12% accuracy boost that lasts 6 seconds.\nStacks up to 4 times.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
