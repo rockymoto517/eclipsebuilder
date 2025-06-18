@@ -1181,11 +1181,11 @@
         },
         "deadeye": {
             "name": "Deadeye",
-            "description": "BASIC: 3 points\twip\nACE: 6 points\twip"
+            "description": "BASIC: 3 points\tScoring 5 headshots in a row with your Revolver will instantly reload it.\nMissing a headshot in any capacity resets the counter.\nACE: 6 points\tScoring 3 lethal headshots in less than 3 seconds with your Revolver will slow down the time for you for 5 seconds.\nThis cannot occur more than once every 20 seconds after the slowdown ends."
         },
         "peacemakers_lament": {
             "name": "Peacemaker's Lament",
-            "description": "BASIC: 4 points\twip\nACE: 8 points\twip"
+            "description": "BASIC: 4 points\tFor 1 second after pulling out your Pistol or Revolver, your first shot will deal 100% extra damage.\nACE: 8 points\tFor 2 seconds after reloading your Pistol or Revolver, your first shot will deal 100% extra damage and this shot's full damage will be dealt to the closest enemy in a 5m radius."
         },
         "nine_lives": {
             "name": "Nine Lives",
