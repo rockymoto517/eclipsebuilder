@@ -559,7 +559,7 @@
     },
     "clean_hit": {
         "name": "Clean Hit",
-        "description": "Killing an enemy with a melee weapon regenerates 15 health.\nThis cannot occur more than once every 1 second.\nWhen you are within medium range of an enemy you receive 8% less damage."
+        "description": "Killing an enemy with a melee weapon regenerates 90 armor.\nThis cannot occur more than once every 1 second.\nWhen you are within medium range of an enemy you receive 8% less damage."
     },
     "overdose": {
         "name": "Overdose",

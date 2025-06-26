@@ -727,7 +727,7 @@
     },
     "sidearm_savvy": {
         "name": "Sidearm Savvy",
-        "description": "BASIC: 2 points\tYou move 15% faster while a Pistol or a Revolver is equipped.\nACE: 4 points\tScoring a kill with the last bullet in a Pistol or a Revolver will automatically reload your primary weapon.",
+        "description": "BASIC: 2 points\tYou move 15% faster while a Pistol or a Revolver is equipped.\nACE: 4 points\tScoring 3 kills in 3 seconds with your secondary Pistol or Revolver will automatically reload your primary weapon.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -745,7 +745,7 @@
     },
     "deadeye": {
         "name": "Deadeye",
-        "description": "BASIC: 3 points\tScoring 5 headshots in a row with your Revolver will instantly reload it.\nMissing a headshot in any capacity resets the counter.\nACE: 6 points\tScoring 3 lethal headshots in less than 3 seconds with your Revolver will slow down the time for you for 5 seconds.\nThis cannot occur more than once every 20 seconds after the slowdown ends.",
+        "description": "BASIC: 3 points\tScoring 4 headshots in a row with your Revolver will instantly reload it.\nMissing a headshot in any capacity resets the counter.\nACE: 6 points\tScoring 3 lethal headshots in less than 3 seconds with your Revolver will slow down the time for you for 5 seconds.\nThis cannot occur more than once every 20 seconds after the slowdown ends.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -754,7 +754,7 @@
     },
     "peacemakers_lament": {
         "name": "Peacemaker's Lament",
-        "description": "BASIC: 4 points\tFor 1 second after pulling out your Pistol or Revolver, your first shot will deal 100% extra damage.\nACE: 8 points\tFor 2 seconds after reloading your Pistol or Revolver, your first shot will deal 100% extra damage and this shot's full damage will be dealt to the closest enemy in a 5m radius.",
+        "description": "BASIC: 4 points\tFor 1 second after pulling out your Pistol or Revolver, your shots will deal 100% extra damage.\nACE: 8 points\tFor 2 seconds after reloading your Pistol or Revolver, your shots will deal 100% extra damage and their full damage will be dealt to the closest enemy in a 5m radius.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
