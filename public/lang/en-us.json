@@ -308,24 +308,24 @@
         },
         "medical_supplies": {
             "name": "Medical Supplies",
-            "description": "Ammo packs you pick up also yield medical supplies and heals you for 16 to 24 health.\nCannot occur more than once every 10 seconds.\nIf the Gambler's current health is lower than another player's, the heal effect on the Gambler is increased by 20%. Stacks up to three times."
+            "description": "Ammo packs you pick up also yield medical supplies which heal you for 2 health."
         },
         "ammo_give_out": {
             "name": "Ammo Give Out",
-			"description": "Your ammo pickup rate is increased by 15%.\nYou gain 20% more health."
+			"description": "When you pick up ammo, you trigger an ammo pickup for 25% of normal pickup to the other players in your team."
         },
         "sharing_is_caring": {
             "name": "Sharing Is Caring",
-            "description": "When you get healed from picking up ammo packs, your teammates also get healed for 50% of the amount.\nYou gain 20% more health."
+            "description": "When you get healed from picking up ammo packs, your teammates also get healed for 50% of the amount."
         },
-        "more_healing_1": {
-            "name": "More Healing 1",
-            "description": "Increase health gained from ammo packs by additional 8."
-        },
-        "more_healing_2": {
-            "name": "More Healing 2",
-            "description": "Increase health gained from ammo packs by additional 8.\nYour ammo pick up range is increased by 125%."
-        },
+		"affordable_care_act": {
+			"name": "Affordable Care Act",
+			"description": "Health gained from ammo packs is increased by 100%.\nYou gain 20% more health."
+		},
+		"long_arm_of_the_crime": {
+			"name": "Long Arm of the Crime",
+			"description": "Your ammo pick up range is increased by 100%."
+		},
         "histamine": {
             "name": "Histamine",
 			"description": "Damaging an enemy heals 1 life points every 0.5 seconds for 1.5 seconds.\nThis effect stacks but cannot occur more than once every 1.25 seconds and only while wearing the Two-piece Suit."
