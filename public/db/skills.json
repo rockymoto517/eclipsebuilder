@@ -280,16 +280,6 @@
         "tier": 4,
         "subtree": "tank",
         "tree": "enforcer",
-        "stats": {
-            "basic": [
-                {
-                    "id": 104,
-                    "type": "armor",
-                    "part": "armBonus",
-                    "value": 0.3
-                }    
-            ]
-        },
         "unlocks": [
             { "type": "armor", "name": "ictv", "whenState": 2 }
         ]

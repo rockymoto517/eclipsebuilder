@@ -328,24 +328,24 @@
 		},
         "histamine": {
             "name": "Histamine",
-			"description": "Damaging an enemy heals 1 life points every 0.5 seconds for 1.5 seconds.\nThis effect stacks but cannot occur more than once every 1.25 seconds and only while wearing the Two-piece Suit."
+			"description": "You regenerate 5 health every 5 seconds."
         },
         "adrenaline": {
             "name": "Adrenaline",
-            "description": "Damaging an enemy now heals 2 life points every 0.5 seconds for 1.5 seconds.",
+            "description": "You gain 30% extra health.\nAll of your armor is converted and applied to your health.",
             "copycat_description": "Damaging an enemy heals 2 life points every 0.3 seconds for 3 seconds.\nThis effect stacks but cannot occur more than once every 1.5 seconds, and only while wearing the Two-piece Suit or Lightweight Ballistic Vest."
         },
         "endorphins": {
             "name": "Endorphins",
-            "description": "Damaging an enemy now heals 3 life points every 0.5 seconds for 1.5 seconds.\nIncreases your chance to pierce enemy armor by 10%."
+            "description": "Scoring a headshot will heal you for 5 health."
         },
         "dopamine": {
             "name": "Dopamine",
-			"description": "Damaging an enemy now heals 4 life points every 0.5 seconds for 1.5 seconds."
+			"description": "You gain 30% extra health."
         },
         "euphoria": {
             "name": "Euphoria",
-            "description": "Damaging an enemy now heals 4 life points every 0.5 seconds for 2.5 seconds.\nIncrease your chance to pierce enemy armor by 20%."
+            "description": "Damaging an enemy will regenerate 3 health every 0.3 seconds for 3 seconds.\nThis effect stacks but cannot occur more than once every 1 second."
         },
         "koi_irezumi": {
             "name": "Koi Irezumi",

@@ -50,13 +50,19 @@ export default class Stats {
         for(const ratio of this.getModifiersOf("armorToHealth")) {
             armToHealth += Stats.calculate(ratio);
         }
+        for(const b of this.getModifiersOf("removeArmor")) {
+            if (b.value) {
+                return 0;
+            }
+        }
         return (armor + (this.armorFromHealth * bonus)) * armToHealth;
     }
 
     get healthCore() {
         let stat = this.baseStats.get("health");
+        let addend = 0;
         for(const healthArmor of this.getModifiersOf("healthFromArmor")) {
-            stat += Stats.calculate(healthArmor);
+            addend += this[Stats.calculate(healthArmor)];
         }
         let bonus = 1;
         for(const bonusMod of this.getModifiersOf("healthBonus")) {
@@ -65,7 +71,7 @@ export default class Stats {
         for(const healthConv of this.getModifiersOf("healthToArmor")) {
             bonus += Stats.calculate(healthConv);
         }
-        return stat * bonus;
+        return stat * bonus + addend;
     }
 
     get netHealth() {
