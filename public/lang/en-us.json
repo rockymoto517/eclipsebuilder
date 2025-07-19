@@ -199,6 +199,26 @@
             "description": "Your armor recovery rate is increased by an additional 10%.",
             "vr_description": "The dash effect is now from 8 up to a maximum of 18."
         },
+		"ballistic_cardio": {
+			"name": "Ballistic Cardio",
+			"description": "Your stamina loss from being hit is reduced by 30% with ballistic vests."
+		},
+		"kevlar_layer": {
+			"name": "Kevlar Layer",
+			"description": "Your ballistic vests now grant 25% bullet damage resistance to your health."
+		},
+		"double_lined": {
+			"name": "Double Lined",
+			"description": "Your ballistic vests are now immune to Sniper's armor piercing rounds."
+		},
+		"plated_core": {
+			"name": "Plated Core",
+			"description": "Your armor with ballistic vests is increased by 25%."
+		},
+		"unyielding": {
+			"name": "Unyielding",
+			"description": "Your ballistic vests are now immune to armor suppression."
+		},
         "tooth_and_claw": {
             "name": "Tooth and Claw",
             "description": "Killing an enemy regenerates 30 armor.\nThis cannot occur more than once every 1 second."
@@ -341,7 +361,7 @@
         },
         "dopamine": {
             "name": "Dopamine",
-			"description": "You gain 30% extra health."
+			"description": "You gain an additional 30% extra health."
         },
         "euphoria": {
             "name": "Euphoria",

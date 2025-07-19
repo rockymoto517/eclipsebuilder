@@ -370,63 +370,23 @@
             }
         ]
     },
-    "subtle-2": {
-        "name": "Subtle",
-        "description": "Your chance to dodge is increased by 5%.",
-        "stats": [
-            {
-                "id": 36,
-                "type": "dodge",
-                "part": "dodgeMod",
-                "value": 5
-            }
-        ]
+    "ballistic_cardio": {
+        "name": "Ballistic Cardio",
+        "description": "Your stamina loss from being hit is reduced by 30% with ballistic vests."
     },
-    "basic_composure": {
-        "name": "Basic Composure",
-        "description": "Your chance to dodge and armor are increased for ballistic vests.\nHeavier vests receive more dodge and armor.",
-        "stats": [
-            {
-                "id": 37,
-                "type": "armor",
-                "part": "armBonus",
-                "value": 0.2,
-                "whitelist": ["light_ballistic", "ballistic", "heavy_ballistic"]
-            },
-            {
-                "id": 38,
-                "type": "dodge",
-                "part": "dodgeMod",
-                "value": 5,
-                "whitelist": ["light_ballistic", "ballistic", "heavy_ballistic"]
-            }
-        ],
+    "kevlar_layer": {
+        "name": "Kevlar Layer",
+        "description": "Your ballistic vests now grant 25% bullet damage resistance to your health.",
         "copycat_mimicry_available": true,
         "mimics": "crook"
     },
-    "advanced_composure": {
-        "name": "Advanced Composure",
-        "description": "Your chance to dodge and armor are further increased for ballistic vests.\nHeavier vests receive more dodge and armor.",
-        "stats": [
-            {
-                "id": 39,
-                "type": "armor",
-                "part": "armBonus",
-                "value": 0.2,
-                "whitelist": ["light_ballistic", "ballistic", "heavy_ballistic"]
-            },
-            {
-                "id": 40,
-                "type": "dodge",
-                "part": "dodgeMod",
-                "value": 10,
-                "whitelist": ["light_ballistic", "ballistic", "heavy_ballistic"]
-            }
-        ]
+    "double_lined": {
+        "name": "Double Lined",
+        "description": "Your ballistic vests are now immune to Sniper's armor piercing rounds."
     },
-    "expert_composure": {
-        "name": "Expert Composure",
-        "description": "Your chance to dodge and armor are further increased for ballistic vests.\nHeavier vests receive more dodge and armor.",
+    "plated_core": {
+        "name": "Plated Core",
+        "description": "Your armor with ballistic vests is increased by 25%.",
         "stats": [
             {
                 "id": 41,
@@ -434,29 +394,13 @@
                 "part": "armBonus",
                 "value": 0.25,
                 "whitelist": ["light_ballistic", "ballistic", "heavy_ballistic"]
-            },
-            {
-                "id": 42,
-                "type": "dodge",
-                "part": "dodgeMod",
-                "value": 10,
-                "whitelist": ["light_ballistic", "ballistic", "heavy_ballistic"]
             }
         ]
     },
-    "master_recovery": {
-        "name": "Master Recovery",
-        "description": "Your armor recovery rate is increased by 10%.",
-        "vr_description": "The dash effect is now from 10 up to a maximum of 22.",
-        "deck_completion_bonus": true,
-        "stats": [
-            {
-                "id": 43,
-                "type": "dodge",
-                "value": 1.1,
-                "multiply": true
-            }
-        ]
+    "unyielding": {
+        "name": "Unyielding",
+        "description": "Your ballistic vests are now immune to armor suppression.",
+        "deck_completion_bonus": true
     },
     "sneaky": {
         "name": "Sneaky",
@@ -628,13 +572,13 @@
 				"value": 0.3
 			},
 			{
-				"id": 403,
+				"id": 402,
 				"type": "armor",
 				"part": "removeArmor",
 				"value": true
 			},
 			{
-				"id": 402,
+				"id": 403,
 				"type": "health",
 				"part": "healthFromArmor",
 				"arguments": ["armorCore"],
@@ -648,7 +592,7 @@
     },
     "dopamine": {
         "name": "Dopamine",
-        "description": "You gain 30% extra health.",
+        "description": "You gain an additional 30% extra health.",
 		"stats": [
 			{
 				"id": 404,
