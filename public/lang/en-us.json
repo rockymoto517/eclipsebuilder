@@ -209,7 +209,7 @@
 		},
 		"double_lined": {
 			"name": "Double Lined",
-			"description": "Your ballistic vests are now immune to Sniper's armor piercing rounds."
+			"description": "Your ballistic vests can no longer be penetrated by armor piercing rounds."
 		},
 		"plated_core": {
 			"name": "Plated Core",
@@ -874,7 +874,7 @@
 		},
 		"eagle_eye": {
 			"name": "Eagle Eye",
-			"description": "BASIC: 2 points\tYou deal 10% more damage against special enemies.\nACE: 4 points\tYou can now mark specials by aiming down at them with any weapon.\nThe range at which you can manually mark enemies is 4 times longer."
+			"description": "BASIC: 2 points\tYou deal 15% more damage against special enemies.\nACE: 4 points\tYou can now mark specials by aiming down at them with any weapon.\nThe range at which you can manually mark enemies is 4 times longer."
 		},
 		"silent_killer": {
 			"name": "Silent Killer",

@@ -382,7 +382,7 @@
     },
     "double_lined": {
         "name": "Double Lined",
-        "description": "Your ballistic vests are now immune to Sniper's armor piercing rounds."
+        "description": "Your ballistic vests can no longer be penetrated by armor piercing rounds."
     },
     "plated_core": {
         "name": "Plated Core",
