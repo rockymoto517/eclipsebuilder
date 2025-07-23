@@ -1016,7 +1016,7 @@
         },
         "bulletstorm": {
             "name": "Bulletstorm",
-            "description": "BASIC: 4 points\tAmmo bags placed by you grant players the ability to shoot without depleting their ammunition for up to 12 seconds after interacting with it. The more ammo players replenish, the longer the duration of the effect.\nACE: 8 points\tIncreases the base duration of the effect by up to 30 seconds."
+            "description": "BASIC: 4 points\tAmmo bags placed by you grant players the ability to shoot without depleting their ammunition for up to 12 seconds after interacting with it. The more ammo players replenish, the longer the duration of the effect.\nNote: Does not affect weapons using explosive ammunition.\nACE: 8 points\tIncreases the base duration of the effect by up to 30 seconds."
         },
         "portable_saw": {
             "name": "Portable Saw",
@@ -1028,7 +1028,7 @@
         },
         "mag_plus": {
             "name": "Mag Plus",
-            "description": "BASIC: 2 points\tFiring a weapon has a 5% chance to not consume any ammo.\nACE: 4 points\tYour weapons gain 20% more rounds in their magazine.\nNote: Does not affect the Aced \"Sleight of Hand\" Skill."
+            "description": "BASIC: 2 points\tFiring a weapon has a 5% chance to not consume any ammo.\nNote: Does not affect weapons using explosive ammunition.\nACE: 4 points\tYour weapons gain 20% more rounds in their magazine.\nNote: Does not affect the Aced \"Sleight of Hand\" Skill."
         },
 		"big_game_hunters": {
 			"name": "Big Game Hunters",
