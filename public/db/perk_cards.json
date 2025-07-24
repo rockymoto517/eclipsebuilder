@@ -274,7 +274,7 @@
 	},
 	"impact_diffusion": {
 		"name": "Impact Diffusion",
-		"description": "Your armor blocks 25% of the damage when fully regenerated."
+		"description": "Your armor blocks 25% of the damage when full."
 	},
 	"failsafe_protocol": {
 		"name": "Failsafe Protocol",
