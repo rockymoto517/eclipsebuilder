@@ -142,6 +142,26 @@
             "name": "Liquid Armor",
             "description": "Reduces the armor recovery time for you and your crew by 10%.\nNote: Crew perks do not stack."
         },
+		"liquid_reinforcement": {
+			"name": "Liquid Reinforcement",
+			"description": "Your armor recovery rate is increased by 15%."
+		},
+		"carbon_plating": {
+			"name": "Carbon Plating",
+			"description": "When wearing armor, your movement speed is 20% less affected."
+		},
+		"composite_layer": {
+			"name": "Composite Layer",
+			"description": "You gain 15% more armor."
+		},
+		"impact_diffusion": {
+			"name": "Impact Diffusion",
+			"description": "Your armor blocks 25% of the damage when fully regenerated."
+		},
+		"failsafe_protocol": {
+			"name": "Failsafe Protocol",
+			"description": "When your armor gets depleted you will be immune to health damage for 2 seconds.\nThis cannot occur more than once every 60 seconds."
+		},
         "subtle-1": {
             "name": "Subtle",
             "description": "Your chance to dodge is increased by 5%."

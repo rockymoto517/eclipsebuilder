@@ -55,15 +55,15 @@
         "name": "Armorer", 
         "description": "The Armorer was formerly a profession within the military. The armorer's job is to maintain, repair and improve armors.\nAny self-respecting crime syndicate needs someone who can make sure the soldiers have the necessary protection to do their jobs.",
         "perks": [
-            "type_1_armor",
+            "liquid_reinforcement",
             "refund",
-            "type_2_armor",
+            "carbon_plating",
             "blending_in",
-            "type_3_armor",
+            "composite_layer",
             "walk-in_closet",
-            "reinforced_armor",
+            "impact_diffusion",
             "fast_and_furious",
-            "liquid_armor"
+            "failsafe_protocol"
         ],
         "stats": [
             {

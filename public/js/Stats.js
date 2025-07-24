@@ -119,6 +119,8 @@ export default class Stats {
         return stat * bonus;
     }
 
+    // TODO: Add armor recovery stats
+
     /**
      * Returns active modifiers that are in x part of the formula
      * @param {String} part 
