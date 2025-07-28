@@ -62,9 +62,9 @@
         "subtree": "controller",
         "tree": "mastermind"
     },
-    "hostage_situation": {
-        "name": "Hostage Situation",
-        "description": "BASIC: 3 points\tTrading a hostage for resources will now restore the equivalent of 4 ammo box pickups into the reserves of every player in your team.\nYou can now trade for resources regardless of whether your team is missing any downs.\nACE: 6 points\tTrading a hostage for resources will now delay the incoming assault by 10 seconds. This effect is doubled for solo players.\nYou can now trade hostages for resources before the first assault.",
+    "stockholm_syndrome": {
+        "name": "Stockholm Syndrome",
+        "description": "BASIC: 3 points\tYour hostages will not flee the scene after being rescued by the law enforcement.\nNearby untied civilians have a chance of reviving you if you interact with them.\nACE: 6 points\tYou will receive a 20% damage reduction when standing within 4m of a hostage.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
