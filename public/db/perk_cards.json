@@ -27,81 +27,27 @@
         "name": "Fast and Furious",
         "description": "You do 5% more damage. Does not apply to melee damage, throwables, grenade launchers or rocket launchers.\nIncreases your doctor bag interaction speed by 20%."
     },
-    "brute_strength-1": {
-        "name": "Brute Strength",
-        "description": "You grant 8% damage reduction for players in your group. This bonus is doubled for you when you are under 50% health.",
-        "vr_description": "After dashing the player will heal from 0 up to a maximum of 3 health depending on the amount of stamina consumed. Can only heal a maximum of 50 health every 5 seconds.",
-        "copycat_mimicry_available": true,
-        "mimics": "crew_chief"
-    },
-    "marathon_man": {
-        "name": "Marathon Man",
-        "description": "You and your crew's stamina is increased by 50%.\nIncreases your shout distance by 25%.",
-        "stats": [
-            {
-                "id": 7,
-                "type": "stam",
-                "part": "stamBonus",
-                "value": 0.15
-            },
-            {
-                "id": 8,
-                "type": "crewStamina",
-                "value": 1.5,
-                "multiply": true
-            },
-            {
-                "id": 9,
-                "type": "shout",
-                "value": 1.25,
-                "multiply": true
-            }
-        ]
-    },
-    "wolf_pack": {
-        "name": "Wolf Pack",
-        "description": "Your crew will gain 10% more health.\nYou will gain 20% more health.\nNote: Crew perks do not stack.",
-        "vr_description": "The dash effect is now from 0 up to a maximum of 9.",
-        "stats": [
-            {
-                "id": 10,
-                "type": "health",
-                "part": "healthBonus",
-                "value": 0.2
-            },
-            {
-                "id": 11,
-                "type": "crewHp",
-                "value": 1.1,
-                "multiply": true
-            }
-        ]
-    },
-    "testudo": {
-        "name": "Testudo",
-        "description": "You gain 10% more armor and your crew gains an additional 5% more armor.\nNote: Crew perks do not stack.",
-        "vr_description": "The dash effect is now from 0 up to a maximum of 12.",
-        "stats": [
-            {
-                "id": 12,
-                "type": "armor",
-                "part": "armBonus",
-                "value": 0.1
-            },
-            {
-                "id": 13,
-                "type": "crewArmor",
-                "value": 1.05,
-                "multiply": true
-            }
-        ]
-    },
-    "hostage_situation": {
-        "name": "Hostage Situation",
-        "description": "You and your crew will gain 4% max health and 12% stamina for each hostage up to 4 times.\nNote: Crew perks do not stack.",
-        "vr_description": "The dash effect is now from 0 up to a maximum of 15.",
-        "deck_completion_bonus": true
-    },
+	"deal_sweetener": { 
+		"name": "Deal Sweetener", 
+		"description": "Trading a hostage for resources will now restore 25% health for you and your team.\nYou and your crew can now trade for resources regardless of whether you are missing any downs.\nNote: Crew perks do not stack." 
+	},
+	"get_in_line": { 
+		"name": "Get in Line", 
+		"description": "You can now have 2 additional hostages following you at the same time.\nYour shout distance is increased by 50%." 
+	},
+	"resupply_clause": { 
+		"name": "Resupply Clause", 
+		"description": "Trading a hostage for resources will now restore the equivalent of 5 ammo box pickups into the reserves of every player in your crew.\nNote: Crew perks do not stack." 
+	},
+	"negotiators_leverage": { 
+		"name": "Negotiator's Leverage", 
+		"description": "You and your crew will gain 5% max health and 5% stamina for each hostage up to 4 times.\nYour cable tie supply is increased by 4.\nNote: Crew perks do not stack." 
+	},
+	"traite_de_versailles": { 
+		"name": "Traité de Versailles", 
+		"description": "Trading a hostage for resources before the anticipation begins will now delay the incoming assault by 10 seconds. This effect is doubled for solo players.\nYou and your crew can now trade hostages for resources before the first assault.\nNote: Crew perks do not stack.",
+		"deck_completion_bonus": true
+	},
     "brute_strength-2": {
         "name": "Brute Strength",
         "description": "You gain 10% more health.",

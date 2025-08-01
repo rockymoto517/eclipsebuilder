@@ -3,15 +3,15 @@
         "name": "Crew Chief", 
         "description": "The Crew Chief. also known as the Caporegime, is the head of a branch of an organized crime syndicate. The Crew Chief commands a crew of soldiers and reports directly to a boss or an underboss.\nWhen the crime syndicate needs to have someone dealt with, the Crew Chief and his soldiers make sure it's done.",
         "perks": [
-            "brute_strength-1",
+            "deal_sweetener",
             "refund",
-            "marathon_man",
+            "get_in_line",
             "blending_in",
-            "wolf_pack",
+            "resupply_clause",
             "walk-in_closet",
-            "testudo",
+            "negotiators_leverage",
             "fast_and_furious",
-            "hostage_situation"
+            "traite_de_versailles"
         ],
         "stats": [
             {
