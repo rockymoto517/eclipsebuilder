@@ -32,15 +32,15 @@
         "name": "Muscle", 
         "description": "The Muscle is a tough guy who uses violence to send messages from his Mafia superioris. They are the backbone of any criminal organization.\nThe muscle is called in whenever you need to rough someone up, break some legs, crush a skull or remind people who's boss.",
         "perks": [
-            "brute_strength-2",
+            "disturbing_the_peace",
             "refund",
-            "meat_shield",
+            "300-pound_gorilla",
             "blending_in",
-            "giant_strength",
+            "meat_shield",
             "walk-in_closet",
             "frenzied",
             "fast_and_furious",
-            "800-pound_gorilla"
+            "600-pound_gorilla"
         ],
         "stats": [
             {

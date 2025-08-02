@@ -118,30 +118,26 @@
 			"name": "Traité de Versailles", 
 			"description": "Trading a hostage for resources before the anticipation begins will now delay the incoming assault by 10 seconds. This effect is doubled for solo players.\nYou and your crew can now trade hostages for resources before the first assault.\nNote: Crew perks do not stack."
 		},
-        "brute_strength-2": {
-            "name": "Brute Strength",
-            "description": "You gain 10% more health.",
-            "vr_description": "After dashing the player will heal from 0 up to a maximum of 3 health depending on the amount of stamina consumed. Can only heal a maximum of 50 health every 5 seconds."
-        },
-        "meat_shield": {
-            "name": "Meat Shield",
-            "description": "You are 15% more likely to be targeted when you are close to your crew members.\nYou gain 10% more health.",
-            "vr_description": "The dash effect is now from 0 up to a maximum of 6."
-        },
-        "giant_strength": {
-            "name": "Giant Strength",
-            "description": "You gain an additional 20% more health.",
-            "vr_description": "The dash effect is now from 0 up to a maximum of 9."
-        },
-        "disturbing_the_peace": {
-            "name": "Disturbing the Peace",
-            "description": "All firearms have a chance to spread panic among your enemies.\nPanic will make enemies go into short bursts of uncontrollable fear.",
-            "vr_description": "The dash effect is now from 0 up to a maximum of 12."
-        },
-        "800-pound_gorilla": {
-            "name": "800-pound Gorilla",
-            "description": "You gain an additional 40% more health."
-        },
+		"disturbing_the_peace": {
+			"name": "Disturbing The Peace",
+			"description": "All firearms have a chance to spread panic among your enemies.\nPanic will make enemies go into short bursts of uncontrollable fear."
+		},
+		"300-pound_gorilla": {
+			"name": "300-pound Gorilla",
+			"description": "You gain 30% more health."
+		},
+		"meat_shield": {
+			"name": "Meat Shield",
+			"description": "You are 25% more likely to be targeted when you are close to your crew members."
+		},
+		"frenzied" : {
+			"name": "Frenzied",
+			"description": "When your health gets below 25% you will be immune to health damage for 2 seconds.\nThis cannot occur more than once every 60 seconds."
+		},
+		"600-pound_gorilla": {
+			"name": "600-pound Gorilla",
+			"description": "You gain an additional 30% more health."
+		},
         "type_1_armor": {
             "name": "Type I Armor",
             "description": "You gain 5% more armor"
