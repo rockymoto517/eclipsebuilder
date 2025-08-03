@@ -384,7 +384,7 @@
 		},
         "histamine": {
             "name": "Histamine",
-			"description": "You regenerate 5 health every 5 seconds."
+			"description": "Damaging an enemy will regenerate 1 health every 0.3 seconds for 3 seconds.\nThis effect stacks but cannot occur more than once every 1 second."
         },
         "adrenaline": {
             "name": "Adrenaline",
@@ -401,7 +401,7 @@
         },
         "euphoria": {
             "name": "Euphoria",
-            "description": "Damaging an enemy will regenerate 3 health every 0.3 seconds for 3 seconds.\nThis effect stacks but cannot occur more than once every 1 second."
+            "description": "Damaging an enemy will now regenerate 3 health every 0.3 seconds for 3 seconds instead."
         },
         "koi_irezumi": {
             "name": "Koi Irezumi",
