@@ -339,7 +339,7 @@
 		},
 		"short_circuit": {
 			"name": "Short Circuit",
-			"description": "Enemies that attempt to stop your drills have a 90% chance of being electrocuted, stopping their sabotage attempt."
+			"description": "Enemies that attempt to break your drills have a 90% chance of being electrocuted, stopping their sabotage attempt."
 		},
 		"swiss_toolkit": {
 			"name": "Swiss Toolkit",
