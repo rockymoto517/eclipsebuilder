@@ -557,23 +557,23 @@
 }
 
 
-/* BURGLAR */ 
+/* TACTICIAN */ 
 
-#burglar .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((336% / (var(--pk_y) - 48)) * 100); 
+#tactician .pk_deck_cards > div:nth-of-type(1)::after {
+  background-image: none;
 }
-#burglar .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((336% / (var(--pk_y) - 48)) * 100);
+#tactician .pk_deck_cards > div:nth-of-type(3)::after {
+  background-image: none;
 }
-#burglar .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((336% / (var(--pk_y) - 48)) * 100);
+#tactician .pk_deck_cards > div:nth-of-type(5)::after {
+  background-image: none;
 }
-#burglar .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((336% / (var(--pk_y) - 48)) * 100);
+#tactician .pk_deck_cards > div:nth-of-type(7)::after {
+  background-image: none;
 }
-#burglar .pk_deck_cards > div:nth-of-type(9)::after,
-#burglar .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((336% / (var(--pk_y) - 48)) * 100);
+#tactician .pk_deck_cards > div:nth-of-type(9)::after,
+#tactician .pk_preview_card > div > div::after {
+  background-image: none;
 }
 
 

@@ -325,6 +325,26 @@
             "description": "Standing still and crouching increases your armor recovery rate by 20%.\nYou gain 10% crouching movement speed.",
             "vr_description": "The dash effect is now from 1% up to a maximum of 10%."
         },
+		"jack_of_all_trades": {
+			"name": "Jack of All Trades",
+			"description": "You can now equip a secondary deployable to bring with you.\nYou can only bring half the quantity of your secondary deployable."
+		},
+		"overclocked": {
+			"name": "Overclocked",
+			"description": "Your drill and saw timer is decreased by 30%."
+		},
+		"watch_my_back": {
+			"name": "Watch My Back",
+			"description": "You receive a 20% damage reduction when standing within 7m of your teammate or a converted enemy."
+		},
+		"short_circuit": {
+			"name": "Short Circuit",
+			"description": "Enemies that attempt to stop your drills have a 90% chance of being electrocuted, stopping their sabotage attempt."
+		},
+		"swiss_toolkit": {
+			"name": "Swiss Toolkit",
+			"description": "You can now bring the full quantity of your secondary deployable.\nYou deploy and interact with all deployables 100% faster."
+		},
         "overdog": {
             "name": "OVERDOG",
             "description": "When you are surrounded by three enemies or more, you receive 12% less damage from enemies.\nYour second and each consecutive melee hit within 1 second of the last one will deal 10 times its normal damage."
@@ -722,9 +742,9 @@
             "name": "Crook",
             "description": "The Crook is a versatile criminal. The term is as old as crime itself.\nTruly, the crook is a jack of all trades and a master of none. He steals, lies, cheats and does any and every dishonest or illegal work necessary to get by."
         },
-        "burglar": {
-            "name": "Burglar",
-            "description": "The natural dexterity of the Burglar has benefits beyond merely breaking and entering. Being nimble allows the Burglar to pick locks, bag bodies and answer pagers faster. They are aslo harder to hit in combat. They stay alive by staying out of the way.\nThis physical conditioning also gives the Burglar a high tolerance to pain and the ability to shrug off wounds quickly."
+        "tactician": {
+            "name": "Tactician",
+            "description": "The Tactician is the crew’s backbone in chaos, the operator who turns every tool into an opportunity. He comes armed like a Swiss toolkit—drills, deployables, all ready to be brought into action at a moment’s notice. He doesn’t just adapt to the situation—he shapes it.\nHe’s not built to soak bullets or go toe-to-toe with the front line, but he doesn’t need to. As long as there’s a crew by his side, the Tactician holds firm—bolstered by positioning, awareness, and an arsenal of support. He’s the reason the job doesn’t fall apart when things get messy."
         },
         "infiltrator": {
             "name": "Infiltrator",

@@ -362,60 +362,26 @@
         "description": "Your ballistic vests are now immune to armor suppression.",
         "deck_completion_bonus": true
     },
-    "sneaky": {
-        "name": "Sneaky",
-        "description": "Your chance to dodge is increased by 10%.",
-        "stats": [
-            {
-                "id": 44,
-                "type": "dodge",
-                "part": "dodgeMod",
-                "value": 10
-            }
-        ]
-    },
-    "bag_of_tricks": {
-        "name": "Bag of Tricks",
-        "description": "Standing still and crouching decreases your chances to be targeted by 10%.\nYou bag corpses 20% faster."
-    },
-    "luck_of_the_irish": {
-        "name": "Luck of the Irish",
-        "description": "Your chance to dodge is increased by an additional 5%.\nYour chance to be targeted while standing still and crouching is decreased by an additional 5%.\nYou pick locks 20% faster.",
-        "stats": [
-            {
-                "id": 45,
-                "type": "dodge",
-                "part": "dodgeMod",
-                "value": 5
-            }
-        ]
-    },
-    "dutch_courage": {
-        "name": "Dutch Courage",
-        "description": "Your chance to be targeted while standing still and crouching is decreased by an additional 5%.\nYou answer pagers 10% faster.",
-        "copycat_description": "Your chance to dodge is increased by 20%.\nStanding still and crouching decreases your chance of being targeted by 20%.",
-        "stats": [
-            {
-                "id": 46,
-                "type": "dodge",
-                "part": "dodgeMod",
-                "value": 5
-            }
-        ],
-        "copycat_stats": [
-            {
-                "id": 47,
-                "type": "dodge",
-                "part": "dodgeMod",
-                "value": 20
-            }
-        ],
-        "copycat_mimicry_available": true,
-        "mimics": "burglar"
-    },
-	"ricochet" : {
-		"name": "Ricochet",
-		"description": "Dodged bullets will now ricochet back to the enemy that fired them."
+	"jack_of_all_trades": {
+		"name": "Jack of All Trades",
+		"description": "You can now equip a secondary deployable to bring with you.\nYou can only bring half the quantity of your secondary deployable."
+	},
+	"overclocked": {
+		"name": "Overclocked",
+		"description": "Your drill and saw timer is decreased by 30%."
+	},
+	"watch_my_back": {
+		"name": "Watch My Back",
+		"description": "You receive a 20% damage reduction when standing within 7m of your teammate or a converted enemy."
+	},
+	"short_circuit": {
+		"name": "Short Circuit",
+		"description": "Enemies that attempt to stop your drills have a 90% chance of being electrocuted, stopping their sabotage attempt."
+	},
+	"swiss_toolkit": {
+		"name": "Swiss Toolkit",
+		"description": "You can now bring the full quantity of your secondary deployable.\nYou deploy and interact with all deployables 100% faster.",
+        "deck_completion_bonus": true
 	},
     "breath_of_fresh_air": {
         "name": "Breath of Fresh Air",

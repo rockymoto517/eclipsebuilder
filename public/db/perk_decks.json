@@ -149,19 +149,19 @@
             }
         ]
     },
-    "burglar": {
-        "name": "Burglar", 
-        "description": "The natural dexterity of the Burglar has benefits beyond merely breaking and entering. Being nimble allows the Burglar to pick locks, bag bodies and answer pagers faster. They are aslo harder to hit in combat. They stay alive by staying out of the way.\nThis physical conditioning also gives the Burglar a high tolerance to pain and the ability to shrug off wounds quickly.",
+    "tactician": {
+        "name": "Tactician", 
+        "description": "The Tactician is the crew’s backbone in chaos, the operator who turns every tool into an opportunity. He comes armed like a Swiss toolkit—drills, deployables, all ready to be brought into action at a moment’s notice. He doesn’t just adapt to the situation—he shapes it.\nHe’s not built to soak bullets or go toe-to-toe with the front line, but he doesn’t need to. As long as there’s a crew by his side, the Tactician holds firm—bolstered by positioning, awareness, and an arsenal of support. He’s the reason the job doesn’t fall apart when things get messy.",
         "perks": [
-            "sneaky",
+            "jack_of_all_trades",
             "refund",
-            "bag_of_tricks",
+            "overclocked",
             "blending_in",
-            "luck_of_the_irish",
+            "watch_my_back",
             "walk-in_closet",
-            "dutch_courage",
+            "short_circuit",
             "fast_and_furious",
-            "ricochet"
+            "swiss_toolkit"
         ],
         "dlc": "Clover Character Pack",
         "stats": [
