@@ -820,9 +820,9 @@
 			"name": "Keepers",
 			"description": "BASIC: 3 points\tYou can now deploy 2 Doctor Bags instead of just one.\nACE: 6 points\tYour doctor bags have 1 more charge."
 		},
-		"company_soul": {
-			"name": "Company Soul",
-			"description": "BASIC: 1 point\tCrew members you revive take 10% less damage for 5 seconds and get an additional 5% health.\nACE: 3 points\tYou and your crew's stamina is increased by 50%."
+		"aftercare": {
+			"name": "Aftercare",
+			"description": "BASIC: 1 point\tCrew members you revive take 10% less damage for 5 seconds and get an additional 5% health.\nACE: 3 points\tUpon reviving a crew member you regenerate 20% health."
 		},
 		"kilmer": {
 			"name": "Kilmer",
@@ -942,7 +942,7 @@
 		},
 		"headshot_fury": {
 			"name": "Headshot Fury",
-			"description": "BASIC: 4 points\tFor every consecutive headshot with your Sniper Rifle, your next shot's damage is increased by 20%.\tStacks up to 5 consecutive headshots.\nMissing a headshot resets your stacks.\nACE: 8 points\tWhile aiming down the sights with your Sniper Rifle, a charge meter builds up over a period of 3 seconds. When fully charged, your next headshot becomes explosive, dealing up to 100% of the bullet's damage in a 5m radius around the bullet impact and discharging the meter.\nLeaving the ADS stance or firing the weapon during the charging process resets the meter."
+			"description": "BASIC: 4 points\tFor every consecutive headshot with your Sniper Rifle, your next shot's damage is increased by 20%.\tStacks up to 5 consecutive headshots.\nMissing a headshot resets your stacks.\nACE: 8 points\tWhile aiming down the sights with your Sniper Rifle, a charge meter builds up over a period of 3 seconds.\nWhen fully charged, your next headshot becomes explosive, dealing up to 100% of the bullet's damage in a 5m radius around the bullet impact and discharging the meter.\nLeaving the ADS stance or firing the weapon at any point discharges meter."
 		},
 		"hostage_situation": {
 			"name": "Hostage Situation",
@@ -950,7 +950,7 @@
 		},
 		"stockholm_syndrome": {
 			"name": "Stockholm Syndrome",
-			"description": "BASIC: 3 points\tYour hostages will not flee the scene after being rescued by the law enforcement.\nNearby untied civilians have a chance of reviving you if you interact with them.\nACE: 6 points\tYou will receive a 20% damage reduction when standing within 4m of a hostage."
+			"description": "BASIC: 3 points\tYour hostages will not flee the scene after being rescued by the law enforcement.\nNearby untied civilians have a chance of reviving you if you interact with them.\nACE: 6 points\tYou receive 2 damage absorption for every hostage that you control.\nStacks up to 4 times."
 		},
         "quick_fix": {
             "name": "Quick Fix",
@@ -1204,7 +1204,7 @@
         },
         "ecm_specialist": {
             "name": "ECM Specialist",
-            "description": "BASIC: 3 points\tYou can now place 2 ECM jammers instead of just one.\nACE: 6 points\tYour ECM jammer and feedback now last 30 seconds."
+            "description": "BASIC: 3 points\tYou can now place 2 ECM jammers instead of just one.\nACE: 6 points\tYour ECM jammer and feedback now last for 30 seconds."
         },
         "duck_and_cover": {
             "name": "Duck and Cover",
