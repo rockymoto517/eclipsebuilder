@@ -124,8 +124,8 @@ export default class Language {
         let res = this.dictionary;
         for(const value of array) {
             res = res[value];
-			if (res === undefined)
-				console.error(`Could not find [${value}]`);
+            if (res === undefined)
+                console.error(`Could not find [${value}]`);
         }
         if (res === undefined){
             return fallback;

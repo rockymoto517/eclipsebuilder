@@ -221,12 +221,12 @@ export default class Builder {
 
     
         for(const [key] of this.dbs.get("skills")) {
-			try {
-            document.getElementById(key).parentElement.nextElementSibling.textContent = this.lang.get(`skills.${key}.name`).toLocaleUpperCase();
-			} catch (e) {
-				console.error(`Could not find skill [${key}] in page.`);
-				throw new Error(e);
-			}
+            try {
+                document.getElementById(key).parentElement.nextElementSibling.textContent = this.lang.get(`skills.${key}.name`).toLocaleUpperCase();
+            } catch (e) {
+                console.error(`Could not find skill [${key}] in page.`);
+                throw new Error(e);
+            }
         }
         document.querySelector(".sk_points_remaining > p").innerHTML = this.lang.get("system.skills.remaining") + document.querySelector(".sk_points_remaining p span").outerHTML;
 
