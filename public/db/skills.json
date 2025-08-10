@@ -356,24 +356,24 @@
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
-    "transporter": {
-        "name": "Transporter",
-        "description": "BASIC: 1 point\tYou can pack and interact with loot bags 50% faster.\nACE: 3 points\tYou can throw bags 50% further.",
+    "daredevil": {
+        "name": "Daredevil",
+        "description": "BASIC: 1 point\tYou take 10% less damage while interacting with objects.\nACE: 3 points\tYou interact with objects 10% faster.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
         "subtree": "engineer",
         "tree": "technician"
     },
-    "daredevil": {
-        "name": "Daredevil",
-        "description": "BASIC: 2 points\tYou interact with objects 10% faster.\nACE: 4 points\tYou take 35% less damage while interacting with objects.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
-        "subtree": "engineer",
-        "tree": "technician"
-    },
+	"hardware_expert": {
+		"name": "Hardware Expert",
+		"description": "BASIC: 2 points\tDrills and saws are silent. Civilians and guards must see the drill or saw in order to become alerted.\nACE: 4 points\tYou fix drills and saws 50% faster.",
+		"basic": 2,
+		"ace": 4,
+		"tier": 2,
+		"subtree": "engineer",
+		"tree": "technician"
+	},
     "defense_package": {
         "name": "Defense Package",
         "description": "BASIC: 2 points\tYour sentry guns gain 150% increased health.\nACE: 4 points\tYour sentry guns gain a protective shield.",
@@ -382,18 +382,6 @@
         "tier": 2,
         "subtree": "engineer",
         "tree": "technician"
-    },
-    "jack_of_all_trades": {
-        "name": "Jack of All Trades",
-        "description": "BASIC: 3 points\tYou deploy and interact with all deployable 100% faster.\nACE: 6 points\tYou can now equip a secondary deployable to bring with you. If your deployable is equipped as a secondary deployable, you can only bring half of what you should bring if it was equipped as a primary deployable.",
-        "basic": 3,
-        "ace": 6,
-        "tier": 3,
-        "subtree": "engineer",
-        "tree": "technician",
-        "unlocks": [
-            { "type": "deployableSecondary", "whenState": 2 }
-        ]
     },
     "sentry_nest": {
         "name": "Sentry Nest",
@@ -416,27 +404,36 @@
         "subtree": "engineer",
         "tree": "technician"
     },
-    "hardware_expert": {
-        "name": "Hardware Expert",
-        "description": "BASIC: 1 point\tYou fix drills and saws 25% faster. Decreases trip mine deploy time by 20%. Drills and saws are also silent. Civilians and guards must see the drill or saw in order to become alerted.\nACE: 3 points\tGives your drills and saws a 20% chance to automatically restart after breaking.\nNote: Skill does not affect the OVE9000 saw.",
+    "wip_b1": {
+        "name": "Work in Progress",
+        "description": "BASIC: 1 point\tWork in Progress.\nACE: 3 points\tWork in Progress.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
         "subtree": "breacher",
         "tree": "technician"
     },
-    "combat_engineering": {
-        "name": "Combat Engineering",
-        "description": "BASIC: 2 points\tThe radius of your trip mine explosion is increased by 50%.\nACE: 4 points\tYour trip mine damage is increased by 50%.",
+    "wip_b2": {
+        "name": "Work in Progress",
+        "description": "BASIC: 2 point\tWork in Progress.\nACE: 4 points\tWork in Progress.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
         "subtree": "breacher",
         "tree": "technician"
     },
-    "drill_sawgeant": {
-        "name": "Drill Sawgeant",
-        "description": "BASIC: 2 points\tYour drill and saw timer is decreased by 15%.\nACE: 4 points\tYour drill and saw timer is decreased by an additional 15%.\nNote: Skill does not affect the OVE9000 saw.",
+    "wip_b3": {
+        "name": "Work in Progress",
+        "description": "BASIC: 3 point\tWork in Progress.\nACE: 6 points\tWork in Progress.",
+        "basic": 3,
+        "ace": 6,
+        "tier": 3,
+        "subtree": "breacher",
+        "tree": "technician"
+    },
+    "combat_engineering": {
+        "name": "Combat Engineering",
+        "description": "BASIC: 2 points\tThe radius of your trip mine explosion is increased by 50%.\nACE: 4 points\tYour trip mine damage is increased by 50%.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -454,11 +451,11 @@
     },
     "kickstarter": {
         "name": "Kickstarter",
-        "description": "BASIC: 3 points\tYour drills and saws gain an additional 30% chance to automatically restart after breaking.\nACE: 6 points\tEnables the ability to reset a broken drill or saw with a melee attack. The ability has a 50% chance to fix the drill or saw. The ability can only be used once per time the drill or saw is broken.\nNote: Skill does not affect the OVE9000 saw.",
+        "description": "BASIC: 3 points\tYour drills and saws will automatically restart 60 seconds after breaking.\nACE: 6 points\tYou gain the ability to fix a broken drill or saw with 3 consecutive melee attacks.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
-        "subtree": "breacher",
+        "subtree": "engineer",
         "tree": "technician"
     },
     "fire_trap": {

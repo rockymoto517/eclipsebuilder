@@ -854,7 +854,7 @@
 		},
 		"daredevil": {
 			"name": "Daredevil",
-			"description": "BASIC: 2 points\tYou interact with objects 10% faster.\nACE: 4 points\tYou take 35% less damage while interacting with objects."
+			"description": "BASIC: 1 point\tYou take 10% less damage while interacting with objects.\nACE: 3 points\tYou interact with objects 10% faster."
 		},
 		"defense_package": {
 			"name": "Defense Package",
@@ -1124,7 +1124,7 @@
         },
         "hardware_expert": {
             "name": "Hardware Expert",
-            "description": "BASIC: 1 point\tYou fix drills and saws 25% faster. Decreases trip mine deploy time by 20%. Drills and saws are also silent. Civilians and guards must see the drill or saw in order to become alerted.\nACE: 3 points\tGives your drills and saws a 20% chance to automatically restart after breaking.\nNote: Skill does not affect the OVE9000 saw."
+            "description": "BASIC: 2 points\tDrills and saws are silent. Civilians and guards must see the drill or saw in order to become alerted.\nACE: 4 points\tYou fix drills and saws 50% faster."
         },
         "combat_engineering": {
             "name": "Combat Engineering",
@@ -1134,13 +1134,25 @@
             "name": "Drill Sawgeant",
             "description": "BASIC: 2 points\tYour drill and saw timer is decreased by 15%.\nACE: 4 points\tYour drill and saw timer is decreased by an additional 15%.\nNote: Skill does not affect the OVE9000 saw."
         },
+		"wip_b1": {
+			"name": "Work in Progress",
+			"description": "BASIC: 1 point\tWork in Progress.\nACE: 3 points\tWork in Progress."
+		},
+		"wip_b2": {
+			"name": "Work in Progress",
+			"description": "BASIC: 2 point\tWork in Progress.\nACE: 4 points\tWork in Progress."
+		},
+		"wip_b3": {
+			"name": "Work in Progress",
+			"description": "BASIC: 3 point\tWork in Progress.\nACE: 6 points\tWork in Progress."
+		},
         "more_firepower": {
             "name": "More Firepower",
             "description": "BASIC: 3 points\tYou gain 2 more shaped charges and 5 more trip mines.\nACE: 6 points\tYou gain 3 more shaped charges and 10 more trip mines."
         },
         "kickstarter": {
             "name": "Kickstarter",
-            "description": "BASIC: 3 points\tYour drills and saws gain an additional 30% chance to automatically restart after breaking.\nACE: 6 points\tEnables the ability to reset a broken drill or saw with a melee attack. The ability has a 50% chance to fix the drill or saw. The ability can only be used once per time the drill or saw is broken.\nNote: Skill does not affect the OVE9000 saw."
+            "description": "BASIC: 3 points\tYour drills and saws will automatically restart 60 seconds after breaking.\nACE: 6 points\tYou gain the ability to fix a broken drill or saw with 3 consecutive melee attacks."
         },
         "fire_trap": {
             "name": "Fire Trap",
