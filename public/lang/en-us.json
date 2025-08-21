@@ -1180,7 +1180,7 @@
         },
         "body_expertise": {
             "name": "Body Expertise",
-            "description": "BASIC: 4 points\tAll of your ranged weapons can now pierce through enemy body armor.\nDoes not apply to throwable weapons.\nACE: 8 points\t80% of the bonus from headshot damage is permanently applied to hitting enemies on the body.\nThis skill is only activated by SMGs fired in automatic mode, LMGs or Miniguns."
+            "description": "BASIC: 4 points\tAll of your ranged weapons can now pierce through enemy body armor.\nDoes not apply to throwable weapons.\nACE: 8 points\t80% of the bonus from headshot damage is permanently applied to hitting enemies on the body.\nThis skill is only activated by LMGs or Miniguns."
         },
         "chameleon": {
             "name": "Chameleon",
