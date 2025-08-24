@@ -4,24 +4,21 @@
 
 /* MASTERMIND */
 
-/* Medic */
+/* Support */
+#aftercare {
+	background-position: calc((400% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100);  
+}
 #bandages {
   background-position: calc((400% / (960 - 80)) * 100) calc((560% / (1040 - 80)) * 100);  
 }
-#aftercare {
-  background-position: calc((400% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100);  
-}
-#quick_fix {
-  background-position: calc((80% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100);
-}
 #painkillers {
-  background-position: 0% calc((800% / (1040 - 80)) * 100);
+	background-position: 0% calc((800% / (1040 - 80)) * 100);
+}
+#combat_doctor {
+	background-position: calc((320% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
 }
 #keepers {
   background-position: calc((400% / (960 - 80)) * 100) calc((640% / (1040 - 80)) * 100);
-}
-#combat_doctor {
-  background-position: calc((320% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
 }
 #inspire {
   background-position: calc((880% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100);
@@ -31,17 +28,14 @@
 #forced_friendship {
   background-position: calc((320% / (960 - 80)) * 100) calc((560% / (1040  - 80)) * 100); 
 }
-#confident {
-  background-position: calc((160% / (960 - 80)) * 100) calc((640% / (1040  - 80)) * 100); 
+#control_freak {
+  background-position: calc((480% / (960 - 80)) * 100) calc((560% / (1040  - 80)) * 100); 
 }
 #joker {
   background-position: calc((480% / (960 - 80)) * 100) calc((640% / (1040  - 80)) * 100); 
 }
 #stockholm_syndrome {
   background-position: calc((240% / (960 - 80)) * 100) calc((640% / (1040  - 80)) * 100); 
-}
-#control_freak {
-  background-position: calc((480% / (960 - 80)) * 100) calc((560% / (1040  - 80)) * 100); 
 }
 #partners_in_crime {
   background-position: calc((80% / (960 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
@@ -63,28 +57,25 @@
 #ammo_efficiency {
   background-position: calc((640% / (960 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
 }
-#aggressive_reload {
-  background-position: calc((640% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
-}
-#graze {
-  background-position: calc((880% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
-}
 #kilmer {
-  background-position: calc((80% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
+	background-position: calc((80% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
+}
+#headshot_fury {
+  background-position: calc((880% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
 }
 
 
 /* ENFORCER */
 
 /* Shotgunner */
-#hard_boiled {
-  background-position: calc((400% / (960 - 80)) * 100) 0%; 
-}
 #underdog {
-  background-position: calc((160% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+	background-position: calc((160% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
 }
-#point_blank {
-  background-position: calc((320% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+#portable_saw {
+  background-position: 0% calc((80% / (1040 - 80)) * 100); 
+}
+#saw_massacre {
+  background-position: 0% calc((160% / (1040 - 80)) * 100); 
 }
 #fast_hands {
   background-position: calc((400% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
@@ -95,28 +86,10 @@
 #shotgun_rampage {
   background-position: calc((640% / (960 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
 }
-#shotgun_hell {
-  background-position: calc((240% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
-}
-#shotgun_cqb {
-  background-position: calc((640% / (960 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
-}
-#shotgun_impact {
-  background-position: calc((320% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
-}
-#far_away {
-  background-position: calc((640% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
-}
-#close_by {
-  background-position: calc((640% / (960 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
-}
-#overkill {
-  background-position: calc((240% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
-}
 
 /* Tank */
-#thick_skin {
-  background-position: calc((80% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+#resilience {
+  background-position: calc((480% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
 }
 #plates_of_steel {
   background-position: calc((160% / (960 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
@@ -124,55 +97,31 @@
 #pack_mule {
   background-position: calc((480% / (960 - 80)) * 100) 0%; 
 }
-#nerves_of_steel {
+#thick_skin {
   background-position: calc((80% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
-}
-#resilience {
-  background-position: calc((480% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
-}
-#die_hard {
-  background-position: calc((640% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
-}
-#transporter {
-  background-position: calc((640% / (960 - 80)) * 100) calc((640% / (1040 - 80)) * 100); 
-}
-#shock_and_awe {
-  background-position: calc((640% / (960 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
-}
-#bullseye {
-  background-position: calc((480% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
-}
-#headshot_fury {
-  background-position: calc((480% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
 }
 #iron_man {
   background-position: calc((240% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
 }
 
 /* Ammo Specialist */
+#scavenger {
+  background-position: calc((640% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
+}
+#fully_loaded { 
+  background-position: calc((240% / (960 - 80)) * 100) 0%;
+}
 #mag_plus {
   background-position: calc((160% / (960 - 80)) * 100) 0%; 
+}
+#extra_lead {
+	background-position: calc((560% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
 }
 #big_game_hunters {
   background-position: calc((800% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
 }
-#scavenger {
-  background-position: calc((640% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
-}
 #bulletstorm {
   background-position: calc((320% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
-}
-#portable_saw {
-  background-position: 0% calc((80% / (1040 - 80)) * 100); 
-}
-#extra_lead {
-  background-position: calc((560% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
-}
-#saw_massacre {
-  background-position: 0% calc((160% / (1040 - 80)) * 100); 
-}
-#fully_loaded { 
-  background-position: calc((240% / (960 - 80)) * 100) 0%;
 }
 
 
@@ -180,10 +129,16 @@
 
 /* Engineer */
 #daredevil {
-  background-position: calc((640% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
+	background-position: calc((640% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
+}
+#hardware_expert {
+  background-position: calc((720% / (960 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
 }
 #defense_package {
   background-position: calc((560% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
+}
+#kickstarter {
+	background-position: calc((720% / (960 - 80)) * 100) calc((640% / (1040 - 80)) * 100); 
 }
 #sentry_nest {
   background-position: calc((560% / (960 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
@@ -191,66 +146,42 @@
 #phd_in_engineering {
   background-position: calc((560% / (960 - 80)) * 100) calc((640% / (1040 - 80)) * 100); 
 }
-#third_law {
-  background-position: calc((720% / (960 - 80)) * 100) 0%; 
-}
-#sentry_targeting_package {
-  background-position: calc((720% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
-}
-#eco_sentry {
-  background-position: calc((720% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
-}
-#engineering {
-  background-position: calc((720% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
-}
-#jack_of_all_trades {
-  background-position: calc((720% / (960 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
-}
-#tower_defense {
-  background-position: calc((720% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
-}
 
-/* Breacher */
-#hardware_expert {
-  background-position: calc((720% / (960 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
+/* Sapper */
+#blast_shield {
+  background-position: calc((640% / (960 - 80)) * 100) 0; 
 }
 #combat_engineering {
   background-position: calc((80% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
 }
-#drill_sawgeant {
-  background-position: calc((240% / (960 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
+#arms_cache {
+  background-position: calc((640% / (960 - 80)) * 100) 0; 
 }
-#more_firepower {
-  background-position: calc((720% / (960 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
+#hellwire {
+  background-position: calc((640% / (960 - 80)) * 100) 0; 
 }
-#kickstarter {
-  background-position: calc((720% / (960 - 80)) * 100) calc((640% / (1040 - 80)) * 100); 
+#powder_keg {
+  background-position: calc((640% / (960 - 80)) * 100) 0; 
 }
-#fire_trap {
-  background-position: calc((720% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
+#carpet_bombing {
+  background-position: calc((640% / (960 - 80)) * 100) 0; 
 }
 
 /* Heavy */
+#steady_grip {
+	background-position: calc((560% / (960 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
+}
 #oppressor {
   background-position: calc((560% / (960 - 80)) * 100) 0%; 
+}
+#fire_control {
+	background-position: calc((720% / (960 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
 }
 #sleight_of_hand {
   background-position: calc((240% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
 }
-#steady_grip {
-  background-position: calc((560% / (960 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
-}
-#heavy_impact {
-  background-position: calc((800% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
-}
-#fire_control {
-  background-position: calc((720% / (960 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
-}
 #lock_n_load {
-  background-position: calc((560% / (960 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
-}
-#surefire {
-  background-position: calc((800% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
+	background-position: calc((560% / (960 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
 }
 #body_expertise {
   background-position: calc((800% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
@@ -260,32 +191,23 @@
 /* GHOST */
 
 /* Shinobi */
+#inner_pockets {
+  background-position: calc((800% / (960 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
+}
 #winston_wolfe {
   background-position: calc((400% / (960 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
 }
 #ecm_feedback {
   background-position: calc((480% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
 }
-#blackout {
-  background-position: calc((480% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
-}
 #chameleon {
-  background-position: calc((400% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
-}
-#cleaner {
-  background-position: calc((560% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
-}
-#sixth_sense {
-  background-position: calc((480% / (960 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
-}
-#nimble {
-  background-position: calc((800% / (960 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
-}
-#ecm_overdrive {
-  background-position: calc((480% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
+	background-position: calc((400% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
 }
 #ecm_specialist {
   background-position: calc((240% / (960 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
+}
+#blackout {
+  background-position: calc((480% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
 }
 
 /* Artful Dodger */
@@ -295,23 +217,14 @@
 #duck_and_cover {
   background-position: 0% calc((880% / (1040 - 80)) * 100); 
 }
+#sprinter {
+	background-position: calc((560% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
+}
 #second_wind {
   background-position: calc((800% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
 }
-#sprinter {
-  background-position: calc((560% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
-}
-#parkour {
-  background-position: calc((800% / (960 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
-}
-#inner_pockets {
-  background-position: calc((800% / (960 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
-}
-#dire_need {
-  background-position: calc((800% / (960 - 80)) * 100) calc((640% / (1040 - 80)) * 100); 
-}
 #shockproof {
-  background-position: calc((240% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
+	background-position: calc((240% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
 }
 #sneaky_bastard {
   background-position: calc((80% / (960 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
@@ -324,23 +237,17 @@
 #eagle_eye {
   background-position: calc((240% / (960 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
 }
+#the_professional {
+	background-position: calc((320% / (960 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
+}
+#high_value_target {
+	background-position: calc((640% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
+}
 #silent_killer {
   background-position: calc((400% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
 }
-#optical_illusions {
-  background-position: calc((800% / (960 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
-}
-#the_professional {
-  background-position: calc((320% / (960 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
-}
 #low_blow {
   background-position: 0% calc((960% / (1040 - 80)) * 100); 
-}
-#high_value_target {
-  background-position: calc((640% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
-}
-#unseen_strike {
-  background-position: calc((800% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
 }
 
 
@@ -370,23 +277,17 @@
 #tough_guy {
   background-position: calc((80% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
 }
-#uppers {
-  background-position: calc((160% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
-}
-#nine_lives {
-  background-position: calc((400% / (960 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
+#quick_fix {
+  background-position: calc((80% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100);
 }
 #running_from_death {
   background-position: calc((880% / (960 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
 }
-#up_you_go {
-  background-position: calc((880% / (960 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
+#uppers {
+  background-position: calc((160% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
 }
 #swan_song {
   background-position: calc((400% / (960 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
-}
-#feign_death {
-  background-position: calc((880% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
 }
 #messiah {
   background-position: calc((160% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
@@ -1082,4 +983,8 @@
 
 #ordnance_bag {
   background-image: url("../img/deployables/ordnance_bag.png");
+}
+
+#grenade_case {
+  background-image: url("../img/deployables/grenade_case.png");
 }
