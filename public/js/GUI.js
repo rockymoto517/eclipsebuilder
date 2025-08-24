@@ -671,7 +671,7 @@ export default class GUI {
     Deployable_Select({ classList }) {
         const dp = document.querySelector(".dp_primary, .dp_selected");
         if(dp) this.Deployable_Unselect(dp); 
-        if (document.getElementById("jack_of_all_trades").parentElement.classList.contains("sk_selected_aced")) { 
+        if (document.getElementById("tactician").classList.contains("pk_selected")) { 
             classList.add("dp_primary"); 
         } else {
             classList.add("dp_selected"); 

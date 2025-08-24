@@ -39,7 +39,7 @@ window.onload = async () => {
         document.querySelector("#description_card > a").addEventListener("click", () =>
             builder.gui.DescriptionCard_Show(false)
         );
-        
+
         { //Slide to exit description
             const desc = document.getElementById("description_card");
             let remaining = 0, startX = 0, currentTouch = null, listen = false;
@@ -113,22 +113,22 @@ window.onload = async () => {
 
     // in which we add an event listener to the disable infamy checkbox to make it Do A Thing
     /* document.getElementById("chk_disable_infamy").addEventListener("change", ev => {
-        
-        // first things first, we update this infamyDisabled value.
-        builder.exp.infamyDisabled = ev.target.checked;
 
-        // then we Validate Skills where all the complex stuff happens
-        builder.sys.Validate_Skills(); // (this is very overengineered)
+	// first things first, we update this infamyDisabled value.
+		builder.exp.infamyDisabled = ev.target.checked;
 
-        // then update URL params with our newly validated build
-        if(ev.isTrusted || ev.detail == -1) {
-            window.history.pushState(
-                Util.makeState(null, builder.exp, builder.gui.Tab_Current),
-                `disable infamy checkbox changed to ${ev.target.checked}`,
-                builder.io.GetEncodedBuild()
-            );
-        }
-    }); */
+		// then we Validate Skills where all the complex stuff happens
+		builder.sys.Validate_Skills(); // (this is very overengineered)
+
+		// then update URL params with our newly validated build
+		if(ev.isTrusted || ev.detail == -1) {
+			window.history.pushState(
+				Util.makeState(null, builder.exp, builder.gui.Tab_Current),
+				`disable infamy checkbox changed to ${ev.target.checked}`,
+				builder.io.GetEncodedBuild()
+			);
+		}
+	}); */
 
     // Tab page navigation //
     document.querySelectorAll("#tab_page_buttons button").forEach(e => {      
@@ -154,7 +154,7 @@ window.onload = async () => {
             if(builder.mobile) builder.gui.Tree_ShowSelection(false);
         }); 
     }
-    
+
 
     // Want websites to behave like games? Call me // 
     for (const e of document.getElementsByClassName("mousewheel_scrollable")) {
@@ -167,7 +167,7 @@ window.onload = async () => {
             event.preventDefault();
         }); 
     }
-    
+
 
     // Subtree //
     for(const e of document.getElementsByClassName("sk_subtree")) {
@@ -189,7 +189,7 @@ window.onload = async () => {
         e.addEventListener("click", ev => {
             // If mobile version, disregard user events. (they fire from UIEventHandler, click included)
             if (builder.mobile && ev.isTrusted) return; 
-            
+
             if(successHolding) {
                 successHolding = false;
                 ev.stopPropagation();
@@ -214,7 +214,7 @@ window.onload = async () => {
                         builder.gui.Armor_SelectById("ictv");
                     }
                     break;
-                
+
                 case "jack_of_all_trades":
                     // if the user just equipped JOAT aced
                     if (e.classList.contains("sk_selected_aced")){
@@ -260,55 +260,16 @@ window.onload = async () => {
                         }
                     }
                     break;
-                
-                case "engineering":
-                    // remove suppressed sentries if removing basic tier.
-                    if (e.classList.contains("sk_selected_basic")){
-                        if (builder.exp.deployableSecondary === "suppressed_sentry_gun"){
-                            // if our secondary is suppressed, we discard it.
-                            builder.exp.deployableSecondary = null;
-                            builder.gui.DeployableSecondary_Unselect();
-                        } else if (builder.exp.deployable === "suppressed_sentry_gun"){
-                            // if our primary is suppressed
-                            if (builder.exp.deployableSecondary !== null){
-                                // we first see if we have a secondary deployable.
-                                // if so, we promote our secondary deployable to our primary deployable
-                                const secondaryDep = document.querySelector(".dp_secondary");
-                                builder.gui.DeployableSecondary_Unselect();
-                                builder.exp.deployable = builder.exp.deployableSecondary;
-                                builder.exp.deployableSecondary = null;
-                                builder.gui.Deployable_Select(secondaryDep);
-                            } else {
-                                // otherwise, we just unselect our one deployable.
-                                builder.exp.deployable = null;
-                                builder.gui.Deployable_Unselect(
-                                    document.querySelector(".dp_primary, .dp_selected")
-                                );
-                            }
-                        }
-                    }
-                    break;
-                
-                case "jack_of_all_trades":
-                    // if we're removing jack of all trades aced
-                    if (e.classList.contains("sk_selected_aced")){
-                        // do the thing
-                        builder.gui.HandleJoat(true);
-                        // unselect our secondary deployable
-                        builder.exp.deployableSecondary = null;
-                        builder.gui.DeployableSecondary_Unselect();
-                    }
-                    break;
                 }
 
                 // now we remove the skill in the GUI
                 builder.gui.Skill_Remove(e);
-                
-                
+
+
                 /*
-                if(id === "jack_of_all_trades" && !e.classList.contains("sk_selected_aced")){
-                    builder.gui.HandleJoat(); 
-                }*/
+				if(id === "jack_of_all_trades" && !e.classList.contains("sk_selected_aced")){
+					builder.gui.HandleJoat(); 
+				}*/
 
                 const s = builder.dbs.get("skills").get(id);
                 builder.gui.Skill_UpdatePointsRemaining(builder.exp.skills.points);
@@ -334,7 +295,7 @@ window.onload = async () => {
         //not mobile? mouse enter to the icon shows the description of such
         if(!builder.mobile) e.addEventListener("mouseenter", () => {
             const id = e.firstElementChild.id; 
-            
+
             if (document.getElementsByClassName("sk_description")[0].dataset.skill !== id) {
                 builder.gui.Skill_DisplayDescription(id); 
             }
@@ -376,6 +337,14 @@ window.onload = async () => {
             const pastUnlock = builder.exp.perkDeckUnlock;
             if (builder.exp.perkDeck === id) return; 
 
+            if (id === "jack_of_all_trades") {
+                builder.gui.HandleJoat();
+            } else {
+                builder.gui.HandleJoat(true);
+                builder.exp.deployableSecondary = null;
+                builder.gui.DeployableSecondary_Unselect();
+            }
+
             builder.exp.perkDeck = id;
             builder.perkDeckUnlockHandler();
             builder.gui.PerkDeck_Select(e);
@@ -385,7 +354,7 @@ window.onload = async () => {
                 id: pastUnlock,
                 unlocks: builder.dbs.get("perk_decks").get(pastUnlock).unlocks
             });
-            
+
             if(ev.isTrusted || ev.detail == -1) {
                 window.history.pushState(
                     Util.makeState(null, builder.exp, builder.gui.Tab_Current),
@@ -450,7 +419,7 @@ window.onload = async () => {
                 );
             }            
         });
-        
+
         // right-click
         e.addEventListener("contextmenu", ev => {
             ev.preventDefault(); 
@@ -479,7 +448,7 @@ window.onload = async () => {
                     builder.io.GetEncodedBuild()
                 );
             } 
-                       
+
         });
     }
 
@@ -617,6 +586,7 @@ window.onload = async () => {
 
         e.addEventListener("click", ev => {
             if(successHolding) {
+                console.log("Clicked!\n");
                 ev.stopPropagation();
                 successHolding = false;
                 return;
@@ -642,9 +612,9 @@ window.onload = async () => {
 
         e.addEventListener("contextmenu", ev => {
             ev.preventDefault(); 
-            const jackOfAllTradesSkill = builder.exp.skills.get("jack_of_all_trades");
+            const jackOfAllTradesCard = builder.exp.perkDeck === "tactician";
             const id = e.firstElementChild.id;
-            if (jackOfAllTradesSkill && jackOfAllTradesSkill.state == 2 && builder.exp.deployable !== id) {
+            if (jackOfAllTradesCard && builder.exp.deployable !== id) {
                 builder.exp.deployableSecondary = id;
                 builder.gui.Deployable_SelectSecondary(e);
 
@@ -658,7 +628,7 @@ window.onload = async () => {
             } else {
                 e.dispatchEvent(new MouseEvent("click", { detail: -1 }));
             } 
-            
+
         });
         if(!builder.mobile) e.addEventListener("mouseenter", () => 
             builder.gui.Deployable_DisplayDescriptionCard(e.firstElementChild.id)
@@ -792,7 +762,7 @@ window.onload = async () => {
     // Load language
     builder.lang.loadDictionary(await fetchLang);
     builder.loadLanguage(builder.lang.curLang);
-    
+
     // Check on Service Worker and if its not in dev environment
     if("serviceWorker" in navigator /*){//*/&& location.port !== "9999") {
         navigator.serviceWorker.register("./sw.js").then(req => {
@@ -826,7 +796,7 @@ window.onload = async () => {
         builder.gui.Tab_ChangeTo(tabChange);
         window.history.replaceState(Util.makeState(builder.lang.used, builder.exp, tabChange), "PD2 Builder");
     }
-    
+
     // Disable the loading spinner so people know that they should touch things now //
     builder.gui.LoadingSpinner_Display(false);
 };

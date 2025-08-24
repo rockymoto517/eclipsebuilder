@@ -1,19 +1,19 @@
 {
-    "bandages": {
-        "name": "Bandages",
-        "description": "BASIC: 2 points\tCrew members you revive get an additional 15% health.\nACE: 4 points\tYou get an additional 20% health after being revived.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
-        "subtree": "support",
-        "tree": "mastermind"
-    },
     "aftercare": {
         "name": "Aftercare",
         "description": "BASIC: 1 point\tCrew members you revive take 10% less damage for 5 seconds and get an additional 5% health.\nACE: 3 points\tUpon reviving a crew member you regenerate 20% health.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
+        "subtree": "support",
+        "tree": "mastermind"
+    },
+    "bandages": {
+        "name": "Bandages",
+        "description": "BASIC: 2 points\tCrew members you revive get an additional 15% health.\nACE: 4 points\tYou get an additional 20% health after being revived.",
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
         "subtree": "support",
         "tree": "mastermind"
     },
@@ -26,15 +26,6 @@
         "subtree": "support",
         "tree": "mastermind"
     },
-	"keepers": {
-		"name": "Keepers",
-		"description": "BASIC: 3 points\tYou can now deploy 2 Doctor Bags instead of just one.\nACE: 6 points\tYour doctor bags have 1 more charge.",
-		"basic": 3,
-		"ace": 6,
-		"tier": 3,
-		"subtree": "support",
-		"tree": "mastermind"
-	},
     "combat_doctor": {
         "name": "Combat Doctor",
         "description": "BASIC: 3 points\tYou gain a 40% damage reduction for 5 seconds both after and during revivng a teammate.\nACE: 6 points\tUpon reviving a crew member you gain a 25% damage bonus for 10 seconds.\nYou revive crew members 33% faster.",
@@ -44,6 +35,15 @@
         "subtree": "support",
         "tree": "mastermind"
     },
+	"keepers": {
+		"name": "Keepers",
+		"description": "BASIC: 3 points\tYour doctor bags have 1 more charge.\nACE: 6 points\tYou can now deploy 2 Doctor Bags instead of just one.",
+		"basic": 3,
+		"ace": 6,
+		"tier": 3,
+		"subtree": "support",
+		"tree": "mastermind"
+	},
     "inspire": {
         "name": "Inspire",
         "description": "BASIC: 4 points\tShouting at your teammates within a 7m range will increase their movement and reload speed by 30% for 7 seconds.\nACE: 8 points\tYou can now revive your teammates within a 7m range by shouting at them. This cannot occur more than once every 120 seconds.",
@@ -62,12 +62,12 @@
         "subtree": "controller",
         "tree": "mastermind"
     },
-    "stockholm_syndrome": {
-        "name": "Stockholm Syndrome",
-        "description": "BASIC: 3 points\tYour hostages will not flee the scene after being rescued by the law enforcement.\nNearby untied civilians have a chance of reviving you if you interact with them.\nACE: 6 points\tYou receive 2 damage absorption for every hostage that you control.\nStacks up to 4 times.",
-        "basic": 3,
-        "ace": 6,
-        "tier": 3,
+    "control_freak": {
+        "name": "Control Freak",
+        "description": "BASIC: 2 points\tThe power and range of your intimidation is increased by 50%\nACE: 4 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer.\nNearby untied civilians have a chance of reviving you if you interact with them.",
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
         "subtree": "controller",
         "tree": "mastermind"
     },
@@ -80,12 +80,12 @@
         "subtree": "controller",
         "tree": "mastermind"
     },
-    "control_freak": {
-        "name": "Control Freak",
-        "description": "BASIC: 2 points\tThe power and range of your intimidation is increased by 50%\nACE: 4 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer.\nNearby untied civilians have a chance of reviving you if you interact with them.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
+    "stockholm_syndrome": {
+        "name": "Stockholm Syndrome",
+        "description": "BASIC: 3 points\tYour hostages will not flee the scene after being rescued by the law enforcement.\nNearby untied civilians have a chance of reviving you if you interact with them.\nACE: 6 points\tYou receive 2 damage absorption for every hostage that you control.\nStacks up to 4 times.",
+        "basic": 3,
+        "ace": 6,
+        "tier": 3,
         "subtree": "controller",
         "tree": "mastermind"
     },
@@ -162,6 +162,33 @@
         "subtree": "sharpshooter",
         "tree": "mastermind"
     },
+    "underdog": {
+        "name": "Underdog",
+        "description": "BASIC: 1 points\tWhen three or more enemies within 18 meters are targeting you, you receive a 15% damage bonus that lasts for 7 seconds.\nACE: 3 points\tWhen three or more enemies within 18 meters are targeting you, you also receive a 10% damage reduction that lasts for 7 seconds.\nNote: Does not apply to melee damage, throwables, grenade launchers or rocket launchers.",
+        "basic": 1,
+        "ace": 3,
+        "tier": 1,
+        "subtree": "shotgunner",
+        "tree": "enforcer"
+    },
+    "portable_saw": {
+        "name": "Portable Saw",
+        "description": "BASIC: 2 points\tUnlocks the OVE9000 portable saw for you to use as a secondary weapon.\nACE: 4 points\tYou gain 1 extra saw blade for the OVE9000 portable saw. You replace your saw blades with carbon blades, increasing your saw efficiency by 60%.",
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
+        "subtree": "shotgunner",
+        "tree": "enforcer"
+    },
+    "saw_massacre": {
+        "name": "Saw Massacre",
+        "description": "BASIC: 2 points\tThe weardown of the saw blades on enemies is reduced by 90%.\nACE: 4 points\tYou can now saw through shield enemies with your OVE9000 portable saw. When killing an enemy with the saw, you have a 50% chance to cause nearby enemies in a 10m radius to panic.\tPanic will make enemies go into short bursts of uncontrollable fear.",
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
+        "subtree": "shotgunner",
+        "tree": "enforcer"
+    },
     "fast_hands": {
         "name": "Fast Hands",
         "description": "BASIC: 2 points\tYou reload Individually-Loaded Shotguns 25% faster.\nACE: 4 points\tYour rate of fire is increased by 25% while firing from the hip with single-shot Shotguns.",
@@ -198,6 +225,35 @@
         "subtree": "tank",
         "tree": "enforcer"
     },
+    "plates_of_steel": {
+        "name": "Plates of Steel",
+        "description": "BASIC: 2 points\tYour steadiness is increased by 15.\tHigher steadiness reduces aimpunch.\nACE: 4 points\tIncreases the armor of all ballistic vests by 20.",
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
+        "subtree": "tank",
+        "tree": "enforcer",
+        "stats": {
+            "ace": [
+                {
+                    "id": 1,
+                    "type": "armor",
+                    "part": "armMod",
+                    "value": 20,
+                    "whitelist": ["light_ballistic", "ballistic", "heavy_ballistic"]
+                }    
+            ]
+        }
+    },
+    "pack_mule": {
+        "name": "Pack Mule",
+        "description": "BASIC: 2 points\tYou can now sprint with all bags.\nACE: 4 points\tYou can now carry 2 bags at the same time.",
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
+        "subtree": "tank",
+        "tree": "enforcer"
+    },
     "thick_skin": {
         "name": "Thick Skin",
         "description": "BASIC: 3 points\tYou gain 10% extra health.\nACE: 6 points\tYou gain an additional 20% extra health.",
@@ -224,44 +280,6 @@
 				}
 			]
 		}
-    },
-    "plates_of_steel": {
-        "name": "Plates of Steel",
-        "description": "BASIC: 2 points\tYour steadiness is increased by 15.\tHigher steadiness reduces aimpunch.\nACE: 4 points\tIncreases the armor of all ballistic vests by 20.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
-        "subtree": "tank",
-        "tree": "enforcer",
-        "stats": {
-            "ace": [
-                {
-                    "id": 1,
-                    "type": "armor",
-                    "part": "armMod",
-                    "value": 20,
-                    "whitelist": ["light_ballistic", "ballistic", "heavy_ballistic"]
-                }    
-            ]
-        }
-    },
-    "underdog": {
-        "name": "Underdog",
-        "description": "BASIC: 1 points\tWhen three or more enemies within 18 meters are targeting you, you receive a 15% damage bonus that lasts for 7 seconds.\nACE: 3 points\tWhen three or more enemies within 18 meters are targeting you, you also receive a 10% damage reduction that lasts for 7 seconds.\nNote: Does not apply to melee damage, throwables, grenade launchers or rocket launchers.",
-        "basic": 1,
-        "ace": 3,
-        "tier": 1,
-        "subtree": "shotgunner",
-        "tree": "enforcer"
-    },
-    "pack_mule": {
-        "name": "Pack Mule",
-        "description": "BASIC: 2 points\tYou can now sprint with all bags.\nACE: 4 points\tYou can now carry 2 bags at the same time.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
-        "subtree": "tank",
-        "tree": "enforcer"
     },
     "wip3": {
         "name": "Work in Progress",
@@ -293,39 +311,12 @@
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
-    "bulletstorm": {
-        "name": "Bulletstorm",
-        "description": "BASIC: 4 points\tAmmo bags placed by you grant players the ability to shoot without depleting their ammunition for up to 12 seconds after interacting with it. The more ammo players replenish, the longer the duration of the effect.\nNote: Does not affect weapons using explosive ammunition.\nACE: 8 points\tIncreases the base duration of the effect by up to 30 seconds.",
-        "basic": 4,
-        "ace": 8,
-        "tier": 4,
-        "subtree": "ammo_specialist",
-        "tree": "enforcer"
-    },
-    "portable_saw": {
-        "name": "Portable Saw",
-        "description": "BASIC: 2 points\tUnlocks the OVE9000 portable saw for you to use as a secondary weapon.\nACE: 4 points\tYou gain 1 extra saw blade for the OVE9000 portable saw. You replace your saw blades with carbon blades, increasing your saw efficiency by 60%.",
+    "fully_loaded": {
+        "name": "Fully Loaded",
+        "description": "BASIC: 2 points\tYou now carry 33% more throwables.\nACE: 4 points\tYour total ammo capacity is increased by 25%.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
-        "subtree": "shotgunner",
-        "tree": "enforcer"
-    },
-    "saw_massacre": {
-        "name": "Saw Massacre",
-        "description": "BASIC: 2 points\tThe weardown of the saw blades on enemies is reduced by 90%.\nACE: 4 points\tYou can now saw through shield enemies with your OVE9000 portable saw. When killing an enemy with the saw, you have a 50% chance to cause nearby enemies in a 10m radius to panic.\tPanic will make enemies go into short bursts of uncontrollable fear.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
-        "subtree": "shotgunner",
-        "tree": "enforcer"
-    },
-    "extra_lead": {
-        "name": "Extra Lead",
-        "description": "BASIC: 3 points\tYou can now place 2 ammo bags instead of just one.\nACE: 6 points\tEach ammo bag now contains 50% more ammunition.",
-        "basic": 3,
-        "ace": 6,
-        "tier": 3,
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
@@ -338,12 +329,12 @@
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
-    "fully_loaded": {
-        "name": "Fully Loaded",
-        "description": "BASIC: 2 points\tYou now carry 33% more throwables.\nACE: 4 points\tYour total ammo capacity is increased by 25%.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
+    "extra_lead": {
+        "name": "Extra Lead",
+        "description": "BASIC: 3 points\tEach ammo bag now contains 50% more ammunition.\nACE: 6 points\tYou can now place 2 ammo bags instead of just one.",
+        "basic": 3,
+        "ace": 6,
+        "tier": 3,
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
@@ -353,6 +344,15 @@
         "basic": 3,
         "ace": 6,
         "tier": 3,
+        "subtree": "ammo_specialist",
+        "tree": "enforcer"
+    },
+    "bulletstorm": {
+        "name": "Bulletstorm",
+        "description": "BASIC: 4 points\tAmmo bags placed by you grant players the ability to shoot without depleting their ammunition for up to 12 seconds after interacting with it. The more ammo players replenish, the longer the duration of the effect.\nNote: Does not affect weapons using explosive ammunition.\nACE: 8 points\tIncreases the base duration of the effect by up to 30 seconds.",
+        "basic": 4,
+        "ace": 8,
+        "tier": 4,
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
@@ -383,6 +383,15 @@
         "subtree": "engineer",
         "tree": "technician"
     },
+    "kickstarter": {
+        "name": "Kickstarter",
+        "description": "BASIC: 3 points\tYour drills and saws will automatically restart 60 seconds after breaking.\nACE: 6 points\tYou gain the ability to fix a broken drill or saw with 3 consecutive melee attacks.",
+        "basic": 3,
+        "ace": 6,
+        "tier": 3,
+        "subtree": "engineer",
+        "tree": "technician"
+    },
     "sentry_nest": {
         "name": "Sentry Nest",
         "description": "BASIC: 3 points\tYou can now carry 1 extra sentry gun.\nACE: 6 points\tThe cost of deploying a sentry gun is reduced by 25%. Your sentry guns also have 50% more ammunition.",
@@ -404,69 +413,60 @@
         "subtree": "engineer",
         "tree": "technician"
     },
-    "wip_b1": {
-        "name": "Work in Progress",
-        "description": "BASIC: 1 point\tWork in Progress.\nACE: 3 points\tWork in Progress.",
+    "blast_shield": {
+        "name": "Blast Shield",
+        "description": "BASIC: 1 point\tYou receive 20% less damage from explosives.\nACE: 3 points\tYour explosive projectile weapons and grenades deal 30% less damage to you and your crew.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
-        "subtree": "breacher",
+        "subtree": "sapper",
         "tree": "technician"
     },
-    "wip_b2": {
-        "name": "Work in Progress",
-        "description": "BASIC: 2 point\tWork in Progress.\nACE: 4 points\tWork in Progress.",
+	"combat_engineering": {
+		"name": "Combat Engineering",
+		"description": "BASIC: 2 points\tThe radius of your trip mine explosion is increased by 50%.\nACE: 4 points\tYour trip mine damage is increased by 50%.",
+		"basic": 2,
+		"ace": 4,
+		"tier": 2,
+		"subtree": "sapper",
+		"tree": "technician"
+	},
+    "arms_cache": {
+        "name": "Arms Cache",
+        "description": "BASIC: 2 points\tYour grenade case and ordnance bag now hold 50% more grenades.\nACE: 4 points\tYou can now place 2 grenade cases and ordnance bags instead of just one.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
-        "subtree": "breacher",
+        "subtree": "sapper",
         "tree": "technician"
     },
-    "wip_b3": {
-        "name": "Work in Progress",
-        "description": "BASIC: 3 point\tWork in Progress.\nACE: 6 points\tWork in Progress.",
+    "hellwire": {
+        "name": "hellwire",
+        "description": "BASIC: 3 points\tYou gain 4 more shaped charges and 6 more trip mines.\nACE: 6 points\tYour trip mines now spread fire around the area of detonation for 40 seconds in a 6 meter diameter.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
-        "subtree": "breacher",
+        "subtree": "sapper",
         "tree": "technician"
     },
-    "combat_engineering": {
-        "name": "Combat Engineering",
-        "description": "BASIC: 2 points\tThe radius of your trip mine explosion is increased by 50%.\nACE: 4 points\tYour trip mine damage is increased by 50%.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
-        "subtree": "breacher",
-        "tree": "technician"
-    },
-    "more_firepower": {
-        "name": "More Firepower",
-        "description": "BASIC: 3 points\tYou gain 2 more shaped charges and 5 more trip mines.\nACE: 6 points\tYou gain 3 more shaped charges and 10 more trip mines.",
+    "powder_keg": {
+        "name": "Powder Keg",
+        "description": "BASIC: 3 points\tThe blast radius of your explosive projectile weapons and grenades is increased by 25%.\nACE: 6 points\tYour explosive projectile weapons and grenades have their damage falloff within the blast radius reduced by 75%.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
-        "subtree": "breacher",
+        "subtree": "sapper",
         "tree": "technician"
     },
-    "kickstarter": {
-        "name": "Kickstarter",
-        "description": "BASIC: 3 points\tYour drills and saws will automatically restart 60 seconds after breaking.\nACE: 6 points\tYou gain the ability to fix a broken drill or saw with 3 consecutive melee attacks.",
-        "basic": 3,
-        "ace": 6,
-        "tier": 3,
-        "subtree": "engineer",
-        "tree": "technician"
-    },
-    "fire_trap": {
-        "name": "Fire Trap",
-        "description": "BASIC: 4 points\tYour trip mines now spread fire around the area of detonation for 20 seconds in a 4 meter diameter.\nACE: 8 points\tIncreases the fire effect duration by 20 seconds and increases the fire effect radius by 50%.",
-        "basic": 4,
-        "ace": 8,
-        "tier": 4,
-        "subtree": "breacher",
-        "tree": "technician"
-    },
+	"carpet_bombing": {
+		"name": "Carpet Bombing",
+		"description": "BASIC: 4 points\tYour explosive projectile weapons and grenades now release a cluster of 4 small grenades upon explosion.\nEach grenade has a 3m blast radius and deals 33% of the main grenade's damage.\nACE: 8 points\tCluster grenades now ignite enemies within their blast radius, causing them to take 100 burn damage per second for 4 seconds.\nCluster grenades now explode on impact.",
+		"basic": 4,
+		"ace": 8,
+		"tier": 4,
+		"subtree": "sapper",
+		"tree": "technician"
+	},
     "steady_grip": {
         "name": "Steady Grip",
         "description": "BASIC: 1 point\tYour weapons gain 4 stability.\nACE: 3 points\tYour moving recoil penalty is decreased by 20%.",
@@ -557,18 +557,18 @@
         "subtree": "shinobi",
         "tree": "ghost"
     },
-    "blackout": {
-        "name": "Blackout",
-        "description": "BASIC: 4 points\tYou gain the ability to disable 1 camera from detecting you and your crew. Effects last for 25 seconds.\nACE: 8 points\tYour ECM jammer can now also be used to open certain electronic doors. Pagers are delayed by the ECM jammers.",
+    "ecm_specialist": {
+        "name": "ECM Specialist",
+        "description": "BASIC: 3 points\tYou can now place 2 ECM jammers instead of just one.\nACE: 6 points\tYour ECM jammer and feedback now last for 30 seconds.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
         "subtree": "shinobi",
         "tree": "ghost"
     },
-    "ecm_specialist": {
-        "name": "ECM Specialist",
-        "description": "BASIC: 3 points\tYou can now place 2 ECM jammers instead of just one.\nACE: 6 points\tYour ECM jammer and feedback now last for 30 seconds.",
+    "blackout": {
+        "name": "Blackout",
+        "description": "BASIC: 4 points\tYou gain the ability to disable 1 camera from detecting you and your crew. Effects last for 25 seconds.\nACE: 8 points\tYour ECM jammer can now also be used to open certain electronic doors. Pagers are delayed by the ECM jammers.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
@@ -667,18 +667,18 @@
         "subtree": "specialized_killing",
         "tree": "ghost"
     },
-    "silent_killer": {
-        "name": "Silent Killer",
-        "description": "BASIC: 3 points\tYour silenced weapons gain 4 stability and accuracy, as well as a 30% chance to pierce enemy armor.\nACE: 6 points\tYour silenced weapons gain a 15% damage increase.",
+    "high_value_target": {
+        "name": "High Value Target",
+        "description": "BASIC: 3 points\tEnemies you mark take 20% more damage when farther away than 10 meters.\nACE: 6 points\tEnemies you mark take 30% more damage at all ranges.\tThe marked state duration is increased by 100%.\nNote: This effect is applied separately from the Basic version.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
         "subtree": "specialized_killing",
         "tree": "ghost"
     },
-    "high_value_target": {
-        "name": "High Value Target",
-        "description": "BASIC: 3 points\tEnemies you mark take 20% more damage when farther away than 10 meters.\nACE: 6 points\tEnemies you mark take 30% more damage at all ranges.\tThe marked state duration is increased by 100%.\nNote: This effect is applied separately from the Basic version.",
+    "silent_killer": {
+        "name": "Silent Killer",
+        "description": "BASIC: 3 points\tYour silenced weapons gain 4 stability and accuracy, as well as a 30% chance to pierce enemy armor.\nACE: 6 points\tYour silenced weapons gain a 15% damage increase.",
         "basic": 3,
         "ace": 6,
         "tier": 3,

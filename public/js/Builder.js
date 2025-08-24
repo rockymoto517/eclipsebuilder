@@ -11,7 +11,7 @@ import Stats from "./Stats.js";
  * @typedef {{tier: Number, points: Number}} expSubtree
  * @typedef {{medic: expSubtree, controller: expSubtree, sharpshooter: expSubtree,
  *  shotgunner: expSubtree,tank: expSubtree, ammo_specialist: expSubtree,
- *  engineer: expSubtree, breacher: expSubtree, oppressor: expSubtree,
+ *  engineer: expSubtree, sapper: expSubtree, oppressor: expSubtree,
  *  shinobi: expSubtree, artful_dodger: expSubtree, silent_killer: expSubtree,
  *  gunslinger: expSubtree, revenant: expSubtree, brawler: expSubtree}
  * } expSubtrees
@@ -46,7 +46,7 @@ export default class Builder {
                 tank: { tier: 1, points: 0 },
                 ammo_specialist: { tier: 1, points: 0 },
                 engineer: { tier: 1, points: 0 },
-                breacher: { tier: 1, points: 0 },
+                sapper: { tier: 1, points: 0 },
                 heavy: { tier: 1, points: 0 },
                 shinobi: { tier: 1, points: 0 },
                 artful_dodger: { tier: 1, points: 0 },

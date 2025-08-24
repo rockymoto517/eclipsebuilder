@@ -48,7 +48,11 @@
         "ordnance_bag" : {
             "name": "Ordnance Bag",
             "description": "To use the Ordnance Bag, you need to place it by holding [G]. Once placed it cannot be moved, but it can be used by you and your crew by holding [F] to regain throwable ammo (but does not work for perk deck-exclusive throwables). Using the Ordnance Bag will fully replenish the user's throwable ammo supply. It can only be used four times.\nWhen the Ordnance Bag is consumed, it disappears. You see how many uses are left by looking at the Ordnance Bag."
-        }
+        },
+		"grenade_case": {
+			"name": "Grenade Case",
+			"description": "To use the Ordnance Bag, you need to place it by holding [G]. Once placed it cannot be moved, but it may be used by both you and your crew by holding [F] to restore throwables. It can fully replenish your grenade reserves 4 times. When the Ordnance Bag is depleted, it disappears. You can see how many uses are left by looking at the Ordnance Bag.\nThe Ordnance Bag is a portable case carried by combat operatives to transport explosives and other throwable weapons into a battle zone."
+		}
     },
     "perk_cards": {
 		"frenzied" : {
@@ -818,7 +822,7 @@
     "skills": {
 		"keepers": {
 			"name": "Keepers",
-			"description": "BASIC: 3 points\tYou can now deploy 2 Doctor Bags instead of just one.\nACE: 6 points\tYour doctor bags have 1 more charge."
+			"description": "BASIC: 3 points\tYour doctor bags have 1 more charge.\nACE: 6 points\tYou can now deploy 2 Doctor Bags instead of just one."
 		},
 		"aftercare": {
 			"name": "Aftercare",
@@ -1084,7 +1088,7 @@
         },
         "extra_lead": {
             "name": "Extra Lead",
-            "description": "BASIC: 3 points\tYou can now place 2 ammo bags instead of just one.\nACE: 6 points\tEach ammo bag now contains 50% more ammunition."
+            "description": "BASIC: 3 points\tEach ammo bag now contains 50% more ammunition.\nACE: 6 points\tYou can now place 2 ammo bags instead of just one."
         },
         "mag_plus": {
             "name": "Mag Plus",
@@ -1126,37 +1130,37 @@
             "name": "Hardware Expert",
             "description": "BASIC: 2 points\tDrills and saws are silent. Civilians and guards must see the drill or saw in order to become alerted.\nACE: 4 points\tYou fix drills and saws 50% faster."
         },
-        "combat_engineering": {
-            "name": "Combat Engineering",
-            "description": "BASIC: 2 points\tThe radius of your trip mine explosion is increased by 50%.\nACE: 4 points\tYour trip mine damage is increased by 50%."
-        },
         "drill_sawgeant": {
             "name": "Drill Sawgeant",
             "description": "BASIC: 2 points\tYour drill and saw timer is decreased by 15%.\nACE: 4 points\tYour drill and saw timer is decreased by an additional 15%.\nNote: Skill does not affect the OVE9000 saw."
         },
-		"wip_b1": {
-			"name": "Work in Progress",
-			"description": "BASIC: 1 point\tWork in Progress.\nACE: 3 points\tWork in Progress."
+		"blast_shield": {
+			"name": "Blast Shield",
+			"description": "BASIC: 1 point\tYou receive 20% less damage from explosives.\nACE: 3 points\tYour explosive projectile weapons and grenades deal 30% less damage to you and your crew."
 		},
-		"wip_b2": {
-			"name": "Work in Progress",
-			"description": "BASIC: 2 point\tWork in Progress.\nACE: 4 points\tWork in Progress."
+		"combat_engineering": {
+			"name": "Combat Engineering",
+			"description": "BASIC: 2 points\tThe radius of your trip mine explosion is increased by 50%.\nACE: 4 points\tYour trip mine damage is increased by 50%."
 		},
-		"wip_b3": {
-			"name": "Work in Progress",
-			"description": "BASIC: 3 point\tWork in Progress.\nACE: 6 points\tWork in Progress."
+		"arms_cache": {
+			"name": "Arms Cache",
+			"description": "BASIC: 2 points\tYour grenade case and ordnance bag now hold 50% more grenades.\nACE: 4 points\tYou can now place 2 grenade cases and ordnance bags instead of just one."
 		},
-        "more_firepower": {
-            "name": "More Firepower",
-            "description": "BASIC: 3 points\tYou gain 2 more shaped charges and 5 more trip mines.\nACE: 6 points\tYou gain 3 more shaped charges and 10 more trip mines."
-        },
+		"powder_keg": {
+			"name": "Powder Keg",
+			"description": "BASIC: 3 points\tThe blast radius of your explosive projectile weapons and grenades is increased by 25%.\nACE: 6 points\tYour explosive projectile weapons and grenades have their damage falloff within the blast radius reduced by 75%."
+		},
+		"hellwire": {
+			"name": "hellwire",
+			"description": "BASIC: 3 points\tYou gain 4 more shaped charges and 6 more trip mines.\nACE: 6 points\tYour trip mines now spread fire around the area of detonation for 40 seconds in a 6 meter diameter."
+		},
+		"carpet_bombing": {
+			"name": "Carpet Bombing",
+			"description": "BASIC: 4 points\tYour explosive projectile weapons and grenades now release a cluster of 4 small grenades upon explosion.\nEach grenade has a 3m blast radius and deals 33% of the main grenade's damage.\nACE: 8 points\tCluster grenades now ignite enemies within their blast radius, causing them to take 100 burn damage per second for 4 seconds.\nCluster grenades now explode on impact."
+		},
         "kickstarter": {
             "name": "Kickstarter",
             "description": "BASIC: 3 points\tYour drills and saws will automatically restart 60 seconds after breaking.\nACE: 6 points\tYou gain the ability to fix a broken drill or saw with 3 consecutive melee attacks."
-        },
-        "fire_trap": {
-            "name": "Fire Trap",
-            "description": "BASIC: 4 points\tYour trip mines now spread fire around the area of detonation for 20 seconds in a 4 meter diameter.\nACE: 8 points\tIncreases the fire effect duration by 20 seconds and increases the fire effect radius by 50%."
         },
         "steady_grip": {
             "name": "Steady Grip",
@@ -1369,7 +1373,7 @@
                 "title": "TECHNICIAN",
                 "subtrees": {
                     "engineer": "ENGINEER",
-                    "breacher": "BREACHER",
+                    "sapper": "SAPPER",
                     "heavy": "HEAVY"
                 }
             },
