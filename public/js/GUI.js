@@ -329,7 +329,7 @@ export default class GUI {
                 .replace(/\n/g, "</p><p>")
                 .replace(/\t/g, "<br>")
                 .replace(this.constructor.COLOR_PATTERN, match => `<span class="color_number">${match}</span>`)
-				.replace(this.constructor.HIGHLIGHT_PATTERN, match => `<span class="color_number">${match.substring(2, match.length-1)}</span>`)
+                .replace(this.constructor.HIGHLIGHT_PATTERN, match => `<span class="color_number">${match.substring(2, match.length-1)}</span>`)
         }</p>`;
 
         desc.innerHTML = html;
@@ -451,7 +451,7 @@ export default class GUI {
             .replace(/\n/g, "</p><p>")
             .replace(/\t/g, "<br>")
             .replace(this.constructor.COLOR_PATTERN, match => `<span class="color_number">${match}</span>`)
-			.replace(this.constructor.HIGHLIGHT_PATTERN, match => `<span class="color_number">${match.substring(2, match.length-1)}</span>`)
+            .replace(this.constructor.HIGHLIGHT_PATTERN, match => `<span class="color_number">${match.substring(2, match.length-1)}</span>`);
 
         desc.innerHTML = html;
 
@@ -473,7 +473,7 @@ export default class GUI {
             .replace(/\n/g, "</p><p>")
             .replace(/\t/g, "<br>")
             .replace(this.constructor.COLOR_PATTERN, match => `<span class="color_number">${match}</span>`)
-			.replace(this.constructor.HIGHLIGHT_PATTERN, match => `<span class="color_number">${match.substring(2, match.length-1)}</span>`)
+            .replace(this.constructor.HIGHLIGHT_PATTERN, match => `<span class="color_number">${match.substring(2, match.length-1)}</span>`);
 
         
     }
