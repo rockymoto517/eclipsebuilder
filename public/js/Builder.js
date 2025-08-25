@@ -237,6 +237,7 @@ export default class Builder {
             e.innerHTML = Language.ref.has(e.dataset.lang) ? lang(Language.ref.get(e.dataset.lang)) : lang;
         });
         GUI.COLOR_PATTERN = new RegExp(this.lang.get("system.colors"), "g");
+		GUI.HIGHLIGHT_PATTERN = new RegExp(this.lang.get("system.colors-extra"));
     }
 
 

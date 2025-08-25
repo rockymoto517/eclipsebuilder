@@ -243,7 +243,7 @@
     },
     "killer_instinct": {
         "name": "Killer Instinct",
-        "description": "If you do not lose any armor or health for 4 seconds, you gain 20% critical hit chance for 6 seconds.\tCritical hits deal 200% damage.\nNote: Critical hit damage can be increased by the Aced Low Blow skill.",
+        "description": "If you do not lose any armor or health for 4 seconds, you gain 20% critical hit chance for 6 seconds.\tCritical hits deal 200% damage.\nNote: Critical hit damage can be increased by the Aced ${Low Blow} skill.",
         "deck_completion_bonus": true
     },
 	"death_in_motion": {

@@ -200,7 +200,7 @@
         },
         "killer_instinct": {
             "name": "Killer Instinct",
-            "description": "If you do not lose any armor or health for 4 seconds, you gain 20% critical hit chance for 6 seconds.\tCritical hits deal 200% damage.\nNote: Critical hit damage can be increased by the Aced Low Blow skill."
+            "description": "If you do not lose any armor or health for 4 seconds, you gain 20% critical hit chance for 6 seconds.\tCritical hits deal 200% damage.\nNote: Critical hit damage can be increased by the Aced ${Low Blow} skill."
         },
 		"gunslinger": {
 			"name": "Gunslinger",
@@ -838,7 +838,7 @@
 		},
 		"fast_hands": {
 			"name": "Fast Hands",
-			"description": "BASIC: 2 points\tYou reload Individually-Loaded Shotguns 25% faster.\nACE: 4 points\tYour rate of fire is increased by 25% while firing from the hip with single-shot Shotguns."
+			"description": "BASIC: 2 points\tYou reload ${Individually-Loaded} Shotguns 25% faster.\nACE: 4 points\tYour rate of fire is increased by 25% while firing from the hip with ${single-shot} Shotguns."
 		},
 		"point_blank": {
 			"name": "Point Blank",
@@ -914,7 +914,7 @@
 		},
 		"ecm_feedback": {
 			"name": "ECM Feedback",
-			"description":  "BASIC: 2 points\tYou can now interact with ECM jammers to cause a feedback loop that stuns enemies.\nFeedback loop has a 25m radius.\tObstructed line of sight halves the radius.\nACE: 4 points\tECM feedback now recharges every 2 minutes."
+			"description":  "BASIC: 2 points\tYou can now interact with ECM jammers to cause a feedback loop that stuns enemies.\nFeedback loop has a 25m radius.\tObstructed line of sight ${halves} the radius.\nACE: 4 points\tECM feedback now recharges every 2 minutes."
 		},
 		"blackout": {
 			"name": "Blackout",
@@ -1031,11 +1031,11 @@
         },
         "shotgun_cqb": {
             "name": "Shotgun CQB",
-            "description": "BASIC: 3 points\tYour rate of fire is increased by 15% while firing from the hip with single-shot Shotguns.\nACE: 6 points\tFor every hit with a Shotgun you gain an 8% movement speed boost that lasts for 12 seconds.\tStacks up to 5 times."
+            "description": "BASIC: 3 points\tYour rate of fire is increased by 15% while firing from the hip with ${single-shot} Shotguns.\nACE: 6 points\tFor every hit with a Shotgun you gain an 8% movement speed boost that lasts for 12 seconds.\tStacks up to 5 times."
         },
 		"mag_fed_specialist": {
 			"name": "Mag-fed Specialist",
-			"description": "BASIC: 3 points\tYou reload Mag-fed & Double Barrel Shotguns 25% faster.\nACE: 6 points\tYour Mag-fed Shotguns have their magazine size increased by 5 shells."
+			"description": "BASIC: 3 points\tYou reload ${Mag-fed & Double Barrel} Shotguns 25% faster.\nACE: 6 points\tYour ${Mag-fed} Shotguns have their magazine size increased by 5 shells."
 		},
         "shotgun_impact": {
             "name": "Shotgun Impact",
@@ -1072,7 +1072,7 @@
         },
         "iron_man": {
             "name": "Iron Man",
-            "description": "BASIC: 4 points\tWhen you melee shield enemies, they get knocked back by the sheer force.\tYour ranged weapons have a chance of knocking down shields as well.\nACE: 8 points\tUnlocks the Improved Combined Tactical Vest for you to wear."
+            "description": "BASIC: 4 points\tWhen you melee shield enemies, they get knocked back by the sheer force.\tYour ranged weapons have a chance of knocking down shields as well.\nACE: 8 points\tUnlocks the ${Improved Combined Tactical Vest} for you to wear."
         },
         "scavenger": {
             "name": "Scavenger",
@@ -1148,7 +1148,7 @@
 		},
 		"powder_keg": {
 			"name": "Powder Keg",
-			"description": "BASIC: 3 points\tThe blast radius of your explosive projectile weapons and grenades is increased by 25%.\nACE: 6 points\tYour explosive projectile weapons and grenades have their damage falloff within the blast radius reduced by 75%."
+			"description": "BASIC: 3 points\tThe blast radius of your individual Grenades, Grenade Launchers and Rocket Launchers is increased by 25%.\nACE: 6 points\tYour individual Grenades, Grenade Launchers and Rocket Launchers have their damage falloff within the blast radius reduced by 75%."
 		},
 		"hellwire": {
 			"name": "hellwire",
@@ -1156,7 +1156,7 @@
 		},
 		"carpet_bombing": {
 			"name": "Carpet Bombing",
-			"description": "BASIC: 4 points\tYour explosive projectile weapons and grenades now release a cluster of 4 small grenades upon explosion.\nEach grenade has a 3m blast radius and deals 33% of the main grenade's damage.\nACE: 8 points\tCluster grenades now ignite enemies within their blast radius, causing them to take 100 burn damage per second for 4 seconds.\nCluster grenades now explode on impact."
+			"description": "BASIC: 4 points\tExplosions caused by your individual Grenades, Grenade Launchers and Rocket Launchers now release a cluster of 4 small grenades upon explosion.\nEach grenade has a 3m blast radius and deals 33% of the main grenade's damage.\nACE: 8 points\tCluster grenades now ignite enemies within their blast radius, causing them to take 100 burn damage per second for 4 seconds.\nCluster grenades now explode on impact."
 		},
         "kickstarter": {
             "name": "Kickstarter",
@@ -1349,7 +1349,8 @@
         "selected": "SELECTED",
         "primary": "PRIMARY",
         "secondary": "SECONDARY",
-        "colors": "(?<=: )([0-9]+( point(s)?))|(\\+ ?|- ?|\\b(?!OVE9000))([0-9]+([,.][0-9]+)?(%|cm|m|th|nd|rst| additional)?)|(Improved Combined Tactical Vest)|(Mag-fed)|(Individually-Loaded)|(single-shot)|(\\& Double Barrel)|(halves)|(Low Blow)",
+        "colors": "(?<=: )([0-9]+( point(s)?))|(\\+ ?|- ?|\\b(?!OVE9000))([0-9]+([,.][0-9]+)?(%|cm|m|th|nd|rst| additional)?)",
+		"colors-extra": "\\${(..*?)}",
         "skills": {
             "title": "Skills",
             "remaining": "Remaining skill points: ",
