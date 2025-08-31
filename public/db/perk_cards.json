@@ -29,7 +29,7 @@
     },
 	"deal_sweetener": { 
 		"name": "Deal Sweetener", 
-		"description": "Trading a hostage for resources will now restore 25% health for you and your team.\nYou and your crew can now trade for resources regardless of whether you are missing any downs.\nNote: Crew perks do not stack." 
+		"description": "Trading a hostage for resources will now restore 25% health for you and your team.\nYou and your crew can now trade for resources regardless of whether you are missing any downs.\nNote: Trading perks do not stack." 
 	},
 	"get_in_line": { 
 		"name": "Get in Line", 
@@ -37,11 +37,11 @@
 	},
 	"resupply_clause": { 
 		"name": "Resupply Clause", 
-		"description": "Trading a hostage for resources will now restore the equivalent of 5 ammo box pickups into the reserves of every player in your crew.\nNote: Crew perks do not stack." 
+		"description": "Trading a hostage for resources will now restore the equivalent of 5 ammo box pickups into the reserves of every player in your crew.\nNote: Trading perks do not stack." 
 	},
 	"negotiators_leverage": { 
 		"name": "Negotiator's Leverage", 
-		"description": "You and your crew will gain 5% max health and 5% stamina for each hostage up to 4 times.\nYour cable tie supply is increased by 4.\nNote: Crew perks do not stack." 
+		"description": "You and your crew will gain 5% max health and 5% stamina for each hostage up to 4 times.\nYour cable tie supply is increased by 4.\nNote: Trading perks do not stack." 
 	},
 	"traite_de_versailles": { 
 		"name": "Traité de Versailles", 
@@ -336,7 +336,7 @@
     },
     "kevlar_layer": {
         "name": "Kevlar Layer",
-        "description": "Your ballistic vests now grant 25% bullet damage resistance to your health.",
+        "description": "Your ballistic vests now grant 25% bullet damage reduction to your health.",
         "copycat_mimicry_available": true,
         "mimics": "crook"
     },
