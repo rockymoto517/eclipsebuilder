@@ -104,7 +104,7 @@
         },
 		"deal_sweetener": { 
 			"name": "Deal Sweetener", 
-			"description": "Trading a hostage for resources will now restore 25% health for you and your team.\nYou and your crew can now trade for resources regardless of whether you are missing any downs.\nNote: Trading perks do not stack." 
+			"description": "Trading a hostage for resources will now restore 25% health for you and your crew.\nYou and your crew can now trade for resources regardless of whether you are missing any downs.\nNote: Trading perks do not stack." 
 		},
 		"get_in_line": { 
 			"name": "Get in Line", 
