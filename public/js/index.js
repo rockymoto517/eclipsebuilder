@@ -764,7 +764,7 @@ window.onload = async () => {
     builder.loadLanguage(builder.lang.curLang);
 
     // Check on Service Worker and if its not in dev environment
-    if("serviceWorker" in navigator /*){//*/&& location.port !== "9999") {
+    if("serviceWorker" in navigator){//&& location.port !== "9999") {
         navigator.serviceWorker.register("./sw.js").then(req => {
             req.onupdatefound = () => {
                 const sw = req.installing;
