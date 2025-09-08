@@ -1,11 +1,11 @@
 {
-    "name": "PD2Builder",
-    "short_name": "PD2Builder",
+    "name": "EclipseBuilder",
+    "short_name": "EclipseBuilder",
     "start_url": "./",
     "display": "minimal-ui",
     "background_color": "#01091D",
     "theme_color": "#01091D",
-    "description": "A inventory builder for Payday 2",
+    "description": "A inventory builder for the Eclipse overhaul for Payday 2",
     "icons": [{
         "src": "img/favicon.png",
         "sizes": "512x512",
@@ -17,12 +17,6 @@
         {
             "name": "Builder",
             "url": "/"
-        },
-        {
-            "name": "Big Oil Calculator",
-            "short_name": "Big Oil",
-            "url": "/bigoil.html",
-            "description": "Calculator for knowing what engine is the one needed in the Big Oil heist"
         }
     ],
     "serviceworker": {
