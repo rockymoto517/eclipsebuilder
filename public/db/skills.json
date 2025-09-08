@@ -64,7 +64,7 @@
     },
     "control_freak": {
         "name": "Control Freak",
-        "description": "BASIC: 2 points\tThe power and range of your intimidation is increased by 50%\nACE: 4 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer.\nNearby untied civilians have a chance of reviving you if you interact with them.",
+        "description": "BASIC: 2 points\tThe power and range of your intimidation is increased by 50%\nACE: 4 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
