@@ -13,7 +13,7 @@ rl.question("Enter (q) to quit.\n", (input) => {
     if (input.trim().toLowerCase() === "q") {
         console.log("Exiting...\n");
         rl.close();
-		server.terminate();
+        server.terminate();
         exit();
     } else {
         console.log("I'm stuff\n");

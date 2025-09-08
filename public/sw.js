@@ -17,7 +17,7 @@ function generateCache(ev) {
 }
 
 self.addEventListener("install", ev => {
-	generateCache(ev);
+    generateCache(ev);
 });
 
 self.addEventListener("fetch", ev => {
@@ -25,15 +25,15 @@ self.addEventListener("fetch", ev => {
 });
 
 async function checkCacheOrFetch(ev) {
-	const res_version = await (await caches.open("v1")).match("version", { ignoreSearch: true });
-	if (res_version === undefined) {
-		generateCache(ev);
-	} else {
-		const cache_version = (await res_version.text()).trim();
-		if (cache_version !== version) {
-			generateCache(ev);
-		}
-	}
+    const res_version = await (await caches.open("v1")).match("version", { ignoreSearch: true });
+    if (res_version === undefined) {
+        generateCache(ev);
+    } else {
+        const cache_version = (await res_version.text()).trim();
+        if (cache_version !== version) {
+            generateCache(ev);
+        }
+    }
 
     const match = await (await caches.open("v1")).match(ev.request, { ignoreSearch: true });
     if(match === undefined) {
