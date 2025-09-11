@@ -46,13 +46,13 @@
 
 /* Sharpshooter */
 #stable_shot {
-  background-position: 0% calc((400% / (1040 - 80)) * 100); 
+  background-position: calc((720% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
 }
 #rifleman {
-  background-position: calc((480% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
+  background-position: 0% calc((400% / (1040 - 80)) * 100); 
 }
 #marksman {
-  background-position: calc((640% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+  background-position: calc((480% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
 }
 #ammo_efficiency {
   background-position: calc((640% / (960 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
@@ -61,7 +61,7 @@
 	background-position: calc((80% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
 }
 #headshot_fury {
-  background-position: calc((880% / (960 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
+  background-position: calc((480% / (960 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
 }
 
 
@@ -72,33 +72,36 @@
   background-position: calc((160% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
 }
 #point_blank {
-  background-position: calc((640% / (960 - 80)) * 100) 0; 
+  background-position: calc((640% / (960 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
 }
 #heavy_impact {
   background-position: calc((640% / (960 - 80)) * 100) 0; 
 }
 #fast_hands {
-  background-position: calc((640% / (960 - 80)) * 100) 0; 
+  background-position: calc((400% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
 }
 #far_away {
-  background-position: calc((640% / (960 - 80)) * 100) 0; 
+  background-position: calc((640% / (960 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
 }
 #overkill {
   background-position: calc((640% / (960 - 80)) * 100) 0; 
 }
 
 /* Tank */
-#resilience {
-  background-position: calc((480% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+#impact_padding {
+  background-position: calc((480% / (960 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
 }
-#plates_of_steel {
-  background-position: calc((160% / (960 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
+#nerves_of_steel {
+  background-position: calc((480% / (960 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
+}
+#protective_mask {
+  background-position: calc((640% / (960 - 80)) * 100) 0; 
 }
 #pack_mule {
   background-position: calc((480% / (960 - 80)) * 100) 0%; 
 }
-#thick_skin {
-  background-position: calc((80% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+#regen_plating {
+  background-position: calc((640% / (960 - 80)) * 100) 0; 
 }
 #iron_man {
   background-position: calc((240% / (960 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 

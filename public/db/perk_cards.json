@@ -460,7 +460,7 @@
     },
     "sharing_is_caring": {
         "name": "Sharing Is Caring",
-        "description": "When you get healed from picking up ammo packs, your teammates also get healed for 50% of the amount."
+        "description": "When you get healed from picking up ammo packs, your crewmates also get healed for 50% of the amount."
     },
     "affordable_care_act": {
         "name": "Affordable Care Act",
@@ -878,7 +878,7 @@
     },
     "momentum": {
         "name": "Momentum",
-        "description": "Unlocks and equips the Leech Ampule.\nChanging to another perk deck will make the Leech Ampule unavailable again. The Leech Ampule replaces your current throwable, is equipped in your throwable slot and can be switched out if desired.\nWhile in game you can use throwable key to activate the Leech Ampule.\nActivating the Leech Ampule will fully restore your health and disables your armor for the duration of the Leech Ampule.\nWhile the Leech Ampule is active, your health is divided into segments of 20% and damage taken from enemies removes one segment. Killing 1 enemy will block damage for 0.45 seconds. Anytime you take damage, your teammates are healed for 1.5 health.\nThe Leech Ampule lasts 4 seconds with a 60 second cooldown.",
+        "description": "Unlocks and equips the Leech Ampule.\nChanging to another perk deck will make the Leech Ampule unavailable again. The Leech Ampule replaces your current throwable, is equipped in your throwable slot and can be switched out if desired.\nWhile in game you can use throwable key to activate the Leech Ampule.\nActivating the Leech Ampule will fully restore your health and disables your armor for the duration of the Leech Ampule.\nWhile the Leech Ampule is active, your health is divided into segments of 20% and damage taken from enemies removes one segment. Killing 1 enemy will block damage for 0.45 seconds. Anytime you take damage, your crewmates are healed for 1.5 health.\nThe Leech Ampule lasts 4 seconds with a 60 second cooldown.",
         "copycat_mimicry_available": true,
         "mimics": "leech"
     },
@@ -896,7 +896,7 @@
     },
     "stalwart": {
         "name": "Stalwart",
-        "description": "The Leech Ampule duration is increased to 8 seconds.\tKilling an enemy reduces the cooldown of the Leech Ampule by 1 second(s).\tTaking damage now heals teammates for 3 health."
+        "description": "The Leech Ampule duration is increased to 8 seconds.\tKilling an enemy reduces the cooldown of the Leech Ampule by 1 second(s).\tTaking damage now heals crewmates for 3 health."
     },
     "built_different": {
         "name": "Built Different",

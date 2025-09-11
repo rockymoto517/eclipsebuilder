@@ -15,7 +15,7 @@
         "name": "Light Ballistic Vest",
         "stats": {
             "health": 230,
-            "armor": 50,
+            "armor": 40,
             "concealment": 26,
             "speed": 32.4,
             "dodge": 5,
@@ -27,7 +27,7 @@
         "name": "Ballistic Vest",
         "stats": {
             "health": 230,
-            "armor": 60,
+            "armor": 65,
             "concealment": 23,
             "speed": 29.8,
             "dodge": 0,
@@ -39,7 +39,7 @@
         "name": "Heavy Ballistic Vest",
         "stats": {
             "health": 230,
-            "armor": 70,
+            "armor": 90,
             "concealment": 21,
             "speed": 27.1,
             "dodge": -5,

@@ -28,7 +28,7 @@
     },
     "combat_doctor": {
         "name": "Combat Doctor",
-        "description": "BASIC: 3 points\tYou gain a 40% damage reduction for 5 seconds both after and during revivng a teammate.\nACE: 6 points\tUpon reviving a crew member you gain a 25% damage bonus for 10 seconds.\nYou revive crew members 33% faster.",
+        "description": "BASIC: 3 points\tYou gain a 40% damage reduction for 5 seconds both after and during revivng a crewmate.\nACE: 6 points\tUpon reviving a crew member you gain a 25% damage bonus for 10 seconds.\nYou revive crew members 33% faster.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -46,7 +46,7 @@
 	},
     "inspire": {
         "name": "Inspire",
-        "description": "BASIC: 4 points\tShouting at your teammates within a 7m range will increase their movement and reload speed by 30% for 7 seconds.\nACE: 8 points\tYou can now revive your teammates within a 7m range by shouting at them. This cannot occur more than once every 120 seconds.",
+        "description": "BASIC: 4 points\tShouting at your crewmates within a 7m range will increase their movement and reload speed by 30%, as well as grant them 10% armor suppression resistance for 7 seconds.\nACE: 8 points\tYou can now revive your crewmates within a 7m range by shouting at them. This cannot occur more than once every 120 seconds.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
@@ -216,47 +216,36 @@
         "subtree": "shotgunner",
         "tree": "enforcer"
     },
-    "resilience": {
-        "name": "Resilience",
-        "description": "BASIC: 1 point\tIncreases your armor recovery rate by 10%.\nACE: 3 points\tReduces the visual effect duration of Flashbangs by 50%.",
+    "impact_padding": {
+        "name": "Impact Padding",
+        "description": "BASIC: 1 point\tYou gain 10% damage reduction while standing still.\nACE: 3 points\tWhen your armor recovers after being fully broken you receive 15% damage reduction that lasts for 4 seconds.\nThis cannot occur more than once every 10 seconds.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
         "subtree": "tank",
         "tree": "enforcer"
     },
-    "plates_of_steel": {
-        "name": "Plates of Steel",
-        "description": "BASIC: 2 points\tYour steadiness is increased by 15.\tHigher steadiness reduces aimpunch.\nACE: 4 points\tIncreases the armor of all ballistic vests by 20.",
-        "basic": 2,
-        "ace": 4,
-        "tier": 2,
-        "subtree": "tank",
-        "tree": "enforcer",
-        "stats": {
-            "ace": [
-                {
-                    "id": 1,
-                    "type": "armor",
-                    "part": "armMod",
-                    "value": 20,
-                    "whitelist": ["light_ballistic", "ballistic", "heavy_ballistic"]
-                }    
-            ]
-        }
-    },
-    "pack_mule": {
-        "name": "Pack Mule",
-        "description": "BASIC: 2 points\tYou can now sprint with all bags.\nACE: 4 points\tYou can now carry 2 bags at the same time.",
+    "nerves_of_steel": {
+        "name": "Nerves of Steel",
+        "description": "BASIC: 2 points\tYou gain 10% damage reduction while standing still.\nACE: 4 points\tWhen your armor recovers after being fully broken you receive 15% damage reduction that lasts for 4 seconds.\nThis cannot occur more than once every 10 seconds.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
         "subtree": "tank",
         "tree": "enforcer"
     },
-    "thick_skin": {
-        "name": "Thick Skin",
-        "description": "BASIC: 3 points\tYou gain 10% extra health.\nACE: 6 points\tYou gain an additional 20% extra health.",
+	"protective_mask": {
+		"name": "Protective Mask",
+		"description": "BASIC: 2 points\tYour armor now absorbs tear gas damage.\nACE: 4 points\tThe visual effect of Flashbangs is weakend by 35%.",
+		"basic": 2,
+		"ace": 4,
+		"tier": 2,
+		"subtree": "tank",
+		"tree": "enforcer"
+	},
+    "regen_plating": {
+        "name": "Regen Plating",
+        "description": "BASIC: 3 points\tYour armor recovery rate is increased by 15%.\nACE: 6 points\tWhen your armor recovers after being fully broken you regenerate 8 health.\nThis cannot occur more than once every 10 seconds.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -266,24 +255,16 @@
 			"basic": [
 				{
 					"id": 100,
-					"type": "health",
-					"part": "healthBonus",
-					"value": 0.1
-				}
-			],
-			"ace": [
-				{
-					"id": 101,
-					"type": "health",
-					"part": "healthBonus",
-					"value": 0.2
+					"type": "armorRecoveryRate",
+					"value": 1.15,
+					"multiply": true
 				}
 			]
 		}
     },
-    "wip3": {
-        "name": "Work in Progress",
-        "description": "BASIC: 3 points\tWork in progress.\nACE: 6 points\tWork in progress.",
+    "pack_mule": {
+        "name": "Pack Mule",
+        "description": "BASIC: 3 points\tYou can now sprint with all bags.\nACE: 6 points\tYou can now carry 2 bags at the same time.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -292,7 +273,7 @@
     },
     "iron_man": {
         "name": "Iron Man",
-        "description": "BASIC: 4 points\tWhen you melee shield enemies, they get knocked back by the sheer force.\tYour ranged weapons have a chance of knocking down shields as well.\nACE: 8 points\tUnlocks the ${Improved Combined Tactical Vest} for you to wear.",
+        "description": "BASIC: 4 points\tWhen you have more than 80% of your armor regenerated, you take 25% less damage.\nACE: 8 points\tUnlocks the ${Improved Combined Tactical Vest} for you to wear.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
@@ -451,7 +432,7 @@
     },
     "powder_keg": {
         "name": "Powder Keg",
-        "description": "BASIC: 3 points\tThe blast radius of your individual Grenades, Grenade Launchers and Rocket Launchers is increased by 25%.\nACE: 6 points\tYour individual Grenades, Grenade Launchers and Rocket Launchers have their damage falloff within the blast radius reduced by 75%.",
+        "description": "BASIC: 3 points\tThe blast radius of your individual Grenades, Grenade Launchers and Rocket Launchers is increased by 20%.\nNote: Does not affect the \"Carpet Bombing\" Skill.\nACE: 6 points\tYour individual Grenades, Grenade Launchers and Rocket Launchers have their damage falloff within the blast radius reduced by 66%.\nNote: Does not affect the \"Carpet Bombing\" Skill.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
