@@ -119,6 +119,18 @@ export default class Stats {
         return stat * bonus;
     }
 
+    get netSteadiness(){
+        let stat = this.baseStats.get("steadiness");
+        for(const steadinessMod of this.getModifiersOf("steadinessMod")) {
+            stat += Stats.calculate(steadinessMod);
+        }
+        let bonus = 1;
+        for(const bonusMod of this.getModifiersOf("steadinessBonus")) {
+            bonus += Stats.calculate(bonusMod);
+        }
+        return stat * bonus;
+    }
+
     // TODO: Add armor recovery stats
 
     /**

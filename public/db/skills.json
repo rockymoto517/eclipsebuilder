@@ -227,12 +227,21 @@
     },
     "nerves_of_steel": {
         "name": "Nerves of Steel",
-        "description": "BASIC: 2 points\tYou gain 10% damage reduction while standing still.\nACE: 4 points\tWhen your armor recovers after being fully broken you receive 15% damage reduction that lasts for 4 seconds.\nThis cannot occur more than once every 10 seconds.",
+        "description": "BASIC: 2 points\tYour steadiness is increased by 5.\nHigher steadiness reduces aimpunch.\nACE: 4 points\tYou gain 20% resistance to armor suppression.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
         "subtree": "tank",
-        "tree": "enforcer"
+        "tree": "enforcer",
+		"stats": {
+			"basic": [
+				{
+					"type": "steadiness",
+					"part": "steadinessMod",
+					"value": 5
+				}
+			]
+		}
     },
 	"protective_mask": {
 		"name": "Protective Mask",

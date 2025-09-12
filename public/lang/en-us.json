@@ -848,10 +848,6 @@
 			"name": "Heavy Impact",
 			"description": "BASIC: 2 points\tYour shots have a 50% chance to stagger all enemies except Bulldozers.\nACE: 4 points\tYour weapons deal 15% more damage to enemies that are currently staggered.\nThe push force of your Shotguns allows you to ${launch} enemies when up close."
 		},
-		"nerves_of_steel": {
-			"name": "Nerves of Steel",
-			"description": "BASIC: 3 points\tYou gain 10% extra health.\nACE: 6 points\tYou gain an additional 20% extra health."
-		},
 		"bandages": {
 			"name": "Bandages",
 			"description": "BASIC: 2 points\tCrew members you revive get an additional 15% health.\nACE: 4 points\tYou get an additional 20% health after being revived."
@@ -886,7 +882,7 @@
 		},
 		"nerves_of_steel": {
 			"name": "Nerves of Steel",
-			"description": "BASIC: 2 points\tYou gain 10% damage reduction while standing still.\nACE: 4 points\tWhen your armor recovers after being fully broken you receive 15% damage reduction that lasts for 4 seconds.\nThis cannot occur more than once every 10 seconds."
+			"description": "BASIC: 2 points\tYour steadiness is increased by 5.\nHigher steadiness reduces aimpunch.\nACE: 4 points\tYou gain 20% resistance to armor suppression."
 		},
 		"protective_mask": {
 			"name": "Protective Mask",
