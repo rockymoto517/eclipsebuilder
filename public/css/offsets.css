@@ -323,7 +323,7 @@
 /**********************************/
 
 :root{
-  --pk_y: 1152;
+  --pk_y: 1200;
 }
 
 /* SHARED */
@@ -464,20 +464,20 @@
 /* TACTICIAN */ 
 
 #tactician .pk_deck_cards > div:nth-of-type(1)::after {
-  background-image: none;
+  background-position: 0 calc((1152% / (var(--pk_y) - 48)) * 100);
 }
 #tactician .pk_deck_cards > div:nth-of-type(3)::after {
-  background-image: none;
+  background-position: calc((48% / (240 - 48)) * 100) calc((1152% / (var(--pk_y) - 48)) * 100);
 }
 #tactician .pk_deck_cards > div:nth-of-type(5)::after {
-  background-image: none;
+  background-position: calc((96% / (240 - 48)) * 100) calc((1152% / (var(--pk_y) - 48)) * 100);
 }
 #tactician .pk_deck_cards > div:nth-of-type(7)::after {
-  background-image: none;
+  background-position: calc((144% / (240 - 48)) * 100) calc((1152% / (var(--pk_y) - 48)) * 100);
 }
 #tactician .pk_deck_cards > div:nth-of-type(9)::after,
 #tactician .pk_preview_card > div > div::after {
-  background-image: none;
+  background-position: calc((192% / (240 - 48)) * 100) calc((1152% / (var(--pk_y) - 48)) * 100);
 }
 
 
