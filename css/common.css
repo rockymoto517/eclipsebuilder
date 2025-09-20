@@ -461,8 +461,8 @@ select {
   display: block; 
   z-index: 1200; 
 
-  background: url("../img/skills/icons_atlas.png") 0 0 no-repeat;
-  background-size: 1200% 1300%; 
+  background: url("../img/skills/atlas2.png") 0 0 no-repeat;
+  background-size: 1300% 1300%; 
   opacity: 0.2; 
 
   width: 100%;
