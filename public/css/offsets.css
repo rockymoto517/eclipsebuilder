@@ -329,10 +329,12 @@
 /* SHARED */
 
 .pk_deck .pk_deck_cards > div:nth-of-type(2)::after {
-  background-position: calc((48% / (240 - 48)) * 100) 0%;
+  /* Crew chief card is slightly too large */
+  background-position: calc((48% / (240 - 48)) * 100) calc((-1% / (var(--pk_y) - 48)) * 100);
 }
 .pk_deck .pk_deck_cards > div:nth-of-type(4)::after {
-  background-position: calc((96% / (240 - 48)) * 100) 0%; 
+  /* Crew chief card is slightly too large part 2 */
+  background-position: calc((96% / (240 - 48)) * 100) calc((-2% / (var(--pk_y) - 48)) * 100);
 }
 .pk_deck .pk_deck_cards > div:nth-of-type(6)::after {
   background-position: calc((144% / (240 - 48)) * 100) 0%;
