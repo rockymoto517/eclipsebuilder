@@ -938,7 +938,7 @@
 		},
 		"headshot_fury": {
 			"name": "Headshot Fury",
-			"description": "BASIC: 4 points\tFor every consecutive headshot with your Sniper Rifle, your next shot's damage is increased by 20%.\tStacks up to 5 consecutive headshots.\nMissing a headshot resets your stacks.\nACE: 8 points\tWhile aiming down the sights with your Sniper Rifle, a charge meter builds up over a period of 3 seconds.\nWhen fully charged, your next headshot becomes explosive, dealing up to 100% of the bullet's damage in a 5m radius around the bullet impact and discharging the meter.\nLeaving the ADS stance or firing the weapon at any point discharges meter."
+			"description": "BASIC: 4 points\tFor every consecutive headshot with your Sniper Rifle, your next shot's damage is increased by 20%.\tStacks up to 5 consecutive headshots.\nMissing a headshot resets your stacks.\nACE: 8 points\tWhile aiming down the sights with your Sniper Rifle, a charge meter builds up over a period of 2 seconds.\nWhen fully charged, your next headshot will deal 100% of the bullet's damage to the closest enemy in a 4m radius, chaining up to 4 times with each instance dealing 33% less damage than the previous one.\nLeaving the aiming stance or firing the weapon at any point discharges the meter."
 		},
 		"hostage_situation": {
 			"name": "Hostage Situation",
@@ -1007,7 +1007,7 @@
         },
         "ammo_efficiency": {
             "name": "Ammo Efficiency",
-            "description": "BASIC: 3 points\tScoring 3 headshots in less than 6 seconds with either Assault, Marksman or Sniper Rifles set to single fire mode will refund 1 bullet into your reserves.\nACE: 6 points\tThe amount of headshots required is reduced to 2."
+            "description": "BASIC: 3 points\tScoring 3 headshots in less than 6 seconds with either Assault, Marksman or Sniper Rifles set to single fire mode will refund 1 bullet into your reserves.\nMissing a headshot in any capacity resets the chain.\nACE: 6 points\tThe amount of headshots required is reduced to 2."
         },
         "aggressive_reload": {
             "name": "Aggressive Reload",
@@ -1267,9 +1267,9 @@
             "name": "Nine Lives",
             "description": "BASIC: 1 point\tYou gain a 50% increase to your bleedout health.\nACE: 3 points\tYou gain the ability to get downed 1 more time before going into custody."
         },
-        "running_from_death": {
-            "name": "Running from Death",
-            "description": "BASIC: 2 points\tYou reload and swap weapons 100% faster for 10 seconds after being revived.\nACE: 4 points\tYou move 30% faster for 10 seconds after being revived."
+        "more_blood_to_bleed": {
+            "name": "More Blood to Bleed",
+            "description": "BASIC: 2 points\tYour bleedout health is increased by 50%.\nACE: 4 points\tYour health is increased by 15%."
         },
         "up_you_go": {
             "name": "Up You Go",
@@ -1330,7 +1330,7 @@
         "primary": "PRIMARY",
         "secondary": "SECONDARY",
         "colors": "(?<=: )([0-9]+( point(s)?))|(\\+ ?|- ?|\\b(?!OVE9000))([0-9]+([,.][0-9]+)?(%|cm|m|th|nd|rst| additional)?)",
-		"colors-extra": "\\${(..*?)}",
+		"colors-extra": "\\${(.+?)}",
         "skills": {
             "title": "Skills",
             "remaining": "Remaining skill points: ",

@@ -283,7 +283,7 @@
 #quick_fix {
   background-position: calc((80% / (1040 - 80)) * 100) calc((880% / (1040 - 80)) * 100);
 }
-#running_from_death {
+#more_blood_to_bleed {
   background-position: calc((880% / (1040 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
 }
 #uppers {
