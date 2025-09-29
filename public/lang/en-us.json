@@ -998,7 +998,7 @@
         },
         "rifleman": {
             "name": "Rifleman",
-            "description": "BASIC: 2 points\tYour stamina loss from being hit is reduced by 15%.\nACE: 4 points\tYour weapons are 20% more accurate while standing still.",
+            "description": "BASIC: 2 points\tYour stamina loss from being hit is reduced by 15%.\nACE: 4 points\tYour weapon spread is reduced by 20% while standing still.",
             "vr_description": "Addition in VR:\tBASIC: Every kill while aiming down sight will regenerate 2% stamina.\tEvery 25 points of stamina consumed by dashing will refill 5% of their ammo pool to single shot weapons.\tACE: The improved accuracy lasts from 1 up to a maximum of 5 seconds after dashing."
         },
         "marksman": {
@@ -1080,11 +1080,11 @@
         },
 		"big_game_hunters": {
 			"name": "Big Game Hunters",
-			"description": "BASIC: 3 points\tEvery 6th enemy you kill will drop an extra ammo box.\nACE: 6 points\tYour ammo pickup rate is increased by an additional 25%."
+			"description": "BASIC: 3 points\tEvery 6th enemy you kill will drop an extra ammo box.\nACE: 6 points\tA member of the crew who picks up the extra ammo box will be granted a 50% damage increase for 5 seconds."
 		},
         "fully_loaded": {
             "name": "Fully Loaded",
-            "description": "BASIC: 2 points\tYou now carry 33% more throwables.\nACE: 4 points\tYour total ammo capacity is increased by 25%."
+            "description": "BASIC: 2 points\tYou start the heist with extra 50% ammo above your maximum pool.\nACE: 4 points\tYour total ammo capacity is increased by 25%."
         },
         "third_law": {
             "name": "Third Law",
