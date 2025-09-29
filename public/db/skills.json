@@ -273,7 +273,7 @@
     },
     "pack_mule": {
         "name": "Pack Mule",
-        "description": "BASIC: 3 points\tYou can now sprint with all bags.\nACE: 6 points\tYou can now carry 2 bags at the same time.",
+        "description": "BASIC: 3 points\tYou can sprint with all bags.\nACE: 6 points\tYou can carry 2 bags at the same time.\nFor each 10 armor points the bag movement penalty is decreased by 1%.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
