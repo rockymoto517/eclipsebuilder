@@ -1140,7 +1140,7 @@
 		},
 		"carpet_bombing": {
 			"name": "Carpet Bombing",
-			"description": "BASIC: 4 points\tExplosions caused by your individual Grenades, Grenade Launchers and Rocket Launchers now release a cluster of 4 small grenades.\nEach grenade has a 3m blast radius and deals 33% of the main grenade's damage.\nACE: 8 points\tCluster grenades now ignite enemies within their blast radius, causing them to take 100 burn damage per second for 4 seconds.\nCluster grenades now explode on impact."
+			"description": "BASIC: 4 points\tExplosions caused by your individual Grenades, Grenade Launchers and Rocket Launchers release a cluster of 4 small grenades.\nEach grenade has a 2.5m blast radius and deals 25% of the main grenade's damage.\nACE: 8 points\tCluster grenades now ignite enemies within their blast radius, causing them to take 30 burn damage per second for 4 seconds.\nCluster grenades now explode on impact."
 		},
         "kickstarter": {
             "name": "Kickstarter",
