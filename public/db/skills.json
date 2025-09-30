@@ -73,7 +73,7 @@
     },
     "joker": {
         "name": "Joker",
-        "description": "BASIC: 2 points\tYou can now convert a non-special enemy to fight on your side.\nYour converted enemy deals 35% more damage and takes 50% less damage.\nACE: 4 points\tYour converted enemy now takes an additional 25% less damage.",
+        "description": "BASIC: 2 points\tYou can now convert a non-special enemy to fight on your side.\nYour converted enemy deals 35% more damage and takes 50% less damage.\nACE: 4 points\tYour converted enemy now takes an additional 30% less damage.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
