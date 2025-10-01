@@ -1269,7 +1269,7 @@
         },
         "more_blood_to_bleed": {
             "name": "More Blood to Bleed",
-            "description": "BASIC: 2 points\tYour bleedout health is increased by 50%.\nACE: 4 points\tYour health is increased by 15%."
+            "description": "BASIC: 2 points\tYour bleedout health is increased by 50%.\nACE: 4 points\tYour total health is increased by 15%."
         },
         "up_you_go": {
             "name": "Up You Go",
@@ -1293,11 +1293,11 @@
         },
         "bloodthirst": {
             "name": "Bloodthirst",
-            "description": "BASIC: 2 points\tEvery kill you get will increase your next melee attack damage by 100%, up to a maximum of 500%. This effect gets reset when you kill an enemy with a melee attack.\nACE: 4 points\tWhenever you kill an enemy with a melee attack, you will gain a 50% increase in reload speed for 10 seconds."
+            "description": "BASIC: 2 points\tYour melee attacks deal 33% more damage\nACE: 4 points\tEvery kill you get will increase your next melee attack damage by 25%, up to a maximum of 500%. This effect gets reset when you kill an enemy with a melee attack."
         },
         "pumping_iron": {
             "name": "Pumping Iron",
-            "description": "BASIC: 2 points\tYour melee reswing speed is 100% faster.\nACE: 4 points\tYour melee attacks deal 50% more damage."
+            "description": "BASIC: 2 points\tYour melee reswing speed is 100% faster.\nACE: 4 points\tYou can now sprint with your melee weapon out."
         },
         "counterstrike": {
             "name": "Counterstrike",
@@ -1305,7 +1305,7 @@
         },
         "berserker": {
             "name": "Berserker",
-            "description": "BASIC: 3 points\tThe lower your health, the more movement speed you gain. When your health is below 50%, you will gain up to 20% movement speed.\nACE: 6 points\tThe lower your health, the more damage you do. When your health is below 50%, you will do up to 250% more melee and saw damage."
+            "description": "BASIC: 3 points\tThe lower your health, the more movement speed you gain. When your health is below 50%, you will gain up to 25% movement speed.\nACE: 6 points\tThe lower your health, the more damage you do. When your health is below 50%, you will do up to 250% more melee and saw damage."
         },
         "frenzy": {
             "name": "Frenzy",
