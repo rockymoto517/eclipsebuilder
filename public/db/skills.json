@@ -218,7 +218,7 @@
     },
     "impact_padding": {
         "name": "Impact Padding",
-        "description": "BASIC: 1 point\tYou gain 10% damage reduction while standing still.\nACE: 3 points\tWhen your armor recovers after being fully broken you receive 15% damage reduction that lasts for 4 seconds.\nThis cannot occur more than once every 10 seconds.",
+        "description": "BASIC: 1 point\tYou gain 10% damage reduction while standing upright and still.\nACE: 3 points\tWhen your armor recovers after being fully broken you receive 15% damage reduction that lasts for 4 seconds.\nThis cannot occur more than once every 10 seconds.",
         "basic": 1,
         "ace": 3,
         "tier": 1,

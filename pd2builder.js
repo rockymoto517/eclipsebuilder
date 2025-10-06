@@ -17,3 +17,4 @@ tools.get("/mobile.html",  (req, res) => res.sendFile("mobile.html", { root: "./
 // tools.get("/mask.html",  (req, res) => res.sendFile("mask.html", { root: "./pages/"}));
 
 tools.listen(9999, () => console.log("eclipsebuilder started at http://localhost:9999/\n")); // eslint-disable-line no-console
+console.log("Full skills at: http://localhost:9999/?s=0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C\n");

@@ -383,7 +383,7 @@ class SkillMap extends Map {
     constructor(...args) {
         super(...args);
         /** @type {Number} */
-        this.points = 100;
+        this.points = location.port === "9999" ? 1000 : 100; // 1000 points in the dev environment : )
         /** 
          * Holds the named subtrees for all the skills we have
          * @type {Map<String, SkillSubtree>}
