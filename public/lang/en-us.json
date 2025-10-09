@@ -104,7 +104,7 @@
         },
 		"deal_sweetener": { 
 			"name": "Deal Sweetener", 
-			"description": "Trading a hostage for resources will now restore 25% health for you and your crew.\nYou and your crew can now trade for resources regardless of whether you are missing any downs.\nNote: Trading perks do not stack." 
+			"description": "Trading a hostage for resources will now restore 20% health for you and your crew.\nYou and your crew can now trade for resources regardless of whether you are missing any downs.\nNote: Trading perks do not stack." 
 		},
 		"get_in_line": { 
 			"name": "Get in Line", 
@@ -112,7 +112,7 @@
 		},
 		"resupply_clause": { 
 			"name": "Resupply Clause", 
-			"description": "Trading a hostage for resources will now restore the equivalent of 5 ammo box pickups into the reserves of every player in your crew.\nNote: Trading perks do not stack." 
+			"description": "Trading a hostage for resources will now restore the equivalent of 4 ammo box pickups into the reserves of every player in your crew.\nNote: Trading perks do not stack." 
 		},
 		"negotiators_leverage": { 
 			"name": "Negotiator's Leverage", 
@@ -265,7 +265,7 @@
         },
 		"death_in_motion": {
 			"name": "Death in Motion",
-			"description": "Getting 3 headshot kills in less than 5 seconds increases your chance to dodge by 10% for 5 seconds."
+			"description": "Getting 3 headshot kills in less than 10 seconds increases your chance to dodge by 10% for 5 seconds."
 		},
 		"controlled_chaos": {
 			"name": "Controlled Chaos",
@@ -273,7 +273,7 @@
 		},
 		"dead_mans_dance": {
 			"name": "Dead Man's Dance",
-			"description": "Getting 3 headshot kills in less than 5 seconds increases your chance to dodge by an additional 10% for 5 seconds."
+			"description": "Getting 3 headshot kills in less than 10 seconds increases your chance to dodge by an additional 10% for 5 seconds."
 		},
 		"blood_debt": {
 			"name": "Blood Debt",
@@ -281,7 +281,7 @@
 		},
 		"baba_yaga": {
 			"name": "Baba Yaga",
-			"description": "Getting 3 headshot kills in less than 5 seconds increases the chance of Blood Debt occuring by 3%.\nStacks an indefinite amount of times.\tStacks are reset upon a successful occurance of Blood Debt."
+			"description": "Getting 3 headshot kills in less than 10 seconds increases the chance of Blood Debt occuring by 4%.\nStacks an indefinite amount of times.\tStacks are reset upon a successful occurance of Blood Debt."
 		},
         "subtle-2": {
             "name": "Subtle",
@@ -368,19 +368,19 @@
         },
         "life_drain": {
             "name": "Life Drain",
-            "description": "Striking an enemy with your melee weapon regenerates 40 health. This cannot occur more than once every 10 seconds."
+            "description": "Striking an enemy with your melee weapon regenerates 10 health. This cannot occur more than once every 5 seconds."
         },
         "tension": {
             "name": "Tension",
-            "description": "Killing an enemy regenerates 30 armor.\nThis cannot occur more than once every 1 second.\nYou gain an additional 10% more armor."
+            "description": "Killing an enemy regenerates 20 armor.\nThis cannot occur more than once every 2 seconds.\nYou gain an additional 10% more armor."
         },
         "clean_hit": {
             "name": "Clean Hit",
-            "description": "Killing an enemy with a melee weapon regenerates 90 armor.\nThis cannot occur more than once every 1 second.\nWhen you are within medium range of an enemy you receive 8% less damage."
+            "description": "Killing an enemy with a melee weapon regenerates 20 armor.\nThis cannot occur more than once every 2 seconds.\nWhen you are within medium range of an enemy you receive 8% less damage."
         },
         "overdose": {
             "name": "Overdose",
-            "description": "Killing an enemy at medium range recovers 30 armor.\nThis cannot occur more than once every 1 second.\nYou gain an additional 10% more armor."
+            "description": "Killing an enemy at medium range recovers 20 armor.\nThis cannot occur more than once every 2 seconds."
         },
         "showdown": {
             "name": "Showdown",
@@ -417,7 +417,7 @@
         },
         "endorphins": {
             "name": "Endorphins",
-            "description": "Scoring a headshot will heal you for 5 health."
+            "description": "Scoring a headshot will heal you for 5 health.\nThis cannot occur more than once every 3 seconds."
         },
         "dopamine": {
             "name": "Dopamine",
@@ -533,7 +533,7 @@
         },
         "bad_guy_coming_through": {
             "name": "Bad Guy Coming Through",
-			"description": "Unlocks and equips the Kingpin Injector. Changing to another perk deck will make the Injector unavailable again. The Injector replaces your current throwable, is equipped in your throwable slot and can be switched out if desired.\nWhile in game you can use the throwable key to activate the injector. Activating the injector will heal you with 75% of all damage taken as well as halve the aimpunch from getting hit for 6 seconds.\nYou can still take damage during the effect. The Injector can only be used once every 45 seconds.",
+			"description": "Unlocks and equips the Kingpin Injector. Changing to another perk deck will make the Injector unavailable again. The Injector replaces your current throwable, is equipped in your throwable slot and can be switched out if desired.\nWhile in game you can use the throwable key to activate the injector. Activating the injector will heal you with 75% of all damage taken, ${halve} the aimpunch from getting hit as well as ${remove} stamina loss from getting hit for 6 seconds.\nYou can still take damage during the effect. The Injector can only be used once every 45 seconds.",
             "copycat_description": "Unlocks and equips the Kingpin Injector.\nActivating the Injector will heal you with 75% of all damage taken for 6 seconds.\nYou can still take damage during the effect. The Injector can only be used once every 30 seconds.\nUnlisted effect: Every kill reduces the cooldown by 1 second."
         },
         "play_rough": {
@@ -1301,7 +1301,7 @@
         },
         "counterstrike": {
             "name": "Counterstrike",
-            "description": "BASIC: 3 points\tYou can now sprint with melee weapons.\nACE: 6 points\tYou can now knock down bulldozers with melee. This cannot occur more than once every 10 seconds."
+            "description": "BASIC: 3 points\tWhen you melee Shield enemies, they get knocked down.\nNote: does not affect Elite Shields.\nACE: 6 points\tWhen you melee Bulldozer enemies, they get knocked down.\nThis cannot occur more than once every 10 seconds."
         },
         "berserker": {
             "name": "Berserker",
