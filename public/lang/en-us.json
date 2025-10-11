@@ -982,7 +982,7 @@
         },
         "control_freak": {
             "name": "Control Freak",
-            "description": "BASIC: 2 points\tThe power and range of your intimidation is increased by 50%\nACE: 4 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer."
+            "description": "BASIC: 2 points\tThe power and range of your intimidation is increased by 20%\nACE: 4 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer."
         },
         "partners_in_crime": {
             "name": "Partners in Crime",
@@ -1257,7 +1257,7 @@
         },
         "deadeye": {
             "name": "Deadeye",
-            "description": "BASIC: 3 points\tScoring 4 headshots in a row with your Revolver will instantly reload it.\nMissing a headshot in any capacity resets the counter.\nACE: 6 points\tScoring 3 lethal headshots in less than 3 seconds with your Revolver will slow down the time for you for 5 seconds.\nThis cannot occur more than once every 20 seconds after the slowdown ends."
+            "description": "BASIC: 3 points\tScoring 4 headshots in a row with your Revolver will instantly reload it.\nMissing a headshot in any capacity resets the counter.\nACE: 6 points\tScoring 4 lethal headshots in less than 10 seconds with your Revolver will refund 20% of your total Revolver ammo into its reserves."
         },
         "peacemakers_lament": {
             "name": "Peacemaker's Lament",
