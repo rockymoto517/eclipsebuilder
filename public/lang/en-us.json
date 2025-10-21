@@ -946,7 +946,7 @@
 		},
 		"stockholm_syndrome": {
 			"name": "Stockholm Syndrome",
-			"description": "BASIC: 3 points\tYour hostages will not flee the scene after being rescued by the law enforcement.\nNearby untied civilians have a chance of reviving you if you interact with them.\nACE: 6 points\tYou receive 2 damage absorption for every hostage that you control.\nStacks up to 4 times."
+			"description": "BASIC: 3 points\tYour hostages will not flee the scene after being rescued by the law enforcement.\nNearby untied civilians have a chance of reviving you if you interact with them.\nACE: 6 points\tYou receive 5% damage resistance for every hostage that you control.\nStacks up to 4 times."
 		},
         "quick_fix": {
             "name": "Quick Fix",
