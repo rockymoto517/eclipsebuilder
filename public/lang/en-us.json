@@ -412,7 +412,7 @@
         },
         "adrenaline": {
             "name": "Adrenaline",
-            "description": "You gain 30% extra health.\nAll of your armor is converted and applied to your health.",
+            "description": "You gain 30% extra health.\nAll of your armor is converted and applied to your health.\nYou receive 50% less fall damage.",
             "copycat_description": "Damaging an enemy heals 2 life points every 0.3 seconds for 3 seconds.\nThis effect stacks but cannot occur more than once every 1.5 seconds, and only while wearing the Two-piece Suit or Lightweight Ballistic Vest."
         },
         "endorphins": {
@@ -425,7 +425,7 @@
         },
         "euphoria": {
             "name": "Euphoria",
-            "description": "Damaging an enemy will now regenerate 3 health every 0.3 seconds for 3 seconds instead."
+            "description": "Damaging an enemy will now regenerate 2 health every 0.3 seconds for 3 seconds instead."
         },
         "koi_irezumi": {
             "name": "Koi Irezumi",
@@ -590,7 +590,7 @@
 		},
         "un-moved": {
             "name": "Un-moved",
-            "description": "All of your armor is converted and applied to your health."
+            "description": "All of your armor is converted and applied to your health.\nYou receive 50% less fall damage."
         },
         "calm": {
             "name": "Calm",
