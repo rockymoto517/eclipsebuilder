@@ -46,7 +46,7 @@
 	},
     "inspire": {
         "name": "Inspire",
-        "description": "BASIC: 4 points\tShouting at your crewmates within a 7m range will increase their movement and reload speed by 30%, as well as grant them 10% armor suppression resistance for 7 seconds.\nACE: 8 points\tYou can now revive your crewmates within a 7m range by shouting at them. This cannot occur more than once every 120 seconds.",
+        "description": "BASIC: 4 points\tShouting at your crewmates within a 7m range will increase their movement and interaction speed by 30%, as well as grant them 10% armor suppression resistance for 7 seconds.\nACE: 8 points\tYou can now revive your crewmates within a 7m range by shouting at them. This cannot occur more than once every 120 seconds.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
