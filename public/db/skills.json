@@ -46,7 +46,7 @@
 	},
     "inspire": {
         "name": "Inspire",
-        "description": "BASIC: 4 points\tShouting at your crewmates within a 7m range will increase their movement and interaction speed by 30%, as well as grant them 10% armor suppression resistance for 7 seconds.\nACE: 8 points\tYou can now revive your crewmates within a 7m range by shouting at them. This cannot occur more than once every 120 seconds.",
+        "description": "BASIC: 4 points\tShouting at your crewmates within a 7m range will increase their movement and interaction speed by 20%, as well as grant them 10% armor suppression resistance for 7 seconds.\nACE: 8 points\tYou can now revive your crewmates within a 7m range by shouting at them. This cannot occur more than once every 120 seconds.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
@@ -55,7 +55,7 @@
     },
     "forced_friendship": {
         "name": "Forced Friendship",
-        "description": "BASIC: 1 point\tIncrease your supply of cable ties by 4.\nYou can now cable tie hostages 25% faster.\nACE: 3 points\tYou can now have an additional hostage following you at the same time.",
+        "description": "BASIC: 1 point\tIncrease your supply of cable ties by 4.\nYou can now cable tie hostages 25% faster.\nACE: 3 points\tYou can now have an additional hostage following you at the same time.\nThere is now a 10% for you to find a cable tie in an ammo box.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
@@ -64,7 +64,7 @@
     },
     "control_freak": {
         "name": "Control Freak",
-        "description": "BASIC: 2 points\tThe power and range of your intimidation is increased by 20%\nACE: 4 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer.",
+        "description": "BASIC: 2 points\tThe power and range of your intimidation is increased by 50%\nACE: 4 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -73,7 +73,7 @@
     },
     "joker": {
         "name": "Joker",
-        "description": "BASIC: 2 points\tYou can now convert a non-special enemy to fight on your side.\nYour converted enemy deals 35% more damage and takes 50% less damage.\nACE: 4 points\tYour converted enemy now takes an additional 30% less damage.",
+        "description": "BASIC: 2 points\tYou can now convert a non-special enemy to fight on your side.\nYour converted enemy deals 35% more damage and takes 50% less damage.\nACE: 4 points\tYour converted enemy now takes an additional 30% less damage.\nThe time to convert an enemy is reduced by 65%.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -91,7 +91,7 @@
     },
     "partners_in_crime": {
         "name": "Partners in Crime",
-        "description": "BASIC: 3 points\tYour converted enemy is 15% more likely to be targeted when close to you or your crew.\nACE: 6 points\tYour converted enemy counts towards hostage related bonuses.",
+        "description": "BASIC: 3 points\tYour converted enemy is 20% more likely to be targeted when close to you or your crew.\nACE: 6 points\tYour converted enemy counts towards hostage related bonuses.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -128,7 +128,7 @@
     },
     "marksman": {
         "name": "Marksman",
-        "description": "BASIC: 2 points\tYour aimpunch is reduced by 20% when aiming down sights.\nACE: 4 points\tYour weapon recoil is reduced by 20% while aiming down sights.",
+        "description": "BASIC: 2 points\tYour aimpunch is reduced by 15% when aiming down sights.\nACE: 4 points\tYour weapon recoil is reduced by 20% while aiming down sights.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -137,7 +137,7 @@
     },
     "ammo_efficiency": {
         "name": "Ammo Efficiency",
-        "description": "BASIC: 3 points\tScoring 3 headshots in less than 6 seconds with either Assault, Marksman or Sniper Rifles set to single fire mode will refund 1 bullet into your reserves.\nMissing a headshot in any capacity resets the chain.\nACE: 6 points\tThe amount of headshots required is reduced to 2.",
+        "description": "BASIC: 3 points\tScoring 2 headshots in less than 3 seconds with either Assault, Marksman or Sniper Rifles set to single fire mode will refund 1 bullet into your reserves.\nMissing a headshot in any capacity resets the chain.\nACE: 6 points\tThe time required to finish the headshot chain is increased to 5 seconds.\nThe bullet will instead be refunded ${straight into the magazine}.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -182,7 +182,7 @@
     },
     "heavy_impact": {
         "name": "Heavy Impact",
-        "description": "BASIC: 2 points\tYour shots have a 50% chance to stagger all enemies except Bulldozers.\nACE: 4 points\tYour weapons deal 15% more damage to enemies that are currently staggered.\nThe push force of your Shotguns allows you to ${launch} enemies when up close.",
+        "description": "BASIC: 2 points\tYour shots have a 25% chance to stagger all enemies except Bulldozers.\nACE: 4 points\tYour weapons deal 15% more damage to enemies that are currently staggered.\nThe push force of your Shotguns allows you to ${launch} enemies when up close.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -191,7 +191,7 @@
     },
     "fast_hands": {
         "name": "Fast Hands",
-        "description": "BASIC: 3 points\tYou reload ${Individually-Loaded & Double Barrel} Shotguns 40% faster.\nYou reload ${Magazine-loaded} Shotguns 25% faster.\nACE: 6 points\tYour rate of fire is increased by 25% while firing from the hip with ${non-automatic} Shotguns.",
+        "description": "BASIC: 3 points\tYou reload ${Individually-Loaded & Double Barrel} Shotguns 40% faster.\nYou reload ${Magazine-loaded} Shotguns 25% faster.\nACE: 6 points\tYour rate of fire is increased by 25% while firing from the hip with non-automatic Shotguns.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -200,7 +200,7 @@
     },
     "far_away": {
         "name": "Far Away",
-        "description": "BASIC: 3 points\tEffective range of your Shotguns is increased by 25%.\nACE: 6 points\tYour accuracy bonus while aiming down sights with Shotguns is increased by 50%.",
+        "description": "BASIC: 3 points\tEffective range of your Shotguns is increased by 25%.\nACE: 6 points\tYour accuracy bonus while aiming down sights with Shotguns is increased by 40%.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -312,7 +312,7 @@
     },
     "mag_plus": {
         "name": "Mag Plus",
-        "description": "BASIC: 2 points\tFiring a weapon has a 5% chance to not consume any ammo.\nNote: Does not affect weapons using explosive ammunition.\nACE: 4 points\tYour weapons gain 20% more rounds in their magazine.\nNote: Does not affect the Aced \"Sleight of Hand\" Skill.",
+        "description": "BASIC: 2 points\tFiring a weapon has a 5% chance to not consume any ammo.\nNote: Does not affect weapons using explosive ammunition.\nACE: 4 points\tYour weapons gain 20% more rounds in their magazine.\nNote: Does not affect the Aced ${\"Sleight of Hand\"} Skill.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -355,9 +355,9 @@
         "subtree": "engineer",
         "tree": "technician"
     },
-	"hardware_expert": {
-		"name": "Hardware Expert",
-		"description": "BASIC: 2 points\tDrills and saws are silent. Civilians and guards must see the drill or saw in order to become alerted.\nACE: 4 points\tYou fix drills and saws 50% faster.",
+	"hands-on_approach": {
+		"name": "Hands-On Approach",
+		"description": "BASIC: 2 points\tYou interact with all computers and hacks 25% faster.\nACE: 4 points\tYou fix drills and saws 50% faster.",
 		"basic": 2,
 		"ace": 4,
 		"tier": 2,
@@ -373,9 +373,9 @@
         "subtree": "engineer",
         "tree": "tactician"
     },
-    "kickstarter": {
-        "name": "Kickstarter",
-        "description": "BASIC: 3 points\tYour drills and saws will automatically restart 60 seconds after breaking.\nACE: 6 points\tYou gain the ability to fix a broken drill or saw with 3 consecutive melee attacks.",
+    "ghost_wiring": {
+        "name": "Ghost Wiring",
+        "description": "BASIC: 3 points\tDrills and saws are silent. Civilians and guards must see the drill or saw in order to become alerted.\nACE: 6 points\tYou gain the ability to disable 1 camera from detecting you and your crew.\nEffect lasts for 25 seconds.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -441,7 +441,7 @@
     },
     "powder_keg": {
         "name": "Powder Keg",
-        "description": "BASIC: 3 points\tThe blast radius of your individual Grenades, Grenade Launchers and Rocket Launchers is increased by 20%.\nNote: Does not affect the \"Carpet Bombing\" Skill.\nACE: 6 points\tYour individual Grenades, Grenade Launchers and Rocket Launchers have their damage falloff within the blast radius reduced by 66%.\nNote: Does not affect the \"Carpet Bombing\" Skill.",
+        "description": "BASIC: 3 points\tThe blast radius of your individual Grenades, Grenade Launchers and Rocket Launchers is increased by 20%.\nNote: Does not affect the ${\"Carpet Bombing\"} Skill.\nACE: 6 points\tYour individual Grenades, Grenade Launchers and Rocket Launchers have their damage falloff within the blast radius reduced by 66%.\nNote: Does not affect the ${\"Carpet Bombing\"} Skill.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -450,7 +450,7 @@
     },
 	"carpet_bombing": {
 		"name": "Carpet Bombing",
-		"description": "BASIC: 4 points\tExplosions caused by your individual Grenades, Grenade Launchers and Rocket Launchers release a cluster of 4 small grenades.\nEach grenade has a 2.5m blast radius and deals 25% of the main grenade's damage.\nACE: 8 points\tCluster grenades now ignite enemies within their blast radius, causing them to take 30 burn damage per second for 4 seconds.\nCluster grenades now explode on impact.",
+		"description": "BASIC: 4 points\tExplosions caused by your individual Grenades, Grenade Launchers and Rocket Launchers release a cluster of 4 small grenades.\nEach grenade has a 2m blast radius and deals 25% of the main grenade's damage.\nACE: 8 points\tCluster grenades now ignite enemies within their blast radius, causing them to take 30 burn damage per second for 4 seconds.\nCluster grenades now explode on impact.",
 		"basic": 4,
 		"ace": 8,
 		"tier": 4,
@@ -468,7 +468,7 @@
     },
     "oppressor": {
         "name": "Oppressor",
-        "description": "BASIC: 2 points\tYour weapons are 15% more effective at threatening enemies.\nACE: 4 points\tYour weapons are additionally 30% more effective at threatening enemies.",
+        "description": "BASIC: 2 points\tYour weapons are 20% more effective at threatening enemies.\nACE: 4 points\tYour weapons deal 15% more damage to enemies that are currently suppressed or panicking.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -511,54 +511,54 @@
         "subtree": "heavy",
         "tree": "technician"
     },
-    "inner_pockets": {
-        "name": "Inner Pockets",
-        "description": "BASIC: 1 point\tIncreases the concealment of melee weapons by 1.\nACE: 3 points\tIncreases the concealment of all ballistic vests by 3.",
+    "cat_burglar": {
+        "name": "Cat Burglar",
+        "description": "BASIC: 1 point\tYour voice makes 50% less noise.\nACE: 3 points\tYou take 50% less damage from falling.\nYour falls make 50% less noise.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
         "subtree": "shinobi",
         "tree": "ghost"
     },
-    "winston_wolfe": {
-        "name": "Winston Wolfe",
-        "description": "BASIC: 2 points\tYou gain 1 additional body bag in your inventory. Also increases the body bag inventory space to 3.\nACE: 4 points\tYou lockpick 50% faster.\nYou can now silently crack safes by hand.",
+    "logistician": {
+        "name": "Logistician",
+        "description": "BASIC: 2 points\tYou can pack and interact with loot bags 50% faster.\nACE: 4 points\tYou lockpick 50% faster.\nYou can now lockpick safes.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
         "subtree": "shinobi",
         "tree": "ghost"
     },
-    "ecm_feedback": {
-        "name": "ECM Feedback",
-        "description": "BASIC: 2 points\tYou can now interact with ECM jammers to cause a feedback loop that stuns enemies.\nFeedback loop has a 25m radius.\tObstructed line of sight ${halves} the radius.\nACE: 4 points\tECM feedback now recharges every 2 minutes.",
+    "kleptomaniac": {
+        "name": "Kleptomaniac",
+        "description": "BASIC: 2 points\tYou can pick up items while in casing mode.\nACE: 4 points\tWork in Progress.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
         "subtree": "shinobi",
         "tree": "ghost"
     },
-    "chameleon": {
-        "name": "Chameleon",
-        "description": "BASIC: 3 points\tIncreases the time before you start getting detected by 35% in casing mode.\nYou are 35% less likely to be targeted when you are close to your crew members in loud.\nACE: 6 points\tYour concealment is increased by 5.",
+    "ghost_wip1": {
+        "name": "Work in Progress",
+        "description": "BASIC: 3 points\tWork in Progress.\nACE: 6 points\tWork in Progress.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
         "subtree": "shinobi",
         "tree": "ghost"
     },
-    "ecm_specialist": {
-        "name": "ECM Specialist",
-        "description": "BASIC: 3 points\tYou can now place 2 ECM jammers instead of just one.\nACE: 6 points\tYour ECM jammer and feedback now last for 30 seconds.",
+    "ghost_wip2": {
+        "name": "Work in Progress",
+        "description": "BASIC: 3 points\tWork in Progress.\nACE: 6 points\tWork in Progress.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
         "subtree": "shinobi",
         "tree": "ghost"
     },
-    "blackout": {
-        "name": "Blackout",
-        "description": "BASIC: 4 points\tYou gain the ability to disable 1 camera from detecting you and your crew. Effects last for 25 seconds.\nACE: 8 points\tYour ECM jammer can now also be used to open certain electronic doors. Pagers are delayed by the ECM jammers.",
+    "ghost_wip3": {
+        "name": "Work in Progress",
+        "description": "BASIC: 4 points\tWork in Progress.\nACE: 8 points\tWork in Progress.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
@@ -567,7 +567,7 @@
     },
     "athlete": {
         "name": "Athlete",
-        "description": "BASIC: 1 point\tThe time before stamina regeneration starts is reduced by 25% and the regeneration rate of stamina is increased by 25%.\nACE: 3 points\tYour total movement speed is increased by 10%.",
+        "description": "BASIC: 1 point\tThe time before stamina regeneration starts is reduced by 15% and the regeneration rate of stamina is increased by 15%.\nACE: 3 points\tYour total movement speed is increased by 10%.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
@@ -668,7 +668,7 @@
     },
     "silent_killer": {
         "name": "Silent Killer",
-        "description": "BASIC: 3 points\tYour silenced weapons gain 4 stability and accuracy, as well as a 30% chance to pierce enemy armor.\nACE: 6 points\tYour silenced weapons gain a 15% damage increase.",
+        "description": "BASIC: 3 points\tYour silenced weapons gain 4 stability and accuracy, as well as a 30% chance to pierce enemy armor.\nACE: 6 points\tYour silenced weapons gain a 20% damage increase.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -731,7 +731,7 @@
     },
     "peacemakers_lament": {
         "name": "Peacemaker's Lament",
-        "description": "BASIC: 4 points\tFor 1 second after pulling out your Pistol or Revolver, your shots will deal 100% extra damage.\nACE: 8 points\tFor 2 seconds after reloading your Pistol or Revolver, your shots will deal 100% extra damage and their full damage will be dealt to the closest enemy in a 5m radius.",
+        "description": "BASIC: 4 points\tFor 5 seconds after pulling out your Pistol or Revolver, your shots will deal 50% extra damage.\nACE: 8 points\tFor 5 seconds after reloading your Pistol or Revolver, your shots will deal 100% extra damage and their full damage will be dealt to the closest enemy in a 5m radius.\nThis cannot occur more than once every 10 seconds after the effect runs out.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
@@ -767,7 +767,7 @@
     },
     "uppers": {
         "name": "Uppers",
-        "description": "BASIC: 3 points\tUsing a First Aid Kit makes you regenerate 10 health every 5 seconds for 60 seconds.\nACE: 6 points\tYour deployed First Aid Kits will be automatically used if a player is downed within a 5 meter radius of the First Aid Kit. This cannot occur more than once every 120 seconds.",
+        "description": "BASIC: 3 points\tUsing a First Aid Kit makes you regenerate 8 health every 5 seconds for 60 seconds.\nACE: 6 points\tYour deployed First Aid Kits will be automatically used if a player is downed within a 5 meter radius of the First Aid Kit. This cannot occur more than once every 120 seconds.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -830,7 +830,7 @@
     },
     "berserker": {
         "name": "Berserker",
-        "description": "BASIC: 3 points\tThe lower your health, the more movement speed you gain. When your health is below 50%, you will gain up to 25% movement speed.\nACE: 6 points\tThe lower your health, the more damage you do. When your health is below 50%, you will do up to 250% more melee and saw damage.",
+        "description": "BASIC: 3 points\tThe lower your health, the more movement speed you gain. When your health is below 50%, you will gain up to 20% movement speed.\nACE: 6 points\tThe lower your health, the more damage you do. When your health is below 50%, you will do up to 250% more melee and saw damage.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
