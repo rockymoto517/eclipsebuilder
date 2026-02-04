@@ -61,7 +61,7 @@
             "blending_in",
             "composite_layer",
             "walk-in_closet",
-            "impact_diffusion",
+            "iron_curtain",
             "fast_and_furious",
             "failsafe_protocol"
         ],
@@ -280,7 +280,7 @@
         "name": "Ex-President", 
         "description": "The Ex-Presidents are one of the most daring heisting crews out there. Great risk takers and brothers in arms. Their lack of fear for their own mortality brought them together and made them as successful as they are.\nAn Ex-President follows no rules and only adheres to the Ozaki 8, a set of trials to honor their nature.",
         "perks": [
-            "point_break",
+            "break",
             "refund",
             "the_emerging_force",
             "blending_in",

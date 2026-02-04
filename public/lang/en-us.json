@@ -120,7 +120,7 @@
 		},
 		"traite_de_versailles": { 
 			"name": "Traité de Versailles", 
-			"description": "Trading a hostage for resources before the anticipation begins will now delay the incoming assault by 10 seconds. This effect is doubled for solo players.\nYou and your crew can now trade hostages for resources before the first assault.\nNote: Crew perks do not stack."
+			"description": "Trading a hostage for resources ${before the anticipation begins} will now delay the incoming assault by 10 seconds. This effect is {doubled} for solo players.\nYou and your crew can now trade hostages for resources before the first assault.\nNote: Crew perks do not stack."
 		},
 		"disturbing_the_peace": {
 			"name": "Disturbing The Peace",
@@ -174,6 +174,10 @@
 			"name": "Composite Layer",
 			"description": "You gain 15% more armor."
 		},
+		"iron_curtain": {
+			"name": "Iron Curtain",
+			"description": "Work in Progress"
+		},
 		"impact_diffusion": {
 			"name": "Impact Diffusion",
 			"description": "Your armor blocks 25% of the damage when full."
@@ -188,7 +192,7 @@
         },
         "elusive": {
             "name": "Elusive",
-            "description": "If you do not lose any armor or health for 4 seconds, you gain 10% dodge chance for 6 seconds."
+            "description": "You are 15% less likely to be targeted when you are close to your crew members."
         },
         "evasive": {
             "name": "Evasive",
@@ -200,7 +204,7 @@
         },
         "killer_instinct": {
             "name": "Killer Instinct",
-            "description": "If you do not lose any armor or health for 4 seconds, you gain 20% critical hit chance for 6 seconds.\tCritical hits deal 200% damage.\nNote: Critical hit damage can be increased by the Aced ${Low Blow} skill."
+            "description": "If you do not lose any armor or health for 4 seconds, you gain 20% critical hit chance for 6 seconds.\tCritical hits deal 200% damage.\nNote: Critical hit damage can be increased by the Aced ${\"Low Blow\"} skill."
         },
 		"gunslinger": {
 			"name": "Gunslinger",
@@ -257,7 +261,7 @@
 		},
 		"unyielding": {
 			"name": "Unyielding",
-			"description": "Your ballistic vests are now immune to armor suppression."
+			"description": "You are immune to armor suppression while wearing ballistic vests."
 		},
         "tooth_and_claw": {
             "name": "Tooth and Claw",
@@ -331,11 +335,11 @@
         },
 		"jack_of_all_trades": {
 			"name": "Jack of All Trades",
-			"description": "You can now equip a secondary deployable to bring with you.\nYou can only bring half the quantity of your secondary deployable."
+			"description": "You can now equip a secondary deployable to bring with you.\nYou can only bring ${half} the quantity of your secondary deployable."
 		},
 		"overclocked": {
 			"name": "Overclocked",
-			"description": "Your drill and saw timer is decreased by 30%."
+			"description": "Your drill and saw timer is decreased by 30%.\nYou gain the ability to fix a broken drill or saw with 3 consecutive melee attacks."
 		},
 		"watch_my_back": {
 			"name": "Watch My Back",
@@ -343,15 +347,15 @@
 		},
 		"short_circuit": {
 			"name": "Short Circuit",
-			"description": "Enemies that attempt to break your drills have a 90% chance of being electrocuted, stopping their sabotage attempt."
+			"description": "Enemies that attempt to break your drills have a 90% chance of being electrocuted, stopping their sabotage attempt.\nYour drills and saws will automatically restart 60 seconds after breaking."
 		},
 		"swiss_toolkit": {
 			"name": "Swiss Toolkit",
-			"description": "You can now bring the full quantity of your secondary deployable.\nYou deploy and interact with all deployables 100% faster."
+			"description": "You can now bring the ${full} quantity of your secondary deployable.\nYou deploy and interact with all deployables 100% faster."
 		},
         "overdog": {
             "name": "OVERDOG",
-            "description": "When you are surrounded by three enemies or more, you receive 12% less damage from enemies.\nYour second and each consecutive melee hit within 1 second of the last one will deal 10 times its normal damage."
+            "description": "When you are surrounded by three enemies or more, you receive 12% less damage from enemies.\nFor every consecutive melee hit within 1 second of the previous one your next melee hit's damage is increased by 100%.\tStacks up to 4 times."
         },
         "basic_close_combat": {
             "name": "Basic Close Combat",
@@ -376,7 +380,7 @@
         },
         "clean_hit": {
             "name": "Clean Hit",
-            "description": "Killing an enemy with a melee weapon regenerates 20 armor.\nThis cannot occur more than once every 2 seconds.\nWhen you are within medium range of an enemy you receive 8% less damage."
+            "description": "Killing an enemy with a melee weapon regenerates 40 armor.\nThis cannot occur more than once every 2 seconds.\nWhen you are within medium range of an enemy you receive 8% less damage."
         },
         "overdose": {
             "name": "Overdose",
@@ -388,7 +392,7 @@
         },
         "medical_supplies": {
             "name": "Medical Supplies",
-            "description": "Ammo packs you pick up also yield medical supplies which heal you for 2 health."
+            "description": "Ammo packs you pick up also yield medical supplies which heal you for 3 health."
         },
         "ammo_give_out": {
             "name": "Ammo Give Out",
@@ -408,16 +412,16 @@
 		},
         "histamine": {
             "name": "Histamine",
-			"description": "Damaging an enemy will regenerate 1 health every 0.3 seconds for 3 seconds.\nThis effect stacks but cannot occur more than once every 1 second."
+			"description": "Damaging an enemy will regenerate 1 health every 1.5 seconds for 3 seconds.\nThis effect stacks but cannot occur more than once every 1.5 seconds."
         },
         "adrenaline": {
             "name": "Adrenaline",
-            "description": "You gain 30% extra health.\nAll of your armor is converted and applied to your health.\nYou receive 50% less fall damage.",
+            "description": "You gain 30% extra health.\nAll of your armor is converted and applied to your health.\nYou take 50% less damage when falling from non-lethal heights.",
             "copycat_description": "Damaging an enemy heals 2 life points every 0.3 seconds for 3 seconds.\nThis effect stacks but cannot occur more than once every 1.5 seconds, and only while wearing the Two-piece Suit or Lightweight Ballistic Vest."
         },
         "endorphins": {
             "name": "Endorphins",
-            "description": "Scoring a headshot will heal you for 5 health.\nThis cannot occur more than once every 3 seconds."
+            "description": "Scoring a headshot will heal you for 10 health.\nThis cannot occur more than once every 3 seconds."
         },
         "dopamine": {
             "name": "Dopamine",
@@ -425,7 +429,7 @@
         },
         "euphoria": {
             "name": "Euphoria",
-            "description": "Damaging an enemy will now regenerate 2 health every 0.3 seconds for 3 seconds instead."
+            "description": "Damaging an enemy will now regenerate 3 health every 0.3 seconds for 3 seconds instead."
         },
         "koi_irezumi": {
             "name": "Koi Irezumi",
@@ -448,8 +452,8 @@
             "name": "Oni Irezumi",
             "description": "The lower your health, the more damage you do.\nYou will do up to 30% more damage with ranged weapons."
         },
-        "point_break": {
-            "name": "Point Break",
+        "break": {
+            "name": "Break",
             "description": "While your armor is up, you will store 1 health for every 1 enemy you or your crew kills.\nWhen your armor has been completely depleted and then starts to regenerate, you will gain health equal to the stored health amount.\nMaximum amount of stored health depends on your equipped armor."
         },
         "the_emerging_force": {
@@ -471,7 +475,7 @@
         },
         "excitement": {
             "name": "Excitement",
-            "description": "100% of damage you deal is converted into Hysteria Stacks, up to 240 every 4 seconds. Max amount of stacks is 600.\nHysteria Stacks:\tYou gain 1 damage absorption for every 75 stacks of Hysteria. Hysteria Stacks decays 60% + 80 every 8 seconds."
+            "description": "100% of damage you deal is converted into Hysteria Stacks, up to 80 every 0.35 seconds. Max amount of stacks is 300.\nYou gain 1 damage absorption for every 30 stacks of Hysteria. Hysteria Stacks decays 0.075% + 30 every 2.5 - 1.8 seconds based on difficulty level."
         },
         "outburst": {
             "name": "Outburst",
@@ -480,11 +484,11 @@
         },
         "fervor": {
             "name": "Fervor",
-            "description": "Change the decay of your Hysteria Stacks to 60% + 40 every 8 seconds."
+            "description": "Change the decay of your Hysteria Stacks to 0.075% + 15 every 2.5 - 1.8 seconds based on difficulty level."
         },
         "recklessness": {
             "name": "Recklessness",
-            "description": "Change the damage absorption of your Hysteria Stacks on you and your crew to 1 damage absorption for every 60 stacks of Hysteria."
+            "description": "Change the damage absorption of your Hysteria Stacks on you and your crew to 1 damage absorption for every 25 stacks of Hysteria."
         },
         "insanity": {
             "name": "Insanity",
@@ -496,7 +500,7 @@
         },
         "straight_edge": {
             "name": "Straight Edge",
-            "description": "75% of your health is converted into armor. Heavier armor receives a better conversion rate."
+            "description": "75% of your health is converted into armor.\tHeavier armor receives a better conversion rate."
         },
         "death_or_glory": {
             "name": "Death or Glory",
@@ -504,7 +508,7 @@
         },
         "rise_above": {
             "name": "Rise Above",
-            "description": "Your health loss during conversion is reduced to 50%. Armor increase is unaffected."
+            "description": "Your health loss during conversion is reduced to 50%.\nArmor increase is unaffected."
         },
         "lust_for_life": {
             "name": "Lust for Life",
@@ -520,7 +524,7 @@
         },
         "road_captain": {
             "name": "Road Captain",
-            "description": "Every 1/6 health missing will reduce the 16 second cooldown to kill regen by 1 second."
+            "description": "Every 1${/}6 health missing will reduce the 16 second cooldown to kill regen by 1 second."
         },
         "sgt-at-arms": {
             "name": "Sgt-at-Arms",
@@ -529,7 +533,7 @@
         },
         "prez": {
             "name": "Prez",
-            "description": "Every 1/6 armor missing will reduce the 16 second cooldown to kill regen by 1 second."
+            "description": "Every 1${/}6 armor missing will reduce the 16 second cooldown to kill regen by 1 second."
         },
         "bad_guy_coming_through": {
             "name": "Bad Guy Coming Through",
@@ -550,7 +554,7 @@
         },
         "right_to_the_top": {
             "name": "Right to the Top",
-            "description": "For every 5 points of health gained during the injector effect while at maximum health, the recharge time of the injector is reduced by 1 second."
+            "description": "For every 5 points of health gained during the injector effect while at maximum health, the recharge time of the injector is reduced by 1 ${second}."
         },
         "smoker": {
             "name": "Smoker",
@@ -590,7 +594,7 @@
 		},
         "un-moved": {
             "name": "Un-moved",
-            "description": "All of your armor is converted and applied to your health.\nYou receive 50% less fall damage."
+            "description": "All of your armor is converted and applied to your health.\nYou take 50% less damage when falling from non-lethal heights."
         },
         "calm": {
             "name": "Calm",
