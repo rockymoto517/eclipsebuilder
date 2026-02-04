@@ -73,11 +73,11 @@
         },
         "walk-in_closet": {
             "name": "Walk-in Closet",
-            "description": "Unlocks an armor bag equipment for you to use. The armor bag can be used to change your armor during a heist.\nWhen wearing armor, your movement speed is 15% less affected."
+            "description": "Unlocks an armor bag equipment for you to use. The armor bag can be used to change your armor during a heist."
         },
         "fast_and_furious": {
             "name": "Fast and Furious",
-            "description": "You do 5% more damage. Does not apply to melee damage, throwables, grenade launchers or rocket launchers.\nIncreases your doctor bag interaction speed by 20%."
+            "description": "Increases your doctor bag interaction speed by 20%."
         },
         "brute_strength-1": {
             "name": "Brute Strength",
