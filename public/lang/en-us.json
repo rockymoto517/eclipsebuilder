@@ -1171,7 +1171,7 @@
 			"description": "BASIC: 4 points\tExplosions caused by your individual Grenades, Grenade Launchers and Rocket Launchers release a cluster of 4 small grenades.\nEach grenade has a 2m blast radius and deals 25% of the main grenade's damage.\nACE: 8 points\tCluster grenades now ignite enemies within their blast radius, causing them to take 30 burn damage per second for 4 seconds.\nCluster grenades now explode on impact."
 		},
 		"ghost_wiring": {
-			"name": "ghost_wiring",
+			"name": "Ghost Wiring",
 			"description": "BASIC: 3 points\tDrills and saws are silent. Civilians and guards must see the drill or saw in order to become alerted.\nACE: 6 points\tYou gain the ability to disable 1 camera from detecting you and your crew.\nEffect lasts for 25 seconds."
 		},
         "kickstarter": {
