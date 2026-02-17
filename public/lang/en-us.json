@@ -916,13 +916,13 @@
 			"name": "Kleptomaniac",
 			"description": "BASIC: 2 points\tYou can pick up items while in casing mode.\nACE: 4 points\tWork in Progress."
 		},
-		"ghost_wip1": {
-			"name": "Work in Progress",
-			"description": "BASIC: 3 points\tWork in Progress.\nACE: 6 points\tWork in Progress."
+		"sixth_sense": {
+			"name": "Sixth Sense",
+			"description": "BASIC: 3 points\tYou can automatically mark guards and civilians ${one by one} within a 10 meter radius after not moving or attacking for 3 seconds.\nThis ability only works in stealth.\nACE: 6 points\tYou can automatically mark ${all} enemies and civilians ${at once} within a 12 meter radius after not moving or attacking for 3 seconds.\nThis ability now works in loud as well."
 		},
-		"ghost_wip2": {
-			"name": "Work in Progress",
-			"description": "BASIC: 3 points\tWork in Progress.\nACE: 6 points\tWork in Progress."
+		"ecm_blackout": {
+			"name": "ECM Blackout",
+			"description": "BASIC: 3 points\tYou can now place 4 ECM Jammers instead of just two.\nACE: 6 points\tWhen activated in loud, your ECM Jammers will generate disruptions in ongoing enemy communications.\nCommunication disruptions cause enemies to refrain from pushing and slow down the speed at which new squads arrive on the scene by 80%."
 		},
 		"background_threat": {
 			"name": "Background Threat",
