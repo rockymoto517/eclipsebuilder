@@ -209,8 +209,8 @@
 #ghost_wip2 {
 	background-position: 0 0;
 }
-#ghost_wip3 {
-	background-position: 0 0;
+#background_threat {
+	background-position: calc((640% / (1040 - 80)) * 100) 0;
 }
 
 /* Artful Dodger */
