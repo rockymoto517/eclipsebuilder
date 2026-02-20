@@ -858,7 +858,7 @@
 		},
 		"regen_plating": {
 			"name": "Regen Plating",
-			"description": "BASIC: 3 points\tYour armor recovery rate is increased by 15%.\nACE: 6 points\tWhen your armor recovers after being fully broken you regenerate 8 health.\nThis cannot occur more than once every 10 seconds."
+			"description": "BASIC: 3 points\tYour armor recovery rate is increased by 15%.\nACE: 6 points\tWhen your armor recovers after being fully broken you regenerate 10 health and an additional 1 health for every 20 points of armor.\nThis cannot occur more than once every 10 seconds and an additional 1 second for every 20 points of armor."
 		},
 		"daredevil": {
 			"name": "Daredevil",
@@ -1084,7 +1084,7 @@
         },
         "scavenger": {
             "name": "Scavenger",
-            "description": "BASIC: 1 point\tYour ammo pickup rate is increased by 5%.\nACE: 3 points\tYour ammo pick up range is increased by 20%."
+            "description": "BASIC: 1 point\tYou regenerate 2% stamina for each ammo box you pick up.\nACE: 3 points\tYour ammo pickup range is increased by 20% and an additional 1% for every 10 points of armor."
         },
         "bulletstorm": {
             "name": "Bulletstorm",
@@ -1325,7 +1325,7 @@
         },
         "bloodthirst": {
             "name": "Bloodthirst",
-            "description": "BASIC: 2 points\tYour melee attacks deal 33% more damage\nACE: 4 points\tEvery kill you get will increase your next melee attack damage by 25%, up to a maximum of 500%. This effect gets reset when you kill an enemy with a melee attack."
+            "description": "BASIC: 2 points\tYour melee attacks deal 33% more damage\nACE: 4 points\tEvery kill you get will increase your next melee attack damage by 25%, up to a maximum of 800%. This effect gets reset when you kill an enemy with a melee attack."
         },
         "pumping_iron": {
             "name": "Pumping Iron",
@@ -1333,11 +1333,11 @@
         },
         "counterstrike": {
             "name": "Counterstrike",
-            "description": "BASIC: 3 points\tWhen you melee Shield enemies, they get knocked down.\nNote: does not affect Elite Shields.\nACE: 6 points\tWhen you melee Bulldozer enemies, they get knocked down.\nThis cannot occur more than once every 30 seconds."
+            "description": "BASIC: 3 points\tWhen you melee Shield enemies, they get knocked down.\nNote: does not affect Elite Shields.\nACE: 6 points\tWhen you melee Bulldozer enemies, they get knocked down.\nThis cannot occur more than once every 10 seconds."
         },
         "berserker": {
             "name": "Berserker",
-            "description": "BASIC: 3 points\tThe lower your health, the more movement speed you gain. When your health is below 50%, you will gain up to 20% movement speed.\nACE: 6 points\tThe lower your health, the more damage you do. When your health is below 50%, you will do up to 250% more melee and saw damage."
+            "description": "BASIC: 3 points\tThe lower your health, the more movement speed you gain. When your health is below 50%, you will gain up to 20% movement speed.\nACE: 6 points\tThe lower your health, the more damage you do. When your health is below 50%, you will do up to 150% more melee damage."
         },
         "frenzy": {
             "name": "Frenzy",
