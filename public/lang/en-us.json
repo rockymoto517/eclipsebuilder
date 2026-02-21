@@ -421,7 +421,7 @@
         },
         "endorphins": {
             "name": "Endorphins",
-            "description": "Scoring a headshot will heal you for 10 health.\nThis cannot occur more than once every 3 seconds."
+            "description": "Scoring a headshot will heal you for 10 health.\nThis cannot occur more than once every 5 seconds."
         },
         "dopamine": {
             "name": "Dopamine",
@@ -429,7 +429,7 @@
         },
         "euphoria": {
             "name": "Euphoria",
-            "description": "Damaging an enemy will now regenerate 3 health every 0.3 seconds for 3 seconds instead."
+            "description": "Damaging an enemy will now regenerate 2 health every 0.3 seconds for 3 seconds instead."
         },
         "koi_irezumi": {
             "name": "Koi Irezumi",
