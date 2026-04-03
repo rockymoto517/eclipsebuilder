@@ -176,7 +176,7 @@
 		},
 		"iron_curtain": {
 			"name": "Iron Curtain",
-			"description": "Work in Progress"
+			"description": "When your armor breaks, your crewmates receive 20% damage reduction for 10 seconds. This cannot occur more than once every 60 seconds."
 		},
 		"impact_diffusion": {
 			"name": "Impact Diffusion",
@@ -192,8 +192,12 @@
         },
         "elusive": {
             "name": "Elusive",
-            "description": "You are 15% less likely to be targeted when you are close to your crew members."
+            "description": "If you do not lose any armor or health for 4 seconds, you gain 10% dodge chance for 6 seconds."
         },
+		"elusive2": {
+			"name": "Elusive",
+			"description": "You are 15% less likely to be targeted when you are close to your crew members."
+		},
         "evasive": {
             "name": "Evasive",
             "description": "Your chance to dodge is increased by an additional 5%."
@@ -269,7 +273,7 @@
         },
 		"death_in_motion": {
 			"name": "Death in Motion",
-			"description": "Getting 3 headshot kills in less than 10 seconds increases your chance to dodge by 10% for 5 seconds."
+			"description": "Getting 3 headshot kills in less than 10 seconds increases your chance to dodge by 10% for 10 seconds."
 		},
 		"controlled_chaos": {
 			"name": "Controlled Chaos",
@@ -277,7 +281,7 @@
 		},
 		"dead_mans_dance": {
 			"name": "Dead Man's Dance",
-			"description": "Getting 3 headshot kills in less than 10 seconds increases your chance to dodge by an additional 10% for 5 seconds."
+			"description": "Getting 3 headshot kills in less than 10 seconds increases your chance to dodge by an additional 10% for 10 seconds."
 		},
 		"blood_debt": {
 			"name": "Blood Debt",
@@ -412,7 +416,7 @@
 		},
         "histamine": {
             "name": "Histamine",
-			"description": "Damaging an enemy will regenerate 1 health every 1.5 seconds for 3 seconds.\nThis effect stacks but cannot occur more than once every 1.5 seconds."
+			"description": "Damaging an enemy will regenerate 1 health every 0.3 seconds for 3 seconds. This effect stacks but cannot occur more than once every 1.5 seconds."
         },
         "adrenaline": {
             "name": "Adrenaline",
@@ -446,7 +450,7 @@
         },
         "ryu_irezumi": {
             "name": "Ryu Irezumi",
-			"description": "The lower your health, the more likely you are to dodge.\nYou will gain up to 40% dodge."
+			"description": "The lower your health, the more likely you are to dodge.\nYou will gain up to 30% dodge."
         },
         "oni_irezumi": {
             "name": "Oni Irezumi",
@@ -475,7 +479,7 @@
         },
         "excitement": {
             "name": "Excitement",
-            "description": "100% of damage you deal is converted into Hysteria Stacks, up to 80 every 0.35 seconds. Max amount of stacks is 300.\nYou gain 1 damage absorption for every 30 stacks of Hysteria. Hysteria Stacks decays 0.075% + 30 every 2.5 - 1.8 seconds based on difficulty level."
+            "description": "100% of damage you deal is converted into Hysteria Stacks, up to 120 every 0.2 seconds. Max amount of stacks is 300.\nYou gain 1 damage absorption for every 20 stacks of Hysteria. You lose 24 Hysteria Stacks every 1.2 seconds."
         },
         "outburst": {
             "name": "Outburst",
@@ -484,11 +488,11 @@
         },
         "fervor": {
             "name": "Fervor",
-            "description": "Change the decay of your Hysteria Stacks to 0.075% + 15 every 2.5 - 1.8 seconds based on difficulty level."
+            "description": "Change the decay of your Hysteria Stacks to 18 every 1.2 seconds."
         },
         "recklessness": {
             "name": "Recklessness",
-            "description": "Change the damage absorption of your Hysteria Stacks on you and your crew to 1 damage absorption for every 25 stacks of Hysteria."
+            "description": "Change the damage absorption of your Hysteria Stacks on you and your crew to 1 damage absorption for every 15 stacks of Hysteria."
         },
         "insanity": {
             "name": "Insanity",
