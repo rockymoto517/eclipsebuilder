@@ -45,7 +45,7 @@
 	},
 	"traite_de_versailles": { 
 		"name": "Traité de Versailles", 
-		"description": "Trading a hostage for resources ${before the anticipation begins} will now delay the incoming assault by 10 seconds. This effect is {doubled} for solo players.\nYou and your crew can now trade hostages for resources before the first assault.\nNote: Crew perks do not stack.",
+		"description": "Trading a hostage for resources ${before the anticipation begins} will now delay the incoming assault by 10 seconds. This effect is ${doubled} for solo players.\nYou and your crew can now trade hostages for resources before the first assault.\nNote: Crew perks do not stack.",
 		"deck_completion_bonus": true
 	},
     "disturbing_the_peace": {
