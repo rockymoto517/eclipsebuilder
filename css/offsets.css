@@ -68,8 +68,8 @@
 /* ENFORCER */
 
 /* Shotgunner */
-#underdog {
-  background-position: calc((160% / (1040 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+#wip_enforcer {
+  background-position: 0 0;
 }
 #point_blank {
   background-position: calc((640% / (1040 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
@@ -297,8 +297,8 @@
 }
 
 /* Brawler */
-#martial_arts {
-  background-position: calc((880% / (1040 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
+#underdog {
+  background-position: calc((160% / (1040 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
 }
 #bloodthirst {
   background-position: calc((880% / (1040 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
