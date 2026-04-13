@@ -162,9 +162,9 @@
         "subtree": "sharpshooter",
         "tree": "mastermind"
     },
-    "underdog": {
-        "name": "Underdog",
-        "description": "BASIC: 1 points\tWhen three or more enemies within 18 meters are targeting you, you receive a 15% damage bonus that lasts for 7 seconds.\nACE: 3 points\tWhen three or more enemies within 18 meters are targeting you, you also receive a 10% damage reduction that lasts for 7 seconds.\nNote: Does not apply to melee damage, throwables, grenade launchers or rocket launchers.",
+    "wip_enforcer": {
+        "name": "Work in Progress",
+        "description": "BASIC: 1 points\tWork in progress.\nACE: 3 points\tWork in progress.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
@@ -792,9 +792,9 @@
         "subtree": "revenant",
         "tree": "fugitive"
     },
-    "martial_arts": {
-        "name": "Martial Arts",
-        "description": "BASIC: 1 point\tYou take 50% less damage from all melee attacks. Because of training.\nACE: 3 points\tYou are 50% more likely to knock down enemies with a melee strike.",
+    "underdog": {
+        "name": "Underdog",
+        "description": "BASIC: 1 point\tWhen three or more enemies within 18 meters are targeting you, you receive a 15% damage bonus that lasts for 7 seconds.\nACE: 3 points\tWhen three or more enemies within 18 meters are targeting you, you also receive a 10% damage reduction that lasts for 7 seconds.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
@@ -803,7 +803,7 @@
     },
     "bloodthirst": {
         "name": "Bloodthirst",
-        "description": "BASIC: 2 points\tYour melee attacks deal 33% more damage\nACE: 4 points\tEvery kill you get will increase your next melee attack damage by 25%, up to a maximum of 800%. This effect gets reset when you kill an enemy with a melee attack.",
+        "description": "BASIC: 2 points\tYour melee attacks deal 33% more damage.\nYour melee attacks are 33% more likely to knock down enemies.\nACE: 4 points\tEvery kill you get will increase your next melee attack damage by 25%, up to a maximum of 800%. This effect gets reset when you kill an enemy with a melee attack.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -830,7 +830,7 @@
     },
     "berserker": {
         "name": "Berserker",
-        "description": "BASIC: 3 points\tThe lower your health, the more movement speed you gain. When your health is below 50%, you will gain up to 20% movement speed.\nACE: 6 points\tThe lower your health, the more damage you do. When your health is below 50%, you will do up to 150% more melee damage.",
+        "description": "BASIC: 3 points\tEvery hit that you receive grants you a 10% damage increase with melee weapons.\nStacks up to 10 times. The stacks decay at the rate of 1 stack per second.\nACE: 6 points\tEvery hit that you receive grants you a 5% damage increase with ranged weapons.\nStacks up to 10 times. The stacks decay at the rate of 1 stack per second.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -839,21 +839,11 @@
     },
     "frenzy": {
         "name": "Frenzy",
-        "description": "BASIC: 4 points\tYou only get 10% of your maximum health and cannot heal above it but you take 15% less damage and healing received is reduced by 75%.\nACE: 8 points\tDamage taken is now reduced by 35% and healing received is reduced by 100%.",
+        "description": "BASIC: 4 points\tKilling an enemy with a melee attack grants you a 20% damage reduction and armor suppression immunity for 5 seconds.\nThis cannot occur more than once every 20 seconds.\nACE: 8 points\tKilling an enemy with a melee attack also resets all currently running ability cooldowns.\nThis cannot occur more than once every 20 seconds.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
         "subtree": "brawler",
-        "tree": "fugitive",
-        "stats": {
-            "basic": [
-                {
-                    "id": 4,
-                    "type": "health",
-                    "part": "healthFrenzy",
-                    "value": -0.9
-                }
-            ]
-        }
+        "tree": "fugitive"
     }
 }
