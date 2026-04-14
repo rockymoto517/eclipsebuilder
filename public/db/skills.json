@@ -830,7 +830,7 @@
     },
     "berserker": {
         "name": "Berserker",
-        "description": "BASIC: 3 points\tEvery hit that you receive grants you a 10% damage increase with melee weapons.\nStacks up to 10 times. The stacks decay at the rate of 1 stack per second.\nACE: 6 points\tEvery hit that you receive grants you a 5% damage increase with ranged weapons.\nStacks up to 10 times. The stacks decay at the rate of 1 stack per second.",
+        "description": "BASIC: 3 points\tEvery hit that you receive grants you a 5% damage increase with melee weapons.\nStacks up to 20 times. Receiving health hits grants ${double} the stacks. The stacks decay at the rate of 1 stack per second.\nACE: 6 points\tEvery hit that you receive grants you a 2.5% damage increase with ranged weapons.\nStacks up to 20 times. Receiving health hits grants ${double} the stacks. The stacks decay at the rate of 1 stack per second.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
