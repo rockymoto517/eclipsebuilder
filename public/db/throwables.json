@@ -20,9 +20,14 @@
         "community": true
     },
     "concussion_grenade": {
-        "name": "Concussion Grenade",
-        "description": "This stunning little beauty will take everyone's breath away, giving you those couple of extra seconds you need to kill them."
+        "name": "Flashbang",
+        "description": "If the cops can throw infinite amounts of these to burn your retinas out, so should you!\tAlthough yours come in limited supply...\tThey may not like the taste of their own medicine, but it is their opinion and your choice!\nUpon detonation, they will stun anyone nearby (including you and teammates!) for a short moment.\nBest used indoors."
     },
+	"laser_watch": {
+		"name": "Laser Chronometer",
+		"description": "Here we have a watch fitted neatly with a portable cutting laser. Useful and unobtrusive, it can cut through locks and reinforced steel almost like it was nothing. Be cautious of its limited battery.\t...And of course it is waterproof.\n-G",
+		"dlc": "Espionage Weapon Pack"
+	},
     "frag_grenade": {
         "name": "Frag Grenade",
         "description": "The frag grenade is a concept that has changed little from its inception. It is a thrown casing that explodes, sending shards and splinters away with such force they can slice through flesh, bone and light armor. Cheap and effective.",
@@ -110,9 +115,9 @@
         "name": "Viper Grenade",
         "description": "The Viper Grenade lets you lock down an area in a debilitating smoke, letting you easily deal with any survivors stumbling out of the affected area."
     },
-    "adhesive_grenade": {
-        "name": "Adhesive Grenade",
-        "description": "The Adhesive Grenades will let you throw a grenade at a wall or on a roof and have it stick, exposing enemies to the deadly blast. For comedic effect, stick an enemy directly and watch him inadvertently walk a deadly explosive into his own ranks.",
+    "impact_grenade": {
+        "name": "Impact Grenade",
+        "description": "A grenade that explode on impact with the surfaces or enemies.",
         "dlc": "McShay Mod Pack"
     }
 }
