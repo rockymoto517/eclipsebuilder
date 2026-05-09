@@ -878,6 +878,10 @@
   background-image: url("../img/throwables/concussion_grenade.png"); 
 }
 
+#laser_watch {
+	background-image: url("../img/throwables/laser_watch.png");
+}
+
 #frag_grenade {
   background-image: url("../img/throwables/frag_grenade.png"); 
 }
@@ -938,8 +942,8 @@
   background-image: url("../img/throwables/viper_grenade.png")
 }
 
-#adhesive_grenade {
-  background-image: url("../img/throwables/adhesive_grenade.png")
+#impact_grenade {
+  background-image: url("../img/throwables/impact_grenade.png")
 }
 
 #snowball {
