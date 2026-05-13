@@ -118,8 +118,7 @@
     },
     "rifleman": {
         "name": "Rifleman",
-        "description": "BASIC: 2 points\tYour stamina loss from being hit is reduced by 15%.\nACE: 4 points\tYour weapon spread is reduced by 20% while standing still.",
-        "vr_description": "Addition in VR:\tBASIC: Every kill while aiming down sight will regenerate 2% stamina.\tEvery 25 points of stamina consumed by dashing will refill 5% of their ammo pool to single shot weapons.\tACE: The improved accuracy lasts from 1 up to a maximum of 5 seconds after dashing.",
+        "description": "BASIC: 2 points\tYour accuracy recovers 35% faster.\nACE: 4 points\tYour weapon spread is reduced by 20% while standing still.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -749,7 +748,7 @@
     },
     "quick_fix": {
         "name": "Quick Fix",
-        "description": "BASIC: 2 points\tDecreases your First Aid Kit and Doctor Bag deploy time by 100%.\nACE: 4 points\tCrew members that use your First Aid Kits or Doctor Bags take 10% less damage for 120 seconds.",
+        "description": "BASIC: 2 points\tCrew members that use your First Aid Kits receive a 15% movement speed increase for 10 seconds.\nACE: 4 points\tCrew members that use your First Aid Kits also receive a 20% damage reduction for 10 seconds.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -776,7 +775,7 @@
     },
     "swan_song": {
         "name": "Swan Song",
-        "description": "BASIC: 3 points\tInstead of getting downed instantly, you gain the ability to keep on fighting for 3 seconds with a 60% movement penalty before going down.\nNote: Does not trigger on fall or fire damage.\nACE: 6 points\tIncreases the duration of Swan Song by 6 seconds.",
+        "description": "BASIC: 3 points\tYour bleedout timer duration is increased by 33%.\nACE: 6 points\tInstead of being downed instantly, you gain the ability to keep on fighting for 10 seconds with a 40% movement penalty.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -785,7 +784,7 @@
     },
     "messiah": {
         "name": "Messiah",
-        "description": "BASIC: 4 points\tWhile in bleedout, you can revive yourself if you kill an enemy. You only have 1 charge.\nYour bleedout timer is increased by 10 seconds.\nNote: Getting out of custody doesn't replenish the charges.\nACE: 8 points\tYou gain an additional 2 charges.\nWhenever you get into custody, your hostages will trade themselves for your safe return. This effect can occur during assaults, but only 1 time during a heist.",
+        "description": "BASIC: 4 points\tWhile in bleedout, you deal 100% more damage\nACE: 8 points\tWhile in bleedout, you can revive yourself if you kill an enemy. You only have 3 charges during the heist.\nWhen self-revived, you will cause all enemies with a ${line of sight} on you to panic.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
