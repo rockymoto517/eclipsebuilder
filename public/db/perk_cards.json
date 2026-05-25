@@ -563,32 +563,38 @@
     },
     "break": {
         "name": "Break",
-        "description": "While your armor is up, you will store 1 health for every 1 enemy you or your crew kills.\nWhen your armor has been completely depleted and then starts to regenerate, you will gain health equal to the stored health amount.\nMaximum amount of stored health depends on your equipped armor."
+        "description": "While your armor is up, you will store 2 health for every enemy you kill.\nWhen your armor has been completely depleted and starts to regenerate, you will gain health equal to the stored health amount.\nThe maximum amount of stored health depends on your equipped armor."
     },
     "the_emerging_force": {
         "name": "The Emerging Force",
-        "description": "Increases the amount of health stored from kills by 2.",
+        "description": "Increases the amount of health stored from kills by 2.\nYou gain 10% more health.",
         "copycat_description": "While your armor is up, you will store 8 health for every 1 enemy you or your crew kills.\nWhen your armor has been completely depleted and then starts to regenerate, you will gain health equal to the stored health amount.\nMaximum amount of stored health depends on your equipped armor.\nYou gain 10% more health.",
         "copycat_mimicry_available": true,
-        "mimics": "ex-president"
-    },
-    "life_of_ice": {
-        "name": "Life of Ice",
-        "description": "Increases the maximum health that can be stored by 50%.\nYour chance to dodge is increased by 5%.",
-        "vr_description": "The dash effect is now from 0 up to a maximum of 9.",
+        "mimics": "ex-president",
         "stats": [
             {
-                "id": 56,
-                "type": "dodge",
-                "part": "dodgeMod",
-                "value": 5
+                "type": "health",
+                "part": "healthBonus",
+                "value": 0.1
             }
         ]
     },
-    "awakening_earth": {
-        "name": "Awakening Earth",
-		"description": "Increases the amount of health stored from kills by 2."
+    "life_of_ice": {
+        "name": "Life of Ice",
+        "description": "Excessive health in your storage is no longer wasted upon healing.\nIncreases the maximum health that can be stored by 50%.",
+        "vr_description": "The dash effect is now from 0 up to a maximum of 9."
     },
+	"awakening_earth": {
+		"name": "Awakening Earth",
+		"description": "Increases the amount of health stored from kills by 2.\nYou gain 10% more health.",
+		"stats": [
+			{
+				"type": "health",
+				"part": "healthBonus",
+				"value": 0.1
+			}
+		]
+	},
     "the_perfect_line": {
         "name": "The Perfect Line",
         "description": "Killing an enemy speeds up your armor recovery time depending on how much armor you have. The more armor the less recovery speed gained per kill.\tArmor recovery speed is reset whenever your armor recovers.",
