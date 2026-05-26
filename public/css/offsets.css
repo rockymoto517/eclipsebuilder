@@ -68,8 +68,8 @@
 /* ENFORCER */
 
 /* Shotgunner */
-#wip_enforcer {
-  background-position: 0 0;
+#hot_pursuit {
+  background-position: calc((800% / (1040 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
 }
 #point_blank {
   background-position: calc((640% / (1040 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 

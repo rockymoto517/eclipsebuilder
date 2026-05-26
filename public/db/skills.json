@@ -109,7 +109,7 @@
     },
     "stable_shot": {
         "name": "Stable Shot",
-        "description": "BASIC: 1 point\tYour weapons gain 4 accuracy.\nACE: 3 points\tThe time it takes for your aim to recenter after your last shot is reduced by 50%.",
+        "description": "BASIC: 1 point\tYour weapons gain 4 accuracy.\nACE: 3 points\tYour aimpunch is reduced by 20% while aiming down sights.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
@@ -118,7 +118,7 @@
     },
     "rifleman": {
         "name": "Rifleman",
-        "description": "BASIC: 2 points\tYour accuracy recovers 35% faster.\nACE: 4 points\tYour weapon spread is reduced by 20% while standing still.",
+        "description": "BASIC: 2 points\tThe time it takes for your aim to recenter after the last shot is reduced by 33%.\nACE: 4 points\tThe time it takes for your weapon's accuracy to recover after the last shot in single fire mode is reduced by 50%.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -127,7 +127,7 @@
     },
     "marksman": {
         "name": "Marksman",
-        "description": "BASIC: 2 points\tYour aimpunch is reduced by 15% when aiming down sights.\nACE: 4 points\tYour weapon recoil is reduced by 20% while aiming down sights.",
+        "description": "BASIC: 2 points\tYour weapon spread is reduced by 15% while standing still.\nACE: 4 points\tYour weapon recoil is reduced by 20% while aiming down sights.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -161,9 +161,9 @@
         "subtree": "sharpshooter",
         "tree": "mastermind"
     },
-    "wip_enforcer": {
-        "name": "Work in Progress",
-        "description": "BASIC: 1 points\tWork in progress.\nACE: 3 points\tWork in progress.",
+    "hot_pursuit": {
+        "name": "Hot Pursuit",
+        "description": "BASIC: 1 point\tYou are able to fire your weapons after sprinting 25% faster.\nACE: 3 points\tYou are able to reload your weapons while sprinting.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
@@ -694,7 +694,7 @@
     },
     "field_operator": {
         "name": "Field Operator",
-        "description": "BASIC: 2 points\tYou are able to fire your weapons after sprinting 25% faster.\nACE: 4 points\tYou swap your weapons 25% faster.",
+        "description": "BASIC: 2 points\tYou can now automatically reload your weapons by pressing the ${fire weapon key} when empty.\nACE: 4 points\tYou swap your weapons 25% faster.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
