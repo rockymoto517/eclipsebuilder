@@ -563,7 +563,7 @@
     },
     "break": {
         "name": "Break",
-        "description": "While your armor is up, you will store 2 health for every enemy you kill.\nWhen your armor has been completely depleted and starts to regenerate, you will gain health equal to the stored health amount.\nThe maximum amount of stored health depends on your equipped armor."
+        "description": "While your armor is up, you will store 2 health for every enemy you kill.\nWhen your armor has been completely depleted and starts to regenerate, you will gain health equal to the stored health amount. Excess stored health is discarded upon healing.\nThe maximum amount of stored health depends on your equipped armor."
     },
     "the_emerging_force": {
         "name": "The Emerging Force",
@@ -581,7 +581,7 @@
     },
     "life_of_ice": {
         "name": "Life of Ice",
-        "description": "Excessive health in your storage is no longer wasted upon healing.\nThe maximum health that can be stored is increased by 50%.",
+        "description": "Excessive stored health is kept in storage rather than being discarded upon healing.\nThe maximum health that can be stored is increased by 50%.",
         "vr_description": "The dash effect is now from 0 up to a maximum of 9."
     },
 	"awakening_earth": {
