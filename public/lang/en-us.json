@@ -1244,7 +1244,7 @@
         },
         "shockproof": {
             "name": "Shockproof",
-            "description": "BASIC: 3 points\tWhen tased, the shock effect will be 33% weaker.\nYou no longer randomly pull the trigger while being tased.\nACE: 6 points\tWhen tased, you are able to free yourself from the taser by interacting with it within 2 seconds of getting tased."
+            "description": "BASIC: 3 points\tWhen tased, the shock effect will be 33% weaker.\nYou can look around freely while being tased. You no longer randomly pull the trigger while being tased.\nACE: 6 points\tWhen tased, you are able to free yourself from the taser by interacting with it within 2 seconds of getting tased."
         },
         "sneaky_bastard": {
             "name": "Sneaky Bastard",
