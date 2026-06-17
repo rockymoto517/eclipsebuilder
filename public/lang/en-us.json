@@ -1089,9 +1089,9 @@
             "name": "Scavenger",
             "description": "BASIC: 1 point\tYou regenerate 2% stamina for each ammo box you pick up.\nACE: 3 points\tYour ammo pickup range is increased by 20% and an additional 1% for every 10 points of armor."
         },
-        "bulletstorm": {
-            "name": "Bulletstorm",
-            "description": "BASIC: 4 points\tAmmo bags placed by you grant players the ability to shoot without depleting their ammunition for up to 12 seconds after interacting with it. The more ammo players replenish, the longer the duration of the effect.\nNote: Does not affect weapons using explosive ammunition.\nACE: 8 points\tIncreases the base duration of the effect by up to 30 seconds."
+        "firestarter": {
+            "name": "Firestarter",
+            "description": "BASIC: 4 points\tAmmo bags placed by you grant crew members an automatic instant reload upon interacting with them.\tThe automatic reload will funnel an additional 100% ammo into the magazine.\nNote: The automatic reload affects both weapons.\nACE: 8 points\tAmmo bags placed by you grant crew members Incendiary Ammo for up to 30 seconds after interacting with them. The more ammo players replenish, the longer the duration of the effect.\nNote: Does not affect Special Weapons and Shotguns loaded with HE Rounds or Dragon's Breath Rounds."
         },
         "portable_saw": {
             "name": "Portable Saw",
