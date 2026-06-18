@@ -994,7 +994,7 @@
         },
         "inspire": {
             "name": "Inspire",
-            "description": "BASIC: 4 points\tShouting at your crewmates within a 7m range will increase their movement and interaction speed by 20%, as well as grant them 10% armor suppression resistance for 7 seconds.\nACE: 8 points\tYou can now revive your crewmates within a 7m range by shouting at them. This cannot occur more than once every 120 seconds."
+            "description": "BASIC: 4 points\tShouting at your crewmates within a 7m range will increase their movement and interaction speed by 20%, as well as grant them 10% armor suppression resistance for 7 seconds.\nACE: 8 points\tYou can now revive your crewmates within a 7m range by shouting at them. You only have 3 charges.\nAll used up charges are replenished 360 seconds after consuming the first charge."
         },
         "forced_friendship": {
             "name": "Forced Friendship",
@@ -1010,7 +1010,7 @@
         },
         "control_freak": {
             "name": "Control Freak",
-            "description": "BASIC: 2 points\tThe power and range of your intimidation is increased by 50%\nACE: 4 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer."
+            "description": "BASIC: 2 points\tThe power and range of your intimidation is increased by 20%\nACE: 4 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer."
         },
         "partners_in_crime": {
             "name": "Partners in Crime",
@@ -1107,11 +1107,11 @@
         },
 		"big_game_hunters": {
 			"name": "Big Game Hunters",
-			"description": "BASIC: 3 points\tEvery 6th enemy you kill will drop an extra ammo box.\nACE: 6 points\tA member of the crew who picks up the extra ammo box will be granted a 50% damage increase for 5 seconds."
+			"description": "BASIC: 3 points\tEvery 6th enemy you kill will drop an extra ammo box.\nACE: 6 points\tA member of the crew who picks up the extra ammo box will be granted a 50% damage increase and ${full penetration} capabilities for 5 seconds."
 		},
         "fully_loaded": {
             "name": "Fully Loaded",
-            "description": "BASIC: 2 points\tYou start the heist with extra 50% ammo above your maximum pool.\nNote: Does not affect Special Weapons.\nACE: 4 points\tYour total ammo capacity is increased by 25%."
+            "description": "BASIC: 2 points\tYou start the heist with extra 33% ammo above your maximum pool.\nNote: Does not affect Special Weapons.\nACE: 4 points\tYour total ammo capacity is increased by 25%."
         },
         "third_law": {
             "name": "Third Law",
