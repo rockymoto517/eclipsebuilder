@@ -950,7 +950,7 @@
 		},
 		"resilient_assault": {
 			"name": "Resilient Assault",
-			"description": "BASIC: 1 point\tYou gain 5% critical hit chance.\tCritical hits deal 200% damage.\nACE: 3 points\tWhen your armor breaks, the first shot on every enemy will cause that enemy to stagger.\nThe effect persists for 3 seconds after your armor has recovered."
+			"description": "BASIC: 1 point\tYou gain 5% critical hit chance.\tCritical hits deal 200% damage.\nNote: Critical hits do not affect Grenade Launchers and Rocket Launchers.\nACE: 3 points\tWhen your armor breaks, the first shot on every enemy will cause that enemy to stagger.\nThe effect persists for 3 seconds after your armor has recovered."
 		},
 		"eagle_eye": {
 			"name": "Eagle Eye",
@@ -966,7 +966,7 @@
 		},
 		"headshot_fury": {
 			"name": "Headshot Fury",
-			"description": "BASIC: 4 points\tFor every consecutive headshot with your Sniper Rifle your next shot's damage is increased by 20%.\nStacks up to 5 times. Missing a headshot in any capacity removes all accumulated stacks\nACE: 8 points\tWhile aiming down sights with your Sniper Rifle without firing for at least 2 consecutive seconds, your next headshot will deal 100% of the bullet's damage to the closest enemy in a 4m radius.\nThis effect chains up to 4 times with each instance dealing 33% less damage than the previous one."
+			"description": "BASIC: 4 points\tFor every consecutive headshot with your Sniper Rifle your next shot's damage is increased by 20%.\nStacks up to 5 times. Missing a headshot in any capacity removes 2 stacks.\nACE: 8 points\tWhile aiming down sights with your Sniper Rifle without firing for at least 2 consecutive seconds, your next headshot will deal 100% of the bullet's damage to the closest enemy in a 4m radius.\nThis effect chains up to 4 times with each instance dealing 33% less damage than the previous one."
 		},
 		"hostage_situation": {
 			"name": "Hostage Situation",
