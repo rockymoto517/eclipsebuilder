@@ -336,8 +336,8 @@
         "subtree": "ammo_specialist",
         "tree": "enforcer"
     },
-    "firestarter": {
-        "name": "Firestarter",
+    "firestorm": {
+        "name": "Firestorm",
         "description": "BASIC: 4 points\tAmmo bags placed by you grant crew members an automatic instant reload upon interacting with them.\tThe automatic reload will funnel an additional 100% ammo into the magazine.\nNote: The automatic reload affects both weapons.\nACE: 8 points\tAmmo bags placed by you grant crew members Incendiary Ammo for up to 30 seconds after interacting with them. The more ammo players replenish, the longer the duration of the effect.\nNote: Does not affect Special Weapons and Shotguns loaded with HE Rounds or Dragon's Breath Rounds.",
         "basic": 4,
         "ace": 8,
