@@ -886,7 +886,7 @@
 		},
 		"overkill": {
 			"name": "Overkill",
-			"description": "BASIC: 4 points\tWhen you kill an enemy with a Shotgun, you have a 50% chance to cause nearby enemies to panic.\nThis cannot occur more than once every 10 seconds.\nACE: 8 points\tWhen you kill an enemy with a Shotgun, you receive 50% damage increase for 5 seconds.\nThis damage bonus applies to all weapons."
+			"description": "BASIC: 4 points\tWhen you kill an enemy with a Shotgun, you have a 50% chance to cause nearby enemies to panic.\nThis cannot occur more than once every 10 seconds.\nACE: 8 points\tWhen you kill an enemy with a Shotgun, you receive 50% damage increase for 10 seconds.\nThis damage bonus applies to all weapons.\nThis cannot occur more than once every 10 seconds after the effect runs out."
 		},
 		"nerves_of_steel": {
 			"name": "Nerves of Steel",
@@ -1091,7 +1091,7 @@
         },
         "firestorm": {
             "name": "Firestorm",
-            "description": "BASIC: 4 points\tAmmo bags placed by you grant crew members an automatic instant reload upon interacting with them.\tThe automatic reload will funnel an additional 100% ammo into the magazine.\nNote: The automatic reload affects both weapons.\nACE: 8 points\tAmmo bags placed by you grant crew members Incendiary Ammo for up to 30 seconds after interacting with them. The more ammo players replenish, the longer the duration of the effect.\nNote: Does not affect Special Weapons and Shotguns loaded with HE Rounds or Dragon's Breath Rounds."
+            "description": "BASIC: 4 points\tAmmo bags placed by you grant crew members an automatic instant reload upon interacting with them.\tThe automatic reload will funnel an additional 100% ammo into the magazine.\nNote: The automatic reload affects both weapons.\nACE: 8 points\tAmmo bags placed by you grant crew members Incendiary Ammo for up to 60 seconds after interacting with them. The more ammo players replenish, the longer the duration of the effect.\nNote: Does not affect Special Weapons and Shotguns loaded with HE Rounds or Dragon's Breath Rounds."
         },
         "portable_saw": {
             "name": "Portable Saw",
