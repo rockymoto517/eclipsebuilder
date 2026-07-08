@@ -347,19 +347,19 @@
     },
     "daredevil": {
         "name": "Daredevil",
-        "description": "BASIC: 1 point\tYou take 10% less damage while interacting with objects.\nACE: 3 points\tYou interact with objects 10% faster.",
-        "basic": 1,
-        "ace": 3,
-        "tier": 1,
+        "description": "BASIC: 2 point\tYou take 25% less damage while interacting with objects.\nACE: 4 points\tYou interact with objects 25% faster.",
+        "basic": 2,
+        "ace": 4,
+        "tier": 2,
         "subtree": "engineer",
         "tree": "technician"
     },
 	"hands-on_approach": {
 		"name": "Hands-On Approach",
-		"description": "BASIC: 2 points\tYou interact with all computers and hacks 25% faster.\nACE: 4 points\tYou fix drills and saws 50% faster.",
-		"basic": 2,
-		"ace": 4,
-		"tier": 2,
+		"description": "BASIC: 1 points\tYou interact with all computers and hacks 25% faster.\nACE: 3 points\tYou fix drills and saws 25% faster.",
+		"basic": 1,
+		"ace": 3,
+		"tier": 1,
 		"subtree": "engineer",
 		"tree": "technician"
 	},
