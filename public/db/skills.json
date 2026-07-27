@@ -784,7 +784,7 @@
     },
     "messiah": {
         "name": "Messiah",
-        "description": "BASIC: 4 points\tWhile in bleedout, you deal 100% more damage\nACE: 8 points\tWhile in bleedout, you can revive yourself if you kill an enemy. You only have 3 charges during the heist.\nWhen self-revived, you will cause all enemies with a ${line of sight} on you to panic.",
+        "description": "BASIC: 4 points\tWhile in bleedout or under the effects of Aced ${\"Swan Song\"} Skill, you deal 100% more damage\nACE: 8 points\tWhile in bleedout, you can revive yourself if you kill an enemy. You only have 3 charges during the heist.\nWhen self-revived, you will cause all enemies with a ${line of sight} on you to panic.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
