@@ -116,7 +116,7 @@
 		},
 		"negotiators_leverage": { 
 			"name": "Negotiator's Leverage", 
-			"description": "You and your crew will gain 5% max health and 5% stamina for each hostage up to 4 times.\nYour cable tie supply is increased by 4.\nNote: Trading perks do not stack." 
+			"description": "You and your crew will gain 5% max health for each hostage up to 4 times.\nNote: Crew perks do not stack." 
 		},
 		"traite_de_versailles": { 
 			"name": "Traité de Versailles", 
@@ -972,8 +972,8 @@
 			"name": "Hostage Situation",
 			"description":  "BASIC: 3 points\tTrading a hostage for resources will now restore the equivalent of 4 ammo box pickups into the reserves of every player in your team.\nYou can now trade for resources regardless of whether your team is missing any downs.\nACE: 6 points\tTrading a hostage for resources will now delay the incoming assault by 10 seconds. This effect is doubled for solo players.\nYou can now trade hostages for resources before the first assault."
 		},
-		"stockholm_syndrome": {
-			"name": "Stockholm Syndrome",
+		"human_shield": {
+			"name": "Human Shield",
 			"description": "BASIC: 3 points\tYour hostages will not flee the scene after being rescued by the law enforcement.\nNearby untied civilians have a chance of reviving you if you interact with them.\nACE: 6 points\tYou receive 5% damage resistance for every hostage that you control.\nStacks up to 4 times."
 		},
         "quick_fix": {
@@ -990,7 +990,7 @@
         },
         "combat_doctor": {
             "name": "Combat Doctor",
-            "description": "BASIC: 3 points\tYou gain a 40% damage reduction for 5 seconds both after and during revivng a crewmate.\nACE: 6 points\tUpon reviving a crew member you gain a 25% damage bonus for 10 seconds.\nYou revive crew members 33% faster."
+            "description": "BASIC: 3 points\tYou gain a 40% damage reduction for 5 seconds both after and during revivng a crewmate.\nACE: 6 points\tUpon reviving a crew member you gain a 25% damage bonus for 20 seconds.\nYou revive crew members 33% faster."
         },
         "inspire": {
             "name": "Inspire",
@@ -998,27 +998,27 @@
         },
         "forced_friendship": {
             "name": "Forced Friendship",
-            "description": "BASIC: 1 point\tIncrease your supply of cable ties by 4.\nYou can now cable tie hostages 25% faster.\nACE: 3 points\tYou can now have an additional hostage following you at the same time.\nThere is now a 10% for you to find a cable tie in an ammo box."
+            "description": "BASIC: 1 point\tYour cable tie supply is increased by 2.\nYou can cable tie hostages 25% faster.\nACE: 3 points\tYou can now have an additional hostage following you at the same time.\nThere is now a 10% for you to find a cable tie in an ammo box."
         },
         "confident": {
             "name": "Confident",
             "description": "BASIC: 2 points\tThe power and range of your intimidation is increased by 50%.\nACE: 4 points\tYou can now have 2 converted enemies at the same time."
         },
-        "joker": {
-            "name": "Joker",
-            "description": "BASIC: 2 points\tYou can now convert a non-special enemy to fight on your side.\nYour converted enemy deals 35% more damage and takes 50% less damage.\nACE: 4 points\tYour converted enemy now takes an additional 30% less damage.\nThe time to convert an enemy is reduced by 65%."
+        "stockholm_syndrome": {
+            "name": "Stockholm Syndrome",
+            "description": "BASIC: 2 points\tYou gain the ability to sense the intimidation level of all alerted civilians.\nACE: 4 points\tYour hostages will not flee the scene after being rescued by law enforcers.\nNearby untied civilians have a chance of reviving you if you interact with them."
         },
         "control_freak": {
             "name": "Control Freak",
-            "description": "BASIC: 2 points\tThe power and range of your intimidation is increased by 20%\nACE: 4 points\tCivilians are intimidated by the noise you make and remain intimidated 50% longer."
+            "description": "BASIC: 2 points\tCivilians are intimidated by the noise you make and remain intimidated 25% longer.\nACE: 4 points\tThe power and range of your intimidation is increased by 50%."
         },
         "partners_in_crime": {
             "name": "Partners in Crime",
-            "description": "BASIC: 3 points\tYour converted enemy is 20% more likely to be targeted when close to you or your crew.\nACE: 6 points\tYour converted enemy counts towards hostage related bonuses."
+            "description": "BASIC: 3 points\tYou can now convert a non-special enemy to fight on your side.\nYour converted enemy takes 75% less damage.\nACE: 6 points\tYour converted enemy counts ${towards} hostage related bonuses and is 20% more likely to be targeted when close to you or your crew.\nThe time to convert an enemy is reduced by 65%."
         },
         "hostage_taker": {
             "name": "Hostage Taker",
-            "description": "BASIC: 4 points\tYou regenerate up to 8 health every 5 seconds for having at least 1 hostage.\nHealth regenerated is divided by the amount of hostages equivalent to the team's size.\nACE: 8 points\tThe amount of health you regenerate is increased by 50% when you are within 7m of a hostage."
+            "description": "BASIC: 4 points\tYou regenerate up to 5 health every 5 seconds when you are within 7m of a hostage.\nACE: 8 points\tYou regenerate up to 10 health every 5 seconds for having at least 1 hostage.\nThe amount of hostages required to receive the full effect is equivalent to the amount of crew members present."
         },
         "stable_shot": {
             "name": "Stable Shot",

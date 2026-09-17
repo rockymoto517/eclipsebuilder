@@ -41,7 +41,7 @@
 	},
 	"negotiators_leverage": { 
 		"name": "Negotiator's Leverage", 
-		"description": "You and your crew will gain 5% max health and 5% stamina for each hostage up to 4 times.\nYour cable tie supply is increased by 4.\nNote: Trading perks do not stack." 
+		"description": "You and your crew will gain 5% max health for each hostage up to 4 times.\nNote: Crew perks do not stack." 
 	},
 	"traite_de_versailles": { 
 		"name": "Traité de Versailles", 
