@@ -29,16 +29,16 @@
   background-position: calc((320% / (1040 - 80)) * 100) calc((560% / (1040  - 80)) * 100); 
 }
 #control_freak {
-  background-position: calc((480% / (1040 - 80)) * 100) calc((560% / (1040  - 80)) * 100); 
+  background-position: calc((160% / (1040 - 80)) * 100) calc((240% / (1040  - 80)) * 100); 
 }
-#joker {
-  background-position: calc((480% / (1040 - 80)) * 100) calc((640% / (1040  - 80)) * 100); 
+#human_shield {
+  background-position: calc((80% / (1040 - 80)) * 100) calc((240% / (1040  - 80)) * 100); 
 }
 #stockholm_syndrome {
-  background-position: calc((240% / (1040 - 80)) * 100) calc((640% / (1040  - 80)) * 100); 
+  background-position: calc((480% / (1040 - 80)) * 100) calc((560% / (1040  - 80)) * 100); 
 }
 #partners_in_crime {
-  background-position: calc((80% / (1040 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
+  background-position: calc((480% / (1040 - 80)) * 100) calc((640% / (1040  - 80)) * 100); 
 }
 #hostage_taker {
   background-position: calc((160% / (1040 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
