@@ -467,7 +467,7 @@
     },
     "oppressor": {
         "name": "Oppressor",
-        "description": "BASIC: 2 points\tYour weapons are 20% more effective at threatening enemies.\nACE: 4 points\tYour weapons deal 15% more damage to enemies that are currently suppressed or panicking.",
+        "description": "BASIC: 2 points\tEnemies hit by your shots are additionally threatened based on the amount of damage dealt.\nACE: 4 points\tYour weapons deal 15% more damage to enemies that are currently suppressed or panicking.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -476,7 +476,7 @@
     },
     "fire_control": {
         "name": "Fire Control",
-        "description": "BASIC: 2 points\tYour hipfire spread penalty is decreased by 20%.\nACE: 4 points\tThe longer you hipfire without releasing the trigger, the more stable your LMGs, SMGs and Miniguns become.\nStacks up to a 50% recoil reduction.",
+        "description": "BASIC: 2 points\tYour hipfire spread penalty is decreased by 20%.\nACE: 4 points\tYour moving spread penalty is decreased by 25%.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -485,16 +485,16 @@
     },
     "sleight_of_hand": {
         "name": "Sleight of Hand",
-        "description": "BASIC: 3 points\tYou reload your SMGs and LMGs 20% faster.\nACE: 6 points\tKilling 2 enemies with SMGs, LMGs or Special Weapons set on automatic fire mode will increase your next reload speed by up to 100%. This bonus is reduced by 1% for each bullet above 20 in the total magazine size, down to a 40% reload speed increase.",
+        "description": "BASIC: 3 points\tYou reload your SMGs, LMGs and Miniguns 25% faster.\nACE: 6 points\tKilling 3 enemies with SMGs, LMGs or Miniguns set on automatic fire mode will increase your reload speed by 40%.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
         "subtree": "heavy",
         "tree": "technician"
     },
-    "lock_n_load": {
-        "name": "Lock N' Load",
-        "description": "BASIC: 3 points\tYou can now hip-fire your weapons while sprinting.\nACE: 6 points\tYou no longer have a movement speed penalty when wielding Heavy Weaponry.",
+    "spray_n_pray": {
+        "name": "Spray N' Pray",
+        "description": "BASIC: 3 points\tThe longer you fire without releasing the trigger, the more stable your SMGs, LMGs and Miniguns become. Stacks up to a 50% recoil reduction.\nRecoil reduction resets after 1 second.\nACE: 6 points\tThe longer you fire without releasing the trigger, the more damage your SMGs, LMGs and Miniguns deal. Stacks up to a 50% damage increase.\nDamage increase resets after 1 second.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
