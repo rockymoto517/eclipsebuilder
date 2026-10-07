@@ -273,7 +273,7 @@
         },
 		"death_in_motion": {
 			"name": "Death in Motion",
-			"description": "Getting 3 headshot kills in less than 10 seconds increases your chance to dodge by 10% for 10 seconds."
+			"description": "Getting 3 kills in less than 10 seconds increases your chance to dodge by 10% for 10 seconds."
 		},
 		"controlled_chaos": {
 			"name": "Controlled Chaos",
@@ -281,7 +281,7 @@
 		},
 		"dead_mans_dance": {
 			"name": "Dead Man's Dance",
-			"description": "Getting 3 headshot kills in less than 10 seconds increases your chance to dodge by an additional 10% for 10 seconds."
+			"description": "Getting 3 kills in less than 10 seconds increases your chance to dodge by an additional 10% for 10 seconds."
 		},
 		"blood_debt": {
 			"name": "Blood Debt",
@@ -289,7 +289,7 @@
 		},
 		"baba_yaga": {
 			"name": "Baba Yaga",
-			"description": "Getting 3 headshot kills in less than 10 seconds increases the chance of Blood Debt occuring by 4%.\nStacks an indefinite amount of times.\tStacks are reset upon a successful occurance of Blood Debt."
+			"description": "Getting 3 kills in less than 10 seconds increases the chance of Blood Debt occuring by 4%.\nStacks an indefinite amount of times.\tStacks are reset upon a successful occurance of Blood Debt."
 		},
         "subtle-2": {
             "name": "Subtle",
