@@ -950,11 +950,11 @@
 		},
 		"resilient_assault": {
 			"name": "Resilient Assault",
-			"description": "BASIC: 1 point\tWhen your armor breaks, the enemy responsible for it will be marked.\nThis cannot occur more than once every 10 seconds.\nACE: 3 points\tWhen your armor breaks, the first shot on every enemy will cause that enemy to stagger.\nThe effect persists for 4 seconds after your armor has recovered."
+			"description": "BASIC: 2 point\tWhen your armor breaks, the enemy responsible for it will be marked.\nThis cannot occur more than once every 10 seconds.\nACE: 4 points\tWhen your armor breaks, the first shot on every enemy will cause that enemy to stagger.\nThe effect persists for 4 seconds after your armor has recovered."
 		},
 		"eagle_eye": {
 			"name": "Eagle Eye",
-			"description": "BASIC: 2 points\tThe range at which you can manually mark enemies is 2 times longer.\nACE: 4 points\tYou can now mark specials by aiming down at them with any weapon."
+			"description": "BASIC: 1 points\tThe range at which you can manually mark enemies is 2 times longer.\nACE: 3 points\tYou can now mark specials by aiming down at them with any weapon."
 		},
 		"silent_killer": {
 			"name": "Silent Killer",
