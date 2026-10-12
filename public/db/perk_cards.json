@@ -489,7 +489,7 @@
     },
     "adrenaline": {
         "name": "Adrenaline",
-		"description": "You gain 30% extra health.\nAll of your armor is converted and applied to your health.\nYou take 50% less damage when falling from non-lethal heights.",
+		"description": "You gain 30% extra health.\nAll of your armor is converted and applied to your health.",
         "copycat_description": "Damaging an enemy heals 2 life points every 0.3 seconds for 3 seconds.\nThis effect stacks but cannot occur more than once every 1.5 seconds, and only while wearing the Two-piece Suit or Lightweight Ballistic Vest.",
         "copycat_stats": [],
         "copycat_mimicry_available": true,
@@ -770,7 +770,7 @@
     },
     "un-moved": {
         "name": "Un-moved",
-        "description": "All of your armor is converted and applied to your health.\nYou take 50% less damage when falling from non-lethal heights.",
+        "description": "All of your armor is converted and applied to your health.",
         "stats": [
             {
                 "id": 65,

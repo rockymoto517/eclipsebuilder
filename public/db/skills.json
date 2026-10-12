@@ -329,7 +329,7 @@
     },
     "big_game_hunters": {
         "name": "Big Game Hunters",
-        "description": "BASIC: 3 points\tEvery 6th enemy you kill will drop an extra ammo box.\nACE: 6 points\tA member of the crew who picks up the extra ammo box will be granted a 50% damage increase and ${full penetration} capabilities for 5 seconds.",
+        "description": "BASIC: 3 points\tEvery 6th enemy you kill will drop an extra ammo box.\nACE: 6 points\tA member of the crew who picks up the extra ammo box will be granted a 50% damage increase and ${full penetration} capabilities for 8 seconds.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
@@ -676,7 +676,7 @@
     },
 	"low_blow": {
 		"name": "Low Blow",
-		"description": "BASIC: 4 points\tYou gain a 2% critical hit chance for every 1 point of detection rate under 35 up to 10%.\nACE: 8 points\tYou gain an additional 30% critical hit chance.\nCritical hits now deal an additional 50% damage.",
+		"description": "BASIC: 4 points\tYou gain a 2% critical hit chance for every 1 point of detection rate under 35 up to 20%.\nACE: 8 points\tYou gain an additional 30% critical hit chance.\nCritical hits now deal an additional 50% damage.",
 		"basic": 4,
 		"ace": 8,
 		"tier": 4,
@@ -694,16 +694,16 @@
     },
     "field_operator": {
         "name": "Field Operator",
-        "description": "BASIC: 2 points\tYou can now automatically reload your weapons by pressing the ${fire weapon key} when empty.\nACE: 4 points\tYou swap your weapons 25% faster.",
+        "description": "BASIC: 2 points\tYou can now automatically reload your weapons by pressing the ${fire weapon key} when empty.\nACE: 4 points\tYou swap your weapons 33% faster.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
         "subtree": "gunslinger",
         "tree": "fugitive"
     },
-    "sidearm_savvy": {
-        "name": "Sidearm Savvy",
-        "description": "BASIC: 2 points\tYou move 15% faster while a Pistol or a Revolver is equipped.\nACE: 4 points\tScoring 3 kills in 3 seconds with your secondary Pistol or Revolver will automatically reload your primary weapon.",
+    "in_a_rush": {
+        "name": "In a Rush",
+        "description": "BASIC: 2 points\tYou move 20% faster while performing an empty reload.\nACE: 4 points\tYou perform empty reloads 20% faster.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -728,9 +728,9 @@
         "subtree": "gunslinger",
         "tree": "fugitive"
     },
-    "peacemakers_lament": {
-        "name": "Peacemaker's Lament",
-        "description": "BASIC: 4 points\tFor 5 seconds after pulling out your Pistol or Revolver, your shots will deal 50% extra damage.\nACE: 8 points\tFor 5 seconds after reloading your Pistol or Revolver, your shots will deal 100% extra damage and their full damage will be dealt to the closest enemy in a 5m radius.\nThis cannot occur more than once every 10 seconds after the effect runs out.",
+    "mag-dumping_interest": {
+        "name": "Mag-Dumping Interest",
+        "description": "BASIC: 4 points\tFor every shot closer to emptying the magazine of your Pistols and Revolvers, your damage is increased up to 100%.\nACE: 8 points\tOn every ${4th} hit with your Pistol or Revolver, your shot will ricochet to the closest enemy in a 5m radius, dealing 100% of the damage.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
@@ -739,7 +739,7 @@
     },
     "tough_guy": {
         "name": "Tough Guy",
-        "description": "BASIC: 1 point\tYou can now use your steelsight while in bleedout.\nACE: 3 points\tYou can now swap your weapons while in bleedout.",
+        "description": "BASIC: 1 point\tYou can swap your weapons while in bleedout.\nACE: 3 points\tYou can now use your steelsight while in bleedout.",
         "basic": 1,
         "ace": 3,
         "tier": 1,
@@ -811,7 +811,7 @@
     },
     "pumping_iron": {
         "name": "Pumping Iron",
-        "description": "BASIC: 2 points\tYour melee reswing speed is 100% faster.\nACE: 4 points\tYou can now sprint with your melee weapon out.",
+        "description": "BASIC: 2 points\tYour melee reswing speed is 50% faster.\nACE: 4 points\tYou can now sprint with your melee weapon out.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -838,7 +838,7 @@
     },
     "frenzy": {
         "name": "Frenzy",
-        "description": "BASIC: 4 points\tKilling an enemy with a melee attack grants you a 20% damage reduction and armor suppression immunity for 5 seconds.\nThis cannot occur more than once every 20 seconds.\nACE: 8 points\tKilling an enemy with a melee attack also resets all currently running ability cooldowns.\nThis cannot occur more than once every 20 seconds.",
+        "description": "BASIC: 4 points\tKilling an enemy with a melee attack grants you a guaranteed 2 second armor regeneration timer after being broken and 25% damage reduction for 6 seconds.\nThis cannot occur more than once every 20 seconds.\nACE: 8 points\tKilling an enemy with a melee attack also resets all currently running ability cooldowns.\nThis cannot occur more than once every 20 seconds.",
         "basic": 4,
         "ace": 8,
         "tier": 4,
