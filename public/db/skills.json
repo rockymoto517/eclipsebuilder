@@ -329,7 +329,7 @@
     },
     "big_game_hunters": {
         "name": "Big Game Hunters",
-        "description": "BASIC: 3 points\tEvery 6th enemy you kill will drop an extra ammo box.\nACE: 6 points\tA member of the crew who picks up the extra ammo box will be granted a 50% damage increase and ${full penetration} capabilities for 8 seconds.",
+        "description": "BASIC: 3 points\tEvery 6th enemy you kill will drop an extra ammo box.\nACE: 6 points\tA member of the crew who picks up the extra ammo box will be granted a 50% damage increase and ${full penetration} capabilities with no damage penalty for 8 seconds.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
