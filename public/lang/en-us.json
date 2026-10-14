@@ -1312,7 +1312,7 @@
         },
         "swan_song": {
             "name": "Swan Song",
-            "description": "BASIC: 3 points\tYour bleedout timer duration is increased by 33%.\nACE: 6 points\tInstead of being downed instantly, you gain the ability to keep on fighting for 10 seconds with 60% movement speed."
+            "description": "BASIC: 3 points\tYour bleedout timer duration is increased by 33%.\nACE: 6 points\tInstead of being downed instantly, you gain the ability to keep on fighting for 10 seconds with a 40% movement penalty."
         },
         "feign_death": {
             "name": "Feign Death",
