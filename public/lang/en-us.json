@@ -834,7 +834,7 @@
 		},
 		"aftercare": {
 			"name": "Aftercare",
-			"description": "BASIC: 1 point\tCrew members you revive take 10% less damage for 5 seconds and get an additional 5% health.\nACE: 3 points\tUpon reviving a crew member you regenerate 20% health."
+			"description": "BASIC: 1 point\tCrew members you revive take 10% less damage for 5 seconds and get an additional 5% health.\nACE: 3 points\tUpon reviving a crew member you regenerate 15% health."
 		},
 		"kilmer": {
 			"name": "Kilmer",
