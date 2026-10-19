@@ -302,7 +302,7 @@
     },
     "fully_loaded": {
         "name": "Fully Loaded",
-        "description": "BASIC: 2 points\tYou start the heist with extra 33% ammo above your maximum pool.\nNote: Does not affect Special Weapons.\nACE: 4 points\tYour total ammo capacity is increased by 25%.",
+        "description": "BASIC: 2 points\tYou start the heist with extra 33% ammo above your maximum pool.\nNote: Does not affect weapons that can't pick up ammo.\nACE: 4 points\tYour total ammo capacity is increased by 25%.",
         "basic": 2,
         "ace": 4,
         "tier": 2,
@@ -775,7 +775,7 @@
     },
     "swan_song": {
         "name": "Swan Song",
-        "description": "BASIC: 3 points\tYour bleedout timer duration is increased by 33%.\nACE: 6 points\tInstead of being downed instantly, you gain the ability to keep on fighting for 10 seconds with a 40% movement penalty.",
+        "description": "BASIC: 3 points\tYour bleedout timer duration is increased by 33%.\nACE: 6 points\tInstead of being downed instantly, you gain the ability to keep on fighting for 10 seconds with a 40% movement speed penalty.",
         "basic": 3,
         "ace": 6,
         "tier": 3,
