@@ -1103,7 +1103,7 @@
         },
         "mag_plus": {
             "name": "Mag Plus",
-            "description": "BASIC: 2 points\tFiring a weapon has a 5% chance to not consume any ammo. This chance rises to 20% when the magazine has 3 or fewer rounds left.\nNote: Does not affect weapons using explosive ammunition.\nACE: 4 points\tYour weapons gain 20% more rounds in their magazine.\nNote: Does not affect the Aced ${\"Sleight of Hand\"} Skill."
+            "description": "BASIC: 2 points\tFiring a weapon has a 5% chance to not consume any ammo. This chance rises to 20% when the magazine has 3 or fewer rounds left.\nNote: Does not affect weapons using explosive ammunition.\nACE: 4 points\tYour weapons gain 20% more rounds in their magazine."
         },
 		"big_game_hunters": {
 			"name": "Big Game Hunters",
