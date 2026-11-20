@@ -986,7 +986,7 @@
         },
         "uppers": {
             "name": "Uppers",
-            "description": "BASIC: 3 points\tUsing a First Aid Kit makes you regenerate 8 health every 5 seconds for 60 seconds.\nACE: 6 points\tYour deployed First Aid Kits will be automatically used if a player is downed within a 5 meter radius of the First Aid Kit. This cannot occur more than once every 120 seconds."
+            "description": "BASIC: 3 points\tUsing a First Aid Kit makes you regenerate 8 health every 5 seconds for 60 seconds.\nACE: 6 points\tYour deployed First Aid Kits will be automatically used if a player is downed within a 5 meter radius of the First Aid Kit. This cannot occur more than once every 30 seconds."
         },
         "combat_doctor": {
             "name": "Combat Doctor",
@@ -1155,7 +1155,7 @@
 		},
 		"combat_engineering": {
 			"name": "Combat Engineering",
-			"description": "BASIC: 2 points\tThe radius of your trip mine explosion is increased by 50%.\nACE: 4 points\tYour trip mine damage is increased by 50%."
+			"description": "BASIC: 2 points\tThe radius of your trip mine explosion is increased by 40%.\nACE: 4 points\tYour trip mine damage is increased by 50%."
 		},
 		"arms_cache": {
 			"name": "Arms Cache",
@@ -1334,8 +1334,8 @@
             "name": "Pumping Iron",
             "description": "BASIC: 2 points\tYour melee reswing speed is 50% faster.\nACE: 4 points\tYou can now sprint with your melee weapon out."
         },
-        "counterstrike": {
-            "name": "Counterstrike",
+        "shock_and_awe": {
+            "name": "Shock and Awe",
             "description": "BASIC: 3 points\tWhen you melee Shield enemies, they get knocked down.\nNote: does not affect Elite Shields.\nACE: 6 points\tWhen you melee Bulldozer enemies, they get stunned. Because of training.\nThis cannot occur more than once every 30 seconds."
         },
         "berserker": {
