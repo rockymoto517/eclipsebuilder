@@ -63,6 +63,18 @@
 			"name": "Refund",
 			"description": "You will now find a throwable once every 50 ammo pickups."
 		},
+		"counterstrike": {
+			"name": "Counterstrike",
+			"description": "When charging your melee weapons you will counterattack enemies that try to strike you, knocking them down. The knockdown does not deal any damage.\nNote: Does not affect Bulldozers and Shields."
+		},
+		"inside_man": {
+			"name": "Inside Man",
+			"description": "You gain access to all insider assets."
+		},
+		"adrenaline_rush": {
+			"name": "Adrenaline Rush",
+			"description": "For 30 seconds after the heist goes loud, you move and interact with objects 25% faster."
+		},
         "helmet_popping": {
             "name": "Helmet Popping",
             "description": "Increases your headshot damage by 25%."
