@@ -2,66 +2,70 @@
 /* SKILL ICON SPRITESHEET OFFSETS */
 /**********************************/
 
+:root {
+	--sk_p: 80%;
+}
+
 /* MASTERMIND */
 
 /* Support */
 #aftercare {
-	background-position: calc((560% / (1040 - 80)) * 100) calc((960% / (1040 - 80)) * 100);  
+	background-position: calc((7 * (var(--sk_p)) / (1040 - 80)) * 100) calc((12 * (var(--sk_p)) / (1040 - 80)) * 100);  
 }
 #bandages {
-  background-position: calc((400% / (1040 - 80)) * 100) calc((560% / (1040 - 80)) * 100);  
+  background-position: calc((5 * (var(--sk_p)) / (1040 - 80)) * 100) calc((7 * (var(--sk_p)) / (1040 - 80)) * 100);  
 }
 #painkillers {
-	background-position: 0% calc((800% / (1040 - 80)) * 100);
+	background-position: calc((0 * (var(--sk_p)) / (1040 - 80)) * 100) calc((10 * (var(--sk_p)) / (1040 - 80)) * 100);
 }
 #combat_doctor {
-	background-position: calc((320% / (1040 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
+	background-position: calc((4 * (var(--sk_p)) / (1040 - 80)) * 100) calc((9 * (var(--sk_p)) / (1040 - 80)) * 100);
 }
 #keepers {
-  background-position: calc((400% / (1040 - 80)) * 100) calc((640% / (1040 - 80)) * 100);
+  background-position: calc((5 * (var(--sk_p)) / (1040 - 80)) * 100) calc((8 * (var(--sk_p)) / (1040 - 80)) * 100);
 }
 #inspire {
-  background-position: calc((880% / (1040 - 80)) * 100) calc((400% / (1040 - 80)) * 100);
+  background-position: calc((11 * (var(--sk_p)) / (1040 - 80)) * 100) calc((5 * (var(--sk_p)) / (1040 - 80)) * 100);
 }
 
 /* Controller */
 #forced_friendship {
-  background-position: calc((320% / (1040 - 80)) * 100) calc((560% / (1040  - 80)) * 100); 
+  background-position: calc((4 * (var(--sk_p)) / (1040 - 80)) * 100) calc((7 * (var(--sk_p)) / (1040  - 80)) * 100); 
 }
 #control_freak {
-  background-position: calc((160% / (1040 - 80)) * 100) calc((240% / (1040  - 80)) * 100); 
+  background-position: calc((2 * (var(--sk_p)) / (1040 - 80)) * 100) calc((3 * (var(--sk_p)) / (1040  - 80)) * 100); 
 }
 #human_shield {
-  background-position: calc((80% / (1040 - 80)) * 100) calc((240% / (1040  - 80)) * 100); 
+  background-position: calc((1 * (var(--sk_p)) / (1040 - 80)) * 100) calc((3 * (var(--sk_p)) / (1040  - 80)) * 100); 
 }
 #stockholm_syndrome {
-  background-position: calc((480% / (1040 - 80)) * 100) calc((560% / (1040  - 80)) * 100); 
+  background-position: calc((6 * (var(--sk_p)) / (1040 - 80)) * 100) calc((7 * (var(--sk_p)) / (1040  - 80)) * 100); 
 }
 #partners_in_crime {
-  background-position: calc((480% / (1040 - 80)) * 100) calc((640% / (1040  - 80)) * 100); 
+  background-position: calc((6 * (var(--sk_p)) / (1040 - 80)) * 100) calc((8 * (var(--sk_p)) / (1040  - 80)) * 100); 
 }
 #hostage_taker {
-  background-position: calc((160% / (1040 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
+  background-position: calc((2 * (var(--sk_p)) / (1040 - 80)) * 100) calc((10 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 
 /* Sharpshooter */
 #stable_shot {
-  background-position: calc((720% / (1040 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
+  background-position: calc((9 * (var(--sk_p)) / (1040 - 80)) * 100) calc((11 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #rifleman {
-  background-position: 0% calc((400% / (1040 - 80)) * 100); 
+  background-position: calc((0 * (var(--sk_p)) / (1040 - 80)) * 100) calc((5 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #marksman {
-  background-position: calc((480% / (1040 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
+  background-position: calc((6 * (var(--sk_p)) / (1040 - 80)) * 100) calc((5 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #ammo_efficiency {
-  background-position: calc((640% / (1040 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
+  background-position: calc((8 * (var(--sk_p)) / (1040 - 80)) * 100) calc((4 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #kilmer {
-	background-position: calc((80% / (1040 - 80)) * 100) calc((720% / (1040 - 80)) * 100);
+	background-position: calc((1 * (var(--sk_p)) / (1040 - 80)) * 100) calc((9 * (var(--sk_p)) / (1040 - 80)) * 100);
 }
 #headshot_fury {
-  background-position: calc((880% / (1040 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
+  background-position: calc((11 * (var(--sk_p)) / (1040 - 80)) * 100) calc((9 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 
 
@@ -69,62 +73,62 @@
 
 /* Shotgunner */
 #hot_pursuit {
-  background-position: calc((800% / (1040 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
+  background-position: calc((10 * (var(--sk_p)) / (1040 - 80)) * 100) calc((6 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #point_blank {
-  background-position: calc((640% / (1040 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
+  background-position: calc((8 * (var(--sk_p)) / (1040 - 80)) * 100) calc((6 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #heavy_impact {
-  background-position: calc((400% / (1040 - 80)) * 100) 0; 
+  background-position: calc((5 * (var(--sk_p)) / (1040 - 80)) * 100) 0; 
 }
 #fast_hands {
-  background-position: calc((400% / (1040 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+  background-position: calc((5 * (var(--sk_p)) / (1040 - 80)) * 100) calc((1 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #far_away {
-  background-position: calc((640% / (1040 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
+  background-position: calc((8 * (var(--sk_p)) / (1040 - 80)) * 100) calc((5 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #overkill {
-  background-position: calc((240% / (1040 - 80)) * 100) calc((160% / (1040 - 80)) * 100); }
+  background-position: calc((3 * (var(--sk_p)) / (1040 - 80)) * 100) calc((2 * (var(--sk_p)) / (1040 - 80)) * 100); }
 
 
 /* Tank */
 #impact_padding {
-  background-position: calc((480% / (1040 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
+  background-position: calc((6 * (var(--sk_p)) / (1040 - 80)) * 100) calc((4 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #nerves_of_steel {
-  background-position: calc((480% / (1040 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
+  background-position: calc((6 * (var(--sk_p)) / (1040 - 80)) * 100) calc((6 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #protective_mask {
-  background-position: calc((480% / (1040 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
+  background-position: calc((6 * (var(--sk_p)) / (1040 - 80)) * 100) calc((12 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #pack_mule {
-  background-position: calc((480% / (1040 - 80)) * 100) 0%; 
+  background-position: calc((6 * (var(--sk_p)) / (1040 - 80)) * 100) calc((0 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #regen_plating {
-  background-position: calc((880% / (1040 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
+  background-position: calc((11 * (var(--sk_p)) / (1040 - 80)) * 100) calc((10 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #iron_man {
-  background-position: calc((240% / (1040 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+  background-position: calc((3 * (var(--sk_p)) / (1040 - 80)) * 100) calc((1 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 
 /* Ammo Specialist */
 #scavenger {
-  background-position: calc((640% / (1040 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
+  background-position: calc((8 * (var(--sk_p)) / (1040 - 80)) * 100) calc((11 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #fully_loaded { 
-  background-position: calc((240% / (1040 - 80)) * 100) 0%;
+  background-position: calc((3 * (var(--sk_p)) / (1040 - 80)) * 100) calc((0 * (var(--sk_p)) / (1040 - 80)) * 100);
 }
 #mag_plus {
-  background-position: calc((160% / (1040 - 80)) * 100) 0%; 
+  background-position: calc((2 * (var(--sk_p)) / (1040 - 80)) * 100) calc((0 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #extra_lead {
-	background-position: calc((560% / (1040 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+	background-position: calc((7 * (var(--sk_p)) / (1040 - 80)) * 100) calc((1 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #big_game_hunters {
-  background-position: calc((800% / (1040 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
+  background-position: calc((10 * (var(--sk_p)) / (1040 - 80)) * 100) calc((2 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #firestorm {
-  background-position: calc((320% / (1040 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
+  background-position: calc((4 * (var(--sk_p)) / (1040 - 80)) * 100) calc((5 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 
 
@@ -132,62 +136,62 @@
 
 /* Engineer */
 #daredevil {
-	background-position: calc((640% / (1040 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
+	background-position: calc((8 * (var(--sk_p)) / (1040 - 80)) * 100) calc((9 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #hands-on_approach {
-  background-position: 0 calc((480% / (1040 - 80)) * 100); 
+  background-position: 0 calc((6 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #portable_saw {
-  background-position: 0% calc((80% / (1040 - 80)) * 100); 
+  background-position: calc((0 * (var(--sk_p)) / (1040 - 80)) * 100) calc((1 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #ghost_wiring {
-	background-position: calc((80% / (1040 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
+	background-position: calc((1 * (var(--sk_p)) / (1040 - 80)) * 100) calc((7 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #sentry_nest {
-  background-position: calc((560% / (1040 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
+  background-position: calc((7 * (var(--sk_p)) / (1040 - 80)) * 100) calc((6 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #phd_in_engineering {
-  background-position: calc((560% / (1040 - 80)) * 100) calc((640% / (1040 - 80)) * 100); 
+  background-position: calc((7 * (var(--sk_p)) / (1040 - 80)) * 100) calc((8 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 
 /* Sapper */
 #blast_shield {
-  background-position: calc((560% / (1040 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
+  background-position: calc((7 * (var(--sk_p)) / (1040 - 80)) * 100) calc((9 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #combat_engineering {
-  background-position: calc((80% / (1040 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
+  background-position: calc((1 * (var(--sk_p)) / (1040 - 80)) * 100) calc((5 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #arms_cache {
-  background-position: 0 calc((560% / (1040 - 80)) * 100); 
+  background-position: 0 calc((7 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #hellwire {
-  background-position: calc((720% / (1040 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
+  background-position: calc((9 * (var(--sk_p)) / (1040 - 80)) * 100) calc((9 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #powder_keg {
-  background-position: calc((720% / (1040 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
+  background-position: calc((9 * (var(--sk_p)) / (1040 - 80)) * 100) calc((7 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #carpet_bombing {
-  background-position: calc((480% / (1040 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
+  background-position: calc((6 * (var(--sk_p)) / (1040 - 80)) * 100) calc((9 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 
 /* Heavy */
 #steady_grip {
-	background-position: calc((560% / (1040 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
+	background-position: calc((7 * (var(--sk_p)) / (1040 - 80)) * 100) calc((7 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #oppressor {
-  background-position: calc((560% / (1040 - 80)) * 100) 0%; 
+  background-position: calc((7 * (var(--sk_p)) / (1040 - 80)) * 100) calc((0 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #fire_control {
-	background-position: calc((720% / (1040 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
+	background-position: calc((9 * (var(--sk_p)) / (1040 - 80)) * 100) calc((10 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #sleight_of_hand {
-  background-position: calc((240% / (1040 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
+  background-position: calc((3 * (var(--sk_p)) / (1040 - 80)) * 100) calc((3 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #spray_n_pray {
-	background-position: calc((560% / (1040 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
+	background-position: calc((7 * (var(--sk_p)) / (1040 - 80)) * 100) calc((10 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #body_expertise {
-  background-position: calc((800% / (1040 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
+  background-position: calc((10 * (var(--sk_p)) / (1040 - 80)) * 100) calc((3 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 
 
@@ -195,62 +199,62 @@
 
 /* Shinobi */
 #cat_burglar {
-	background-position: 0 calc((320% / (1040 - 80)) * 100);
+	background-position: 0 calc((4 * (var(--sk_p)) / (1040 - 80)) * 100);
 }
 #logistician {
-  background-position: calc((400% / (1040 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
+  background-position: calc((5 * (var(--sk_p)) / (1040 - 80)) * 100) calc((4 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #kleptomaniac {
-  background-position: calc((80% / (1040 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
+  background-position: calc((1 * (var(--sk_p)) / (1040 - 80)) * 100) calc((6 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #sixth_sense {
-  background-position: calc((480% / (1040 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
+  background-position: calc((6 * (var(--sk_p)) / (1040 - 80)) * 100) calc((10 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #ecm_blackout {
-  background-position: calc((480% / (1040 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
+  background-position: calc((6 * (var(--sk_p)) / (1040 - 80)) * 100) calc((3 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #background_threat {
-  background-position: calc((720% / (1040 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
+  background-position: calc((9 * (var(--sk_p)) / (1040 - 80)) * 100) calc((12 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 
 /* Artful Dodger */
 #athlete {
-  background-position: calc((80% / (1040 - 80)) * 100) calc((640% / (1040 - 80)) * 100); 
+  background-position: calc((1 * (var(--sk_p)) / (1040 - 80)) * 100) calc((8 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #duck_and_cover {
-  background-position: 0% calc((880% / (1040 - 80)) * 100); 
+  background-position: calc((0 * (var(--sk_p)) / (1040 - 80)) * 100) calc((11 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #sprinter {
-	background-position: calc((560% / (1040 - 80)) * 100) calc((240% / (1040 - 80)) * 100); 
+	background-position: calc((7 * (var(--sk_p)) / (1040 - 80)) * 100) calc((3 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #second_wind {
-  background-position: calc((800% / (1040 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
+  background-position: calc((10 * (var(--sk_p)) / (1040 - 80)) * 100) calc((9 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #shockproof {
-	background-position: calc((240% / (1040 - 80)) * 100) calc((400% / (1040 - 80)) * 100); 
+	background-position: calc((3 * (var(--sk_p)) / (1040 - 80)) * 100) calc((5 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #sneaky_bastard {
-  background-position: calc((80% / (1040 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
+  background-position: calc((1 * (var(--sk_p)) / (1040 - 80)) * 100) calc((12 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 
 /* Specialized Killing */
 #resilient_assault {
-  background-position: calc((800% / (1040 - 80)) * 100) calc((640% / (1040 - 80)) * 100); 
+  background-position: calc((10 * (var(--sk_p)) / (1040 - 80)) * 100) calc((8 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #eagle_eye {
-  background-position: calc((240% / (1040 - 80)) * 100) calc((560% / (1040 - 80)) * 100); 
+  background-position: calc((3 * (var(--sk_p)) / (1040 - 80)) * 100) calc((7 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #the_professional {
-	background-position: calc((320% / (1040 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
+	background-position: calc((4 * (var(--sk_p)) / (1040 - 80)) * 100) calc((320% / (1040 - 80)) * 100); 
 }
 #high_value_target {
-	background-position: calc((640% / (1040 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
+	background-position: calc((8 * (var(--sk_p)) / (1040 - 80)) * 100) calc((2 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #silent_killer {
-  background-position: calc((400% / (1040 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
+  background-position: calc((5 * (var(--sk_p)) / (1040 - 80)) * 100) calc((9 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #low_blow {
-  background-position: 0% calc((960% / (1040 - 80)) * 100); 
+  background-position: calc((0 * (var(--sk_p)) / (1040 - 80)) * 100) calc((12 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 
 
@@ -258,62 +262,62 @@
 
 /* Gunslinger */
 #equilibrium {
-  background-position: 0% calc((720% / (1040 - 80)) * 100); 
+  background-position: calc((0 * (var(--sk_p)) / (1040 - 80)) * 100) calc((9 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #field_operator {
-  background-position: calc((320% / (1040 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
+  background-position: calc((4 * (var(--sk_p)) / (1040 - 80)) * 100) calc((10 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #in_a_rush {
-  background-position: calc((400% / (1040 - 80)) * 100) calc((800% / (1040 - 80)) * 100); 
+  background-position: calc((5 * (var(--sk_p)) / (1040 - 80)) * 100) calc((10 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #trigger_overdrive {
-  background-position: 0% calc((640% / (1040 - 80)) * 100); 
+  background-position: calc((0 * (var(--sk_p)) / (1040 - 80)) * 100) calc((8 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #deadeye {
-  background-position: calc((640% / (1040 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
+  background-position: calc((8 * (var(--sk_p)) / (1040 - 80)) * 100) calc((12 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #mag-dumping_interest {
-  background-position: calc((880% / (1040 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
+  background-position: calc((11 * (var(--sk_p)) / (1040 - 80)) * 100) calc((11 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 
 /* Revenant */
 #tough_guy {
-  background-position: calc((80% / (1040 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
+  background-position: calc((1 * (var(--sk_p)) / (1040 - 80)) * 100) calc((2 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #quick_fix {
-  background-position: calc((80% / (1040 - 80)) * 100) calc((880% / (1040 - 80)) * 100);
+  background-position: calc((1 * (var(--sk_p)) / (1040 - 80)) * 100) calc((11 * (var(--sk_p)) / (1040 - 80)) * 100);
 }
 #more_blood_to_bleed {
-  background-position: calc((80% / (1040 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+  background-position: calc((1 * (var(--sk_p)) / (1040 - 80)) * 100) calc((1 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #uppers {
-  background-position: calc((160% / (1040 - 80)) * 100) calc((880% / (1040 - 80)) * 100); 
+  background-position: calc((2 * (var(--sk_p)) / (1040 - 80)) * 100) calc((11 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #swan_song {
-  background-position: calc((400% / (1040 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
+  background-position: calc((5 * (var(--sk_p)) / (1040 - 80)) * 100) calc((12 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #messiah {
-  background-position: calc((160% / (1040 - 80)) * 100) calc((720% / (1040 - 80)) * 100); 
+  background-position: calc((2 * (var(--sk_p)) / (1040 - 80)) * 100) calc((9 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 
 /* Brawler */
 #underdog {
-  background-position: calc((160% / (1040 - 80)) * 100) calc((80% / (1040 - 80)) * 100); 
+  background-position: calc((2 * (var(--sk_p)) / (1040 - 80)) * 100) calc((1 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #bloodthirst {
-  background-position: calc((880% / (1040 - 80)) * 100) calc((480% / (1040 - 80)) * 100); 
+  background-position: calc((11 * (var(--sk_p)) / (1040 - 80)) * 100) calc((6 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #pumping_iron {
-  background-position: calc((320% / (1040 - 80)) * 100) calc((960% / (1040 - 80)) * 100); 
+  background-position: calc((4 * (var(--sk_p)) / (1040 - 80)) * 100) calc((12 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #shock_and_awe {
-  background-position: calc((320% / (1040 - 80)) * 100) calc((640% / (1040 - 80)) * 100); 
+  background-position: calc((4 * (var(--sk_p)) / (1040 - 80)) * 100) calc((8 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #berserker {
-  background-position: calc((160% / (1040 - 80)) * 100) calc((160% / (1040 - 80)) * 100); 
+  background-position: calc((2 * (var(--sk_p)) / (1040 - 80)) * 100) calc((2 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 #frenzy {
-  background-position: calc((880% / (1040 - 80)) * 100) calc((640% / (1040 - 80)) * 100); 
+  background-position: calc((11 * (var(--sk_p)) / (1040 - 80)) * 100) calc((8 * (var(--sk_p)) / (1040 - 80)) * 100); 
 }
 
 
