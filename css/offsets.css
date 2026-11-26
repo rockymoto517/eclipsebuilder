@@ -323,500 +323,481 @@
 /**********************************/
 
 :root{
-  --pk_y: 1200;
+  --pk_y: 1536;
 }
 
 /* SHARED */
 
 .pk_deck .pk_deck_cards > div:nth-of-type(2)::after {
   /* Crew chief card is slightly too large */
-  background-position: calc((48% / (240 - 48)) * 100) calc((-1% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) 0%;
 }
 .pk_deck .pk_deck_cards > div:nth-of-type(4)::after {
-  /* Crew chief card is slightly too large part 2 */
-  background-position: calc((96% / (240 - 48)) * 100) calc((-2% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) 0%;
 }
 .pk_deck .pk_deck_cards > div:nth-of-type(6)::after {
-  background-position: calc((144% / (240 - 48)) * 100) 0%;
+  background-position: calc((196% / (320 - 64)) * 100) 0%;
 }
 .pk_deck .pk_deck_cards > div:nth-of-type(8)::after {
-  background-position: calc((192% / (240 - 48)) * 100) 0%;
+  background-position: calc((256% / (320 - 64)) * 100) 0%;
 }
 
 
 /* CREW CHIEF */ 
 
 #crew_chief .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((48% / (var(--pk_y) - 48)) * 100);
+  background-position: 0 calc((64% / (var(--pk_y) - 64)) * 100);
 }
 #crew_chief .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((48% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((64% / (var(--pk_y) - 64)) * 100);
 }
 #crew_chief .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((48% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((64% / (var(--pk_y) - 64)) * 100);
 }
 #crew_chief .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((48% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((64% / (var(--pk_y) - 64)) * 100);
 }
 #crew_chief .pk_deck_cards > div:nth-of-type(9)::after,
 #crew_chief .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((48% / (var(--pk_y) - 48)) * 100);  
+  background-position: calc((256% / (320 - 64)) * 100) calc((64% / (var(--pk_y) - 64)) * 100);  
 }
 
 
 /* MUSCLE */ 
 
 #muscle .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((96% / (var(--pk_y) - 48)) * 100);
+  background-position: 0 calc((128% / (var(--pk_y) - 64)) * 100);
 }
 #muscle .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((96% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((128% / (var(--pk_y) - 64)) * 100);
 }
 #muscle .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((96% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((128% / (var(--pk_y) - 64)) * 100);
 }
 #muscle .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((96% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((128% / (var(--pk_y) - 64)) * 100);
 }
 #muscle .pk_deck_cards > div:nth-of-type(9)::after,
 #muscle .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((96% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((128% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* ARMORER */ 
 
 #armorer .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((144% / (var(--pk_y) - 48)) * 100);
+  background-position: 0 calc((196% / (var(--pk_y) - 64)) * 100);
 }
 #armorer .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((144% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((196% / (var(--pk_y) - 64)) * 100);
 }
 #armorer .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((144% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((196% / (var(--pk_y) - 64)) * 100);
 }
 #armorer .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((144% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((196% / (var(--pk_y) - 64)) * 100);
 }
 #armorer .pk_deck_cards > div:nth-of-type(9)::after,
 #armorer .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((144% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((196% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* ROGUE */ 
 
 #rogue .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((192% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((256% / (var(--pk_y) - 64)) * 100); 
 }
 #rogue .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((192% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((256% / (var(--pk_y) - 64)) * 100);
 }
 #rogue .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((192% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((256% / (var(--pk_y) - 64)) * 100);
 }
 #rogue .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((192% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((256% / (var(--pk_y) - 64)) * 100);
 }
 #rogue .pk_deck_cards > div:nth-of-type(9)::after,
 #rogue .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((192% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((256% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* HITMAN */ 
 
 #hitman .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((240% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((320% / (var(--pk_y) - 64)) * 100); 
 }
 #hitman .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((240% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((320% / (var(--pk_y) - 64)) * 100);
 }
 #hitman .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((240% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((320% / (var(--pk_y) - 64)) * 100);
 }
 #hitman .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((240% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((320% / (var(--pk_y) - 64)) * 100);
 }
 #hitman .pk_deck_cards > div:nth-of-type(9)::after,
 #hitman .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((240% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((320% / (var(--pk_y) - 64)) * 100);
 }
 
 /* CROOK */ 
 
 #crook .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((288% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((384% / (var(--pk_y) - 64)) * 100); 
 }
 #crook .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((288% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((384% / (var(--pk_y) - 64)) * 100);
 }
 #crook .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((288% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((384% / (var(--pk_y) - 64)) * 100);
 }
 #crook .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((288% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((384% / (var(--pk_y) - 64)) * 100);
 }
 #crook .pk_deck_cards > div:nth-of-type(9)::after,
 #crook .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((288% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((384% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* TACTICIAN */ 
 
 #tactician .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((1152% / (var(--pk_y) - 48)) * 100);
+  background-position: 0 calc((448% / (var(--pk_y) - 64)) * 100);
 }
 #tactician .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((1152% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((448% / (var(--pk_y) - 64)) * 100);
 }
 #tactician .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((1152% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((448% / (var(--pk_y) - 64)) * 100);
 }
 #tactician .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((1152% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((448% / (var(--pk_y) - 64)) * 100);
 }
 #tactician .pk_deck_cards > div:nth-of-type(9)::after,
 #tactician .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((1152% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((448% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* INFILTRATOR */ 
 
 #infiltrator .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((384% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((512% / (var(--pk_y) - 64)) * 100); 
 }
 #infiltrator .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((384% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((512% / (var(--pk_y) - 64)) * 100);
 }
 #infiltrator .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((384% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((512% / (var(--pk_y) - 64)) * 100);
 }
 #infiltrator .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((384% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((512% / (var(--pk_y) - 64)) * 100);
 }
 #infiltrator .pk_deck_cards > div:nth-of-type(9)::after,
 #infiltrator .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((384% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((512% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* SOCIOPATH */ 
 
 #sociopath .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((432% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((576% / (var(--pk_y) - 64)) * 100); 
 }
 #sociopath .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((432% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((576% / (var(--pk_y) - 64)) * 100);
 }
 #sociopath .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((432% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((576% / (var(--pk_y) - 64)) * 100);
 }
 #sociopath .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((432% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((576% / (var(--pk_y) - 64)) * 100);
 }
 #sociopath .pk_deck_cards > div:nth-of-type(9)::after,
 #sociopath .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((432% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((576% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* GAMBLER */ 
 
 #gambler .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((480% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((640% / (var(--pk_y) - 64)) * 100); 
 }
 #gambler .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((480% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((640% / (var(--pk_y) - 64)) * 100);
 }
 #gambler .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((480% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((640% / (var(--pk_y) - 64)) * 100);
 }
 #gambler .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((480% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((640% / (var(--pk_y) - 64)) * 100);
 }
 #gambler .pk_deck_cards > div:nth-of-type(9)::after,
 #gambler .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((480% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((640% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* GRINDER */ 
 
 #grinder .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((528% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((704% / (var(--pk_y) - 64)) * 100); 
 }
 #grinder .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((528% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((704% / (var(--pk_y) - 64)) * 100);
 }
 #grinder .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((528% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((704% / (var(--pk_y) - 64)) * 100);
 }
 #grinder .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((528% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((704% / (var(--pk_y) - 64)) * 100);
 }
 #grinder .pk_deck_cards > div:nth-of-type(9)::after,
 #grinder .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((528% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((704% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* YAKUZA */ 
 
 #yakuza .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((576% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((768% / (var(--pk_y) - 64)) * 100); 
 }
 #yakuza .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((576% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((768% / (var(--pk_y) - 64)) * 100);
 }
 #yakuza .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((576% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((768% / (var(--pk_y) - 64)) * 100);
 }
 #yakuza .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((576% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((768% / (var(--pk_y) - 64)) * 100);
 }
 #yakuza .pk_deck_cards > div:nth-of-type(9)::after,
 #yakuza .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((576% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((768% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* EX-PRESIDENT */ 
 
 #ex-president .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((624% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((832% / (var(--pk_y) - 64)) * 100); 
 }
 #ex-president .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((624% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((832% / (var(--pk_y) - 64)) * 100);
 }
 #ex-president .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((624% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((832% / (var(--pk_y) - 64)) * 100);
 }
 #ex-president .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((624% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((832% / (var(--pk_y) - 64)) * 100);
 }
 #ex-president .pk_deck_cards > div:nth-of-type(9)::after,
 #ex-president .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((624% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((832% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* MANIAC */ 
 
 #maniac .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((672% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((896% / (var(--pk_y) - 64)) * 100); 
 }
 #maniac .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((672% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((896% / (var(--pk_y) - 64)) * 100);
 }
 #maniac .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((672% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((896% / (var(--pk_y) - 64)) * 100);
 }
 #maniac .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((672% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((896% / (var(--pk_y) - 64)) * 100);
 }
 #maniac .pk_deck_cards > div:nth-of-type(9)::after,
 #maniac .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((672% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((896% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* ANARCHIST */ 
 
 #anarchist .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((720% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((960% / (var(--pk_y) - 64)) * 100); 
 }
 #anarchist .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((720% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((960% / (var(--pk_y) - 64)) * 100);
 }
 #anarchist .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((720% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((960% / (var(--pk_y) - 64)) * 100);
 }
 #anarchist .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((720% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((960% / (var(--pk_y) - 64)) * 100);
 }
 #anarchist .pk_deck_cards > div:nth-of-type(9)::after,
 #anarchist .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((720% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((960% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* BIKER */ 
 
 #biker .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((768% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((1024% / (var(--pk_y) - 64)) * 100); 
 }
 #biker .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((768% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((1024% / (var(--pk_y) - 64)) * 100);
 }
 #biker .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((768% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((1024% / (var(--pk_y) - 64)) * 100);
 }
 #biker .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((768% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((1024% / (var(--pk_y) - 64)) * 100);
 }
 #biker .pk_deck_cards > div:nth-of-type(9)::after,
 #biker .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((768% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((1024% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* KINGPIN */ 
 
 #kingpin .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((816% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((1088% / (var(--pk_y) - 64)) * 100); 
 }
 #kingpin .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((816% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((1088% / (var(--pk_y) - 64)) * 100);
 }
 #kingpin .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((816% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((1088% / (var(--pk_y) - 64)) * 100);
 }
 #kingpin .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((816% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((1088% / (var(--pk_y) - 64)) * 100);
 }
 #kingpin .pk_deck_cards > div:nth-of-type(9)::after,
 #kingpin .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((816% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((1088% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* SICARIO */ 
 
 #sicario .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((864% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((1152% / (var(--pk_y) - 64)) * 100); 
 }
 #sicario .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((864% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((1152% / (var(--pk_y) - 64)) * 100);
 }
 #sicario .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((864% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((1152% / (var(--pk_y) - 64)) * 100);
 }
 #sicario .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((864% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((1152% / (var(--pk_y) - 64)) * 100);
 }
 #sicario .pk_deck_cards > div:nth-of-type(9)::after,
 #sicario .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((864% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((1152% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* STOIC */ 
 
 #stoic .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((912% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((1216% / (var(--pk_y) - 64)) * 100); 
 }
 #stoic .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((912% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((1216% / (var(--pk_y) - 64)) * 100);
 }
 #stoic .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((912% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((1216% / (var(--pk_y) - 64)) * 100);
 }
 #stoic .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((912% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((1216% / (var(--pk_y) - 64)) * 100);
 }
 #stoic .pk_deck_cards > div:nth-of-type(9)::after,
 #stoic .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((912% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((1216% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* TAG TEAM */ 
 
 #tag_team .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((960% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((1280% / (var(--pk_y) - 64)) * 100); 
 }
 #tag_team .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((960% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((1280% / (var(--pk_y) - 64)) * 100);
 }
 #tag_team .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((960% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((1280% / (var(--pk_y) - 64)) * 100);
 }
 #tag_team .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((960% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((1280% / (var(--pk_y) - 64)) * 100);
 }
 #tag_team .pk_deck_cards > div:nth-of-type(9)::after,
 #tag_team .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((960% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((1280% / (var(--pk_y) - 64)) * 100);
 }
 
 
 /* HACKER */ 
 
 #hacker .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((1008% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((1344% / (var(--pk_y) - 64)) * 100); 
 }
 #hacker .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((1008% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((1344% / (var(--pk_y) - 64)) * 100);
 }
 #hacker .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((1008% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((1344% / (var(--pk_y) - 64)) * 100);
 }
+/* 194% instead of 196% cause the alignment is slightly off */
 #hacker .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((1008% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((194% / (320 - 64)) * 100) calc((1344% / (var(--pk_y) - 64)) * 100);
 }
 #hacker .pk_deck_cards > div:nth-of-type(9)::after,
 #hacker .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((1008% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((1344% / (var(--pk_y) - 64)) * 100);
 }
 
 /* LEECH */ 
 
 #leech .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((1056% / (var(--pk_y) - 48)) * 100); 
+  background-position: 0 calc((1408% / (var(--pk_y) - 64)) * 100); 
 }
 #leech .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((1056% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((64% / (320 - 64)) * 100) calc((1408% / (var(--pk_y) - 64)) * 100);
 }
 #leech .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((1056% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((128% / (320 - 64)) * 100) calc((1408% / (var(--pk_y) - 64)) * 100);
 }
 #leech .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((1056% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((196% / (320 - 64)) * 100) calc((1408% / (var(--pk_y) - 64)) * 100);
 }
 #leech .pk_deck_cards > div:nth-of-type(9)::after,
 #leech .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((1056% / (var(--pk_y) - 48)) * 100);
-}
-
-/* COPYCAT */ 
-
-#copycat .pk_deck_cards > div:nth-of-type(1)::after {
-  background-position: 0 calc((1104% / (var(--pk_y) - 48)) * 100);
-}
-#copycat .pk_deck_cards > div:nth-of-type(3)::after {
-  background-position: calc((48% / (240 - 48)) * 100) calc((1104% / (var(--pk_y) - 48)) * 100);
-}
-#copycat .pk_deck_cards > div:nth-of-type(5)::after {
-  background-position: calc((96% / (240 - 48)) * 100) calc((1104% / (var(--pk_y) - 48)) * 100);
-}
-#copycat .pk_deck_cards > div:nth-of-type(7)::after {
-  background-position: calc((144% / (240 - 48)) * 100) calc((1104% / (var(--pk_y) - 48)) * 100);
-}
-#copycat .pk_deck_cards > div:nth-of-type(9)::after,
-#copycat .pk_preview_card > div > div::after {
-  background-position: calc((192% / (240 - 48)) * 100) calc((1104% / (var(--pk_y) - 48)) * 100);
+  background-position: calc((256% / (320 - 64)) * 100) calc((1408% / (var(--pk_y) - 64)) * 100);
 }
 
 /* WILDCARD */
 
 #wildcard .pk_deck_cards > div:nth-of-type(1)::after {
-  background-image: none;
+  background-position: 0 calc((1472% / (var(--pk_y) - 64)) * 100);
 }
 #wildcard .pk_deck_cards > div:nth-of-type(3)::after {
-  background-image: none;
+  background-position: calc((64% / (320 - 64)) * 100) calc((1472% / (var(--pk_y) - 64)) * 100);
 }
 #wildcard .pk_deck_cards > div:nth-of-type(5)::after {
-  background-image: none;
+  background-position: calc((128% / (320 - 64)) * 100) calc((1472% / (var(--pk_y) - 64)) * 100);
 }
 #wildcard .pk_deck_cards > div:nth-of-type(7)::after {
-  background-image: none;
+  background-position: calc((196% / (320 - 64)) * 100) calc((1472% / (var(--pk_y) - 64)) * 100);
 }
 #wildcard .pk_deck_cards > div:nth-of-type(9)::after,
 #wildcard .pk_preview_card > div > div::after {
-  background-image: none;
+  background-position: calc((256% / (320 - 64)) * 100) calc((1472% / (var(--pk_y) - 64)) * 100);
 }
 
 
